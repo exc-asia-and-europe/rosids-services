@@ -25,7 +25,5 @@ declare %private function organisations:searchNameVIAF($query as xs:string) {
 };
 
 declare function organisations:searchName($query as xs:string) {
-    <names>
-        {organisations:searchNameLocal($query), organisations:searchNameVIAF($query)}
-    </names>
+    (organisations:searchNameLocal($query), organisations:searchNameVIAF($query))
 };

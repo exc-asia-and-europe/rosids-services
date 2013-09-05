@@ -34,7 +34,5 @@ declare %private function persons:searchNameVIAF($query as xs:string) {
 };
 
 declare function persons:searchName($query as xs:string) {
-    <names>
-        {persons:searchNameLocal($query), persons:searchNameVIAF($query)}
-    </names>
+    (persons:searchNameLocal($query), persons:searchNameVIAF($query))
 };
