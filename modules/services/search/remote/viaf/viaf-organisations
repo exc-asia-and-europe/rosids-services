@@ -1,0 +1,10 @@
+xquery version "3.0";
+(:
+    Remote VIAF organisations search module.
+:)
+
+module namespace viaf-organisations="http://exist-db.org/xquery/biblio/services/search/remote/viaf/viaf-organisations";
+
+declare function viaf-organisations:searchVIAFRepository($query as xs:string) {
+    <viaf-remote/>
+}
