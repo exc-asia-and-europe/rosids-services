@@ -1,0 +1,19 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://viaf.org/viaf/terms#">
+        <fulltext default="none" attributes="false"/>
+        <lucene>
+            <text match="//ns2:mainHeadings/ns2:data/ns2:text"/>
+             ns2:mainHeadingEl/ns2:links/ns2:link/ns2:match"/>
+        </lucene>
+        <!-- VIAF id -->
+        <create qname="ns2:viafID" type="xs:string"/>
+        <!-- Type e.g. Personal -->
+        <create qname="ns2:nameType" type="xs:string"/>
+        <!-- Name, Works, etc. in ns2:mainHeadings -->
+        <!-- create qname="ns2:text" type="xs:string"/ -->
+        <!-- Name, Dates in ns2:mainHeadingEl -->
+        <create qname="ns2:subfield" type="xs:string"/>
+        <!-- Source in mainHeadings and mainHeadingEl e.g. "DNB" -->
+        <create qname="ns2:s" type="xs:string"/>
+    </index>
+</collection>

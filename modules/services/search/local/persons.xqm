@@ -10,6 +10,8 @@ import module namespace app="http://exist-db.org/xquery/biblio/services/app" at 
 
 (: TEI namesspace :)
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
+(: VIAF Terms :)
+declare namespace ns2= "http://viaf.org/viaf/terms#"; 
 
 declare %private function persons:searchNameLocal($query as xs:string) {
     let $results :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)]

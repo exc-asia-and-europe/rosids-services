@@ -1,0 +1,8 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vp="http://localhost/namespace">
+        <fulltext default="none" attributes="false"/>
+        <create qname="@Subject_ID" type="xs:string"/>
+        <create qname="vp:Record_Type" type="xs:string"/>
+        <ngram qname="vp:Term_Text"/>
+    </index>
+</collection>

@@ -5,6 +5,9 @@ xquery version "3.0";
 
 module namespace viaf-organisations="http://exist-db.org/xquery/biblio/services/search/remote/viaf/viaf-organisations";
 
+(: VIAF Terms :)
+declare namespace ns2= "http://viaf.org/viaf/terms#"; 
+
 declare function viaf-organisations:searchVIAFRepository($query as xs:string) {
     <viaf-remote/>
 }
