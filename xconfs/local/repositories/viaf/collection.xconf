@@ -3,8 +3,13 @@
         <fulltext default="none" attributes="false"/>
         <lucene>
             <text match="//ns2:mainHeadings/ns2:data/ns2:text"/>
-             ns2:mainHeadingEl/ns2:links/ns2:link/ns2:match"/>
+             <!-- ns2:mainHeadingEl/ns2:links/ns2:link/ns2:match" -->
         </lucene>
+        
+        <create qname="@code" type="xs:string"/>
+        <ngram qname="ns2:subfield"/>
+        <!-- ngram qname="ns2:subfield[@code eq 'a']"/ -->
+        
         <!-- VIAF id -->
         <create qname="ns2:viafID" type="xs:string"/>
         <!-- Type e.g. Personal -->
