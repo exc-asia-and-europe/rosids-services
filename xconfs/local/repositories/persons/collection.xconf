@@ -4,5 +4,6 @@
         <ngram qname="tei:persName"/>
         <ngram qname="tei:forename"/>
         <ngram qname="tei:surname"/>
+        <create qname="@ref" type="xs:string"/>
     </index>
 </collection>

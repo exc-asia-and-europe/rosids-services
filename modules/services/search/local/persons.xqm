@@ -7,6 +7,7 @@ xquery version "3.0";
 module namespace persons="http://exist-db.org/xquery/biblio/services/search/local/persons";
 
 import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../app.xqm";
+import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/local/viaf-utils" at "viaf-utils.xqm";
 
 (: TEI namesspace :)
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
@@ -31,35 +32,27 @@ declare %private function persons:searchNameLocal($query as xs:string) {
                              )
                          )
             let $viafID := if( exists($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')]) ) then (substring-after($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/")) else ("")
+            let $viafCluster := doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:viafID eq $viafID]
+            let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
+            let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
             return
-                <person name="{$name}" viafID="{$viafID}" uuid="{$person/@id}" resource="local"/>
-        
-        
-        
-        (:
-        let $persName := if (exists($result/tei:persName[@type eq "preferred"])) then ($result/tei:persName[@type eq "preferred"]) else ($result/tei:persName[1])
-            return 
-                if (exists($persName/tei:forename) or exists($persName/tei:surname))
-                then (
-                    let $person := 
-                    return
-                        <suggestions value="{$person}" data="{$person}" bio="" resource="local"/>
-                ) else (
-                    let $person := $persName/text()
-                    return
-                      <suggestions value="{$person}" data="{$person}" bio="" resource="local"/>
-                )
-        :)
+                <name name="{$name}" viafID="{$viafID}" dates="{$dates}" uuid="{data($person/@xml:id)}" resource="local" type="person"/>
 };
 
-declare %private function persons:searchNameVIAF($query as xs:string) {
-    let $persons :=  doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Personal' and ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, "arx") and ns2:subfield/@code eq 'a']]
+declare %private function persons:searchNameVIAF($query as xs:string, $local-viaf-ids as item()*) {
+    let $persons :=  doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Personal'
+                                                                        and ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query) and ns2:subfield/@code eq 'a']]
     return
         for $person in $persons
-        let $name := $person//ns2:mainHeadingEl[1]/ns2:datafield/ns2:subfield[@code eq 'a']
-        return 
-            <person name="{$name}" viafID="{$person/ns2:viafID}" uuid="" resource="viaf"/> 
-    
+        let $mainHeadingElement := viaf-utils:getBestMatch($person//ns2:mainHeadingEl)
+        let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
+        let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+        return
+            if (index-of($local-viaf-ids, $person/ns2:viafID) > 0)
+            then ()
+            else (
+                <name name="{$name}" viafID="{$person/ns2:viafID}" dates="{$dates}" uuid="" resource="viaf" type="person"/> 
+            )
 };
 
 declare %private function persons:filterResults($results) {
@@ -68,10 +61,12 @@ declare %private function persons:filterResults($results) {
 
 
 declare %private function persons:processResults($query as xs:string) {
-    (: <suggestions value="{$person}" data="{$person}" bio="" resource="local"/> :)
     <viaf2/>
 };
 
 declare function persons:searchName($query as xs:string) {
-    (persons:searchNameLocal($query), persons:searchNameVIAF($query))
+    let $local-persons := persons:searchNameLocal($query)
+    let $viaf-persons := persons:searchNameVIAF($query, data($local-persons//@viafID))
+    return 
+        ($local-persons, $viaf-persons)
 };

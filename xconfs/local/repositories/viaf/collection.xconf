@@ -1,5 +1,5 @@
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <index xmlns:ns2="http://viaf.org/viaf/terms#" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <fulltext default="none" attributes="false"/>
         <lucene>
             <text match="//ns2:mainHeadings/ns2:data/ns2:text"/>
@@ -20,5 +20,8 @@
         <create qname="ns2:subfield" type="xs:string"/>
         <!-- Source in mainHeadings and mainHeadingEl e.g. "DNB" -->
         <create qname="ns2:s" type="xs:string"/>
+        
+        <create qname="ns2:links" type="xs:string"/>
+        <create qname="ns2:link" type="xs:string"/>
     </index>
 </collection>

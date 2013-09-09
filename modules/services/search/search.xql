@@ -9,7 +9,7 @@ import module namespace organisations="http://exist-db.org/xquery/biblio/service
 declare option exist:serialize "method=json media-type=text/javascript";
 
 let $names := request:get-parameter-names()[1]
-let $names := if ($names eq "base") then ("persons") else ($names)
+let $names := if ($names eq "base") then ("name") else ($names)
 let $query := replace(request:get-parameter($names, "arx"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 return
     <results>
