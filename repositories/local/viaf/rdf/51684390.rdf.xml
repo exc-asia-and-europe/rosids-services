@@ -1,0 +1,606 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/51684390/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/51684390"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/51684390">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Seghers, Anna, 1900-1983</foaf:name>
+        <foaf:name>Seghers, Anna</foaf:name>
+        <foaf:name>זגרס, אנה</foaf:name>
+        <foaf:name>Зегерс, Анна, 1900-</foaf:name>
+        <foaf:name>Seghers, Anna, 1900-</foaf:name>
+        <foaf:name>Seghers, Anna, pseud.</foaf:name>
+        <foaf:name>Reiling, Netty, 1900-1983</foaf:name>
+        <foaf:name>Zegers, Anna, 1900-1983</foaf:name>
+        <foaf:name>Seghersová, Anna 1900-1983</foaf:name>
+        <foaf:name>Zenkers, Anna, 1900-1983</foaf:name>
+        <foaf:name>Zegkers, Anna, 1900-1983</foaf:name>
+        <foaf:name>Seghers, Antje, 1900-1983</foaf:name>
+        <foaf:name>Reiling, Netty, 1900-1983</foaf:name>
+        <foaf:name>Zēgerse, Anna, 1900-1983</foaf:name>
+        <foaf:name>Segers, Anna, 1900-1983</foaf:name>
+        <foaf:name>ゼーガース, アンナ 1900-1983</foaf:name>
+        <foaf:name>제거스, 안나 1900-1983</foaf:name>
+        <foaf:name>זגרס, אנה 1900-1983</foaf:name>
+        <foaf:name>Zigirs, Ānā 1900-1983</foaf:name>
+        <foaf:name>Zegers, Annah 1900-1983</foaf:name>
+        <foaf:name>Zegers, Ana 1900-1983</foaf:name>
+        <foaf:name>Zēgāsu, Anna 1900-1983</foaf:name>
+        <foaf:name>Reiling, Netty 1900-1983 Frueherer Name</foaf:name>
+        <foaf:name>Radványi, Netty 1900-1983 Wirklicher Name</foaf:name>
+        <foaf:name>Hsi ko szǔ, An na 1900-1983</foaf:name>
+        <foaf:name>Anna Zēgāsu 1900-1983</foaf:name>
+        <foaf:name>Radványi, Netty, 1900-1983</foaf:name>
+        <foaf:name>Reiling, Netty.</foaf:name>
+        <foaf:name>Radványi, Netty Reiling 1900-1983</foaf:name>
+        <foaf:name>Radványi, Nelly 1900-1983</foaf:name>
+        <foaf:name>Radványi, Netty Reiling.</foaf:name>
+        <foaf:name>Zehers, Anna.</foaf:name>
+        <foaf:name>Zegers, Anna.</foaf:name>
+        <foaf:name>Seghersová, Anna.</foaf:name>
+        <foaf:name>Seghers.</foaf:name>
+        <foaf:name>Radványi, Nelly.</foaf:name>
+        <foaf:name>זעגערס, א.</foaf:name>
+        <foaf:name>Zehers, Anna, 1900-1983</foaf:name>
+        <foaf:name>Seghers, 1900-1983</foaf:name>
+        <foaf:name>Cekars, An̲n̲ā, 1900-1983</foaf:name>
+        <foaf:name>Radvanyi, Netti</foaf:name>
+        <foaf:name>Zigirs, Antje, 1900-1983</foaf:name>
+        <foaf:name>Segers, Antje, 1900-1983</foaf:name>
+        <foaf:name>Зегерс, Анна, 1900-1983</foaf:name>
+        <foaf:name>רדוני, נטי רילינג</foaf:name>
+        <foaf:name>סגרס, אנה</foaf:name>
+        <foaf:name>Радвани, Нетти, 1900-</foaf:name>
+        <foaf:name>Radvanyi-Reiling, Nettie</foaf:name>
+        <foaf:name>ゼーガース, アンナ</foaf:name>
+        <foaf:name>Zegers, Anna, 1900-</foaf:name>
+        <foaf:name>Sehers, Anna, 1900-</foaf:name>
+        <foaf:name>Seghersova, Anna, 1900-</foaf:name>
+        <foaf:name>Seghers, 1900-</foaf:name>
+        <foaf:name>Segers, Anna, 1900-</foaf:name>
+        <foaf:name>Reiling, Netty, 1900-</foaf:name>
+        <foaf:name>Radványi, Netty Reiling, 1900-</foaf:name>
+        <foaf:name>Radványi, Nelly, 1900-</foaf:name>
+        <foaf:name>Radvanyi, Netty</foaf:name>
+        <foaf:name>Reiling-Radványi, Netty, 1900-1983</foaf:name>
+        <foaf:name>Radványi-Reiling, Netty, 1900-1983</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/238043964"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/238043964"/>
+        <rdaGr2:dateOfBirth>1900-11-19</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1983-06-01</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/212308"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/026670887/id"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Anna_Seghers"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/118612743"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb118875472#foaf:Person"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/VLACC%7C000002159#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/VLACC"/>
+        <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty.</skos:altLabel>
+        <skos:altLabel>Radvanyi-Reiling, Nettie</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+        <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+        <skos:altLabel>סגרס, אנה</skos:altLabel>
+        <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+        <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+        <skos:altLabel>סגרס, אנה</skos:altLabel>
+        <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+        <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+        <skos:altLabel>סגרס, אנה</skos:altLabel>
+        <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn19990007416#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zenkers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Zegkers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghers, Antje, 1900-1983</skos:altLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Zigirs, Antje, 1900-1983</skos:altLabel>
+        <skos:altLabel>Segers, Antje, 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C212308#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/212308#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C069498458#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Reiling, Netty, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling-Radványi, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi-Reiling, Netty, 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000147486#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+        <skos:altLabel>Radvanyi, Netti</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11164230#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+        <foaf:Document rdf:about="http://viaf.org/viaf/51684390/">
+            <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+            <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/51684390"/>
+        </foaf:Document>
+        <rdf:Description rdf:about="http://viaf.org/viaf/51684390">
+            <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+            <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+            <foaf:name>Seghers, Anna, 1900-1983</foaf:name>
+            <foaf:name>Seghers, Anna</foaf:name>
+            <foaf:name>זגרס, אנה</foaf:name>
+            <foaf:name>Зегерс, Анна, 1900-</foaf:name>
+            <foaf:name>Seghers, Anna, 1900-</foaf:name>
+            <foaf:name>Seghers, Anna, pseud.</foaf:name>
+            <foaf:name>Reiling, Netty, 1900-1983</foaf:name>
+            <foaf:name>Zegers, Anna, 1900-1983</foaf:name>
+            <foaf:name>Seghersová, Anna 1900-1983</foaf:name>
+            <foaf:name>Zenkers, Anna, 1900-1983</foaf:name>
+            <foaf:name>Zegkers, Anna, 1900-1983</foaf:name>
+            <foaf:name>Seghers, Antje, 1900-1983</foaf:name>
+            <foaf:name>Reiling, Netty, 1900-1983</foaf:name>
+            <foaf:name>Zēgerse, Anna, 1900-1983</foaf:name>
+            <foaf:name>Segers, Anna, 1900-1983</foaf:name>
+            <foaf:name>ゼーガース, アンナ 1900-1983</foaf:name>
+            <foaf:name>제거스, 안나 1900-1983</foaf:name>
+            <foaf:name>זגרס, אנה 1900-1983</foaf:name>
+            <foaf:name>Zigirs, Ānā 1900-1983</foaf:name>
+            <foaf:name>Zegers, Annah 1900-1983</foaf:name>
+            <foaf:name>Zegers, Ana 1900-1983</foaf:name>
+            <foaf:name>Zēgāsu, Anna 1900-1983</foaf:name>
+            <foaf:name>Reiling, Netty 1900-1983 Frueherer Name</foaf:name>
+            <foaf:name>Radványi, Netty 1900-1983 Wirklicher Name</foaf:name>
+            <foaf:name>Hsi ko szǔ, An na 1900-1983</foaf:name>
+            <foaf:name>Anna Zēgāsu 1900-1983</foaf:name>
+            <foaf:name>Radványi, Netty, 1900-1983</foaf:name>
+            <foaf:name>Reiling, Netty.</foaf:name>
+            <foaf:name>Radványi, Netty Reiling 1900-1983</foaf:name>
+            <foaf:name>Radványi, Nelly 1900-1983</foaf:name>
+            <foaf:name>Radványi, Netty Reiling.</foaf:name>
+            <foaf:name>Zehers, Anna.</foaf:name>
+            <foaf:name>Zegers, Anna.</foaf:name>
+            <foaf:name>Seghersová, Anna.</foaf:name>
+            <foaf:name>Seghers.</foaf:name>
+            <foaf:name>Radványi, Nelly.</foaf:name>
+            <foaf:name>זעגערס, א.</foaf:name>
+            <foaf:name>Zehers, Anna, 1900-1983</foaf:name>
+            <foaf:name>Seghers, 1900-1983</foaf:name>
+            <foaf:name>Cekars, An̲n̲ā, 1900-1983</foaf:name>
+            <foaf:name>Radvanyi, Netti</foaf:name>
+            <foaf:name>Zigirs, Antje, 1900-1983</foaf:name>
+            <foaf:name>Segers, Antje, 1900-1983</foaf:name>
+            <foaf:name>Зегерс, Анна, 1900-1983</foaf:name>
+            <foaf:name>רדוני, נטי רילינג</foaf:name>
+            <foaf:name>סגרס, אנה</foaf:name>
+            <foaf:name>Радвани, Нетти, 1900-</foaf:name>
+            <foaf:name>Radvanyi-Reiling, Nettie</foaf:name>
+            <foaf:name>ゼーガース, アンナ</foaf:name>
+            <foaf:name>Zegers, Anna, 1900-</foaf:name>
+            <foaf:name>Sehers, Anna, 1900-</foaf:name>
+            <foaf:name>Seghersova, Anna, 1900-</foaf:name>
+            <foaf:name>Seghers, 1900-</foaf:name>
+            <foaf:name>Segers, Anna, 1900-</foaf:name>
+            <foaf:name>Reiling, Netty, 1900-</foaf:name>
+            <foaf:name>Radványi, Netty Reiling, 1900-</foaf:name>
+            <foaf:name>Radványi, Nelly, 1900-</foaf:name>
+            <foaf:name>Radvanyi, Netty</foaf:name>
+            <foaf:name>Reiling-Radványi, Netty, 1900-1983</foaf:name>
+            <foaf:name>Radványi-Reiling, Netty, 1900-1983</foaf:name>
+            <owl:differentFrom rdf:resource="http://viaf.org/viaf/238043964"/>
+            <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/238043964"/>
+            <rdaGr2:dateOfBirth>1900-11-19</rdaGr2:dateOfBirth>
+            <rdaGr2:dateOfDeath>1983-06-01</rdaGr2:dateOfDeath>
+            <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/212308"/>
+            <owl:sameAs rdf:resource="http://www.idref.fr/026670887/id"/>
+            <owl:sameAs rdf:resource="http://dbpedia.org/resource/Anna_Seghers"/>
+            <owl:sameAs rdf:resource="http://d-nb.info/gnd/118612743"/>
+            <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb118875472#foaf:Person"/>
+        </rdf:Description>
+        <!--Controlled and alternate headings from various authority files-->
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/VLACC%7C000002159#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/VLACC"/>
+            <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty.</skos:altLabel>
+            <skos:altLabel>Radvanyi-Reiling, Nettie</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+            <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+            <skos:altLabel>סגרס, אנה</skos:altLabel>
+            <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+            <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+            <skos:altLabel>סגרס, אנה</skos:altLabel>
+            <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000119900#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+            <skos:altLabel>רדוני, נטי רילינג</skos:altLabel>
+            <skos:altLabel>סגרס, אנה</skos:altLabel>
+            <skos:altLabel>Радвани, Нетти, 1900-</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn19990007416#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zenkers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Zegkers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghers, Antje, 1900-1983</skos:altLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Zigirs, Antje, 1900-1983</skos:altLabel>
+            <skos:altLabel>Segers, Antje, 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C212308#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+            <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/212308#concept"/>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C069498458#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+            <skos:prefLabel>Reiling, Netty, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling-Radványi, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi-Reiling, Netty, 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000147486#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+            <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+            <skos:altLabel>Radvanyi, Netti</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11164230#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+            <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0013G6798#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C881357#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+            <skos:prefLabel>Seghers, Anna, pseud.</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C026670887#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty.</skos:altLabel>
+            <skos:altLabel>Radvanyi, Netty</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX1139939#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CAnna_Seghers#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+            <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++97021300#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty.</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+            <skos:altLabel>Zehers, Anna.</skos:altLabel>
+            <skos:altLabel>Zegers, Anna.</skos:altLabel>
+            <skos:altLabel>Seghersová, Anna.</skos:altLabel>
+            <skos:altLabel>Seghers.</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly.</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118612743#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+            <skos:altLabel>Zenkers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Zegkers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghers, Antje, 1900-1983</skos:altLabel>
+            <skos:altLabel>Zēgerse, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>ゼーガース, アンナ 1900-1983</skos:altLabel>
+            <skos:altLabel>제거스, 안나 1900-1983</skos:altLabel>
+            <skos:altLabel>זגרס, אנה 1900-1983</skos:altLabel>
+            <skos:altLabel>Zigirs, Ānā 1900-1983</skos:altLabel>
+            <skos:altLabel>Zegers, Annah 1900-1983</skos:altLabel>
+            <skos:altLabel>Zegers, Ana 1900-1983</skos:altLabel>
+            <skos:altLabel>Zēgāsu, Anna 1900-1983</skos:altLabel>
+            <skos:altLabel>Reiling, Netty 1900-1983 Frueherer Name</skos:altLabel>
+            <skos:altLabel>Radványi, Netty 1900-1983 Wirklicher Name</skos:altLabel>
+            <skos:altLabel>Hsi ko szǔ, An na 1900-1983</skos:altLabel>
+            <skos:altLabel>Anna Zēgāsu 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00456024#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>ゼーガース, アンナ</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000089891#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zēgerse, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Зегерс, Анна, 1900-1983</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca1090007x#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty.</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+            <skos:altLabel>Zehers, Anna.</skos:altLabel>
+            <skos:altLabel>Zegers, Anna.</skos:altLabel>
+            <skos:altLabel>Seghersová, Anna.</skos:altLabel>
+            <skos:altLabel>Seghers.</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly.</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035965367#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+            <skos:prefLabel>Seghers, Anna, 1900-</skos:prefLabel>
+            <skos:altLabel>Zegers, Anna, 1900-</skos:altLabel>
+            <skos:altLabel>Sehers, Anna, 1900-</skos:altLabel>
+            <skos:altLabel>Seghersova, Anna, 1900-</skos:altLabel>
+            <skos:altLabel>Seghers, 1900-</skos:altLabel>
+            <skos:altLabel>Segers, Anna, 1900-</skos:altLabel>
+            <skos:altLabel>Reiling, Netty, 1900-</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling, 1900-</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly, 1900-</skos:altLabel>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11887547#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+            <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb118875472"/>
+            <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb118875472"/>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++50054376#skos:Concept">
+            <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+            <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+            <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+            <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+            <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+            <skos:altLabel>זעגערס, א.</skos:altLabel>
+            <skos:altLabel>Zehers, Anna, 1900-1983</skos:altLabel>
+            <skos:altLabel>Seghers, 1900-1983</skos:altLabel>
+            <skos:altLabel>Cekars, An̲n̲ā, 1900-1983</skos:altLabel>
+            <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n50054376"/>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </skos:Concept>
+        <!--Deprecated identifiers-->
+        <rdf:Description rdf:about="http://viaf.org/viaf/51684390/#skos:Concept">
+            <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+            <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://viaf.org/viaf/51684390/#foaf:Person">
+            <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+            <owl:sameAs rdf:resource="http://viaf.org/viaf/51684390"/>
+        </rdf:Description>
+    </rdf:RDF>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0013G6798#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C881357#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel>Seghers, Anna, pseud.</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C026670887#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty.</skos:altLabel>
+        <skos:altLabel>Radvanyi, Netty</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX1139939#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CAnna_Seghers#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Seghers, Anna</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++97021300#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty.</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+        <skos:altLabel>Zehers, Anna.</skos:altLabel>
+        <skos:altLabel>Zegers, Anna.</skos:altLabel>
+        <skos:altLabel>Seghersová, Anna.</skos:altLabel>
+        <skos:altLabel>Seghers.</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118612743#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+        <skos:altLabel>Zenkers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Zegkers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghers, Antje, 1900-1983</skos:altLabel>
+        <skos:altLabel>Zēgerse, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Segers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>ゼーガース, アンナ 1900-1983</skos:altLabel>
+        <skos:altLabel>제거스, 안나 1900-1983</skos:altLabel>
+        <skos:altLabel>זגרס, אנה 1900-1983</skos:altLabel>
+        <skos:altLabel>Zigirs, Ānā 1900-1983</skos:altLabel>
+        <skos:altLabel>Zegers, Annah 1900-1983</skos:altLabel>
+        <skos:altLabel>Zegers, Ana 1900-1983</skos:altLabel>
+        <skos:altLabel>Zēgāsu, Anna 1900-1983</skos:altLabel>
+        <skos:altLabel>Reiling, Netty 1900-1983 Frueherer Name</skos:altLabel>
+        <skos:altLabel>Radványi, Netty 1900-1983 Wirklicher Name</skos:altLabel>
+        <skos:altLabel>Hsi ko szǔ, An na 1900-1983</skos:altLabel>
+        <skos:altLabel>Anna Zēgāsu 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00456024#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>ゼーガース, アンナ</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000089891#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zēgerse, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Зегерс, Анна, 1900-1983</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca1090007x#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty.</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling.</skos:altLabel>
+        <skos:altLabel>Zehers, Anna.</skos:altLabel>
+        <skos:altLabel>Zegers, Anna.</skos:altLabel>
+        <skos:altLabel>Seghersová, Anna.</skos:altLabel>
+        <skos:altLabel>Seghers.</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035965367#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Seghers, Anna, 1900-</skos:prefLabel>
+        <skos:altLabel>Zegers, Anna, 1900-</skos:altLabel>
+        <skos:altLabel>Sehers, Anna, 1900-</skos:altLabel>
+        <skos:altLabel>Seghersova, Anna, 1900-</skos:altLabel>
+        <skos:altLabel>Seghers, 1900-</skos:altLabel>
+        <skos:altLabel>Segers, Anna, 1900-</skos:altLabel>
+        <skos:altLabel>Reiling, Netty, 1900-</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling, 1900-</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly, 1900-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11887547#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty, 1900-1983</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb118875472"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb118875472"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++50054376#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Seghers, Anna, 1900-1983</skos:prefLabel>
+        <skos:altLabel>Zegers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghersová, Anna 1900-1983</skos:altLabel>
+        <skos:altLabel>Reiling, Netty, 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Netty Reiling 1900-1983</skos:altLabel>
+        <skos:altLabel>Radványi, Nelly 1900-1983</skos:altLabel>
+        <skos:altLabel>זעגערס, א.</skos:altLabel>
+        <skos:altLabel>Zehers, Anna, 1900-1983</skos:altLabel>
+        <skos:altLabel>Seghers, 1900-1983</skos:altLabel>
+        <skos:altLabel>Cekars, An̲n̲ā, 1900-1983</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n50054376"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/51684390/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/51684390"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/51684390/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/51684390"/>
+    </rdf:Description>
+</rdf:RDF>

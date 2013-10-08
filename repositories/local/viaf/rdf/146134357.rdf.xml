@@ -1,0 +1,109 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/146134357/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/146134357"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/146134357">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/CorporateBody"/>
+        <foaf:name>Städtische Kunstsammlungen Chemnitz</foaf:name>
+        <foaf:name>Städtische Kunstsammlungen</foaf:name>
+        <foaf:name>Städtische Kunstsammlungen (Chemnitz, Allemagne)</foaf:name>
+        <foaf:name>Kunstsammlungen Chemnitz.</foaf:name>
+        <foaf:name>Chemnitz (Germany). Städtische Kunstsammlungen</foaf:name>
+        <foaf:name>Muzej Iskusstv</foaf:name>
+        <foaf:name>Städtische Kunstsammlung Chemnitz</foaf:name>
+        <foaf:name>Muzej Iskusstv Goroda Kemnic</foaf:name>
+        <foaf:name>Saská Kamenice (Německo). Städtische Kunstsammlungen</foaf:name>
+        <foaf:name>Chemnitz (Vācija). Städtische Kunstsammlungen</foaf:name>
+        <foaf:name>Städtische Museen (Karl-Marx-Stadt, RDA). Städtische Kunstsammlungen Karl-Marx-Stadt</foaf:name>
+        <foaf:name>Städtische Kunstsammlungen (Karl-Marx-Stadt, RDA)</foaf:name>
+        <foaf:name>Chemnitz (Allemagne) Städtische Kunstsammlungen</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/151756575"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/151756575"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/050294857/id"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/5068036-5"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000144118#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <skos:altLabel>Chemnitz (Vācija). Städtische Kunstsammlungen</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000372879#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <skos:altLabel>Chemnitz (Germany). Städtische Kunstsammlungen</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C050294857#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Städtische Kunstsammlungen (Chemnitz, Allemagne)</skos:prefLabel>
+        <skos:altLabel>Städtische Museen (Karl-Marx-Stadt, RDA). Städtische Kunstsammlungen Karl-Marx-Stadt</skos:altLabel>
+        <skos:altLabel>Städtische Kunstsammlungen (Karl-Marx-Stadt, RDA)</skos:altLabel>
+        <skos:altLabel>Chemnitz (Allemagne) Städtische Kunstsammlungen</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cko2003198485#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <skos:altLabel>Saská Kamenice (Německo). Städtische Kunstsammlungen</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500304648#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel>Städtische Kunstsammlungen</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C050680366#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Muzej Iskusstv</skos:altLabel>
+        <skos:altLabel>Städtische Kunstsammlung Chemnitz</skos:altLabel>
+        <skos:altLabel>Muzej Iskusstv Goroda Kemnic</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++95084957#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <skos:altLabel>Chemnitz (Germany). Städtische Kunstsammlungen</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n95084957"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2006031710#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV12544705#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <skos:altLabel>Kunstsammlungen Chemnitz.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls009644716#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Städtische Kunstsammlungen Chemnitz</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/146134357/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/146134357"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/146134357/#foaf:Organization">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/146134357"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/146134357/#rdaEnt:CorporateBody">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/146134357"/>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,2179 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>147297090</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/147297090/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/147297090"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb118650782">BNF|11865078</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/14685-7">DNB|000146854</ns2:source>
+        <ns2:source nsid="0057F6551F">LAC|0057F6551F</ns2:source>
+        <ns2:source nsid="vtls000638093">NUKAT|n  01071401</ns2:source>
+        <ns2:source nsid="kn20010711228">NKC|kn20010711228</ns2:source>
+        <ns2:source nsid="000035920614">NLA|000035920614</ns2:source>
+        <ns2:source nsid="445629">PTBNP|445629</ns2:source>
+        <ns2:source nsid="0057F6551E">LAC|0057F6551E</ns2:source>
+        <ns2:source nsid="vtls000120437">RERO|vtls000120437</ns2:source>
+        <ns2:source nsid="a23122407">NLP|a23122407</ns2:source>
+        <ns2:source nsid="031566227">SUDOC|031566227</ns2:source>
+        <ns2:source nsid="n84031310">LC|n  84031310</ns2:source>
+    </ns2:sources>
+    <ns2:length>1918</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>United Nations Commission on International Trade Law.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Nations unies. Commission pour le droit commercial international</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Nations Unies. Commission des Nations Unies pour le droit commercial international</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Komise OSN pro mezin&#xE1;rodn&#xED; obchodn&#xED; pr&#xE1;vo</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Organizacja Narod&#xF3;w Zjednoczonych. Commission on international trade law.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">frefre</ns2:subfield>
+                <ns2:subfield code="9">20</ns2:subfield>
+                <ns2:subfield code="a">Nations Unies</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11865078</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a23122407</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">United Nations</ns2:subfield>
+                <ns2:subfield code="b">Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|000146854</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Nations Unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LAC|0057F6551F</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11865078</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a23122407</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n  01071401</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Komise OSN pro mezin&#xE1;rodn&#xED; obchodn&#xED; pr&#xE1;vo</ns2:subfield>
+                <ns2:subfield code="7">kn20010711228</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|kn20010711228</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035920614</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="0" ind2="2" tag="210">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+            <ns2:id>PTBNP|445629</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|0057F6551E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LAC|0057F6551E</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a23122407</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>LAC|0057F6551F</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11865078</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Nations Unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission des Nations Unies pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls000120437</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NLP|a23122407</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11865078</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Organizacja Narod&#xF3;w Zjednoczonych.</ns2:subfield>
+                <ns2:subfield code="b">Commission on international trade law.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a23122407</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11865078</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Nations unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|031566227</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a23122407</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  84031310</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11865078</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  84031310</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls000120437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035920614</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  01071401</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000146854</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|031566227</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711228</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|0057F6551E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>PTBNP|445629</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>|</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>o</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19920310</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">C.N.U.D.C.I.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDCI</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">CNUDCI</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDCI (Commission des Nations Unies pour le droit commercial international)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDCI.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDCI</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDMI</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">CNUDMI</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Comision de las Naciones Unidas para el derecho mercantil internacional</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Comisio&#x301;n de las Naciones Unidas para el Derecho Mercantil Internacional</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission des Nations Unies pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission des Nations Unies pour le droit commercial international.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission des Nations Unies pour le droit commercial international</ns2:subfield>
+                <ns2:subfield code="2">czefre</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Commission des Nations Unies sur le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission des Nations unies pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission on international trade law.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Commission pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">G.N.U.D.C.I.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">GNUDCI</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Kokusai Rengo&#x304; Kokusai Sho&#x304;torihikiho&#x304; Iinkai</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Kommission der Vereiten Nationen f&#xFC;r Internationales Handelsrecht.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Lien ho kuo mao i fa wei yu&#x308;an hui</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Nations Unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Nations Unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le droit commercial international</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Nations Unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le droit commercial international.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="710">
+                <ns2:subfield code="a">Nations Unies</ns2:subfield>
+                <ns2:subfield code="b">Commission on international trade law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Nations unies.</ns2:subfield>
+                <ns2:subfield code="b">Commission on international trade law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">ONUDCI</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizace spojen&#xFD;ch n&#xE1;rod&#x16F;.</ns2:subfield>
+                <ns2:subfield code="b">Komise pro mezin&#xE1;rodn&#xED; obchodn&#xED; pr&#xE1;vo</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizacio&#x301;n de las Naciones Unidas para el Desarrollo Industrial</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">U.N.C.I.T.R.A.L.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">UNCITRAL</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">UNCITRAL</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">UNCITRAL (United Nations Commission on International Trade Law)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">UNCITRAL.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">UNCITRAL</ns2:subfield>
+                <ns2:subfield code="2">czeeng</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">UNCITRAL</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations Commission on International Trade Law</ns2:subfield>
+                <ns2:subfield code="2">czeeng</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations.</ns2:subfield>
+                <ns2:subfield code="b">Commission on International Trade Law</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations.</ns2:subfield>
+                <ns2:subfield code="b">Kommission der Vereinten Nationen fu&#x308;r Internationales Handelsrecht</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations.</ns2:subfield>
+                <ns2:subfield code="b">Mao i fa wei yu&#x308;an hui</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">United Nations</ns2:subfield>
+                <ns2:subfield code="b">Commission pour le Droit Commercial International</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vereinte Nationen</ns2:subfield>
+                <ns2:subfield code="b">Kommission fu&#x308;r Internationales Handelsrecht</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Commission des Nations unies pour le droit commercial international<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>UNCITRAL.<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>United Nations. Commission on International Trade Law<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>CNUDCI.<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Comisio&#x301;n de las Naciones Unidas para el Derecho Mercantil Internacional<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>U.N.C.I.T.R.A.L.<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>C.N.U.D.C.I.<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Nations unies. Commission on international trade law<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>United Nations. Mao i fa wei yu&#x308;an hui<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>United Nations. Kommission der Vereinten Nationen fu&#x308;r Internationales Handelsrecht<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lien ho kuo mao i fa wei yu&#x308;an hui<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kokusai Rengo&#x304; Kokusai Sho&#x304;torihikiho&#x304; Iinkai<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>GNUDCI<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>G.N.U.D.C.I.<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>CNUDMI<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Vereinte Nationen Kommission fu&#x308;r Internationales Handelsrecht<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>United Nations Commission pour le Droit Commercial International<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>UNCITRAL Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizacio&#x301;n de las Naciones Unidas para el Desarrollo Industrial<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>ONUDCI Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>CNUDMI Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>CNUDCI Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Nations Unies. Commission pour le droit commercial international.<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>UNCITRAL (United Nations Commission on International Trade Law)<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>CNUDCI (Commission des Nations Unies pour le droit commercial international)<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Commission des Nations Unies sur le droit commercial international<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizace spojen&#xFD;ch n&#xE1;rod&#x16F;. Komise pro mezin&#xE1;rodn&#xED; obchodn&#xED; pr&#xE1;vo<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Commission pour le droit commercial international<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kommission der Vereiten Nationen f&#xFC;r Internationales Handelsrecht.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Commission on international trade law.<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">United Nations</ns2:subfield>
+                <ns2:subfield code="e">Ueberordnung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Wien</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Wien<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>United Nations Ueberordnung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="8">
+            <ns2:text>Rapport de la Commission des Nations Unies pour le droit commercial internationalsur les travaux de sa... session..</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>UNCITRAL yearbook</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Yearbook.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>UNCITRAL the United Nations Commission on International Trade Law</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>UNCITRAL : legislative guide on privately financed infrastructure projects</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Yearbook / United Nations Commission on International Trade Law</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>UNCITRAL notes on organizing arbitral proceedings</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>UNCITRAL legal guide on international countertrade transactions</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>UNCITRAL legal guide on electronic funds transfers</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Legislative guide on privately financed infrastructure projects</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>International Secured Transactions.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Yearbook / United Nations Commission on International Trade Law, UNCITRAL</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Uniform commercial law in the twenty-first century : proceedings of the congress of the United Nations Commission on International Trade Law, New York, 18-22 May 1992.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Uniform commercial law in the 21st century</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Uncitral's project for a model law on international commercial arbitration, 1984:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>UNCITRAL model law on international commercial arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>UNCITRAL model law on electronic commerce with guide to enactment 1996</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>UNCITRAL Conciliation rules</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>UNCITRAL Arbitration Rules</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>R&#xE8;glement de conciliation de la CNUDCI</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Report of the United Nations Commission on International Trade Law on the work of its ... session</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Report of the United Nations Commission on International Trade Law : on its ... session.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Reform of the UNCITRAL model law on procurement : procurement regulation for the 21st century</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Rapport de la Commission des Nations Unies pour le droit commercial international sur les travaux de sa... session...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Notes on organizing arbitral proceedings</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>International trade law yearbook</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Guide juridique de la CNUDCI sur les transferts &#xE9;lectroniques de fonds</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Guide juridique de la CNUDCI pour l'&#xE9;tablissement de contrats internationaux de construction d'installations industrielles</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>A guide to the UNCITRAL Model Law on International Commercial Arbitration : legislative history and commentary</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x5173;&#x4E8E;&#x8D77;&#x8349;&#x5EFA;&#x9020;&#x5DE5;&#x5382;&#x56FD;&#x9645;&#x5408;&#x540C;&#x7684;&#x6CD5;&#x5F8B;&#x6307;&#x5357;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;The&#x9C; draft UNCITRAL digest and beyond cases, analysis and unresolved issues in the UN sales convention ; papers of the Pittsburgh conference organized by the Center for International Legal Education (CILE)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;La &#x9C;commission des Nations unies pour le droit du commerce international (CNUDCI), a&#x300; propos de 35 ans d'activite&#x301; journe&#x301;e d'e&#x301;tudes du 25 octobre 2002</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Yearbook (United Nations Commission on International Law)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Yearbook</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Yearb. - U.N. Comm. Int. Trade Law</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>United Nations publications</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL model law on international credit transfers</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL model law on electronic signatures with guide to enactment 2001</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL model law on electronic commerce with guide to enanctment 1996 : with additonal article 5 bis as adopted in 1998.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL model law on cross-border insolvency with guide to enactment</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL model law of international commercial arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL arbitration model in Canada : Canadian international commercial arbitration legislation</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Twenty years UNCITRAL model law on international commercial arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The UNCITRAL arbitration rules :</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The UNCITRAL Model Law on International Commercial Arbitration : 25 years</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Textes juridiques et autres documents, li&#xE9;s aux travaux de la Commission ou en &#xE9;manant</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Summary records of the ... meetings</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Summary record of the ... meeting</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Re&#x300;glement de conciliation de la C.N.U.D.C.I.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Report of the United Nations Commission on International Trade Law on its thirty-fifth session : 17-28 June 2002.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Report of the United Nations Commission on International Trade Law</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Registre des textes des conventions et autres instruments relatifs au droit commercial international.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Register of texts of conventions and other instruments concerning international trade law.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Regional Seminar on International Trade Law, New Delhi, 17 to 20 October 1989 : report of the seminar, working papers, and legal texts</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Recueil de jurisprudence concernant les textes de la CNUDCI</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rapport de la Commission des Nations Unies pour le droit commercial international sur les travaux de ... session</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rapport de la Commission des Nations Unies pour le Droit Commercial International sur les travaux de sa ... session</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rapport</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Projet de convention sur la prescription en mati&#xE8;re de vente internationale d'objets mobiliers corporels : comptes rendus des d&#xE9;bats de la cinqui&#xE8;me session</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>On the work of its ... session</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Offizielles Protokoll / Beilage / Bericht der Kommission der Vereinten Nationen fu&#x308;r Internationales Handelsrecht</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Official records / Supplement / Report of the United Nations Commission on International Trade Law</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Model law on electronic commerce, with guide to enactment, 1996</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Model law of international commercial arbitration :</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Model Law on International Commercial Arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Loi type de la CNUDCI sur le commerce &#xE9;lectronique et Guide pour son incorporation 1996</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Loi type de la CNUDCI sur la conciliation commerciale internationale et Guide pour son incorporation dans le droit interne et son utilisation</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Loi type de la CNUDCI sur l'insolvabilit&#xE9; et guide pour son incorporation</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Legal guide on international countertrade transactions</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Legal guide on drawing up international contracts for the construction of industrial works</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Law of digital signatures</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kuan yu&#x308; ch&#x2BB;i ts&#x2BB;ao ... 1990:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Information sources on grain processing and storage</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>He&#x304; diethne&#x304;s diaite&#x304;sia ste&#x304;n Hellada, 1996:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide l&#xE9;gislatif sur le droit de l'insolvabilit&#xE9;</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide l&#xE9;gislatif de la CNUDCI sur les projets d'infrastructure &#xE0; financement priv&#xE9;</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide juridique de la CNUDCI sur les transferts e&#x301;lectroniques de fonds</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide juridique de la CNUDCI pour les op&#xE9;rations d'&#xE9;changes compens&#xE9;s</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide juridique de la CNUDCI pour l'&#xE9;tablisement de contrats internationaux de construction d'installations industrielles</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide juridique de la CNUDCI pour l'e&#x301;tablissement de contrats internationaux de construction d'installations industrielles</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Guide juridique de la CNUDCI ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Global trade law : international business law of the United Nations and UNIDROIT : collection of UNCITRAL's and UNIDROIT's conventions, model acts, guides and principles</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>E-commerce and the law of digital signatures</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Schieds- u. Schlichtungsordnungen der UNCITRAL, 1983:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Convention on independent guarantees and stand-by letters of credit</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Collection and dissemination of information on interpretation of UNCITRAL legal texts</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Collation of papers presented at UNCITRAL-SIAC Conference, 22-23 September 2005, Singapore</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Celebrating success : 20 years UNCITRAL model law on international commercial arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Case law on United Nations Commission on International Trade Law texts</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CNUDCI annuaire</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CNUDCI</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CLOUT</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bericht der Kommission der Vereinten Nationen fu&#x308;r Internationales Handelsrecht.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Annuaire / Commission des Nations Unies pour le droit commercial international</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Annuaire</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A.B.C. de la C.N.U.D.C.I.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A CN ; 9. SER B - CNUDCI</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1973, 2-13 avril</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1972, 10 avril</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1970, 6-30 avril</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1969, 3-31 mars</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Campbell, Dennis (1939- ).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>United Nations. General Assembly.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Nations Unies. Assembl&#xE9;e g&#xE9;n&#xE9;rale</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Arrowsmith, Sue, 1962-</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Universite&#x301; de Toulouse I, Diplo&#x302;me d'e&#x301;tudes supe&#x301;rieures spe&#x301;cialise&#x301;es Juriste international</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Thompson, Bonita J., 1948-</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Strohbach, Heinz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Paterson, Robert K., 1946-</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Oxford University Press.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Organizace spojen&#xFD;ch n&#xE1;rod&#x16F;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Laboratoire de droit international et europe&#x301;en des affaires Toulouse</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Institute for International Legal Information</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="47">
+            <ns2:text>United Nations</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="40">
+            <ns2:text>Nations Unies</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Oceana Publications</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>West</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x4E2D;&#x570B;&#x5BF9;&#x5916;&#x7ECF;&#x6D4E;&#x8D38;&#x6613;&#x51FA;&#x7248;&#x793E; : &#x65B0;&#x534E;&#x4E66;&#x5E97;&#x5317;&#x4EAC;&#x53D1;&#x884C;&#x6240;&#x53D1;&#x884C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zhongguo dui wai jing ji mao yi chu ban she : Xin hua shu dian Beijing fa xing suo fa xing</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>W.S. Hein</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vereinte Nationen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UNCITRAL</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>UN</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Carswell</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="196">
+        <ns2:date count="8" scaled="3.00">196</ns2:date>
+        <ns2:date count="14" scaled="3.81">197</ns2:date>
+        <ns2:date count="27" scaled="4.75">198</ns2:date>
+        <ns2:date count="29" scaled="4.86">199</ns2:date>
+        <ns2:date count="24" scaled="4.58">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="1">
+            <ns2:text>ai</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="79">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="25">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>di</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="12">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>lm</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>ms</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="20">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>650</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="35">
+        <ns2:data count="5">
+            <ns2:text>9789211336320</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9789211332841</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789212331874</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789212331799</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789211334449</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789211332995</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9780379012903</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9789211336078</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9789211335248</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9789211334760</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789212334110</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789212333458</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780459310417</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:covers>
+        <ns2:data count="3">
+            <ns2:text>0379012901</ns2:text>
+            <ns2:xtext>+-+6547654285</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>904660358X</ns2:text>
+            <ns2:xtext>+-+K308511954</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>0379215152</ns2:text>
+            <ns2:xtext>+-+7060674285</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>0199297592</ns2:text>
+            <ns2:xtext>+-+7402474465</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:covers>
+    <ns2:countries>
+        <ns2:data count="82" scaled="6">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" scaled="3">
+            <ns2:text>AT</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" scaled="2">
+            <ns2:text>NL</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" scaled="2">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>SG</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>IN</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CA</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>BE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>xxx</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>eng</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>ZZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000109444263</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|301523674">
+            <ns2:text>Annuaire - Nations Unies. Commission des Nations Unies pour le Droit Commercial International in Nowy Jork</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181384886">
+            <ns2:text>United Nations Commission on International Trade Law.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|177057404">
+            <ns2:text>UNCITRAL arbitration rules</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|178522958">
+            <ns2:text>UNCITRAL arbitration rules (2010)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185430377">
+            <ns2:text>UNCITRAL Model Law on Cross-border Insolvency</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177534910">
+            <ns2:text>UNCITRAL Model Law on Electronic Commerce</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:utExpr id="VIAF|180830665">
+                <ns2:text>Spanish</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|181384886">
+            <ns2:text>UNCITRAL Model Law on Electronic Signatures</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177265840">
+            <ns2:text>UNCITRAL Model Law on International Commercial Arbitration</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|175982641">
+            <ns2:text>UNCITRAL Model Law on International Credit Transfers</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|174075989">
+            <ns2:text>UNCITRAL Model Law on Procurement of Goods, Construction and Services</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11865078" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="LAC|0057F6551E" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="LAC|0057F6551F" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000120437" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="DNB|000146854" time="2010-12-17T05:21:25+00:00" type="add"/>
+        <ns2:ht recid="LC|n  84031310" time="2010-12-17T05:21:25+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20010711228" time="2010-12-17T05:21:25+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035920614" time="2010-12-17T05:21:25+00:00" type="add"/>
+        <ns2:ht recid="PTBNP|445629" time="2010-12-17T05:21:25+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  01071401" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|031566227" time="2011-12-15T07:58:55+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90336109" time="2012-02-21T07:28:43+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90336109" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11865078" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="DNB|000146854" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="DNB|056058314" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90336109" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="BNF|11865078" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="BNF|11865078" time="2012-12-19T19:11:18+00:00" type="delete"/>
+        <ns2:ht recid="DNB|000146854" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="DNB|056058314" time="2012-12-19T19:11:18+00:00" type="delete"/>
+        <ns2:ht recid="NKC|kn20010711228" time="2012-12-19T19:11:18+00:00" type="delete"/>
+        <ns2:ht recid="RERO|vtls000120437" time="2012-12-19T19:11:18+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|031566227" time="2012-12-19T19:11:18+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x90336109" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11865078" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20010711228" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000120437" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|031566227" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|031566227" time="2013-06-14T19:03:38+00:00" type="delete"/>
+        <ns2:ht recid="NLP|a23122407" time="2013-08-19T18:59:48+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|031566227" time="2013-08-19T18:59:48+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

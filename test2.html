@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title>Autocomplete</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/jquery-ui.css"/>
+        <script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"/>
+        <script type="text/javascript" src="resources/js/jquery-ui-1.10.2.custom.min.js"/>
+    </head>
+    <body>
+        <label for="ac">Person:</label>
+        <input id="ac" placeholder=""/>
+        <span>
+            <img id="ac-indicator" src="resources/images/indicator.gif"/>
+        </span>
+        <script>
+            $(function() {
+                $('#ac').autocomplete({
+                    source: function(request, response) {
+                        console.log("request", request);
+                        $.ajax({
+                            url: "modules/services/search/search.xql",
+                            dataType: "json",
+                            data: "persons=" + request.term,
+                              success: function(data) {
+                                  response(data);
+                              }
+                        });
+                    },
+                    minLength: 2,
+                    select: function( event, ui ) {
+                        console.log( ui.item ?
+                        "Selected: " + ui.item.value + " aka " + ui.item.id :
+                        "Nothing selected, input was " + this.value );
+                        }
+                }).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                  return $( "<li>" )
+                    .append( "<a>" + item.label + "<br/>" + item.desc + "</a>
+            </li>" )
+                    .appendTo( ul );
+                };
+                
+                jQuery('#ac-indicator').css("display", "none");
+            });
+        </script>
+    </body>
+</html>

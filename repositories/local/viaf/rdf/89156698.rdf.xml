@@ -1,0 +1,136 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/89156698/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/89156698"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/89156698">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Lichnowsky, Karl Max &#152;von&#156; 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl Max, Fürst von, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl Max, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl, Príncipe</foaf:name>
+        <foaf:name>Lichnowsky, Karl Max, Prince, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl Max</foaf:name>
+        <foaf:name>Lichnowsky, Carl Max, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Fürst, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Prince, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl Maximilian, 1860-1928</foaf:name>
+        <foaf:name>Von Lichnowsky, Karl Max, Fürst, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Charles-Max, Fürst von, 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Carl Max, Fürst von, 1860-1928</foaf:name>
+        <foaf:name>Von Lichnowsky, Karl Max.</foaf:name>
+        <foaf:name>Lichnowsky, Carl Max.</foaf:name>
+        <foaf:name>Lichnowsky, Carl Marx.</foaf:name>
+        <foaf:name>Lichnowsky.</foaf:name>
+        <foaf:name>Lichnowski.</foaf:name>
+        <foaf:name>Lichnowsky, ... Principe 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl Max 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl M. von 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Charles-Max 1860-1928</foaf:name>
+        <foaf:name>Lichnowsky, Karl</foaf:name>
+        <foaf:name>Lichnowsky, Fürst</foaf:name>
+        <rdaGr2:dateOfBirth>1860-03-08</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1928-02-27</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://www.idref.fr/079175406/id"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Karl_Max,_Prince_Lichnowsky"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/119110814"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C079175406#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Lichnowsky, Karl Max, Prince, 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Fürst</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CKarl_Max,_Prince_Lichnowsky#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Lichnowsky, Karl Max</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca17318105#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Lichnowsky, Karl Max &#152;von&#156; 1860-1928</skos:prefLabel>
+        <skos:altLabel>Von Lichnowsky, Karl Max.</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Carl Max.</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Carl Marx.</skos:altLabel>
+        <skos:altLabel>Lichnowsky.</skos:altLabel>
+        <skos:altLabel>Lichnowski.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C219646#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel>Lichnowsky, Karl, Príncipe</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Karl</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C119110814#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Lichnowsky, Karl Max &#152;von&#156; 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Carl Max, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Fürst, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Karl Maximilian, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, ... Principe 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Karl Max 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Karl M. von 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Charles-Max 1860-1928</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C070196141#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Lichnowsky, Karl Max, 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Carl Max, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Prince, 1860-1928</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2006133226#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Lichnowsky, Karl Max &#152;von&#156; 1860-1928</skos:prefLabel>
+        <skos:altLabel>Von Lichnowsky, Karl Max.</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Carl Max.</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Carl Marx.</skos:altLabel>
+        <skos:altLabel>Lichnowsky.</skos:altLabel>
+        <skos:altLabel>Lichnowski.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000084270#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Lichnowsky, Karl Max, Fürst von, 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Fürst, 1860-1928</skos:altLabel>
+        <skos:altLabel>Von Lichnowsky, Karl Max, Fürst, 1860-1928</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cno+92001601#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Lichnowsky, Karl Max, Fürst von, 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Fürst, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Prince, 1860-1928</skos:altLabel>
+        <skos:altLabel>Von Lichnowsky, Karl Max, Fürst, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Charles-Max, Fürst von, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Carl Max, Fürst von, 1860-1928</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/no92001601"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn20031215009#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Lichnowsky, Karl Max &#152;von&#156; 1860-1928</skos:prefLabel>
+        <skos:altLabel>Lichnowsky, Carl Max, 1860-1928</skos:altLabel>
+        <skos:altLabel>Lichnowsky, Karl Maximilian, 1860-1928</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035952383#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Lichnowsky, Karl Max, Fürst von, 1860-1928</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/89156698/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/89156698"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/89156698/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/89156698"/>
+    </rdf:Description>
+</rdf:RDF>

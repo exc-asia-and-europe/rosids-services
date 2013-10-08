@@ -1,0 +1,1942 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>252974120</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/252974120/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/252974120"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb11914927j">BNF|11914927</ns2:source>
+        <ns2:source nsid="n50029939">LC|n  50029939</ns2:source>
+        <ns2:source nsid="a21059846">NLP|a21059846</ns2:source>
+        <ns2:source nsid="00621081">NDL|00621081</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/118745913">DNB|118745913</ns2:source>
+        <ns2:source nsid="Eleanor_Marx">WKP|Eleanor_Marx</ns2:source>
+        <ns2:source nsid="37405">SELIBR|37405</ns2:source>
+        <ns2:source nsid="vtls000427456">NUKAT|n  98097371</ns2:source>
+        <ns2:source nsid="skuk0000836">NKC|skuk0000836</ns2:source>
+        <ns2:source nsid="070151350">NTA|070151350</ns2:source>
+        <ns2:source nsid="000013376">NLI|000013376</ns2:source>
+        <ns2:source nsid="027014509">SUDOC|027014509</ns2:source>
+        <ns2:source nsid="a12278919">NLP|a12278919</ns2:source>
+        <ns2:source nsid="000035011126">NLA|000035011126</ns2:source>
+    </ns2:sources>
+    <ns2:length>1452</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Aveling, Eleanor Marx, 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx-Aveling, Eleanor 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Eleanor (Jenny Julia Eleanor), 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>מרקס-אולינג, אליאונורה, 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Эвелинг, Элеонора, 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx-Aveling, Eleanore, 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Eleanor, 1855-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Eleanor</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">0</ns2:subfield>
+                <ns2:subfield code="a">Marx Aveling</ns2:subfield>
+                <ns2:subfield code="b">Eleanor</ns2:subfield>
+                <ns2:subfield code="f">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11914927</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Aveling, Eleanor Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  50029939</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx Aveling, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">(1855-1898).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a21059846</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NLP|a12278919</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Eleanor,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NDL|00621081</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx-Aveling, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|118745913</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Eleanor</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|Eleanor_Marx</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Aveling, Eleanor Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|37405</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx Aveling, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">(1855-1898).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n  98097371</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx-Aveling, Eleanore,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+                <ns2:subfield code="7">skuk0000836</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|skuk0000836</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Eleanor</ns2:subfield>
+                <ns2:subfield code="q">(Jenny Julia Eleanor),</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|070151350</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Aveling, Eleanor Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000013376</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Эвелинг, Элеонора,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+                <ns2:subfield code="9">cyr</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000013376</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">מרקס-אולינג, אליאונורה,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+                <ns2:subfield code="9">heb</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000013376</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx Aveling, Eleanor,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|027014509</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Aveling, Eleanor Marx</ns2:subfield>
+                <ns2:subfield code="d">(1855-1898).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a12278919</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035011126</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Aveling, Eleanor Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035011126</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  98097371</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914927</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Eleanor_Marx</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|37405</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000013376</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027014509</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a21059846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00621081</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070151350</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50029939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118745913</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|skuk0000836</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>a</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19981204</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor M.</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor Marx-</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor Marx.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanore Marx,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Aveling, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Eveling, Eleanora Marks,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Eveling, Eleonora Marks,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marks, Eleanora,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marks, Eleonora,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx Aveling, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Eleanor</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Eleanor,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Eleanor.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Eleanor</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+                <ns2:subfield code="e">Frueherer Name</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Eleonora</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Tussy,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Tussy</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx-Aveling, Eleanor</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx-Aveling, Eleanor,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="a">Marx</ns2:subfield>
+                <ns2:subfield code="b">Eleanor</ns2:subfield>
+                <ns2:subfield code="f">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">j</ns2:subfield>
+                <ns2:subfield code="a">Aveling</ns2:subfield>
+                <ns2:subfield code="b">Eleanor Marx</ns2:subfield>
+                <ns2:subfield code="f">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Маркс, Элеонора,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">אולינג, אליאונורה מרקס-,</ns2:subfield>
+                <ns2:subfield code="d">1855-1898</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">マルクス, エリナ</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Marx-Aveling, Eleanor, 1855-1898<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Eleanor, 1855-1898<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Tussy, 1855-1898<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanor Marx- 1855-1898<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marks, Eleonora, 1855-1898<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Eveling, Eleonora Marks, 1855-1898<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Eleanor.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Eleonora 1855-1898<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Eleanor 1855-1898 Frueherer Name<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanor M. 1855-1898<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanor 1855-1898<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanor Marx.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>אולינג, אליאונורה מרקס-, 1855-1898<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Маркс, Элеонора, 1855-1898<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx-Aveling, Eleanor<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanor<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Aveling, Eleanore Marx, 1855-1898<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marks, Eleanora, 1855-1898<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Eveling, Eleanora Marks, 1855-1898<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>マルクス, エリナ<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                <ns2:subfield code="a">Marx, Karl</ns2:subfield>
+                <ns2:subfield code="d">1818-1883</ns2:subfield>
+                <ns2:subfield code="e">Beziehung familiaer</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Marx, Karl 1818-1883 Beziehung familiaer<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="24">
+            <ns2:text>Madame Bovary</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>The working-class movement in America</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Value, price and profit.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Shelley's socialism</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Revolution and counter-revolution; or, Germany in 1848</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Revolution and counter-revolution;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>History of the Commune of 1871.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Woman question</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Thoughts on women and society, 1987:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>The woman question</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Secret diplomatic history of the eighteenth century</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Anarchism and socialism</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Value, price and profit: addressed to working men</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The story of the life of Lord Palmerston</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The daughters of Karl Marx : family correspondence, 1866-1898</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The Eastern question, a reprint of letters written 1853-1856 dealing with the events of the Crimean War</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Les filles de Karl Marx : lettres inédites (Collection Bottigelli)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Histoire de la Commune de 1871.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Germany: revolution and counter-revolution</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Filles de Karl Marx.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Die Arbeiterclassen-bewegung in England.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>זכרונות על קרל מרקס</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>זכרונות על קארל מארכס</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Воспоминания о Марксе жены, дочери и внука</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The Working-Class Movement in America, by Edward and Eleanor Marx Aveling. 2d. edition...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The Eastern question, a reprint of letters written 1853-1856 dealing with the events of the Crimean war, by Karl Marx, edited by Eleanor Marx Aveling and Edward Aveling,...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Frauenfrage = (The woman question)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Frauenfrage</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Frauen-Frage = (The woman question)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wage-labour and capital. Value, price and profit.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vospominaniia o Markse zheny, docheri i vnuka</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Värde, pris och profit : En avhandling</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Värde, pris och profit</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Value, price and profit. Swedish. [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Unveröffentlichte Briefe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The working-class movement in England : a brief historical sketch : originally written for the "Volks Lexicon"</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The working-class movement in England : a brief historical sketch</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The reformers : socialist feminism</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The prose dramas of Henrik Ibsen.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The lady from the sea</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shelley's socialism / Popular songs, wholly political, and destined to awaken &amp; direct the imagination of the reformers / by Percy Bysshe Shelley.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Revolution and counter-revolution, or Germany in 1848, by Karl Marx, edited by Eleanor Marx Aveling</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Popular songs, wholly political, and destined to awaken &amp; direct the imagination of the reformers</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Popular songs</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Plays.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Madame Bovary; or, Loved to the last</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Madame Bovary, by Gustave Flaubert, in the translation of Eleanor Marx Aveling... Illustrations by Richard Lindner</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Madame Bovary : provincial manners</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lettres inédites : collection Bottigelli / les filles de Karl Marx ; introduction de Michelle Perrot ; déchiffrage, traduction [de l'anglais] présentation et notes de Olga Meier ; notes de Michel Trebitsch, 1979</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lettres inédites : collection Bottigelli</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ibsen's prose dramas.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>History of the Paris Commune of 1871</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>History of the Commune of 1871... 2d ed.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Fruen fra havet.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ferdinand Lassalle und seine Bedeutung in der Geschichte der Sozialdemokratie.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ferdinand Lassalle as a social reformer, by Edward Bernstein,... Translated by Eleanor Marx Aveling</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ferdinand Lassalle as a social reformer</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Töchter von Karl Marx : unveröffentlichte Briefe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Frauenfrage = The woman question</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Correspondance</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Anarchisme et socialisme.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A doll's house:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A doll's house ; The wild duck ; The lady from the sea</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="19" tag="950">
+            <ns2:text>Marx, Karl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="19" tag="950">
+            <ns2:text>Aveling, Edward Bibbins, 1851-1898.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16" tag="950">
+            <ns2:text>Flaubert, Gustave, 1821-1880.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" tag="950">
+            <ns2:text>Engels, Friedrich</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Meier, Olga</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Marx, Karl (Karl Heinrich), 1818-1883.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Ibsen, Henrik, 1828-1906.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Longuet, Jenny Marx, 1844-1883.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Lissagaray, 1838-1901.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Aveling, Edward</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wurm, Emmanuel.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Lissagaray, Prosper Olivier, 1838-1901</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="11">
+            <ns2:text>Swan Sonnenschein</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>S. Sonnenschein &amp;co., limited</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Journeyman Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>International Publishers</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>C.H. Kerr</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Allen and Unwin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Verlag für d. Frau</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>T. F. Unwin</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>מדע וחיים</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Гос. изд-во полит. лит-ры</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Monthly Review Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbetare Kuriren</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1855-01-16</ns2:birthDate>
+    <ns2:deathDate>1898-04-03</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="199" min="188">
+        <ns2:date count="6" scaled="2.58">188</ns2:date>
+        <ns2:date count="23" scaled="4.52">189</ns2:date>
+        <ns2:date count="6" scaled="2.58">190</ns2:date>
+        <ns2:date count="4" scaled="2.00">191</ns2:date>
+        <ns2:date count="4" scaled="2.00">192</ns2:date>
+        <ns2:date count="9" scaled="3.17">193</ns2:date>
+        <ns2:date count="4" scaled="2.00">194</ns2:date>
+        <ns2:date count="6" scaled="2.58">195</ns2:date>
+        <ns2:date count="7" scaled="2.81">196</ns2:date>
+        <ns2:date count="11" scaled="3.46">197</ns2:date>
+        <ns2:date count="10" scaled="3.32">198</ns2:date>
+        <ns2:date count="2" scaled="1.00">199</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="76">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="19">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="2">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>205</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>730</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>aut</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>author</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>cre</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>ed</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>edt</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>red</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>tl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16">
+            <ns2:text>tr</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>trl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>ubers</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="15">
+        <ns2:data count="3">
+            <ns2:text>9782226008657</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783730400029</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780904526356</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780904526042</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780717806485</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780049430150</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783880126848</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783730401569</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783462014327</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780902030817</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780140570045</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="35" scaled="5">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="29" scaled="5">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10" scaled="3">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" scaled="3">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>KI</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CH</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>SE</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>RU</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>IL</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>eng</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|175440227">
+            <ns2:text>Aveling, Eleanor Marx,|1855-1898.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|175440227">
+            <ns2:text>Woman question</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11914927" time="2012-09-21T12:25:04+00:00" type="add"/>
+        <ns2:ht recid="DNB|118745913" time="2012-09-21T12:25:04+00:00" type="add"/>
+        <ns2:ht recid="NDL|00621081" time="2012-09-21T12:25:04+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  98097371" time="2012-09-21T12:25:04+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|027014509" time="2012-09-21T12:25:04+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90732793" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="LC|n  50029939" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035011126" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  98097371" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="SELIBR|37405" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="WKP|Eleanor_Marx" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90732793" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="NKC|skuk0000836" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000013376" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="NTA|070151350" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  98097371" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="NLIcyr|000160987" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIheb|000311611" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLI|000013376" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIcyr|000160987" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLIheb|000311611" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLIlat|000013376" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLP|a12278919" time="2013-06-14T19:03:38+00:00" type="add"/>
+        <ns2:ht recid="NLP|a21059846" time="2013-06-14T19:03:38+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

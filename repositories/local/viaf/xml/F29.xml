@@ -1,0 +1,1776 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>32804921</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/32804921/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/32804921"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="000036501986">NLA|000036501986</ns2:source>
+        <ns2:source nsid="00623001">NDL|00623001</ns2:source>
+        <ns2:source nsid="071560017">NTA|071560017</ns2:source>
+        <ns2:source nsid="n81120140">LC|n  81120140</ns2:source>
+        <ns2:source nsid="274125">PTBNP|274125</ns2:source>
+        <ns2:source nsid="000036730731">NLA|000036730731</ns2:source>
+        <ns2:source nsid="xx0025903">NKC|xx0025903</ns2:source>
+        <ns2:source nsid="02740594X">SUDOC|02740594X</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/119367351">DNB|119367351</ns2:source>
+        <ns2:source nsid="Jiang_Qing">WKP|Jiang_Qing</ns2:source>
+    </ns2:sources>
+    <ns2:length>1220</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Jiang, Qing, 1914-1991</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Jiang, Qing, 1913-1991</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Chiang, Ching</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Jiang, Quing, 1914-1991</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>&#x6C5F;, &#x9752;, 1914-1991</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Jiang, Qing</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000036501986</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NLA|000036730731</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00623001</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x6C5F;, &#x9752;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NDL|00623001</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="no match info"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>DNB|119367351</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|071560017</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81120140</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>PTBNP|274125</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00623001</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="1" tag="200">
+                <ns2:subfield code="a">Chiang,</ns2:subfield>
+                <ns2:subfield code="b">Ching</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+            <ns2:id>PTBNP|274125</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="viafid"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>LC|n  81120140</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000036730731</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00623001</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Quing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+                <ns2:subfield code="7">xx0025903</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|xx0025903</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1913-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|02740594X</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|119367351</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NDL|00623001</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Jiang_Qing</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Jiang, Qing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|Jiang_Qing</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="viafid"/>NKC|xx0025903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>NDL|00623001</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>PTBNP|274125</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000036501986</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|02740594X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|071560017</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81120140</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119367351</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19980207</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Blue Apple,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Blue Apple</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ch'iang, Ch'ing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang Ch'ing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang, Ch'ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang, Ch'ing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang, Ch&#x2BB;ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang, Ch&#x2018;ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Chiang-ch'ing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ching, Chiang,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiang Qing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiang Quing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiang, Ching,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiang, Quing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiangging</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Jiangqing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Jing, Jiang,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Kiang Ts'ing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Kiang, Ts'ing</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Ko, Sei,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;, Sei,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;, Sei.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan Ping</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan, P'ing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan, Ping</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan, Ping,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan, Ping</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan, P&#x2BB;ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Lan-p'ing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Lanping</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Ch'ing-yu&#x308;n</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Ch&#x2BB;ing-yu&#x308;n,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Ch&#x2018;ing-yu&#x308;n,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Erh-ni,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Erh-ni</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Erni,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Erni</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, He,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Jin</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Jinhai,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Qingyun,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Qingyun</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Shumeng,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Yunhe</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Yunhe,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Yunhe</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Yu&#x308;n-ho,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Li, Yu&#x308;n-ho</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Luan, Shu-meng,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Luan, Shu-meng</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Luan, Shumeng,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Luan, Shumeng</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao Chiang, Ch'ing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao Chiang, Ch&#x2BB;ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao Chiang, Ch&#x2018;ing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao Jiang, Qing,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao Jiang, Qing</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao, Tse-tung,</ns2:subfield>
+                <ns2:subfield code="c">Mme,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao, Tse-tung,</ns2:subfield>
+                <ns2:subfield code="c">Mme.,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao, Zedong,</ns2:subfield>
+                <ns2:subfield code="c">Mme,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao, Zedong,</ns2:subfield>
+                <ns2:subfield code="c">Mme.,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Qing, Jiang,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Quing, Jiang,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Tschiang, Tsching</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Tschiang, Tsching,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Tschiang, Tsching</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Tsching, Tschiang,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x164;iang, &#x10C;ching,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x30B3;&#x30A6;, &#x30BB;&#x30A4;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;, &#x9032;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;, &#x9752;&#x96F2;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;&#x4E8C;&#x59AE;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;&#x9032;&#x5B69;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;&#x96F2;&#x9DB4;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x674E;&#x9DB4;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x6C5F;, &#x9752;,</ns2:subfield>
+                <ns2:subfield code="d">1913-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x6C5F;, &#x9752;</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x6C5F;&#x9751;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x6C5F;&#x9752;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x6C5F;&#x9752;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x6C5F;&#x9752;</ns2:subfield>
+                <ns2:subfield code="d">(1913-1991).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x85CD;&#x5E73;,</ns2:subfield>
+                <ns2:subfield code="d">1914-1991</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x85CD;&#x983B;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>&#x6C5F;&#x9752;, 1914-1991.<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lan-p'ing 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chiang-ch'ing 1914-1991<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Tschiang, Tsching, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao Jiang, Qing, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Yunhe, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Yu&#x308;n-ho, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Qingyun, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Erni, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Erh-ni, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Blue Apple, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Qing, Jiang, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jiang, Quing, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x304;, Sei, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao Chiang, Ch&#x2BB;ing, 1914-1991<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Luan, Shumeng, 1914-1991<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Ch&#x2BB;ing-yu&#x308;n, 1914-1991<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lan, Ping<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kiang, Ts'ing<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chiang Ch'ing<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Tsching, Tschiang, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Quing, Jiang, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao, Zedong, Mme., 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao, Tse-tung, Mme., 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jiangqing, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Shumeng, 1914-1991<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Luan, Shu-meng, 1914-1991<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x6C5F;&#x9752; (1913-1991).<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x6C5F;, &#x9752;, 1913-1991<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Tschiang, Tsching<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Yunhe<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Jin<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jiang Qing<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x6C5F;, &#x9752; 1914-1991<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lanping 1914-1991<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jiangging 1914-1991<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x85CD;&#x5E73;, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;&#x9DB4;, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;&#x9032;&#x5B69;, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;&#x4E8C;&#x59AE;, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;&#x96F2;&#x9DB4;, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao Chiang, Ch&#x2018;ing, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Jinhai, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, He, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Li, Ch&#x2018;ing-yu&#x308;n, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jing, Jiang, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ching, Chiang, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chiang, Ch&#x2018;ing, 1914-1991<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Jiang, Ching, 1914-1991<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x164;iang, &#x10C;ching, 1914-1991<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x85CD;&#x983B;
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;, &#x9752;&#x96F2;<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x674E;, &#x9032;<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30B3;&#x30A6;, &#x30BB;&#x30A4;, 1914-1991<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x304;, Sei.<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500 viafLink="51699962">
+            <ns2:datafield dtype="MARC21" ind1="|" ind2=" " tag="500">
+                <ns2:subfield code="a">Mao, Ze dong,</ns2:subfield>
+                <ns2:subfield code="d">1893-1976</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref viafLink="51699962">Mao, Ze dong, 1893-1976<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="2">
+            <ns2:text>Pe&#x301;kin, un proce&#x300;s peut en cacher un autre : les minutes du proce&#x300;s de Jiang Qing, la veuve de Mao</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Pan-Chinese encyclopedia, 1982:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Nu&#x308; huang meng, 1988:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>L'impe&#x301;ratrice rouge, c1981:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Current biography, Jan. 1992:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x738B;&#x7D20;&#x840D;. &#x5979;&#x8FD8;&#x6C92;&#x53EB;&#x6C5F;&#x9752;&#x7684;&#x65F6;&#x5019;, 1993</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x6C5F;&#x9752;&#x81EA;&#x50B3;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x6C5F;&#x9752;&#x540C;&#x5FD7;&#x8AD6;&#x6587;&#x82B8; : &#x6C5F;&#x9752;&#x653F;&#x6CBB;&#x30FB;&#x6587;&#x5B66;&#x30FB;&#x82B8;&#x8853;&#x8AD6;&#x96C6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x5E08;&#x4E1C;&#x5175;. &#x79E6;&#x57CE;&#x51B7;&#x6708; : &#x6C5F;&#x9752;&#x88AB;&#x6355;&#x4E4B;&#x540E;&#x79D8;&#x95FB;,1999</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x4E2D;&#x534E;&#x4EBA;&#x6C11;&#x5171;&#x548C;&#x56FD;&#x6700;&#x9AD8;&#x4EBA;&#x6C11;&#x6CD5;&#x9662;&#x7279;&#x522B;&#x6CD5;&#x5EAD;&#x5BA1;&#x5224;&#x6797;&#x5F6A;&#x3001;&#x6C5F;&#x9752;&#x53CD;&#x9769;&#x547D;&#x96C6;&#x56E2;&#x6848;&#x4E3B;&#x72AF;&#x7EAA;&#x5B9E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zhonghua Renmin Gongheguo zui gao ren min fa yuan te bie fa ting shen pan Lin Biao, Jiang Qing fan ge ming ji tuan an zhu fan ji shi</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>T&#x2BB;an ching chu&#x308; ko ming.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>T&#x2BB;a hai mei chiao Chiang Ch&#x2BB;ing ti shih hou, 1993:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Treibeis auf dem Chan</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ta hai mei jiao Jiang Qing de shih hou, 1993</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Proce&#x300;s-verbal des causeries sur le travail litteraire et artistique dans les forces arme&#x301;es, dont la convocation a e&#x301;te&#x301; confie&#x301;e par le camarade Lin Piao a&#x300; la camarade Kiang Tsing</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>On the revolution of Peking opera.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>On the revolution of Peking opera</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lu&#x308; wai you ji xuan = Luwaiyoujixuan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>La grande victoire de la ligne re&#x301;volutionnaire du Pre&#x301;sident Mao Acclamons chaleureusement la naissance du Comite&#x301; re&#x301;volutionnaire de la Municipalite&#x301; de Pe&#x301;kin</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ko&#x304; sei do&#x304;shi ronbungei</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Jiang Qing zi zhuan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Autobiography by Madam Mao</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A propos de la re&#x301;volution dans l'ope&#x301;ra de Pe&#x301;kin</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A Great trial in Chinese history : the trial of the Lin Biao and Jiang Qing counter-revolutionary cliques, Nov. 1980-Jan. 1981.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Lin, Biao, 1908-1971.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>&#x9752;&#x85CD;&#x793E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>&#x6797;&#x5F6A;&#x3001;&#x6C5F;&#x9752;&#x53CD;&#x9769;&#x547D;&#x96C6;&#x56E2;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x6797;&#x5F6A;, 1908-1971.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x5E38;&#x7B11;&#x77F3;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Seiransha.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Lin Biao, Jiang Qing fan ge ming ji tuan.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>China. &#x6700;&#x9AD8;&#x4EBA;&#x6C11;&#x6CD5;&#x9662;. &#x784F;&#x7A76;&#x5BA4;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>China. &#x6700;&#x9AD8;&#x4EBA;&#x6C11;&#x6CD5;&#x9662;. &#x7279;&#x522B;&#x6CD5;&#x5EAD;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>China. Zui gao ren min fa yuan. Yan jiu shi.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Zhou Enlai</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Hatamen, Horace.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="3">
+            <ns2:text>Editions en langues e&#x301;trange&#x300;res</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Hunan ren min chu ban she : Hunan sheng xin hua shu dian fa xing</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Foreign Languages Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>C. Bourgois</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x9752;&#x85CD;&#x793E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x6CD5;&#x5F8B;&#x51FA;&#x7248;&#x793E; : &#x65B0;&#x534E;&#x4E66;&#x5E97;&#x53D1;&#x884C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x5317;&#x904B;&#x6CB3;&#x51FA;&#x7248;&#x793E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verl. d. Ministeriums f. nationale Verteidigung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>New World Press ; Distribution by Pergamon Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bei yun he chu ban she</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1914-03-20</ns2:birthDate>
+    <ns2:deathDate>1991-05-14</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="199" min="195">
+        <ns2:date count="1" scaled="0.00">195</ns2:date>
+        <ns2:date count="4" scaled="2.00">196</ns2:date>
+        <ns2:date count="1" scaled="0.00">197</ns2:date>
+        <ns2:date count="11" scaled="3.46">198</ns2:date>
+        <ns2:date count="6" scaled="2.58">199</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="12">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:ISBNs unique="4">
+        <ns2:data count="2">
+            <ns2:text>9782267002997</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789186225308</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780080279190</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780080279183</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="9" scaled="3">
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>JP</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>eng</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:history>
+        <ns2:ht recid="DNB|119367351" time="2009-03-03T12:03:24+00:00" type="add"/>
+        <ns2:ht recid="LC|n  81120140" time="2009-03-03T12:03:30+00:00" type="add"/>
+        <ns2:ht recid="NKC|xx0025903" time="2009-05-07T09:11:04+00:00" type="add"/>
+        <ns2:ht recid="NLA|000036501986" time="2009-08-21T09:42:44+00:00" type="add"/>
+        <ns2:ht recid="NLA|000036730731" time="2009-08-21T09:42:44+00:00" type="add"/>
+        <ns2:ht recid="PTBNP|274125" time="2009-09-21T11:33:23+00:00" type="add"/>
+        <ns2:ht recid="NII|DA07010294" time="2010-04-23T04:20:39+00:00" type="add"/>
+        <ns2:ht recid="BNF|11914344" time="2010-06-24T11:32:12+00:00" type="add"/>
+        <ns2:ht recid="NII|DA07010294" time="2010-11-16T05:07:56+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11914344" time="2010-11-16T05:14:49+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|02740594X" time="2011-12-15T07:58:57+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90209903" time="2012-02-21T07:28:42+00:00" type="add"/>
+        <ns2:ht recid="NDL|00623001" time="2012-09-21T12:24:31+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90209903" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="WKP|Jiang_Qing" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000104738" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="NTA|071560017" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000104738" time="2013-02-15T19:30:59+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

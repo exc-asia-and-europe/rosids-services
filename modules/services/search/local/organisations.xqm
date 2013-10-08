@@ -28,7 +28,7 @@ declare %private function organisations:searchNameLocal($query as xs:string) {
 };
 
 declare %private function organisations:searchNameVIAF($query as xs:string, $local-viaf-ids as item()*) {
-    let $organisations :=  doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Corporate'
+    let $organisations :=  collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Corporate'
                                                                         and ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query) and ns2:subfield/@code eq 'a']]
     return
         for $organisation in $organisations

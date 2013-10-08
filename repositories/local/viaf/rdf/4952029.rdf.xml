@@ -1,0 +1,158 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/4952029/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/4952029"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/4952029">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Smith, John, 1580-1631</foaf:name>
+        <foaf:name>Smith, John</foaf:name>
+        <foaf:name>Schmidt, Johannes, 1580-1631</foaf:name>
+        <foaf:name>Schmiden, Johann, 1580-1631</foaf:name>
+        <foaf:name>Smith, Johan, 1580-1631</foaf:name>
+        <foaf:name>Schmidt, Johann, 1580-1631</foaf:name>
+        <foaf:name>Schmidt, Johannes</foaf:name>
+        <foaf:name>Schmiden, Johann</foaf:name>
+        <foaf:name>Schmid, Johann 1580-1631</foaf:name>
+        <foaf:name>Smith, Iohn, 1580-1631</foaf:name>
+        <foaf:name>Smit, John, 1580-1631</foaf:name>
+        <foaf:name>John Smith of Jamestown, 1580-1631</foaf:name>
+        <foaf:name>Captain John Smith</foaf:name>
+        <rdaGr2:dateOfBirth>1580</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1631</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://www.idref.fr/028890329/id"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/028890329/id"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/John_Smith_(explorer)"/>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/198795"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/118797689"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12063223m#foaf:Person"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cmzk2008443025#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Smit, John, 1580-1631</skos:altLabel>
+        <skos:altLabel>John Smith of Jamestown, 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C028890329#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann</skos:altLabel>
+        <skos:altLabel>Captain John Smith</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca11499370#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000427238#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann, 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C119037955#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann</skos:altLabel>
+        <skos:altLabel>Captain John Smith</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV10101289#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CJohn_Smith_(explorer)#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Smith, John</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C198795#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/198795#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C068421613#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Smith, Johan, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmidt, Johann, 1580-1631</skos:altLabel>
+        <skos:altLabel>Smith, Iohn, 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LAC%7C1000H3463#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann, 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C184410444#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Smith, Johan, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmidt, Johann, 1580-1631</skos:altLabel>
+        <skos:altLabel>Smith, Iohn, 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035506851#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++80032759#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann, 1580-1631</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n80032759"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118797689#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann, 1580-1631</skos:altLabel>
+        <skos:altLabel>Smith, Johan, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmidt, Johann, 1580-1631</skos:altLabel>
+        <skos:altLabel>Schmid, Johann 1580-1631</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++01036667#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX1501103#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C12063223#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Smith, John, 1580-1631</skos:prefLabel>
+        <skos:altLabel>Schmidt, Johannes</skos:altLabel>
+        <skos:altLabel>Schmiden, Johann</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12063223m"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12063223m"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/4952029/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/4952029"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/4952029/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/4952029"/>
+    </rdf:Description>
+</rdf:RDF>

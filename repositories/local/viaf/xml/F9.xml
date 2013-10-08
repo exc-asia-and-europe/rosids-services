@@ -1,0 +1,1585 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>141410524</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/141410524/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/141410524"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb113632699">BNF|11363269</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/2000747-4">DNB|004616693</ns2:source>
+        <ns2:source nsid="n50053617">LC|n  50053617</ns2:source>
+        <ns2:source nsid="46702">NSZL|000000000071</ns2:source>
+        <ns2:source nsid="000035329749">NLA|000035329749</ns2:source>
+        <ns2:source nsid="vtls004034787">NUKAT|n 2006034034</ns2:source>
+    </ns2:sources>
+    <ns2:length>928</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem Budapest</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx Ka&#x301;roly Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">20</ns2:subfield>
+                <ns2:subfield code="a">Marx Ka&#x301;roly ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi egyetem</ns2:subfield>
+                <ns2:subfield code="c">Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11363269</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n 2006034034</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  50053617</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NSZL|000000000071</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004616693</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035329749</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Marx Ka&#x301;roly Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+                <ns2:subfield code="9">g:Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|004616693</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  50053617</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11363269</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NSZL|000000000071</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n 2006034034</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035329749</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="110">
+                <ns2:subfield code="a">Marx Ka&#x301;roly Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  50053617</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|004616693</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NSZL|000000000071</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006034034</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11363269</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem</ns2:subfield>
+                <ns2:subfield code="c">Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NSZL|000000000071</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004616693</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11363269</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n 2006034034</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  50053617</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Marx Ka&#x301;roly Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035329749</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|004616693</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11363269</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2006034034</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  50053617</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NSZL|000000000071</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|004616693</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11363269</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>u</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>o</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>fre</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>a</ns2:refStatus>
+        <ns2:dateEntered>19970701</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="410">
+                <ns2:subfield code="a">Budapest.</ns2:subfield>
+                <ns2:subfield code="b">Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economic Sciences (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economic Sciences.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economics</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economics (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economics (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl Marx University of Economics Sciences</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Karl Marx university of economic sciences</ns2:subfield>
+                <ns2:subfield code="c">Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t fu&#x308;r O&#x308;konomie</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t f&#xFC;r &#xD6;konomie, Budapest.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">MKKE</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">MKKE</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">MKKE</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Marx University of Economics</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Marx University of Economics Sciences</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Marx-Universita&#x308;t fu&#x308;r O&#x308;konomie</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x300; di Scienze Economiche Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Universita&#x300; di scienze economiche Karl Marx</ns2:subfield>
+                <ns2:subfield code="c">Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universitet E&#x307;konomic&#x30C;eskich Nauk Imeni Karla Marksa</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universitet ekonomicheskikh nauk imeni Karla Marksa (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universitet e&#x307;konomicheskikh nauk im. K. Marksa (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universitet &#xE8;konomi&#x10D;eskih nauk imeni Karla Marksa.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">University of Economics Karl Marx (Hungary)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>MKKE<ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University of Economics (Hungary)<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>University of Economics Karl Marx (Hungary)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universitet ekonomicheskikh nauk imeni Karla Marksa (Hungary)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universitet e&#x307;konomicheskikh nauk im. K. Marksa (Hungary)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University of Economic Sciences (Hungary)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Budapest. Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universitet E&#x307;konomic&#x30C;eskich Nauk Imeni Karla Marksa<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Budapest<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x300; di Scienze Economiche Karl Marx<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx University of Economics Sciences<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx University of Economics<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx-Universita&#x308;t fu&#x308;r O&#x308;konomie<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University of Economics Sciences<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University of Economics<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universita&#x308;t fu&#x308;r O&#x308;konomie<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x300; di scienze economiche Karl Marx Budapest<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx university of economic sciences Budapest<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universitet &#xE8;konomi&#x10D;eskih nauk imeni Karla Marksa.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University of Economic Sciences.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t f&#xFC;r &#xD6;konomie, Budapest.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Magyar Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem (Hungary)<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500 viafLink="159380179">
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Budapest</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="261476812">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Budapesti Corvinus Egyetem.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="305129074">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="510">
+                <ns2:subfield code="a">Budapesti Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Budapesti Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem</ns2:subfield>
+                <ns2:subfield code="e">Nachfolger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Budapesti K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Budapesti K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi &#xE8;s &#xC1;llamigazgat&#xE1;si Egyetem.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="148892155">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="510">
+                <ns2:subfield code="a">Budapesti Mu&#x30B;szaki Egyetem.</ns2:subfield>
+                <ns2:subfield code="b">Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Kar</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2=" " tag="510">
+                <ns2:subfield code="5">b</ns2:subfield>
+                <ns2:subfield code="a">Budapesti ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi  egyetem</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref viafLink="135325780">Budapesti ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi  egyetem<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="148892155">Budapesti Mu&#x30B;szaki Egyetem. Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Kar<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Budapesti Ko&#x308;zgazdasa&#x301;gtudoma&#x301;nyi Egyetem Nachfolger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="159380179">Budapest<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Budapesti K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi &#xE8;s &#xC1;llamigazgat&#xE1;si Egyetem.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="261476812">Budapesti Corvinus Egyetem.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="9">
+            <ns2:text>Ipari technol&#xF3;gia</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Gazdas&#xE1;gstatisztika.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Spanyol nyelvi jegyzet halad&#xF3;k sz&#xE1;m&#xE1;ra</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>N&#xE9;met k&#xFC;lkereskedelmi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Kereskedelem szervez&#xE9;se &#xE9;s technik&#xE1;ja</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Ipargazdas&#xE1;gtan munka&#xFC;gy</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Belkereskedelmi &#xE1;ruismeret 3. b&#x151;r, textil, ruh&#xE1;zati &#xE1;ruismeret</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>A Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem &#xE9;vk&#xF6;nyve</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#xC1;ruismeret &#xE9;s vil&#xE1;gpiac 3.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#xC1;ltal&#xE1;nos statisztika 1-5. fej. 1. &#xE9;vf.  lev. m&#xE9;rn&#xF6;k-k&#xF6;zgazd&#xE1;sz hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#xC1;ltal&#xE1;nos gazdas&#xE1;gi f&#xF6;ldrajz 3. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#xC1;ltal&#xE1;nos gazdas&#xE1;gi f&#xF6;ldrajz 2. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>T&#xE1;j&#xE9;koztat&#xF3;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Szocialista ellen&#x151;rz&#xE9;s</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>P&#xE9;ldat&#xE1;r &#xE9;s feladatgy&#x171;jtem&#xE9;ny az ipari k&#xF6;nyvvitelhez</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Orosz nyelvtani jegyzet</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>N&#xE9;met nyelv&#x171; k&#xF6;zgazdas&#xE1;gi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>N&#xE9;met f&#xF6;ldrajzi &#xE9;s t&#xF6;rt&#xE9;nelmi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Nemzetk&#xF6;zi p&#xE9;nz&#xFC;gyi ismeretek 5. &#xE9;vf. lev. p&#xE9;nz&#xFC;gy &#xE9;s k&#xFC;lker. szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>K&#xF6;nyvviteltan bevezet&#xE9;s a k&#xF6;nyvviteli ismeretekbe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Iparv&#xE1;llalati szervez&#xE9;s &#xE9;s tervez&#xE9;s</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Ipargazdas&#xE1;gtan a szocialista ipar termel&#xE9;si terve &#xE9;s termel&#xE9;si kapacit&#xE1;sa</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Ipargazdas&#xE1;gtan 8. fej. az &#xE1;ll&#xF3;alapok &#xFA;jratermel&#xE9;se a szocialista iparban</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Ipargazdas&#xE1;gtan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Francia k&#xFC;lkereskedelmi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Filoz&#xF3;fiat&#xF6;rt&#xE9;net 2. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Feladatt&#xE1;r anal&#xED;zis 2. &#xE9;vf. levelez&#x151; hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Belkereskedelmi &#xE1;ruismeret 4. k&#xF6;t&#x151;anyagok &#xE1;ruismerete csak 2. &#xE9;vf. d&#xE9;lel&#x151;tti belkereskedelmi szak sz&#xE1;m&#xE1;ra</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Angol nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>A k&#xF6;zgazdas&#xE1;gtan t&#xF6;rt&#xE9;nete</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; &#xE9;s p&#xE9;ldat&#xE1;r a Technol&#xF3;gia alapjai, valamint a Belkereskedelmi &#xE1;ruismeret 1. c. tant&#xE1;rgyhoz, 2. &#xE9;vf. lev. ipar &#xE9;s belker. szak</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; &#xE9;s p&#xE9;ldat&#xE1;r a K&#xFC;lkereskedelmi v&#xE1;llalatok k&#xF6;nyvvitele c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz 1. &#xE9;vf. lev. m&#xE9;rn&#xF6;k-k&#xF6;zgazd&#xE1;sz k&#xFC;lkereskedelmi szak r&#xE9;sz&#xE9;re 1961/62. tan&#xE9;v 2. f&#xE9;l&#xE9;v</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; &#xE9;s p&#xE9;ldat&#xE1;r a K&#xFC;lkereskedelmi v&#xE1;llalatok k&#xF6;nyvvitele c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; &#xE9;s p&#xE9;ldat&#xE1;r a &quot;Mez&#x151;gazdas&#xE1;gi k&#xF6;nyvvitel&quot; c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; &#xE9;s feladatt&#xE1;r az &quot;Iparv&#xE1;llalatok gazdas&#xE1;gi tev&#xE9;kenys&#xE9;g&#xE9;nek elemz&#xE9;se&quot; t&#xE1;rgyhoz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; a matematika tanul&#xE1;s&#xE1;hoz a 2. &#xE9;ves levelez&#x151; hallgat&#xF3;k r&#xE9;sz&#xE9;re 1958/59. 1. f&#xE9;l&#xE9;v</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; a Gazdas&#xE1;gstatisztika c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz a 4. &#xE9;vf. levelez&#x151; p&#xE9;nz&#xFC;gyi, sz&#xE1;mvitel &#xE9;s &#xE1;ltal&#xE1;nos szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#xDA;tmutat&#xF3; a F&#x151;bb ipar&#xE1;gak technol&#xF3;gi&#xE1;ja c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>T&#xE9;r k&#xE9;p</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Technol&#xF3;gia alapjai 2. &#xE9;vf. lev. ipar szak sz&#xE1;m&#xE1;ra</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Szemeszter</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Szemelv&#xE9;nyek a szovjet irodalomb&#xF3;l</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Statisztika</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Spanyol nyelv&#x171; sz&#xF6;veg kezd&#x151;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P&#xE9;nz&#xFC;gyi vonatkoz&#xE1;s&#xFA; orosz szaksz&#xF6;veggy&#x171;jtem&#xE9;ny</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P&#xE9;nzforgalom &#xE9;s hitel 3. f&#xFC;z 4., 5. &#xE9;vf. lev. p&#xE9;nz&#xFC;gy &#xE9;s sz&#xE1;mviteli szak, 4. &#xE9;vf. d.e. p&#xE9;nz&#xFC;gy szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P&#xE9;ldat&#xE1;r &#xE9;s feladatgy&#x171;jtem&#xE9;ny a belkereskedelmi k&#xF6;nyvvitelhez</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Politikai gazdas&#xE1;gtan 2. r. monopoliumok el&#x151;tti kapitalizmus</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Politikai gazdas&#xE1;gtan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelv&#x171; szemelv&#xE9;nyek szovjet k&#xF6;nyvviteli tanulm&#xE1;nyokb&#xF3;l 4. &#xE9;vf. k&#xF6;nyvviteli spec. hallg. r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelv&#x171; szaksz&#xF6;veggy&#x171;jtem&#xE9;ny f&#xF6;ldrajz szakos hallgat&#xF3;k sz&#xE1;m&#xE1;ra</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelvtani jegyzet k&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi egyetemi hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelvk&#xF6;nyv 2. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok 2.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok 1. r&#xE9;sz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz k&#xFC;lkereskedelmi levelez&#xE9;s k&#xFC;lkereskedelmi szakos hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Orosz belkereskedelmi sz&#xF6;veggy&#x171;jtem&#xE9;ny</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>N&#xE9;met nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>N&#xE9;met irodalmi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Nemzetk&#xF6;zi p&#xE9;nz&#xFC;gyi ismeretek</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Matematika 3. 1. &#xE9;vf. d&#xE9;lel&#x151;tti hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Matematika 2. 2. &#xE9;vf. lev. hallg. r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Matematika 1. line&#xE1;ris algebra az 1. &#xE9;ves levelez&#x151; hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Matematika 1. line&#xE1;ris algebra</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Marx K&#xE1;roly K&#xF6;zgazdtud. Egy. &#xE9;vkv.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Magyar gazdas&#xE1;gt&#xF6;rt&#xE9;net 2/2. 1848-1900</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Magyar gazdas&#xE1;gt&#xF6;rt&#xE9;net 2/1. r., 1790-1848</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Magyar gazdas&#xE1;gt&#xF6;rt&#xE9;net 1/3. r., 1711-1790-ig 2. &#xE9;vf. d&#xE9;lel&#x151;tti &#xE9;s levelez&#x151; hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Landeskunde der deutschsprachigen La&#x308;nder und Ungarns</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Laborat&#xF3;riumi gyakorlatok 1-2. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>K&#xFC;lkereskedelemtechnikai olvasm&#xE1;nyok angol</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Kereskedelmi v&#xE1;llalatok tervez&#xE9;se</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Iparv&#xE1;llalati tervez&#xE9;s &#xE9;s szervez&#xE9;s a munka&#xFC;gyi tervez&#xE9;s</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Iparv&#xE1;llalati szervez&#xE9;s &#xE9;s tervez&#xE9;s 6. termel&#xE9;s tervez&#xE9;se</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Iparv&#xE1;llalati gazdas&#xE1;gtan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Iparstatisztikai p&#xE9;ldat&#xE1;r 3. &#xE9;vf. d&#xE9;lel&#x151;tti ipar szakos 4. &#xE9;vf. levelez&#x151; ipar szakos &#xE9;s az 1. &#xE9;vf. ipar szakos m&#xE9;rn&#xF6;k-k&#xF6;zgazd&#xE1;sz hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Iparstatisztikai p&#xE9;ldat&#xE1;r</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ipari technol&#xF3;gia 2. f&#xFC;z.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ipargazdas&#xE1;gtan ipari term&#xE9;kek &#xF6;nk&#xF6;lts&#xE9;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ipargazdas&#xE1;gtan 9. fejezet az ipar telep&#xED;t&#xE9;se</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ipargazdas&#xE1;gtan 1-3. fej.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Gazdas&#xE1;gstatisztikai p&#xE9;ldat&#xE1;r 3. r., 4. &#xE9;vf. d&#xE9;lel&#x151;tti &#xE1;lt. p&#xE9;nz&#xFC;gy &#xE9;s sz&#xE1;mvitel szak 5. &#xE9;vf. levelez&#x151; &#xE1;lt. p&#xE9;nz&#xFC;gy &#xE9;s sz&#xE1;mvitel szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Gazdas&#xE1;gstatisztikai p&#xE9;ldat&#xE1;r</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Gazdas&#xE1;gstatisztika. 3. &#xE9;vf. d&#xE9;lel&#x151;tti k&#xFC;lker, 4. &#xE9;vf. levelez&#x151; k&#xFC;lker. szak, valamint a 2. f&#xE9;l&#xE9;vben az 1. &#xE9;vf. m&#xE9;rn&#xF6;k k&#xF6;zg. k&#xFC;lker. szak</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Francia nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok 2. r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Francia nyelvi t&#xE1;rsalg&#xE1;si olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Francia k&#xFC;lkereskedelemi olvasm&#xE1;nyok</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Feladatt&#xE1;r kombinatorika 1. &#xE9;vf. levelez&#x151; hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Feladatgy&#x171;jtem&#xE9;ny a &quot;K&#xFC;lkereskedelmi v&#xE1;llalatok k&#xF6;nyvvitele&quot; c. t&#xE1;rgy tanul&#xE1;s&#xE1;hoz 2. &#xE9;vf. d&#xE9;lel&#x151;tti k&#xFC;lker. szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Feladatgy&#x171;jtem&#xE9;ny &quot;A k&#xF6;nyvvitel elm&#xE9;lete&quot; t&#xE1;rgy tanul&#xE1;s&#xE1;hoz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Egys&#xE9;ges orosz nyelvi jegyzet k&#xF6;zgazdas&#xE1;gi egyetemi hallgat&#xF3;k r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Egys&#xE9;ges orosz nyelvi jegyzet</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Egyetemi t&#xE1;j&#xE9;koztat&#xF3;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Belkereskedelmi &#xE1;ruismeret 4. vegyes iparcikkek &#xE1;ruismerete</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Belkereskedelmi &#xE1;ruismeret 1. alapok 1. &#xE9;vf. d.e. belker. szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Belkereskedelmi statisztika 3. r. 3. &#xE9;vf. d.e. belker. szak r&#xE9;sz&#xE9;re</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Belkereskedelmi statisztika</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Az &#xFC;gyvitel g&#xE9;pes&#xED;t&#xE9;se 4. &#xE9;vf. d. e. k&#xF6;nyvvitel szak az 1. f. &#xE9;.-ben; 5. &#xE9;vf. lev. k&#xF6;nyvvitel szak a 2. f. &#xE9;.-ben</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Az &#xF6;n&#xE1;ll&#xF3; elsz&#xE1;mol&#xE1;s a magyar iparban</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Az angol imperalizmus</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Va&#x301;llalati szerveze&#x301;s e&#x301;s ira&#x301;nyi&#x301;ta&#x301;s</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Piano e moneta nelle economie dell'Est</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Doktorskie magisterskie dissertacii za&#x15D;i&#x10D;ennye v 1958-59 godu v Universitete &#xC8;konomi&#x10D;eskih Nauk im. Karla Marksa, Budape&#x161;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="38" tag="950">
+            <ns2:text>Cotel Korn&#xE9;l 1917-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="33" tag="950">
+            <ns2:text>Szelepcs&#xE9;nyi Lajos</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="28" tag="950">
+            <ns2:text>Wilcsek Jen&#x151; 1898-1984</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="25" tag="950">
+            <ns2:text>P&#xE1;rniczky G&#xE1;bor 1925-1992</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="24" tag="950">
+            <ns2:text>Verb&#xE9;nyi L&#xE1;szl&#xF3; 1910-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="22" tag="950">
+            <ns2:text>Erd&#x151;s Tibor 1928-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="21" tag="950">
+            <ns2:text>Pach Zsigmond P&#xE1;l 1919-2001</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="20" tag="950">
+            <ns2:text>K&#xF6;ves P&#xE1;l 1925-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="18" tag="950">
+            <ns2:text>Er&#x151;ss Istv&#xE1;n</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="17" tag="950">
+            <ns2:text>Sipos Alad&#xE1;r 1927-2005</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Szabo&#x301;, Ka&#x301;lma&#x301;n, 1921-</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Somkuti, Gabriella (1929- ).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Magyar Ko&#x308;zgazdasa&#x301;gi Ta&#x301;rsasa&#x301;g</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Ko&#x308;ster, Gundolf</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="783">
+            <ns2:text>MKKE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="27">
+            <ns2:text>Tankvk.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="15">
+            <ns2:text>MKKE Tank&#xF6;nyvk.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>Marx K. K&#xF6;zgazdas&#xE1;gtud. Egy.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Aula</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>MKKE Fels&#x151;okt. Jegyzetell. soksz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Akade&#x301;miai Kiado&#x301;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Tanko&#x308;nyvkiado&#x301;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>K&#xF6;zgazd. Jogi Kvk.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mu&#x30B;velo&#x30B;de&#x301;si Miniszte&#x301;rium Marxizmus-Leninizmus Oktata&#x301;si Fo&#x30B;oszta&#x301;lya</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Marx K&#xE1;roly K&#xF6;zgazdas&#xE1;gtudom&#xE1;nyi Egyetem. K&#xF6;zponti K&#xF6;nyvt&#xE1;r</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CESES Associazione degli economisti ungheresi Universita&#x300; di scienze economiche &#xAB;Karl Marx&#xBB;</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="199" min="195">
+        <ns2:date count="372" scaled="8.54">195</ns2:date>
+        <ns2:date count="434" scaled="8.76">196</ns2:date>
+        <ns2:date count="63" scaled="5.98">197</ns2:date>
+        <ns2:date count="76" scaled="6.25">198</ns2:date>
+        <ns2:date count="7" scaled="2.81">199</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="932">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NSZL</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="20">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="2">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="867">
+            <ns2:text>kozread</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>rend</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>rend kozread</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="21">
+        <ns2:data count="1">
+            <ns2:text>9789637415098</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637150937</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637150159</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637150029</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637150012</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637150005</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789637103605</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789636734411</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789630277884</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789630115698</ns2:text>
+            <ns2:sources>
+                <ns2:s>NSZL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="947" scaled="9">
+            <ns2:text>HU</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NSZL</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>RU</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>hun</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>HU</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000121711600</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|186364554">
+            <ns2:text>Oktata&#x301;sgazdasa&#x301;gtani fu&#x308;zetek</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|180250660">
+            <ns2:text>DM (Series)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11363269" time="2010-11-16T05:11:48+00:00" type="add"/>
+        <ns2:ht recid="DNB|004616693" time="2010-11-16T05:11:48+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035329749" time="2010-11-16T05:11:48+00:00" type="add"/>
+        <ns2:ht recid="NSZL|000000000071" time="2010-11-16T05:11:48+00:00" type="add"/>
+        <ns2:ht recid="LC|n  50053617" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035329749" time="2011-03-18T07:36:28+00:00" type="delete"/>
+        <ns2:ht recid="NLA|000035329749" time="2011-08-17T04:30:21+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|030781094" time="2011-12-15T07:58:55+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x98001629" time="2012-02-21T07:28:42+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006034034" time="2012-06-27T09:51:58+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x98001629" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="LC|n  50053617" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x98001629" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="LC|n  50053617" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|030781094" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x98001629" time="2013-01-14T22:09:03+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

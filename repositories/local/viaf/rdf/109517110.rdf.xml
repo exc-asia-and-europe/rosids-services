@@ -1,0 +1,139 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/109517110/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/109517110"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/109517110">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Gibson, William, 1948-....</foaf:name>
+        <foaf:name>Gibson, William, 1948-2008</foaf:name>
+        <foaf:name>Gibson, William American writer, born 1948</foaf:name>
+        <foaf:name>Gibson, William</foaf:name>
+        <foaf:name>Gibson, William Ford, 1948-</foaf:name>
+        <foaf:name>ギブソン, ウィリアム</foaf:name>
+        <foaf:name>ギブスン, ウィリアム</foaf:name>
+        <foaf:name>Gibsons, Viljams, 1948-</foaf:name>
+        <foaf:name>William Gibson</foaf:name>
+        <rdaGr2:dateOfBirth>1948-03-17</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>2008</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb120394877#foaf:Person"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/028589521/id"/>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/220040"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/122148010"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/William_Gibson"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000051197#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>Gibsons, Viljams, 1948-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C12039487#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb120394877"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120394877"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C028589521#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls016328099#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>Gibson, William Ford, 1948-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca11529180#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C32722#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel>Gibson, William, 1948-2008</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C220040#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/220040#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX1615350#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>Gibson, William Ford, 1948-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0021B4629#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C122148010#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>Gibson, William Ford, 1948-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00467129#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>ギブソン, ウィリアム</skos:altLabel>
+        <skos:altLabel>ギブスン, ウィリアム</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CWilliam_Gibson#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Gibson, William</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C075142791#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++93120773#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500247009#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel>Gibson, William American writer, born 1948</skos:prefLabel>
+        <skos:altLabel>William Gibson</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035781928#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++85146890#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n85146890"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn20000601794#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Gibson, William, 1948-....</skos:prefLabel>
+        <skos:altLabel>Gibson, William Ford, 1948-</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/109517110/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/109517110"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/109517110/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/109517110"/>
+    </rdf:Description>
+</rdf:RDF>

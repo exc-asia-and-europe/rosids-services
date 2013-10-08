@@ -1,0 +1,952 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>47523109</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/47523109/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/47523109"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="331796">SELIBR|331796</ns2:source>
+        <ns2:source nsid="186505531">NTA|186505531</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/116814357">DNB|116814357</ns2:source>
+        <ns2:source nsid="n88175370">LC|n  88175370</ns2:source>
+        <ns2:source nsid="ADV10913134">BAV|ADV10913134</ns2:source>
+        <ns2:source nsid="000494607">NLI|000494607</ns2:source>
+        <ns2:source nsid="16364151X">SUDOC|16364151X</ns2:source>
+    </ns2:sources>
+    <ns2:length>479</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Marx, Karl F. H., 1796-1877</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Karl Friedrich Heinrich, 1796-1877</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, K. F. H. (Karl Friedrich Heinrich), 1796-1877</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Carl F. H., 1796-1877</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl F. H.,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|331796</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000494607</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="3" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, ...</ns2:subfield>
+                <ns2:subfield code="q">(Karl Friedrich Heinrich),</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|186505531</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000494607</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl F. H.</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|116814357</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000494607</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                <ns2:subfield code="a">Marx, K. F. H.</ns2:subfield>
+                <ns2:subfield code="q">(Karl Friedrich Heinrich),</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  88175370</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>NLI|000494607</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl Friedrich Heinrich,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+            <ns2:id>BAV|ADV10913134</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000494607</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, K. F. H.</ns2:subfield>
+                <ns2:subfield code="q">(Karl Friedrich Heinrich),</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000494607</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="lccn"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|16364151X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Carl F. H.,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|16364151X</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  88175370</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|116814357</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV10913134</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|186505531</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000494607</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|331796</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>n</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>b</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>f</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>|</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19991027</ns2:dateEntered>
+        <ns2:type>z</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, C. F. H.,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, C. F. H.</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, C. F. H.</ns2:subfield>
+                <ns2:subfield code="q">(Carl Friedrich Heinrich),</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="400">
+                <ns2:subfield code="a">Marx, C. F. H.</ns2:subfield>
+                <ns2:subfield code="q">(Carl Friedrich Heinrich),</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carl Friedrich Heinrich,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carl Friedrich Heinrich</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carolus Fridericus Henricus,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carolus Fridericus Henricus</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, F. K. H,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, F. K. H.</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Heinrich,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Heinrich</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Henricus,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Henricus</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, K. F. H.,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, K. F. H.</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Friedr. Heinr.</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Friedrich Heinrich,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="400">
+                <ns2:subfield code="a">Marx, Karl Friedrich Heinrich,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Friedrich Heinrich</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+                <ns2:subfield code="e">Vollstaendiger Name</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl,</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl</ns2:subfield>
+                <ns2:subfield code="d">1796-1877</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Marx, Karl Friedrich Heinrich, 1796-1877<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Karl, 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, K. F. H., 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Henricus, 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Heinrich, 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, F. K. H. 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Carolus Fridericus Henricus, 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Carl Friedrich Heinrich, 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, C. F. H., 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, C. F. H. (Carl Friedrich Heinrich), 1796-1877<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Karl Friedrich Heinrich 1796-1877 Vollstaendiger Name<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Karl Friedr. Heinr. 1796-1877<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Go&#x308;ttingen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Karlsruhe</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Karlsruhe<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Go&#x308;ttingen<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="3">
+            <ns2:text>On the decrease of disease effected by the progress of civilization.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Die Erkenntniss Verhu&#x308;tung und Heilung der ansteckenden Cholera. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The anthropological treatises of Johann Friedrich Blumenbach</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Origines contagii. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Lehre von der La&#x308;hmung der untern Gliedmassen</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zum Andenken an Johann Stieglitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zum Andenken an Johann Friedrich Blumenbach</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zum Andenken an Joh. Friedr. Blumenbach. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>U&#x308;ber Marc'Antonio della Torre und Leonardo da Vinci, die begru&#x308;nder der bildlichen Anatomie</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>U&#x308;ber Marc Antonio della Torre und Leonardo da Vinci</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>U&#x308;ber Begriff und Bedeutung der schmerzlindernden Mittel</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ueber die Abnahme der Krankheiten durch die Zunahme der Civilisation</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ueber Marc'Antonio della Torre und Leonardo da Vinci, die Begru&#x308;nder der bildlichen Anatomie.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The moral aspects of medical life, consisting of the 'Akesios' of Professor K.F.H. Marx.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The anthropological treaties of Johann Friedrich Blumenbach ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Origines contagii cum Additamentis...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Origenes contagii. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mittheilungen u&#x308;ber Zwecke, Leiden und Freuden der Aerzte : ein Lesebuch fu&#x308;r Kranke und Gesunde</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Herophilus. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Herophilus : ein Beitrag zur Geschichte der Medicin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Grundzu&#x308;ge zur Lehre von der Krankheit und Heilung...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Grundzu&#x308;ge zur Lehre von der Kranckheit und Heilung. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Grundzu&#x308;ge der Arzneimittellehre</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Go&#x308;ttingen in medicinischer, physischer und historischer Hinsicht geschildert</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Goettingen in medicinischer, physischer und historischer Hinsicht ...-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>G. W. Leibnitz in seinen Beziehungen zur Arzneiwissenschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Erinnerungen an England. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Erinnerungen an England 1841</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Diatribe anatomico-physiologica de structura atque vita venarum. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aphorismen u&#x308;ber Thun und Lassen der Aerzte und des Publikums</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Allgemeine Krankheitslehre. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Akesios : Blicke in die ethischen Beziehungen der Medicin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aerztlicher Katechismus : Ueber die Anforderungen an die Aerzte</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Hunter, John, -1809.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Blumenbach, Johann Friedrich, 1752-1840.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Wagner, Rudolph, 1805-1864.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Flourens, Pierre (Pierre Marie Jean), 1794-1867.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Bendyshe, Thomas, 1827-1886.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Willis, Robert, 1799-1878, [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wagner, Rudolf, 1805-1864.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Mackness, James, 1804-1854</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Flourens, P. (Pierre), 1794-1867.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Bendysche, Thomas, [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="5">
+            <ns2:text>D. R. Marx</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>published for the Anthropological Society, by Longman, Green, Longman, Roberts, &amp; Green</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Dieterich</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meyer</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Longman, Brown, Green, and Longmans</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>J. Churchill</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>in der Dieterichschen Buchlandlung</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ferdinand Enke</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Enke</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Dieterisch</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1796</ns2:birthDate>
+    <ns2:deathDate>1877</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="187" min="181">
+        <ns2:date count="1" scaled="0.00">181</ns2:date>
+        <ns2:date count="6" scaled="2.58">182</ns2:date>
+        <ns2:date count="9" scaled="3.17">183</ns2:date>
+        <ns2:date count="13" scaled="3.70">184</ns2:date>
+        <ns2:date count="2" scaled="1.00">185</ns2:date>
+        <ns2:date count="4" scaled="2.00">186</ns2:date>
+        <ns2:date count="3" scaled="1.58">187</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="24">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:countries>
+        <ns2:data count="21" scaled="4">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Marx, K. F. H., 1796-1877" type="ISNI">0000000083434066</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|185544926">
+            <ns2:text>Marx, K. F. H.|(Karl Friedrich Heinrich),|1796-1877.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork>
+            <ns2:text>Ueber die Abnahme der Krankheiten durch die Zunahme der Civilisation.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|185544926">
+                <ns2:text>English</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="DNB|116814357" time="2009-03-03T12:03:29+00:00" type="add"/>
+        <ns2:ht recid="LC|n  88175370" time="2009-03-03T12:03:34+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV10913134" time="2009-07-24T08:25:11+00:00" type="add"/>
+        <ns2:ht recid="SELIBR|331796" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NII|DA06608308" time="2010-04-23T04:20:33+00:00" type="add"/>
+        <ns2:ht recid="NII|DA06608308" time="2010-11-16T05:07:55+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x90555019" time="2012-02-21T07:28:48+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000494607" time="2012-05-22T07:07:52+00:00" type="add"/>
+        <ns2:ht recid="NTA|186505531" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|16364151X" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90555019" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="NLI|000494607" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000494607" time="2013-05-13T19:14:22+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

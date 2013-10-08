@@ -1,0 +1,95 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/124811066/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/124811066"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/124811066">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/CorporateBody"/>
+        <foaf:name>Karl-Marx-Universität Leipzig.</foaf:name>
+        <foaf:name>Universität Leipzig</foaf:name>
+        <foaf:name>Leipzig (Germany). Karl-Marx-Universität</foaf:name>
+        <foaf:name>Karl Marx University (Leipzig, Germany)</foaf:name>
+        <foaf:name>Karl-Marx-Universität (Leipzig, Germany)</foaf:name>
+        <foaf:name>Uniwersytet Karola Marksa w Lipsku.</foaf:name>
+        <foaf:name>Karl-Marx-Universität.</foaf:name>
+        <foaf:name>Karl-Marx-Universität (Leipciga, Vācija)</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/128563333"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/128563333"/>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/359946"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11406565#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000036514426#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2003058446#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <skos:altLabel>Uniwersytet Karola Marksa w Lipsku.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cko20010092638#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca18602903#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <skos:altLabel>Karl-Marx-Universität.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000187533#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <skos:altLabel>Karl-Marx-Universität (Leipciga, Vācija)</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500301325#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel>Universität Leipzig</skos:prefLabel>
+        <skos:altLabel>Karl-Marx-Universität.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C359946#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/359946#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++80005116#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <skos:altLabel>Leipzig (Germany). Karl-Marx-Universität</skos:altLabel>
+        <skos:altLabel>Karl Marx University (Leipzig, Germany)</skos:altLabel>
+        <skos:altLabel>Karl-Marx-Universität (Leipzig, Germany)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n80005116"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000190256#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Karl-Marx-Universität Leipzig.</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/124811066/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/124811066"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/124811066/#foaf:Organization">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/124811066"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/124811066/#rdaEnt:CorporateBody">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/124811066"/>
+    </rdf:Description>
+</rdf:RDF>

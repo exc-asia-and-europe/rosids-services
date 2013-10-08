@@ -22,3 +22,10 @@ declare function viaf-utils:getBestMatch($mainHeadingElements as item()*) {
     let $mainHeadingElement := $mainHeadingElements[count(ns2:links/ns2:link) = $maxCount][1]
     return $mainHeadingElement
 };
+
+declare function viaf-utils:getSources($mainHeadingEl) {
+    let $sources := for $source in $mainHeadingEl/ns2:links//ns2:link return substring-before($source/text(), '|')
+    return string-join($sources, ' ')
+};
+
+

@@ -1,0 +1,119 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/98038638/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/98038638"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/98038638">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Marx, Chico, 1887-1961</foaf:name>
+        <foaf:name>Marx Brothers</foaf:name>
+        <foaf:name>Marx, Chico</foaf:name>
+        <foaf:name>Marx, Chico, 1886-1961</foaf:name>
+        <foaf:name>Marx, Leonard, 1887-1961</foaf:name>
+        <foaf:name>Marx Frères</foaf:name>
+        <foaf:name>Frères Marx</foaf:name>
+        <foaf:name>Marx, ..., Brothers</foaf:name>
+        <foaf:name>Marx, Leonard.</foaf:name>
+        <foaf:name>Marx, bracia.</foaf:name>
+        <foaf:name>Bracia Marx.</foaf:name>
+        <foaf:name>Marx, Leonard 1887-1961 Wirklicher Name</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/121542107"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/121542107"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/76507665"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/76507665"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/68932575"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/68932575"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/14773523"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/14773523"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/44487486"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/44487486"/>
+        <rdaGr2:dateOfBirth>1887-03-22</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1961-10-11</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://www.idref.fr/069909873/id"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chico_Marx"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb119149297#foaf:Person"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/129591475"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C069909873#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cxx0162837#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <skos:altLabel>Marx, Leonard, 1887-1961</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C070734852#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Marx, Chico</skos:prefLabel>
+        <skos:altLabel>Marx, ..., Brothers</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX949847#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <skos:altLabel>Marx, Leonard, 1887-1961</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035953984#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CChico_Marx#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Marx, Chico</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11914929#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Marx Brothers</skos:prefLabel>
+        <skos:altLabel>Marx Frères</skos:altLabel>
+        <skos:altLabel>Frères Marx</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb119149297"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119149297"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C129591475#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <skos:altLabel>Marx, Leonard 1887-1961 Wirklicher Name</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000089859#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Marx, Chico, 1886-1961</skos:prefLabel>
+        <skos:altLabel>Marx, Leonard, 1887-1961</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2008132717#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <skos:altLabel>Marx, ..., Brothers</skos:altLabel>
+        <skos:altLabel>Marx, Leonard.</skos:altLabel>
+        <skos:altLabel>Marx, bracia.</skos:altLabel>
+        <skos:altLabel>Bracia Marx.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++80073739#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Marx, Chico, 1887-1961</skos:prefLabel>
+        <skos:altLabel>Marx, Leonard, 1887-1961</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n80073739"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/98038638/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/98038638"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/98038638/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/98038638"/>
+    </rdf:Description>
+</rdf:RDF>

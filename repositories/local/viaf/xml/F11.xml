@@ -1,0 +1,1389 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>123936624</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/123936624/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/123936624"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb118819540">BNF|11881954</ns2:source>
+        <ns2:source nsid="026603667">SUDOC|026603667</ns2:source>
+        <ns2:source nsid="n81063118">LC|n  81063118</ns2:source>
+        <ns2:source nsid="a24480563">NLP|a24480563</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/2017392-1">DNB|004758668</ns2:source>
+        <ns2:source nsid="000036530864">NLA|000036530864</ns2:source>
+        <ns2:source nsid="000103530">NLI|000103530</ns2:source>
+    </ns2:sources>
+    <ns2:length>913</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Parteihochschule &quot;Karl Marx&quot; (Berlin, Germany)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Parteihochschule Karl Marx</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Parteihochschule Karl Marx Berlin, RDA</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Parteihochschule Karl Marx beim ZK der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Parteihochschule &quot;Karl Marx&quot; (Berlin)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">20</ns2:subfield>
+                <ns2:subfield code="a">Parteihochschule Karl Marx</ns2:subfield>
+                <ns2:subfield code="c">Berlin, RDA</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11881954</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|026603667</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000036530864</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000103530</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|004758668</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  81063118</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule Karl Marx (Berlin, RDA)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|026603667</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000036530864</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000103530</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|11881954</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  81063118</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule &quot;Karl Marx&quot; (Berlin, Germany)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81063118</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11881954</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a24480563</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|004758668</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|026603667</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036530864</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000103530</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule Karl Marx beim ZK der SED</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a24480563</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000103530</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  81063118</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule Karl Marx</ns2:subfield>
+                <ns2:subfield code="9">g:Berlin, Ost</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|004758668</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="standard number"/>BNF|11881954</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81063118</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule &quot;Karl Marx&quot; (Berlin, Germany)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000036530864</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|026603667</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  81063118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000103530</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11881954</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Parteihochschule &quot;Karl Marx&quot; (Berlin)</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000103530</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|11881954</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000036530864</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a24480563</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|026603667</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  81063118</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>|</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>a</ns2:refStatus>
+        <ns2:dateEntered>19890418</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Berlin (Germany).</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule &quot;Karl Marx&quot;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Berlin.</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule &quot;Karl Marx&quot;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">PHS</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Parteihochschule &quot;Karl Marx&quot; beim ZK der SED</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Parteihochschule &quot;Karl Marx&quot; beim ZK der SED (Berlin, Germany)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">SED-Parteihochschule &quot;Karl Marx&quot;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands (RDA).</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands (RDA).</ns2:subfield>
+                <ns2:subfield code="b">Zentralkomitee.</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands.</ns2:subfield>
+                <ns2:subfield code="b">Zentralkomitee.</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule &quot;Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands.</ns2:subfield>
+                <ns2:subfield code="b">Zentralkomitee.</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule &quot;Karl Marx&quot;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+                <ns2:subfield code="b">Bibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands</ns2:subfield>
+                <ns2:subfield code="c">RDA</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands</ns2:subfield>
+                <ns2:subfield code="c">RDA</ns2:subfield>
+                <ns2:subfield code="b">Zentralkomitee</ns2:subfield>
+                <ns2:subfield code="b">Parteihochschule Karl Marx</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vysshai&#xFE20;a&#xFE21; partii&#x306;nai&#xFE20;a&#xFE21; shkola imeni Karla Marksa pri T&#xFE20;S&#xFE21;K SEPG</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vysshai&#xFE20;a&#xFE21; partii&#x30C;nai&#xFE20;a&#xFE21; shkola imeni Karla Marksa pri TSK SEPG</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands. Zentralkomitee. Parteihochschule &quot;Karl Marx&quot;<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Vysshai&#xFE20;a&#xFE21; partii&#x30C;nai&#xFE20;a&#xFE21; shkola imeni Karla Marksa pri TSK SEPG<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Parteihochschule &quot;Karl Marx&quot; beim ZK der SED<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>SED-Parteihochschule &quot;Karl Marx&quot;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Berlin. Parteihochschule &quot;Karl Marx&quot;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Berlin (Germany). Parteihochschule &quot;Karl Marx&quot;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands Parteihochschule Karl Marx Bibliothek<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands Parteihochschule Karl Marx<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>PHS Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands RDA Zentralkomitee Parteihochschule Karl Marx<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands RDA Parteihochschule Karl Marx<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Parteihochschule &quot;Karl Marx&quot; beim ZK der SED (Berlin, Germany)<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Berlin</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Parteihochschule Karl Marx</ns2:subfield>
+                <ns2:subfield code="e">Vorgaenger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Sozialistische Einheitspartei Deutschlands</ns2:subfield>
+                <ns2:subfield code="e">Ueberordnung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Sozialistische Einheitspartei Deutschlands Ueberordnung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Parteihochschule Karl Marx Vorgaenger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Berlin<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="5">
+            <ns2:text>Wissenschaftliche Beitr&#xE4;ge der Parteihochschule Karl Marx beim ZK der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Zur Rolle der KPdSU und der Sowjetunion im revolutiona&#x308;ren Weltprozess</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Politisches Grundwissen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Einf&#xFC;hrung in die politische &#xD6;konomie des Kapitalismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x98;Die &#x9C;Intensivierung der sozialistischen Industrieproduktion und die wachsende Rolle der Arbeiterklasse</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wirtschaftssysteme im Wettstreit : Planwirtschaft kontra Profitwirtschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Theorie und Praxis. &#x98;1966-1989&#x9C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Scho&#x308;pfertum und wissenschaftlich-technischer Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Schlu&#x308;sseltechnologien, warum und fu&#x308;r wen?</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Parteiorganisation und wissenschaftlich-technischer Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>O&#x308;konomische Leistungskraft durch Intensivierung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>O&#x308;konomische Gesetze im gesellschaftlichen System des Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Lektionen der Parteihochschule Karl Marx beim ZK der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Im Blickpunkt der Leistungsvergleich</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Grundkurs zum &quot;Kapital.&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>F&#xFC;nfzig Jahre Union der Sozialistischen Sowjetrepubliken [die vorliegende Schrift ist e. Gemeinschaftsarb. e. Autorenkollektivs d. Parteihochsch. beim ZK d. KPdSU u. d. Parteihochsch. Karl Marx beim ZK d. SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Effektivita&#x308;t und Arbeitsproduktivita&#x308;t in der o&#x308;konomischen Strategie der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Aus dem Kampf der deutschen Arbeiterklasse zur Verteidigung und Unterstu&#x308;tzung der Revolution in China : Dokumente und Fotos aus den Jahren 1918/19 bis 1988</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#xD6;konomische Gesetze in der entwickelten sozialistischen Gesellschaft [mit 16 Tab. im Text]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; qualitativ neuen Z&#xFC;ge der intensiv erweiterten Reproduktion als Faktor der weiteren Vertiefung der allgemeinen Krise des Kapitalismus wissenschaftliches Kolloquium, 26. April 1989</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; marxistisch-leninistische Philosophie in der geistigen Auseinandersetzung unserer Zeit [anl&#xE4;ssl. d. 70. Jahrestages d. Erscheinens von Wladimir Iljitsch Lenins Werk &quot;Materialismus und Empiriokritizismus&quot; veranst. d. Parteihochsch. Karl Marx beim ZK d. SED am 30. M&#xE4;rz 1979 e. Wissenschaftl. Symposium unter d. Thema &quot;Die Rolle d. Marxist.-Leninist. Philosophie in d. Geistigen Auseinandersetzung Unserer Zeit&quot;]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; historische Bedeutung der Gr&#xFC;ndung der Deutschen Demokratischen Republik und der Volksrepublik China bilaterales Kolloquium, Berlin, 16. bis 18. Mai 1989 ; [vom 16. bis 18. Mai 1989 fand an der Parteihochschule ein Bilaterales Kolloquium anl&#xE4;sslich des 40. Jahrestages der Gr&#xFC;ndung der DDR und der Volksrepublik China statt]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; f&#xFC;hrende Rolle der Arbeiterklasse und ihrer marxistisch-leninistischen Partei im Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; St&#xE4;rkung der DDR durch Ausarbeitung und Anwendung des &#xF6;konomischen Systems des Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Kraft der Kontinuit&#xE4;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; KPD im Kampf gegen Faschismus und Krieg (1933 - 1945)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Hilfe der Sowjetunion fu&#x308;r den Kampf des deutschen Volkes um den Frieden, den Sieg des Sozialismus in der DDR und die nationale Wiedergeburt Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Befreiung und die Befreier 40 Jahre Befreiung - 4 Jahrzehnte Kampf um Frieden u. sozialen Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die &#x9C;Fu&#x308;hrende Rolle der Arbeiterklasse in den sozialistische La&#x308;ndern</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; Marxismus-Leninismus, die Wahrheit unserer Zeit Zum 100. Jahrestag d. Erscheinens d. 1. Bdes d. Kapitals von Karl Marx u.z. 50. Jahrestag d. Erscheinens d. Arbeit von W. I. Lenin Der Imperialismus als h&#xF6;chstes Stadium des Kapitalismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Das&#x9C; Prinzip des demokratischen Zentralismus im Aufbau und in der T&#xE4;tigkeit der kommunistischen Partei gemeinsames wiss. Symposium d. Parteihochschule Karl Marx beim ZK d. SED u. d. Inst. f. Marxismus-Leninismus beim ZK d. KPdSU, 27./28. Nov. 1972 in Berlin.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;65&#x9C; [F&#xFC;nfundsechzig] Jahre grosse sozialistische Oktoberrevolution, &#x98;60 &#x9C;[sechzig] Jahre Union der Sozialistischen Sowjetrepubliken - ihre internationale und aktuelle Bedeutung wiss. Konferenz am 14. u. 15. Oktober 1982</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Entwicklung des Grundwiderspruchs unserer Epoche</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Agrar- und B&#xFC;ndnispolitik der SED bei der Gestaltung der entwickelten sozialistischen Gesellschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zum &#x98;60. &#x9C;[sechzigsten] Jahrestag der Gr&#xFC;ndung der Kommunistischen Partei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Beitr&#xE4;ge der Parteihochschule Karl Marx beim Zentralkomitee der Sozialistischen Einheitspartei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Beitr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Weltenwende 1917 der Kampf der Bolschewiki um die Gewinnung der Massen vor und wa&#x308;hrend der grossen sozialistischen Oktoberrevolution</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Was den Sozialismus &#xFC;berlegen macht zu seinen Vorz&#xFC;gen u. Triebkr&#xE4;ften</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Was den Sozialismus u&#x308;berlegen macht : zu seinen Vorzu&#x308;gen und Triebkra&#x308;ften</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>W. I. Lenins Ruf An alle! 50 Jahre Dekret &#xFC;ber d. Frieden</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>W. I. Lenin 1870 - 1970. Tafelwerk z. 100. Geburtstag W. I. Lenins</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Technologie, Wachstum, Produktivita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienmaterial, marxistisch-leninistische Schulung der Kandidaten der SED : Parteilehrjahr der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienmaterial f&#xFC;r die Seminare zum Studium der politischen &#xD6;konomie des Sozialismus und des &#xF6;konomischen Systems des Sozialismus in der DDR, Industrie (2. Studienjahr)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studieneinfu&#x308;hrung fu&#x308;r die Zirkel zum Studium von Grundlehren des Marxismus-Leninismus (1. Studienjahr)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sozialistische okonomische Integration : Anschauungsmaterial</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rukovodi&#xFE20;a&#xFE21;shchai&#xFE20;a&#xFE21; rol&#x2B9; rabochego klassa v sot&#xFE20;s&#xFE21;ialisticheskikh stranakh.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Protokoll der Wissenschaftlichen Konferenz Die Ideen des Marxismus-Leninismus - Theoretische Grundlage im Kampf f&#xFC;r die Weitere Entwicklung des Sozialismus in der Deutschen Demokratischen Republik 9./10. Mai 1983</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Produktion im Interesse der Menschen : Triebkra&#x308;fte umfassender Intensivierung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Politisches Grundwissen</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Politische &#xD6;konomie des Sozialismus und ihre Anwendung in der DDR</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Planma&#x308;ssige Gestaltung sozialistischer Arbeitsbedingungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Philosophie der Arbeiterklasse : Vorlesungen zum dialekt. Materialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Philosophie der Arbeiterklasse</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Philosophen-Lesebuch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>O&#x308;konomische Gesetze in der entwickelten sozialistischen Gesellschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>O&#x308;konomische Deistungskraft durch Intensivierung, 1980:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Materialien des Wissenschaftlichen Kolloquiums anl&#xE4;sslich des &#x98;50. &#x9C;[f&#xFC;nfzigsten] Jahrestages der Verk&#xFC;ndung des Bauernhilfsprogramms der KPD zum Thema Das B&#xFC;ndnis der Arbeiter und Bauern, Politische Grundlage der Sozialistischen Gesellschaft in der DDR, vom Bauernhilfsprogramm der KPD zu den Beschl&#xFC;ssen des &#x98;X. &#x9C;[Zehnten] Parteitages der SED 28. Mai 1981</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Marksistsko-leninskai&#xFE20;a&#xFE21; partii&#xFE20;a&#xFE21; v politicheskoi&#x306; sisteme sot&#xFE20;s&#xFE21;ialisticheskogo obshchestva</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lesematerial fu&#x308;r das Studium der Geschichte der internationalen Arbeiterbewegung (von der Beendigung des zweiten Weltkrieges bis zur Gegenwart)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leistungsbewertung - Leistungsvergleich - Leistungssteigerung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kultur im gesellschaftlichen Leben</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Karl Liebknecht eine Biographie</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kampf um Einheitsfront : Dokumente zum 60. Jahrestag der Grundung der Kommunistischen Partei Deutsch-lands</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kampf um Einheitsfront : Dokumente zum 60. Jahrestag d. Gru&#x308;ndung d. Kommunist. Partei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Industrieroboter im Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Imperialistische Hochru&#x308;stung - o&#x308;konomische, politische und soziale Konsequenzen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Grundkurs zum Kapital. (Unter Mitarb. von Edgar Karsch u. Herbert Naundorf.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Dokumentationsdienst Die f&#xFC;hrende Rolle der Arbeiterklasse und ihrer marxistisch-leninistischen Partei im Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Revolutiona&#x308;re Arbeiterbewegung im Kampf um den Frieden, 1848-1964 :</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die K(ommunistische) P(artei) D(eutschlands) auf dem Wege zur Bru&#x308;sseler Konferenz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Grosse Sozialistische Oktoberrevolution--der Beginn einer neuen Epoche der Weltgeschichte.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Befreiung und die Befreier : vierzig Jahre Befreiung, vier Jahrzehnte Kampf um Frieden und sozialen Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Arbeiterklasse und der Anna&#x308;herungsprozess der Klassen und Schichten</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutschland und die deutsche Arbeiterbewegung in der zeit der Weimarer Republik 1919-1933</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutschland und die deutsche Arbeiterbewegung in der Zeit der Weimarer Republik 1919-1933</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Weg der Sowjetunion zur fu&#x308;hrenden Industriemacht der Welt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Marxismus-Leninismus, die Wahrheit unserer Zeit. Zum 100. Jahrestag des Erscheinens des 1. Bandes des &quot;Kapitals&quot; von Marx und zum 50. Jahrestag des Erscheinens der Arbeit von W.I. Lenin &quot;Der Imperialismus als ho&#x308;chstes Stadium des Kapitalismus.&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Kampf von Karl Marx und Friedrich Engels um die revolutiona&#x308;re Partei der deutschen Arbeiterklasse.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Das sozialistische Weltwirtschaftssystem. Lektion. Herausgeber: Parteihochschule &quot;Karl Marx&quot; beim ZK der SED, Lehrstuhl Politische O&#x308;konomie des Sozialismus und Wirtschaftspolitik.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Damals, als ich wunderlich hiess, 2002:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Br&#xFC;der, in eins nun die H&#xE4;nde 40 Jahre Sozialist. Einheitspartei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bru&#x308;der, in eins nun die Ha&#x308;nde : 40 Jahre Sozialistische Einheitspartei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aus dem Kampf der deutschen Arbeiterklasse zur Verteidigung und Unterstu&#x308;tzung der Revolution China Dokumente und Fotos aus den Jahren 1918-19 bis 1988</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Auf sicherem Kurs : Arbeitsmaterial zum Fu&#x308;nfjahrplan fu&#x308;r die Entwicklung der Volkswirtschaft der DDR in den Jahren 1976-1980</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeitsmaterial zur Direktive des &#x98;VIII. &#x9C;[achten] Parteitages der Sozialistischen Einheitspartei Deutschlands zum F&#xFC;nfjahrplan f&#xFC;r die Entwicklung der Volkswirtschaft der DDR &#x98;1971 &#x9C;bis &#x98;1975 &#x9C;[neunzehnhunderteinundsiebzig bis neunzehnhundertf&#xFC;nfundsiebzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeitsmaterial zur Direktive des VIII. Parteitages der Sozialistischen Einheitspartei Deutschlands zum Fu&#x308;nfjahrplan fu&#x308;r die Entwicklung der Volkswirtschaft der DDR 1971 bis 1975</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeiterklasse und wissenschaftlich-technische Intelligenz in der entwickelten sozialistischen Gesellschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeiterklasse und sozialistische &#xF6;konomische Integration [mit 13 Tab. im Text]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeiterklasse und sozialistische o&#x308;konomische Integration</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeiter und Bauern im B&#xFC;ndnis [Intensivierung, Rationalisierung, wissenschaftl.-techn. Fortschritt, Kooperation, Arbeits- u. Lebensbedingungen]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeit, Brot und Vo&#x308;lkerfrieden, das ist unsere Welt : 70 Jahre Kampf um Frieden und sozialen Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeit, Brot und Vo&#x308;lkerfrieden - das ist unsere Welt 70 Jahre Kampf um Frieden u. sozialen Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Alles fu&#x308;r das Wohl und Glu&#x308;ck des Volkes zum Wirken der Sozialistischen Einheitspartei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Alles fu&#x308;r das Wohl und Glu&#x308;ck des Volkes : Bilanz und Ziele der Sozialistischen Einheitspartei Deutschlands</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aktualita&#x308;t und Lebenskraft des Hauptwerkes von Karl Marx : Vortrag zu den Karl-Marx-Tagen der Parteihochschule &quot;Karl Marx&quot; am 4. Mai 1987</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Abschied, Ankunft und Bewa&#x308;hrung Entwicklungsprobleme unserer sozialistischen Literatur</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>50 Jahre Triumph des Marxismus-Leninismus; die Grosse Sozialistische Oktoberrevolution und die Entwicklung des Marxismus-Leninismus.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>50 Jahre Triumph des Marxismus-Leninismus Die Grosse Sozialist. Oktoberrevolution u.d. Entwicklung d. Marxismus-Leninismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="10" tag="950">
+            <ns2:text>Tiedke, Kurt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" tag="950">
+            <ns2:text>Hartmann, Karl, Prof. Dr.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Wohlgemuth, Heinz</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Raus, Otto.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Ebert, Georg.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Vietzke, Siegfried</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Schneider, Wolfgang 1933-....</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Opitz, Heinrich</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Matho, Fred</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Fischer, Irene.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="86">
+            <ns2:text>Dietz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="12">
+            <ns2:text>Parteihochsch. Karl Marx, Publ.-Abt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Parteihochsch. Karl Marx beim ZK d. SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Verl. Die Wirtschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Hochschule</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Die Parteihochschule</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verlag Marxistische Bl&#xE4;tter</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verlag Die Writschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;Mysl&#x2B9;,&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Izd-vo polit. lit-ry</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="195">
+        <ns2:date count="2" scaled="1.00">195</ns2:date>
+        <ns2:date count="20" scaled="4.32">196</ns2:date>
+        <ns2:date count="37" scaled="5.21">197</ns2:date>
+        <ns2:date count="46" scaled="5.52">198</ns2:date>
+        <ns2:date count="0" scaled="0.0">199</ns2:date>
+        <ns2:date count="1" scaled="0.00">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="110">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="3">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="9">
+        <ns2:data count="3">
+            <ns2:text>9783320013301</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783320013684</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783320009069</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783320008932</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783320007126</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783320012755</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783320011581</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783320009199</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783320009045</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="59" scaled="6">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>RU</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>ger</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DD</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000121063500</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|183929101">
+            <ns2:text>Vorzu&#x308;ge des Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183763499">
+            <ns2:text>Lektionen der Parteihochschule &quot;Karl Marx&quot; beim ZK der SED</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11881954" time="2010-11-16T05:08:48+00:00" type="add"/>
+        <ns2:ht recid="LC|n  81063118" time="2010-11-16T05:08:48+00:00" type="add"/>
+        <ns2:ht recid="NLA|000036530864" time="2010-11-16T05:08:48+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000103530" time="2010-11-16T05:08:48+00:00" type="add"/>
+        <ns2:ht recid="DNB|004758668" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000103530" time="2011-03-18T07:36:20+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11881954" time="2011-04-18T11:37:42+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11881954" time="2011-06-28T10:09:27+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000103530" time="2011-08-17T04:30:20+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|026603667" time="2011-12-15T07:58:58+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90167901" time="2012-02-21T07:28:43+00:00" type="add"/>
+        <ns2:ht recid="DNB|004758668" time="2012-05-22T07:11:05+00:00" type="delete"/>
+        <ns2:ht recid="DNB|004758668" time="2012-06-27T09:52:01+00:00" type="add"/>
+        <ns2:ht recid="DNB|007585888" time="2012-06-27T09:52:01+00:00" type="add"/>
+        <ns2:ht recid="DNB|96420455X" time="2012-06-27T09:52:01+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2011032171" time="2012-06-27T09:52:01+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90167901" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="DNB|007585888" time="2013-02-15T19:30:59+00:00" type="delete"/>
+        <ns2:ht recid="DNB|96420455X" time="2013-02-15T19:30:59+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2011032171" time="2013-02-15T19:30:59+00:00" type="delete"/>
+        <ns2:ht recid="NLI|000103530" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000103530" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLP|a24480563" time="2013-06-14T19:03:38+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

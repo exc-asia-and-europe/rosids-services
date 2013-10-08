@@ -1,0 +1,1439 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>113901364</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/113901364/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/113901364"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="748460">LC|n  81124869</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/118731521">DNB|118731521</ns2:source>
+        <ns2:source nsid="vtls011109641">RERO|vtls011109641</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12171684t">BNF|12171684</ns2:source>
+        <ns2:source nsid="vtls006490060">NUKAT|n 2010131226</ns2:source>
+        <ns2:source nsid="Karl_Marx_(composer)">WKP|Karl_Marx_(composer)</ns2:source>
+        <ns2:source nsid="220363">SELIBR|220363</ns2:source>
+        <ns2:source nsid="119182939">SUDOC|119182939</ns2:source>
+    </ns2:sources>
+    <ns2:length>978</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Marx, Karl, 1897-1985</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Marx, Karl</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81124869</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|118731521</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls011109641</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">0</ns2:subfield>
+                <ns2:subfield code="a">Marx</ns2:subfield>
+                <ns2:subfield code="b">Karl</ns2:subfield>
+                <ns2:subfield code="f">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|12171684</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl</ns2:subfield>
+                <ns2:subfield code="d">(1897-1985).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2010131226</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|Karl_Marx_(composer)</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|220363</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|119182939</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Marx, Karl,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|119182939</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118731521</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Marx_(composer)</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12171684</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SELIBR|220363</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>RERO|vtls011109641</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2010131226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81124869</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>n</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>b</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19901126</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, ...</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carl,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carl.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Carl</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Julius,</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Julius.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Marx, Karl Julius</ns2:subfield>
+                <ns2:subfield code="d">1897-1985</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Marx, Karl Julius, 1897-1985<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Carl, 1897-1985<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, ... 1897-1985<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Karl Julius.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Marx, Carl.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Mu&#x308;nchen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Stuttgart</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Stuttgart<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mu&#x308;nchen<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="5">
+            <ns2:text>Sonatine in D fu&#x308;r Sopran-Blockflo&#x308;te u. Klavier, op. 48,4</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Kleine Suite nach Ta&#x308;nzen aus Leopold Mozarts Notenbuch fu&#x308;r Wolfgang ; fu&#x308;r Blockflo&#x308;tenquartett, Streichquartett oder andere Instrumente</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Zur Einheit der zyklischen Form bei Mozart</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Quattuor carmina latina : vier Gesa&#x308;nge fu&#x308;r gemischten Chor (und Klavier ad libitum) ; nach Dichtungen von Catull und Horaz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zwo&#x308;lf Variationen u&#x308;ber Nun laube, Lindlein, laube ; fu&#x308;r Blockflo&#x308;ten-Quartett oder andere Instrumente ; op. 53,3</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zwei Volkslieder aus Frankreich : in Sa&#x308;tzen fu&#x308;r gemischten Chor.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zur Einheit der zyklischen Form bei Mozart</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Werkleute sind wir</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Werke</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Vom Himmel hoch.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Und endet doch alles mit Frieden Kantate ; nach Worten aus d. Hyperion von Friedrich Ho&#x308;lderlin ; fu&#x308;r Soli, Chor u. Orchester ; op 52</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Sonatine in G fu&#x308;r Alt-Blockflo&#x308;te und Klavier (oder Cembalo mit Gambe ad lib.), op. 48/6</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Sechs Miniaturen : fu&#x308;r Oboe d'amore und Cembalo oder fu&#x308;r Klarinette in A und Klavier, op. 62, 2, 1974</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Maienkantate u&#x308;ber ein altes Tanzlied aus dem Rheinlande ; fu&#x308;r gemischten Chor und Instrumente</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Lobgesang des Baruch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Little Christmas music</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Lieder nach Gedichten von Hermann Claudius</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Lieder</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Kleine Weihnachtsmusik fu&#x308;r drei Blockflo&#x308;ten oder andere Instrumente ; op. 27 c = Little Christmas music</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Karl Marx, 1983:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Jeden Morgen geht die Sonne auf</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Bl&#xE4;sermusik (1975)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Analyse der Klaviersonate B-dur von W. A. Mozart [KV 333]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Le &#x9C;Baladin du monde cantate pour 3 choeurs solistes [S. A. T. B.] un &quot;grand choeur&quot; et foule</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Weihnachtskantate u&#x308;ber das Lied Vom Himmel hoch, o Engel kommt, fu&#x308;r drei Sing- und drei Instrumentalstimmen (Streicher, Blockflo&#x308;ten oder andere Holzbla&#x308;ser hierzu ad lib)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Und endet doch alles mit Frieden. Kantate nach Worten aus dem Hyperion, von Friedrich Ho&#x308;lderlin, fu&#x308;r Soli, Chor und Orchester. Op. 52</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Rilke-Kantate zu Worten aus dem &quot;Stundenbuch&quot;, fu&#x308;r Sopran, Bariton, gemischten Chor und Orchester. Op. 43. Klavier-Auszug</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Motette Mensch, was du liebst, in das wirst du verwandelt werden fu&#x308;r zwei Cho&#x308;re a cappella nach Spru&#x308;chen aus dem Cherubinischen Wandersmann des Angelus Silesius. Op. 12</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Konzert fu&#x308;r Streichorchester (1964)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Karl Marx. &#x9C;Kammermusik fu&#x308;r sieben Instrumente, op. 56... Taschenpartitur...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Fritz Jo&#x308;de. &#x9C;Zu&#x308;nde an die Kerzen. Neue Weihnachtsweisen fu&#x308;r Singstimmen und Blockflo&#x308;ten oder andere Instrumente mit oder ohne Begleitung der Laute</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Ein &#x9C;Menschlein ward geboren</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der &#x9C;alte Ga&#x308;rtner</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>rilke-ges&#xE4;nge (rilke songs)</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>heitere verse (cheerful verses)</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>drei ch&#xF6;re (three choirs)</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zweite Suite nach Klavierst&#xFC;cken aus Leopold Mozarts Notenbuch f&#xFC;r Wolfgang : f&#xFC;r Blockfl&#xF6;tenquartett, Streichquartett oder andere Instrumente</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wir wollen alle fro&#x308;hlich sein</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wir danken dir, Herr Jesu Christ</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wie sch&#xF6;n bl&#xFC;ht uns der Maien</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Werkverzeichnis [von] Karl Marx, geboren am 12. November 1897</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wanderers Nachtlied op. 83, 1</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Himmel hoch Choralkantate &#xFC;ber Luthers Weihnachtslied ; soli (SBar), coro (SSATB), flauti 1, 2, oboi 1, 2, clarinetti 1, 2, fagotti 1, 2, corni 1, 2, trombe 1, 2, timpani, archi</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Himmel hoch : Choralkantate u&#x308;ber Luthers Weihnachtslied</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Violoncelli</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vierzehn Lieder, nach Gedichten von Hermann Claudius</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vier Gesa&#x308;nge vom Tage. Fu&#x308;r Bass und Streichquartett, auch Streichorchester... Opus 25</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vier Gesa&#x308;nge vom Tage . - o.J.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Und in dem Schneegebirge Liedkantate</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Turmmusik. Fu&#x308;r drei Trompeten und drei Posaunen. Op. 37/1</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The tailor and the mouse : Kantate fu&#x308;r gleiche Stimmen (Kinderchor) und Instrumente (Sopran- und Alt o. Tenor-Blockflo&#x308;ten, 3 Geigen und Gitarre oder Violoncello) = Der Schneider und die Maus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Surrexit Dominus vere - Kanon</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sonnwendkantate. Fu&#x308;r zwei Cho&#x308;re und Instrumente. Op. 33. Zu Worten, von Hans Leishelm</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sonatinen, Blfl Kl op. 48, 4</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sonate pour violoncelle et piano, op. 62/1</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sonata</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sommer</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Singen wir heut mit einem Mund</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rilkelieder</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rilke-Kreis. Fassung Singst. Kl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rilke-Kreis fu&#x308;nf Lieder fu&#x308;r eine Singstimme und Klavier ; opus 8</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Quattuor carmina latina</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalmen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 91.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 91 (92)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 64 (65)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 18.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 18 (19)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 147</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 135.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psalm 135 (136)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pfingstlicher Gesang</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Passacaglia</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Partita &#xFC;ber &quot;Was Gott tut&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Partita u&#x308;ber &quot;Ein feste Burg&quot;; fu&#x308;r Streichquartett oder Streichorchester, (1967)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Panther und andere Rilke-Gedichte &lt;Der Panther&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Oktoberlied</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>O Tannenbaum Liedkantate ; fu&#x308;r Chor und Instrumente</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neuer Rilke-Kreis. - o.J.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neuer Rilke-Kreis (aus dem Buch der Bilder) ; fu&#x308;r eine Singstimme, 2 Flo&#x308;ten, 2 Bratschen und 2 Violincelli ; op. 17 ; 1931</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neue Lieder nach Gedichten von Hermann Claudius. - o. J.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mu&#xDF; ja nicht grad Flanell sein!</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Muss ja nicht grad Flanell sein! : Op. 69 : f&#xFC;r Klavier u. Gesang</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Musik in zwei S&#xE4;tzen f&#xFC;r Streichquartett oder- [Streich]orchester : op. 53/2</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Miserere</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Miniaturen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ma&#x308;rzlied bei Regen</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Konzert, fu&#x308;r Flo&#x308;te und Streichorchester in Es dur. Opus 32. Klavier-Auszug</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Komme, o Tag</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kammermusik</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Im Januar</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Grossstadt Abend</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Erntedanklied der Deutschen</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die gu&#x308;ldne Sonne; fu&#x308;r Singstimmen und 3-4 Blockflo&#x308;ten</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutsche Hymne</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Concerto, string orchestra. [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Choral music.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chamber music.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chaconne u&#x308;ber das Lied Ach Elslein, liebes Elselein</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Auf Bru&#x308;mmerhoff</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="9" tag="950">
+            <ns2:text>Claudius, Hermann, 1878-1980.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" tag="950">
+            <ns2:text>Rilke, Rainer Maria, 1875-1926.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Mozart, Leopold, 1719-1787.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Horatius Flaccus, Quintus, v65-v8.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Catullus, Gaius Valerius, ca. v84-v55.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Bresgen, Cesar 1913-1988</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Wehrung, Herrad, 1925-2010.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Napiersky, Herbert</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Jo&#x308;de, Fritz 1887-1970</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Ho&#x308;pfner, Dietrich, 1950-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Braun, Gerhard, musician, [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Henry Litolff's Verlag.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="84">
+            <ns2:text>Ba&#x308;renreiter</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>Breitkopf et Ha&#x308;rtel</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>Carus-Verlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Ichthys Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>H&#xE4;nssler</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Christophorus-Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Tonger</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Tischer et Jagenberg</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Merseburger</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Kistner et Siegel</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pegasus Theater- und Musikverlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1897-11-12</ns2:birthDate>
+    <ns2:deathDate>1985-05-08</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="191">
+        <ns2:date count="1" scaled="0.00">191</ns2:date>
+        <ns2:date count="7" scaled="2.81">192</ns2:date>
+        <ns2:date count="14" scaled="3.81">193</ns2:date>
+        <ns2:date count="15" scaled="3.91">194</ns2:date>
+        <ns2:date count="30" scaled="4.91">195</ns2:date>
+        <ns2:date count="33" scaled="5.04">196</ns2:date>
+        <ns2:date count="19" scaled="4.25">197</ns2:date>
+        <ns2:date count="50" scaled="5.64">198</ns2:date>
+        <ns2:date count="7" scaled="2.81">199</ns2:date>
+        <ns2:date count="2" scaled="1.00">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="91">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="13">
+            <ns2:text>ca</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="76">
+            <ns2:text>cm</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14">
+            <ns2:text>ja</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>jm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="2">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="25">
+            <ns2:text>230</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>570</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>arr</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>bearb</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>cre</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>edt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="2">
+        <ns2:data count="5">
+            <ns2:text>9783873715035</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783795204037</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="118" scaled="7">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>AT</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>ger</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Marx, Karl, 1897-1985" type="ISNI">0000000118854192</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|213967653">
+            <ns2:text>Marx, Karl|1897-1985</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|177062899">
+            <ns2:text>Marx, Karl,|1897-1985.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|177784939">
+            <ns2:text>Marx, Karl,|1897-1985 .</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|201858203">
+            <ns2:text>Als Jesus von seiner Mutter ging</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|207913520">
+            <ns2:text>Bla&#x308;sermusik (1975)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|180232469">
+            <ns2:text>Choral music.|Selections</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|205778932">
+            <ns2:text>Kleine Suite nach Ta&#x308;nzen aus Leopold Mozarts Notenbuch fu&#x308;r Wolfgang</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|210937750">
+            <ns2:text>Lieder</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|196879361">
+            <ns2:text>Messen (1985)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177062899">
+            <ns2:text>Miniaturen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|213967653">
+            <ns2:text>Miniaturen, Ob d'amore Cemb op. 62, 2</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177784939">
+            <ns2:text>Miniatyr,|op. 62:2</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|209873530">
+            <ns2:text>Musik nach plattdeutschen Volksliedern</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|212880382">
+            <ns2:text>Nun freut euch, lieben Christen gmein</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|207922079">
+            <ns2:text>Partita u&#x308;ber &quot;Was Gott tut&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|230716204">
+            <ns2:text>Sonatinas,|op. 48, no. 4,|D</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|222152348">
+            <ns2:text>Sonatinas,|op. 48, no. 6,|G</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|212880395">
+            <ns2:text>Suite nach Klavierstu&#x308;cken aus Leopold Mozarts Notenbuch fu&#x308;r Wolfgang</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="NII|DA08469519" time="2010-04-23T04:22:44+00:00" type="add"/>
+        <ns2:ht recid="BNF|14831797" time="2010-06-24T11:32:34+00:00" type="add"/>
+        <ns2:ht recid="DNB|118731521" time="2010-06-24T11:32:34+00:00" type="add"/>
+        <ns2:ht recid="LC|n  81124869" time="2010-06-24T11:32:34+00:00" type="add"/>
+        <ns2:ht recid="SELIBR|220363" time="2010-06-24T11:32:34+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls011109641" time="2010-07-26T05:00:15+00:00" type="add"/>
+        <ns2:ht recid="NII|DA08469519" time="2010-11-16T05:07:53+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2010131226" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="BNF|12171684" time="2011-05-16T06:52:09+00:00" type="add"/>
+        <ns2:ht recid="BNF|14831797" time="2011-05-16T06:52:09+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|119182939" time="2011-12-15T07:58:57+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90842111" time="2012-02-21T07:28:51+00:00" type="add"/>
+        <ns2:ht recid="WKP|Karl_Marx_(composer)" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90842111" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x90842111" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90842111" time="2013-01-14T22:09:03+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

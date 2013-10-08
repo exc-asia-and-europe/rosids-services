@@ -1,0 +1,1523 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>124811066</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/124811066/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/124811066"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="ADV11406565">BAV|ADV11406565</ns2:source>
+        <ns2:source nsid="000036514426">NLA|000036514426</ns2:source>
+        <ns2:source nsid="vtls000343375">NUKAT|n 2003058446</ns2:source>
+        <ns2:source nsid="ko20010092638">NKC|ko20010092638</ns2:source>
+        <ns2:source nsid="a18602903">NLP|a18602903</ns2:source>
+        <ns2:source nsid="LNC10-000187533">LNB|LNC10-000187533</ns2:source>
+        <ns2:source nsid="500301325">JPG|500301325</ns2:source>
+        <ns2:source nsid="359946">SELIBR|359946</ns2:source>
+        <ns2:source nsid="470851">LC|n  80005116</ns2:source>
+        <ns2:source nsid="vtls000190256">RERO|vtls000190256</ns2:source>
+    </ns2:sources>
+    <ns2:length>1210</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Karl-Marx-Universit&#xE4;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Universit&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+            <ns2:id>BAV|ADV11406565</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000036514426</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2003058446</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig</ns2:subfield>
+                <ns2:subfield code="7">ko20010092638</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|ko20010092638</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a18602903</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>LNB|LNC10-000187533</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+            <ns2:id>JPG|500301325</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|359946</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  80005116</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301325</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls000190256</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls000190256</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV11406565</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|359946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLP|a18602903</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000036514426</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2003058446</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  80005116</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko20010092638</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000187533</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>u</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19960207</ns2:dateEntered>
+        <ns2:type>z</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl Marx University (Leipzig, Germany)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t (Leipzig, Germany)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t (Leipciga, V&#x101;cija)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipzig (Germany).</ns2:subfield>
+                <ns2:subfield code="b">Karl-Marx-Universita&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Uniwersytet Karola Marksa w Lipsku.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Leipzig (Germany). Karl-Marx-Universita&#x308;t<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl Marx University (Leipzig, Germany)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universita&#x308;t (Leipzig, Germany)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Uniwersytet Karola Marksa w Lipsku.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t.<ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t (Leipciga, V&#x101;cija)<ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="551">
+                <ns2:subfield code="a">Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="128563333">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="272569238">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="128563333">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref viafLink="128563333">Universit&#xE4;t Leipzig.<ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Leipzig<ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="6">
+            <ns2:text>Wissenschaftliche Zeitschrift der Karl-Marx-Universit&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Wissenschaftliche Zeitschrift.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Wiss. Z. - Karl-Marx-Univ. Leipz., Ges. - sprachwiss. Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Bedeutende Gelehrte in Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wiss. Z. - Karl-Marx-Univ. Leipz., Ges.wiss. Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Qumr&#x101;n-Probleme;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Gesellschaftswissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Gesellschafts- und Sprachwissenschaftliche Reihe.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Fremdsprachen.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Biokybernetik: materialen des I. Internationalen symposiums &quot;Biokybernetik&quot;, Leipzig, 19.-22. September 1967.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Biokybernetik.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Beitr&#xE4;ge zur tropischen Landwirtschaft und Veterin&#xE4;rmedizin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Beitr&#xE4;ge zur Tropischen und Subtropischen Landwirtschaft und Tropenveterin&#xE4;rmedizin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift. Gesellschafts- und Sprachwissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift. Gesellschafswissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Beilage des Forum</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z.- Karl-Marx-Univ. Leipz., Math.-nat.wiss. Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z. Karl-Marx-Univ. Leipz., Ges. - sprachwiss. Reihe, Sonderbd.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wilhelm Wundt, progressives Erbe, Wissenschaftsentwicklung und Gegenwart : Protokoll des internationalen Symposiums : Leipzig, 1. und 2. November 1979</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Weltwirtschaftliche Verflechtungen su&#x308;dslaviens (ein Beitrag zum Problem der Eingliederung der su&#x308;dslavischen Volkswirtschaft in die Weltmarktwirtschaft)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>WZ Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vorlesungsverzeichnis</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>V. I. Lenin i vneshni&#xFE20;a&#xFE21;i&#xFE20;a&#xFE21; politika sot&#xFE20;s&#xFE21;ialisticheskogo gosudarstva.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Universita&#x308;tsfu&#x308;hrer.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Universita&#x308;t und Gesellschaft : akademischer Festakt am 5. Februar 1986 im &quot;Capitol&quot; anla&#x308;sslich des 40. Jahrestages der demokratischen Neuero&#x308;ffnung der Leipziger Universita&#x308;t : Festvortrag</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tropische Landwirtschaft und Veterina&#x308;rmedizin</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tagungsmaterialien des 2. Gemeinsamen Seminars von Wissenschaftlern der UDSSR und der DDR zur Programmierung von Lehr- und Lernprozessen an Hochschulen, Leipzig, Dresden, Berlin 5.-12.2.1974 und des Forschungskolloquiums Programmierung von Lehr- und Lernprozessen im Hochschulwesen, Leipzig 4.-5.7.1973</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sowjetische Beitra&#x308;ge zur Staats - und Rechtstheorie.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Serienbestandsverzeichnis der Universita&#x308;tsbibliothek Leipzig, 1930-1975 : (SUL)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rohrbacher Manuskripte.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rektoratsu&#x308;bergabe.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rektoratsu&#x308;bergabe 5. November 1975;</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Psychologie der Perso&#x308;nlichkeit und Perso&#x308;nlichkeitsentwicklung : Beitra&#x308;ge der 1. Winterschule : vom 14. bis 16. Dezember 1981 in Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Philipp Erasmus Reich (1717-1787) : Verleger der Aufkla&#x308;rung und Reformer des deutschen Buchhandels</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Personalverzeichnis</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Optoelektronik in AIIIBV- Halbleitern : eine Sammlung von Beitr&#xE4;gen zu Grundfragen bei der Herstellung moderner optoelektronischer Bauelemente</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Nowoczesna rachunkowo&#x15B;&#x107; narz&#x119;dziem zarz&#x105;dzania przedsi&#x119;biorstwem : materia&#x142;y na mi&#x119;dzynarodow&#x105; konferencj&#x119; naukow&#x105; zorganizowan&#x105; przez Instytut Rachunkowo&#x15B;ci AE w Krakowie we wsp&#xF3;&#x142;pracy z Uniwersytetem Karola Marksa w Lipsku w dniach 25-26 pa&#x17A;dziernika 1988 r.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Namhafte Hochschullehrer der Karl-Marx-Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mathematisch-naturwissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Marx-Engels-Forschungsberichte.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger romanistische Beitra&#x308;ge : Materialien romanistischer Kolloquia, die 1987 an der Karl-Marx-Universita&#x308;t Leipzig veranstaltet wurden</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger Universita&#x308;tsbauten : die Neubauten der Karl-Marx-Universita&#x308;t seit 1945 und die Geschichte der Universita&#x308;tsgeba&#x308;ude</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger Stecherkunst im XX. Jahrhundert : 14. Januar bis 22. Februar 1989 : Karl-Marx-Universita&#x308;t Leipzig, Galerie im Ho&#x308;rsaalbau</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger Beitra&#x308;ge zur Universita&#x308;ts-Geschichte</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipzig und seine Karl-Marx-Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kunstscha&#x308;tze der Karl-Marx-Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Karl-Marx-Universita&#x308;t Leipzig : Bibliographie zur Universita&#x308;tsgeschichte 1409-1959.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Journal of Tropical and Subtropical Agriculture and Tropical Veterinary Science</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Jahrbuch fu&#x308;r Regionalgeschichte</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Intensivierung der gesellschaftlichen Produktion durch wissenschaftlich-technischen Fortschritt : Protokoll einer wissenschaftlichen Konferenz mit internationaler Beteiligung anla&#x308;sslich der Tage der Wirtschaftswissenschaften der Karl-Marx-Universita&#x308;t, Leipzig, 21. und 22. November 1979.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Inostrannye jazyki.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Hundertf&#xFC;nfzig Jahre Methodik des Englischunterrichts als Wissenschaft und akademisches Lehrfach</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Humanistische Tradition und progressives Erbe der Leipziger Anglistik/Amerikanistik : 100 Jahre Lehrstuhl fu&#x308;r englische Sprache und Literatur an der Karl-Marx-Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ha&#x308;resie und Gesellschaft im Mittelalter : dem Wirken Ernst Werners gewidmet</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Griechenland, A&#x308;ga&#x308;is, Zypern : Vortra&#x308;ge der Wissenschaftlichen Konferenz &quot;Das Moderne Griechenland und das Moderne Zypern in der Forschung der Sozialistischen Gesellschaft&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geophysik und Geologie.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geophys. Geol. (Berl., DDR)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gegenwa&#x308;rtige Aufgaben bei der Intensiv erweiterten Reproduktion der DDR : Referat auf dem Dies academicus anla&#x308;sslich des 575ja&#x308;hrigen Bestehens der Karl-Marx-Universita&#x308;t Leipzig am 3. Mai 1984</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Forum.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Foreign languages.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festveranstaltung der Karl-Marx-Universita&#x308;t am Vorabend des IX. Parteitages der Sozialistischen Einheitspartei Deutschlands : 10. Mai 1976 : Ansprachen des Mitglieds des ZK der SED und Leiter der Abt. Wissenschaften beim ZK der SED Hannes Ho&#x308;rnig, des Rektors NPT Prof. Dr. sc. phil. Lothar Rathmann : Diskussionsbeitra&#x308;ge, Laudationes, Willenserkla&#x308;rung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift zur 550-Jahr-Feier</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift Heinrich Besseler zum sechzigsten Geburtstag</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Eine Jury fu&#x308;r Jacques Roux : dem Wirken Walter Markovs gewidmet</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die kapitalistische Grundrente und ihre Erscheinungsformen in der Gegenwart : Plenarreferate und Diskussionsbeitra&#x308;ge auf dem 12. Leipziger Polito&#x308;konomischen Symposium zur Imperialismusforschung am 3. und 4. Dezember 1987</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die grosse sozialistische Oktoberrevolution und der revolutiona&#x308;re Weltprozess : Beitra&#x308;ge zur Theorie und Geschichte der Revolution : Materialien des II. Arbeitskreises der wissenschaftlichen Konferenz &quot;Die internationale Bedeutung der Grossen Sozialistischen Oktoberrevolution fu&#x308;r den revolutiona&#x308;ren U&#x308;bergang vom Kaptialismus zum Sozialismus.&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Pauliner-Universita&#x308;tskirche zu Leipzig : Geschichte und Bedeutung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Partikeln</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Ortsnamen der Oberlausitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Bach-Trompete [SR] p1984:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutsch komplex : Allgemeinsprache : Aufbaukurs zur Studienvorbereitung f&#xFC;r Ausl&#xE4;nder</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Rote Oktober und der U&#x308;bergang vom Kapitalismus zum Sozialismus</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Revolutiona&#x308;re Weg der Mongolischen Volksrepublik zum Sozialismus : Probleme der Umgehung des kapitalistischen Entwicklungsstadiums : Materialien einer wissenschaftlichen Konferenz mit internationaler Beteiligung, die von der Humboldt-Universita&#x308;t zu Berlin in Zusammenarbeit mit der Karl-Marx-Universita&#x308;t Leipzig und dem Zentralen Rat fu&#x308;r Asien-, Afrika- und Lateinamerikawissenschaften in der DDR vom 16. bis 18. Dezember 1975 in Berlin veranstaltet wurde</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Das Moderne Hocharabisch : ausgewa&#x308;hlte theoretische Probleme = Voprosy teorii sovremennogo literaturnogo arabskogo i&#xFE20;a&#xFE21;zyka</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Contributions &#xE0; l'Agriculture Tropicale  et Subtropicale et &#xE0; M&#xE9;decine V&#xE9;t&#xE9;rinaire des Tropiques</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Contributions to tropical agriculture and to veterinary medicine.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Contributiones a la industria Agropecuaria Tropical y Sutropical y a la Medicina Veterinaria de los Tr&#xF3;picos</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chronik der Karl-Marx-Universita&#x308;t Leipzig 1945-1959 : aus Anlass der 550-Jahr-Feier der Karl-Marx-Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bibliographie zur Geschichte der Stadt Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beru&#x308;hmte Leipziger Studenten</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitra&#x308;ge zur kommunistischen Erziehung : Internat. Symposium d. Karl-Marx-Univ. Leipzig Die Bedeutung d. Systemat. Studiums d. Grundlagen d. Marxismus-Leninismus f. d. Herausbildung u. Festigung Sozialist.  Grundu&#x308;berzeugungen d. Studierenden, 6. u. 7. Juni 1973, Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitra&#x308;ge zum. 20. [Zwanzigsten] Jahrestag der Namensgebung der Karl-Marx-Universita&#x308;t.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitr. trop. subtrop. Landwirtsch. Tropenveterina&#x308;rmed.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitr. trop. subtrop. Landwirtsch. Trop. vet. med.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitr. trop. Landwirtsch. Veterina&#x308;rmed.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitr. trop. Landwirtsch. Vet. med.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Alma mater Lipsiensis, 2003:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Albrecht D&#xFC;rer : Kunst im Aufbruch : Vortr&#xE4;ge der kunstwissenschaftlichen Tagung mit internationaler Beteiligung zum 500. Geburtstag von Albrecht D&#xFC;rer : Karl-Marx-Universit&#xE4;tt Leipzig, 31. Mai bis 3. Juni 1971</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>70 Jahre Lenins Werk &quot;Der Imperialismus als ho&#x308;chstes Stadium des Kapitalismus&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>575 Jahre Alma mater Lipsiensis : Akademischer Festakt am 2.Dezember 1984 im neuen Gewandhaus.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>550-Jahr-Feier der Karl-Marx-Universita&#x308;t, 1409-1959 : Festprogramm 8.-17. Oktober 1959.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>30 Jahre Ausla&#x308;nderstudium in der DDR, 25 Jahre Herder-Institut an der Karl-Marx-Universita&#x308;t Leipzig : Reden anla&#x308;sslich der Festveranstaltung am 12. Juni 1981.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>3. Spurenelement-Symposium der Karl-Marx-Universita&#x308;t Leipzig und der Friedrich-Schiller-Universita&#x308;t Jena : vom 7. bis 11. Juli 1980 in Jena, Hotel &quot;Schwarzer Ba&#x308;r&quot;, DDR</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>150 Jahre Methodik des Englischunterrichts als Wissenschaft und akademisches Lehrfach : Probleme und Entwicklungstendenzen in Vergangenheit und Gegenwart : Internationales Symposium aus Anlass des 575. Gr&#xFC;ndungsjubil&#xE4;ums der Universit&#xE4;t Leipzig am 25. und 26. Oktober 1984</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Rathmann, Lothar</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Universit&#xE4;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Tiedt, Norbert (1933- ).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Sa&#x308;chsische Akademie der Wissenschaften zu Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>International Symposium on Biocybernetics.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Drischel, Hans.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Zeigner, Erich.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Winkler, Gerhard</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Vereinigung der Sprachmittler der DDR beim VDJ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Ullmann, Ernst (1928- ).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Sa&#x308;chsische Akademie der Wissenschaften (Lipsk). Historische Kommission.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Leipziger Symposion &#xFC;ber Qumr&#x101;n-Probleme, 1961.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Johann Gottfried Herder-Institut</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Herder-Institut.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Helbig, Gerhard</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="36">
+            <ns2:text>Karl-Marx-Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>Die Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Akademie-Verlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Verlag Enzyklopa&#x308;die</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Universit&#xE4;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftsbereich Tiererna&#x308;hrungschemie der Karl-Marx-Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verlag Kultur und Fortschritt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verl. fu&#x308;r Buch- u. Bibliothekswesen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>VEB Domovina Verlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Urania</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="190">
+        <ns2:date count="1" scaled="0.00">190</ns2:date>
+        <ns2:date count="0" scaled="0.0">191</ns2:date>
+        <ns2:date count="0" scaled="0.0">192</ns2:date>
+        <ns2:date count="1" scaled="0.00">193</ns2:date>
+        <ns2:date count="0" scaled="0.0">194</ns2:date>
+        <ns2:date count="9" scaled="3.17">195</ns2:date>
+        <ns2:date count="16" scaled="4.00">196</ns2:date>
+        <ns2:date count="18" scaled="4.17">197</ns2:date>
+        <ns2:date count="29" scaled="4.86">198</ns2:date>
+        <ns2:date count="4" scaled="2.00">199</ns2:date>
+        <ns2:date count="1" scaled="0.00">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="53">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="17">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>edt</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>oth</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>pbl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="4">
+        <ns2:data count="1">
+            <ns2:text>9783923549160</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783740009168</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783332003383</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783050004570</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="78" scaled="6">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>PL</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CS</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000110097772</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|181104995">
+            <ns2:text>Literarische Kultur und gesellschaftliches Leben in Deutschland</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|174232182">
+            <ns2:text>Untersuchungen zur slawischen Namengeographie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|175407353">
+            <ns2:text>Wissenschaftliche Zeitschrift der Karl-Marx-Universita&#x308;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|184308523">
+            <ns2:text>Lehrhefte fu&#x308;r Weiterbildung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|178608618">
+            <ns2:text>Wissenschaftliche Beitra&#x308;ge der Karl-Marx-Universita&#x308;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|175435625">
+            <ns2:text>Fernstudium der Journalistik.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|176587202">
+            <ns2:text>Schriftenreihe Methodologie der marxistisch-leninistischen Rechtswissenschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|184618414">
+            <ns2:text>Schriftenreihe des Instituts f&#xFC;r Deutsche Geschichte an der Karl-Marx-Universit&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181047541">
+            <ns2:text>Leipziger Universit&#xE4;tsreden - Karl-Marx-Universit&#xE4;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|178233167">
+            <ns2:text>Leipziger Beitra&#x308;ge zur Revolutionsforschung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181490407">
+            <ns2:text>Namenkundliche Informationen.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|182269233">
+            <ns2:text>U&#x308;bersetzungswissenschaftliche Beitra&#x308;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|181490407">
+            <ns2:text>Beiheft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|175435625">
+            <ns2:text>Geschichte der sowjetische Pressegeschichte</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|175407353">
+            <ns2:text>Gesellschafts- und sprachwissenschaftliche Reihe.|Sonderband</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|181047541">
+            <ns2:text>N. F.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185147319">
+            <ns2:text>Reihe Germanistik und Literaturwissenschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|178204941">
+            <ns2:text>Reihe Gesellschaftswissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|178608618">
+            <ns2:text>Reihe Kulturwissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|178637931">
+            <ns2:text>Reihe Literaturwissenschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177396093">
+            <ns2:text>Reihe Psychologie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|177799113">
+            <ns2:text>Reihe Rechtswissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|174637341">
+            <ns2:text>Reihe Sprachwissenschaft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|182720905">
+            <ns2:text>Reihe Wirtschaftswissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|174658161">
+            <ns2:text>Sonderheft</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="NKC|ko20010092638" time="2010-11-16T05:08:57+00:00" type="add"/>
+        <ns2:ht recid="NLA|000036514426" time="2010-11-16T05:08:57+00:00" type="add"/>
+        <ns2:ht recid="LC|n  80005116" time="2010-12-17T05:21:26+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000135776" time="2010-12-17T05:21:26+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000190256" time="2010-12-17T05:21:26+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000135776" time="2011-01-21T05:19:23+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2003058446" time="2011-02-17T05:22:52+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x04037083" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV11406565" time="2012-09-21T12:24:30+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x04037083" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="JPG|500301325" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="SELIBR|359946" time="2013-03-14T18:56:10+00:00" type="add"/>
+        <ns2:ht recid="NLP|a18602903" time="2013-06-14T19:03:38+00:00" type="add"/>
+        <ns2:ht recid="LNB|LNC10-000187533" time="2013-08-19T18:59:48+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

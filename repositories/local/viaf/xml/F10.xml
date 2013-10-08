@@ -1,0 +1,1374 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>147283871</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/147283871/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/147283871"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="http://d-nb.info/gnd/4073250-2">DNB|040732509</ns2:source>
+        <ns2:source nsid="n91058329">LC|n  91058329</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb16649078z">BNF|16649078</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/5018951-7">DNB|050189514</ns2:source>
+        <ns2:source nsid="vtls004088308">NUKAT|n 2006046735</ns2:source>
+        <ns2:source nsid="137160054">SUDOC|137160054</ns2:source>
+        <ns2:source nsid="ko2005299665">NKC|ko2005299665</ns2:source>
+    </ns2:sources>
+    <ns2:length>878</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Technische Universita&#x308;t Chemnitz, Allemagne</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Technische Universit&#xE4;t Chemnitz (1990-1992).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|040732509</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2005299665</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>DNB|050189514</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|137160054</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  91058329</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2005299665</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|050189514</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact title"/>NUKAT|n 2006046735</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|137160054</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|16649078</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">20</ns2:subfield>
+                <ns2:subfield code="a">Technische Universita&#x308;t</ns2:subfield>
+                <ns2:subfield code="c">Chemnitz, Allemagne</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|16649078</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|ko2005299665</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|137160054</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|050189514</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2005299665</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NUKAT|n 2006046735</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|137160054</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>DNB|040732509</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Chemnitz (1990-1992).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2006046735</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact title"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>SUDOC|137160054</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|050189514</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|137160054</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2005299665</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NUKAT|n 2006046735</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|050189514</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|16649078</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Chemnitz</ns2:subfield>
+                <ns2:subfield code="7">ko2005299665</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|ko2005299665</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  91058329</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|137160054</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|050189514</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNF|16649078</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>c</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>20121213</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Chemnitz University of Technology</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Hochschule fu&#x308;r Maschinenbau</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">TU</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">TU Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">TU Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">TUC</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">TUC</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Technical University of Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Technicka&#x301; Univerzita</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Technic&#x30C;eskij Universitet</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Technische Hochschule</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Technological University</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universite&#x301; Technique</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">University of Technology</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>University of Technology<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universite&#x301; Technique<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>TUC Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>TU<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technological University<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technicka&#x301; Univerzita<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technic&#x30C;eskij Universitet<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chemnitz University of Technology<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>TU Chemnitz<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>TUC<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technical University of Chemnitz<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technische Hochschule<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hochschule fu&#x308;r Maschinenbau<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technische Universita&#x308;t Chemnitz<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="157695873">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Hochschule f&#xFC;r Maschinenbau Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="151859075">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Hochschule Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="139100870">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz-Zwickau</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Chemnitz-Zwickau</ns2:subfield>
+                <ns2:subfield code="e">Zeitweiser Name</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Karl-Marx-Stadt</ns2:subfield>
+                <ns2:subfield code="e">Vorgaenger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="139100870">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Chemnitz-Zwickau</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Chemnitz<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technische Universita&#x308;t Karl-Marx-Stadt Vorgaenger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Technische Universita&#x308;t Chemnitz-Zwickau Zeitweiser Name<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="146021815">Technische Universit&#xE4;t Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="139100870">Technische Universit&#xE4;t Chemnitz-Zwickau<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="151859075">Technische Hochschule Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="157695873">Hochschule f&#xFC;r Maschinenbau Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="7">
+            <ns2:text>Mikrosystemtechnik Mikromechanik &amp; Mikroelektronik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>TU Spektrum : Magazin der Technischen Universita&#x308;t Chemnitz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Wissenschaftliche Zeitschrift der Technischen Universita&#x308;t Chemnitz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Gute Nachbarn - schlechte Nachbarn</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zertifikat Internet-Nutzung ZIN ; Lehrmaterial</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wiss. Z. Tech. Univ. Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Technische Universita&#x308;t Spektrum</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Personal- und Vorlesungsverzeichnis</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Neue Medien im Alltag</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Magazin der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Jahresbericht Forschung / Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>web site, viewed Aug. 4, 2004:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zum Bild des Rotarmisten in ausgew&#xE4;hlten Texten der tschechischen und (ost)deutschen Literatur nach 1945</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zukunft in Sachsen Berufseinstieg - Branchen - Perspektiven</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>XXV. Assistentenseminar / Rheinisch-Westf&#xE4;lische Technische Hochschule Aachen ; Technische Universit&#xE4;t Braunschweig ; Technische Universit&#xE4;t Chemnitz ; Technische Universit&#xE4;t Dresden ; Otto-von-Guericke Universit&#xE4;t Magdeburg 14. - 16. Mai 1998 in der Burg Warberg in Warberg am Elm ; Kurzfassung der wissenschaftlichen Beitr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift der Technischen Universit&#xE4;t Karl-Marx-Stadt/Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift der Technischen Universit&#xE4;t Chemnitz-Zwickau</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Tagungen der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Schriftenreihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z. d. TU Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vorlesungsverzeichnis / Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>TU-Spektrum. &#x98;1990-1991&#x9C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>TECHNOMER '99 : 16. Fachtagung u&#x308;ber Verarbeitung und Anwendung von Polymeren, 11. bis 13. November 1999</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studie zur Kreativit&#xE4;tsentwicklung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Struktur- und Vorlesungsverzeichnis / Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Steuerung, Regulation, Gestaltung Governance-Prozesse in der Erwachsenenbildung zwischen Struktur und Handlung ; vom 23. bis 25. September 2010 an der TU Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Stadtgesellschaften im Wandel zum 60. Geburtstag von Christine Weiske</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Spektrum Zeitung der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Schriftenreihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Schnittstellensynthese Modellierung, Optimierung, Codegenerierung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rekonfigurierbare Schnittstellen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Referate der Ringvorlesung an der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Polynomials of bounded tree-width, 2000:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Photographies d'une ville Chemnitz, Stadtphotographien ich seh besonders gern ... ; [erscheint begleitend zur Ausstellung Ich Sehe Besonders Gern - J'Aime Voir ; Mensa, TU Chemnitz, Chemnitz, 5.6.2003 - 4.7.2003 ... Biblioth&#xE8;que Universitaire, Lorient, 22.9.2003 - 31.10.2003]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Photographies d'une ville Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Perspektive Online - Public Relations im Netz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Personal- und Vorlesungsverzeichnis / Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Papers / 4th International Symposium Investigations of Non-Linear Dynamic Effects in Production Systems April 8 - 9, 2003, Chemnitz, Germany</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>PRspektive Online - Public Relations im Netz Tagungsband zu den 6. Studentischen Medientagen Chemnitz ; mit zus&#xE4;tzlichen Beitr&#xE4;gen der 5. Studentischen Medientage zum Thema &quot;Ich surfe, also bin ich!&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>PR-spektive Online - Public Relations im Netz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Newsletter fu&#x308;r Freunde, Absolventen und Ehemalige der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Musikgeschichte in Mittel- und Osteuropa : Mitteilungen der Internationalen Arbeitsgemeinschaft an der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mitteilungen der Internationalen Arbeitsgemeinschaft an der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mikrosystemtechnik : Chemnitz '97 : Mikromechanik &amp;Mikroelektronik, 13.-14. Oktober 1997, Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mikrosystemtechnik : Chemnitz '07 : Mikromechanik &amp; Mikroelektronik : 8. Chemnitzer Fachtagung Mikromechanik &amp; Mikroelektronik, 14./15. November 2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mikrosystemtechnik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Methodische und technische Aspekte einer naturalistic driving study BASt FE 82.0351/2008</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Medienbilder - Bildermedien Tagungsband zu den 4. Studentischen Medientagen Chemnitz ; [20. - 30. M&#xE4;rz 2008] ; mit zus&#xE4;tzlichen Beitr&#xE4;gen der 3. Studentischen Medientage zum Thema &quot;Medienlust - Medienfrust&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lichtzeichen Stadt und Photographie : die AutorInnen - PhotographInnen des Seminars Stadt und Photographie, Technische Universit&#xE4;t Chemnitz ; [zur Ausstellung Lichtzeichen, Stadt und Photographie ; Termine Mensa, TU Chemnitz, 21.1.2004 - 14.5.2004 ; Galerie Roter Turm, Chemnitz, 15.5.2004 - 21.5.2004 ; Usti nad Labem, 15.9.2004 - 31.10.2004]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kostenorientierte Produktentwicklung - Target costing</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Konferenzband der Konferenz der Deutschsprachigen Mathematikfachschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Jahresbericht Forschung ... der Technischen Universita&#x308;t Chemnitz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Internationale Fachtagung Industrielle Automatisierung, Automatisierte Antriebe (11th : 1991 : Chemnitz, Germany). 11. Internationale Fachtagung Industrielle Automatisierung, Automatisierte Antriebe, 1991:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Internationale Arbeitsgemeinschaft an der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Interaktive Datenanalyse mit ISP Tagungsband des 2. ISP-Workshops, TU Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Hundertf&#xFC;nfundsiebzig - das etwas andere Jubil&#xE4;umsbuch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Humanressourcen gemeinsam entwickeln?! Tagungsband des 2. S&#xE4;chsischen Mittel- und Osteuropatages am 20. Mai 2005 ; [an der Technischen Universit&#xE4;t Chemnitz]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gute Nachbarn - schlechte Nachbarn : deutsch-tschechisches Begegnungsseminar IV. : Technische Universit&#xE4;t Chemnitz in Kooperation mit der Westb&#xF6;hmischen Universit&#xE4;t Plze&#x148;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gute Nachbarn - schlechte Nachbarn : deutsch-tschechisches Begegnungsseminar III. : Kooperationsseminar der Friedrich-Naumann-Stiftung mit der Technischen Universit&#xE4;t Chemnitz und der Wests&#xE4;chsischen Universit&#xE4;t Plze&#x148;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geographie kennt keine Grenzen zum 60. Geburtstag von Peter Jurczek/ Technische Universit&#xE4;t Chemnitz. Hrsg. von Bernhard K&#xF6;ppen ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geographie kennt keine Grenzen zum 60. Geburtstag von Peter Jurczek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>F&#xFC;nfundzwanzigstes Assistentenseminar</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Forschungsbericht - Solarthermie 2000plus Weiterentwicklung und Optimierung von Be- und Entladesystemen f&#xFC;r Tank- und Erdbeckenspeicher ; 2004 - 2008</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Forschungsbericht - Solarthermie 2000, Teilprogramm 3 - solar unterst&#xFC;tzte Nahw&#xE4;rmeversorgung, Pilotanlage Solaris Chemnitz 1998 - 2003 ; F&#xF6;rderkennzeichen 0329606 O</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Experimentelle Psychologie Abstracts der 44. Tagung Experimentell Arbeitender Psychologen, Technische Universit&#xE4;t Chemnitz, 25. - 27. M&#xE4;rz 2002</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Exercise, sports and health second joint research conference in Chemnitz, Germany, 09. - 11. September 2009</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Erfolg mit nachhaltigen Eventkonzepten Tagungsband zur 2. Konferenz f&#xFC;r Eventforschung an der TU Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Elpub 2002, c2002:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Eighth International Travelling Summer School on Microwaves &amp; Lightwaves 1998</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutsche Forschungsgemeinschaft-Forschergruppe Neue Medien im Alltag</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>DFG-Forschergruppe Neue Medien im Alltag</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chemnitz - Stadtphotographien</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chemnitz '97</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chemnitz '07</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CIM-TTZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CIM-Schriftenreihe der Technischen Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>CIM-Schriftenreihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bestellung von Herrn Dr. Kajo Schommer zum Honorarprofessor f&#xFC;r &quot;Gr&#xFC;ndungsmanagement&quot; an der Fakult&#xE4;t Maschinenbau und Verfahrenstechnik der Technischen Universit&#xE4;t Chemnitz am 27. Juni 2002</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeitswissenschaftliche Einflussnahme auf die Reorganisation und Restrukturierung ostdeutscher Maschinenbaubetriebe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>8th International Travelling Summer School on Microwaves &amp; Lightwaves 1998 July 12 - 17, 1998, Technical University Chemnitz, Germany</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>8. Chemnitzer Fachtagung Mikrosystemtechnik, Mikromechanik &amp; Mikroelektronik, Nov. 2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>8. Chemnitzer Fachtagung Mikromechanik &amp; Mikroelektronik, 14./15. November 2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>175 - das etwas andere Jubil&#xE4;umsbuch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>11. Internationale Fachtagung Industrielle Automatisierung, Automatisierte Antriebe : 12. Februar bis 14. Februar 1991 in Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;Grenzen lernend &#xFC;berwinden&quot; Dokumentation zum Workshop lernender Regionen mit grenz&#xFC;berschreitenden Aktivit&#xE4;ten am 12./13.10.2004 in Chemnitz ; [BildungsForum S&#xFC;dWestSachsen]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;--schrecklich fremd, dennoch anziehend&quot; (&#x160;kvoreck&#xFD;) : zum Bild des Rotarmisten in ausgew&#xE4;hlten Texten der tschechischen und (ost)deutschen Literatur nach 1945</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Mehnert, Elke 1940-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Z&#xE1;pado&#x10D;esk&#xE1; univerzita</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Zanger, Cornelia 1953-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Technische Universit&#xE4;t &lt;Chemnitz; Zwickau&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Technische Universita&#x308;t Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Sch&#xF6;ne, Roland</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Scherm, Ilona</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Mehner, Jan 1964-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>K&#xF6;ppen, Bernhard</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Do&#x308;tzel, Wolfram.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Deutsche Forschungsgemeinschaft-Forschergruppe Neue Medien im Alltag</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="12">
+            <ns2:text>Techn. Univ., Fak. f&#xFC;r Elektrotechnik und Informationstechnik</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>Techn. Univ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Univ.-Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>TU</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Rektor der Techn. Univ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Technische Universit&#xE4;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>TUDpress</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P&#xF6;nisch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Grimm</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Westarp-Wiss.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pabst Science Publ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="199">
+        <ns2:date count="32" scaled="5.00">199</ns2:date>
+        <ns2:date count="35" scaled="5.13">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="48">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="25">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>aut</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="38">
+        <ns2:data count="3">
+            <ns2:text>9783000221682</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783000083839</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783941003057</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783980628273</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783941003439</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783941003415</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783937487069</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783934848122</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783631613269</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783000065866</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783000047107</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="69" scaled="6">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>ger</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000122945505</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|185564416">
+            <ns2:text>CIM-Schriftenreihe der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183562174">
+            <ns2:text>Wissenschaftliche Schriftenreihe der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183953080">
+            <ns2:text>Wissenschaftliche Tagungen der Technischen Universita&#x308;t Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|180195119">
+            <ns2:text>Chemnitzer Informatik-Berichte</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="DNB|050189514" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="LC|n  91058329" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="NKC|ko2005299665" time="2010-11-16T05:12:49+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006046735" time="2011-02-17T05:22:52+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006046735" time="2011-03-18T07:36:30+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2006046735" time="2011-08-17T04:30:30+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|137160054" time="2011-12-15T07:58:56+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90396426" time="2012-02-21T07:28:43+00:00" type="add"/>
+        <ns2:ht recid="DNB|040732509" time="2012-05-22T07:07:53+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90396426" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="BNF|16649078" time="2013-01-14T22:09:03+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

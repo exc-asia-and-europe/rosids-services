@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title>Autocomplete</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/jquery-ui.css"/>
+        <!-- script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"/ -->
+        <script type="text/javascript" src="resources/js/jquery-1.9.1.js"/>
+        <script type="text/javascript" src="resources/js/ajax-autocomplete/jquery.autocomplete.js"/>
+        <style type="text/css">
+            .autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+            .autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+            .autocomplete-selected { background: #F0F0F0; }
+            .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+        </style>
+    </head>
+    <body>
+        <div style="display:none;">
+            <xf:model id="test">
+                <xf:instance xmlns="" id="person">
+                    <data>
+                        <person>a</person>
+                    </data>
+                </xf:instance>
+            </xf:model>
+            <xf:input id="person" ref="person">
+                <xf:label>Output</xf:label>
+            </xf:input>
+        </div>
+        <br/>
+        <label for="personAutoComplete">Name:</label>
+        <input type="text" name="person" id="personAutoComplete" placeholder=""/>
+        <span id="indicator">
+            <img src="resources/images/indicator.gif"/>
+        </span>
+        <script type="text/javascript" defer="defer">
+           $('#personAutoComplete').autocomplete({
+                serviceUrl: 'modules/services/search/search.xql',
+                url: 'modules/services/search/search.xql',
+                minChars: "2",
+                paramName: "persons",
+                width: "450",
+                onSelect: function (suggestion) {
+                    //console.log("suggestion:", suggestion);
+                    fluxProcessor.sendValue("person", suggestion.data);
+                },
+                onSearchStart: function (query) {
+                    $("#indicator img").css("display", "inline-block");
+                },
+                onSearchComplete: function (query) {
+                    $("#indicator img").css("display", "none");
+                }
+            });
+            $("#indicator img").css("display", "none");
+        </script>
+    </body>
+</html>

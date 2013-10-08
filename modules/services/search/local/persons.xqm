@@ -4,6 +4,11 @@ xquery version "3.0";
     Search local repository and local VIAF mirror
 :)
 
+(: TODO:
+        - rename dates to bio
+        - integrate getty
+:)
+
 module namespace persons="http://exist-db.org/xquery/biblio/services/search/local/persons";
 
 import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../app.xqm";
@@ -13,7 +18,10 @@ import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/s
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (: VIAF Terms :)
-declare namespace ns2= "http://viaf.org/viaf/terms#"; 
+declare namespace ns2= "http://viaf.org/viaf/terms#";
+
+(: Getty namespace :)
+declare namespace vp = "http://localhost/namespace"; 
 
 declare %private function persons:searchNameLocal($query as xs:string) {
     let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)]
@@ -32,26 +40,40 @@ declare %private function persons:searchNameLocal($query as xs:string) {
                              )
                          )
             let $viafID := if( exists($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')]) ) then (substring-after($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/")) else ("")
-            let $viafCluster := doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:viafID eq $viafID]
+            let $viafCluster := collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID eq $viafID]
             let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
+            let $sources := "local " || viaf-utils:getSources($mainHeadingElement)
             let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
             return
-                <name name="{$name}" viafID="{$viafID}" dates="{$dates}" uuid="{data($person/@xml:id)}" resource="local" type="person"/>
+                <name name="{$name}" viafID="{$viafID}" dates="{$dates}" uuid="{data($person/@xml:id)}" resource="local" type="person" sources="{$sources}"/>
+};
+
+(: TODO: Test getty :)
+declare function persons:searchNameUlan($query as xs:string) {
+   let $results :=  collection($app:local-getty-ulan-repositories)//vp:Subject[ngram:contains(.//vp:Term_Text, $query)]
+   return
+      for $result in $results
+            let $persName := if (exists($result//vp:Preferred_Term)) then ($result//vp:Preferred_Term[1]/vp:Term_Text[1]/text()) else ($result//vp:Non-Preferred_Term[1]/vp:Term_Text[1]/text())
+            let $bio := if (exists($result//vp:Preferred_Biography)) then ($result//vp:Preferred_Biography[1]//vp:Biography_Text[1]) else ($result//vp:Non-Preferred_Biography[1]/vp:Biography_Text[1])
+            return 
+                <name name="{$persName}" viafID="" dates="{$bio}" uuid="" resource="ulan" type="person" sources=""/>
+                
 };
 
 declare %private function persons:searchNameVIAF($query as xs:string, $local-viaf-ids as item()*) {
-    let $persons :=  doc($app:local-viaf-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Personal'
+    let $persons :=  collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:nameType eq 'Personal'
                                                                         and ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query) and ns2:subfield/@code eq 'a']]
     return
         for $person in $persons
         let $mainHeadingElement := viaf-utils:getBestMatch($person//ns2:mainHeadingEl)
         let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
+        let $sources := viaf-utils:getSources($mainHeadingElement)
         let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
         return
             if (index-of($local-viaf-ids, $person/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" viafID="{$person/ns2:viafID}" dates="{$dates}" uuid="" resource="viaf" type="person"/> 
+                <name name="{$name}" viafID="{$person/ns2:viafID}" dates="{$dates}" uuid="" resource="viaf" type="person" sources="{$sources}"/> 
             )
 };
 

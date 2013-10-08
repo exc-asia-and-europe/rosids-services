@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <title/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/jquery-ui.css"/>
+        <script src="resources/js/polymer/polymer.min.js"/>
+        <script type="text/javascript" src="resources/js/jquery-2.0.3.min.js"/>
+        <script type="text/javascript">
+            var $jQuery = jQuery.noConflict(true);
+            jQuery = $jQuery;
+        </script>
+        <script type="text/javascript" src="/exist/apps/cluster-services/resources/js/ajax-autocomplete/jquery.autocomplete.js"/>
+        <link rel="import" href="resources/components/cluster-autocomplete.html"/>
+        <style type="text/css">
+            .autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+            .autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+            .autocomplete-selected { background: #F0F0F0; }
+            .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+        </style>
+    </head>
+    <body>
+        <div style="display:none;">
+            <xf:model id="test">
+                <xf:instance xmlns="" id="person">
+                    <data>
+                        <persons>
+                            <person>a</person>
+                            <person>b</person>
+                            <person>c</person>
+                            <person/>
+                        </persons>
+                    </data>
+                </xf:instance>
+            </xf:model>
+        </div>
+        <table>
+            <tbody id="r-name" xf:repeat-nodeset="persons/person">
+                <tr>
+                    <td>
+                        <xf:input ref=".">
+                            <xf:label>Person</xf:label>
+                            <xf:action ev:event="DOMFocusIn" if=". eq ''">
+                                <script type="text/javascript">
+                                    jQuery("#name").trigger("focus-name"); 
+                                    //jQuery('#name').focus();
+                                </script>
+                            </xf:action>
+                        </xf:input>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <br/>
+        <br/>
+        <div>
+            <cluster-autocomplete type="persons" label="Person:"/>
+            <cluster-autocomplete type="organisations" label="Organisations:"/>
+            <cluster-autocomplete type="name" label="Name:"/>
+        </div>
+    </body>
+</html>

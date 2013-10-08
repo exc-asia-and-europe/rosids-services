@@ -1,0 +1,1664 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>32000079</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/32000079/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/32000079"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="027012883">SUDOC|027012883</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/119050730">DNB|119050730</ns2:source>
+        <ns2:source nsid="069152829">NTA|069152829</ns2:source>
+        <ns2:source nsid="kup19960000061886">NKC|kup19960000061886</ns2:source>
+        <ns2:source nsid="vtls008883878">NUKAT|n 2012211758</ns2:source>
+        <ns2:source nsid="000089570">NLI|000089570</ns2:source>
+        <ns2:source nsid="vtls000110969">RERO|vtls000110969</ns2:source>
+        <ns2:source nsid="156183439">NTA|156183439</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb119148038">BNF|11914803</ns2:source>
+        <ns2:source nsid="n81003804">LC|n  81003804</ns2:source>
+    </ns2:sources>
+    <ns2:length>1290</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Martin, Helmut, 1940-1999</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Martin, Helmut, 1940-....</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-....</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|027012883</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|119050730</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>SUDOC|027012883</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|069152829</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NTA|156183439</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="partial date and publisher"/>NLI|000089570</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+                <ns2:subfield code="7">kup19960000061886</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|kup19960000061886</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>SUDOC|027012883</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut</ns2:subfield>
+                <ns2:subfield code="d">(1940-1999).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2012211758</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>SUDOC|027012883</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000089570</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>SUDOC|027012883</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls000110969</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|156183439</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="partial date and publisher"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NTA|069152829</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">0</ns2:subfield>
+                <ns2:subfield code="a">Martin</ns2:subfield>
+                <ns2:subfield code="b">Helmut</ns2:subfield>
+                <ns2:subfield code="f">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11914803</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119050730</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|069152829</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81003804</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Martin, Helmut,</ns2:subfield>
+                <ns2:subfield code="d">1940-</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81003804</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NKC|kup19960000061886</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>SUDOC|027012883</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>BNF|11914803</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000110969</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NLI|000089570</ns2:link>
+                <ns2:link>
+                    <ns2:match type="forced single date"/>NUKAT|n 2012211758</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|119050730</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>b</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19970226</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Hanmao, Ma</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma Han-mou</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma Huamao</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Han-mao</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Han-mao,</ns2:subfield>
+                <ns2:subfield code="d">1940-</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Han-mao.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Han-mou.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Han-mou</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Hanmao</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Hanmao,</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Huamao.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ma, Huamao</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="a">Ma</ns2:subfield>
+                <ns2:subfield code="b">Hanmao</ns2:subfield>
+                <ns2:subfield code="f">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x99AC;&#x6F22;&#x8302;</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x9A6C;&#x6C49;&#x8302;,</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x9A6C;&#x6C49;&#x8302;</ns2:subfield>
+                <ns2:subfield code="d">1940-1999</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>&#x9A6C;&#x6C49;&#x8302;, 1940-1999<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Hanmao, 1940-1999<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Huamao 1940-1999<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Han-mou 1940-1999<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Han-mao, 1940-<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Hanmao<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Han-mao.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hanmao, Ma<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Huamao.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ma, Han-mou.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:titles>
+        <ns2:data count="10">
+            <ns2:text>Chinabilder.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Le grand livre rouge : E&#x301;crits, discours et entretiens, 1949-1971</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Pekingmenschen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Cult &amp; canon the origins and development of state Maoism</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Chinesische Sprachplanung</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Chinakunde in der Sowjetunion nach sowjetischen Quellen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Zhang und die Nonne vom Qiyun-Kloster [erotische Erz&#xE4;hlungen aus dem alten China]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Tru&#x308;gerische Heirat : Erza&#x308;hlungen vom Lande</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Schwarze Augen suchen das Licht chinesische Schriftsteller der achtziger Jahre</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Maoismus und die Reformen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Hongkong : Strategien des U&#x308;bergangs</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Die Massenorganisationen der Volksrepublik China</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Cologne Workshop 1984 on Contemporary Chinese Literature = Ko&#x308;lner Workshop 1984 Chinesische Gegenwartsliteratur</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Chinesisch-deutscher Wortschatz : Politik und Wirtschaft der VR China</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>China's democracy movement 1989 a selected bibliography of chinese source materials</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Tibet ist nicht Chinas Vietnam</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The history of Taiwanese literature : towards cultural-political identity : views from Taiwan, China, Japan and the West</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The Commonwealth of Chinese literature : papers of the international Reisensburg conference, West Germany, July 1986</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Stimmen der Opposition chinesische Intellektuelle der achtziger Jahre ; Biographien</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Pekingmenschen = Beijingren</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Origins and consequences of China's democracy movement 1989 : social and cultural criticism in the PRC</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>On the relevance of the new Mao papers : the case of studying political economy</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Modern Chinese writers self-portrayals</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Mao intern</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Li Li-weng u&#x308;ber das Theater : eine chinesische Dramaturgie des siebzehnten Jahrhunderts</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Kult und Kanon : Entstehung und Entwicklung des Staatsmaoismus 1935-1978</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Die Reform der Revolution : eine Milliarde Menschen auf dem Weg</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Der scho&#x308;nste Knabe aus Peking : vier Novellen aus der fru&#x308;hen Qing-Zeit</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Chinathemen</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Chinathemen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>China ohne Maoismus?.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>China ohne Maoismus Wandlungen e. Staatsideologie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Bittere Tra&#x308;ume : Selbstdarstellungen chinesischer Schriftsteller</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x8FDE;&#x57CE; &#x74A7;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7ED9; &#xE1CF; &#x8FBE;&#x592B; &#x7684; &#x4FE1;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7D22;&#x5F15;&#x672C;&#x4F55;&#x6C0F;&#x6B77;&#x4EE3;&#x8A69; : &#x9644;&#x6A19;&#x9EDE;&#x672C;&#x4F55;&#x6C0F;&#x6B77;&#x4EE3;&#x8A69;&#x8A71;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7D22;&#x5F15; &#x672C; &#x4F55; &#x6C0F; &#x5386;&#x4EE3; &#x8BD7;&#x8BDD;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x4E16;&#x754C;&#x4E2D;&#x6587;&#x5C0F;&#x8AAA;&#x9078;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;The &#x9C;Commonwealth of Chinese literature papers</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; lange D&#xFC;nne und ihr kleiner Mann</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Massenorganisationen der Volksrepublik China</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Aufl&#xF6;sung der Abteilung f&#xFC;r Haarspalterei Texte moderner chinesischer Autoren ; von den Reformen bis zum Exil</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; Sinologe Alfred Hoffmann (1911 - 1997) zwei biographische Beitr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Das &#x9C;Bild der Bundesrepublik Deutschland in der Pekinger &#xAB;Volkszeitung&#xBB;, 1949-1973</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zho&#x304;ng-De&#x301; zhe&#x300;ngzhi&#x300; ji&#x304;ngji&#x300; zi&#x300;hui&#x300;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ye Shitao--Lehrer, Kritiker, Literaturhistoriker aus Taiwan : sieben Texte</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wu Zhuoliu's autobiographies acts and resistance against repression and oblivion</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Works.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vernetzungen - wirtschaftlicher und kultureller Wandel in China : Entwicklungen, Strukturen, Protagonisten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Traditionelle Literatur Spa&#x308;te Qing- und Republikliteratur</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>TheGerman experience : translations of Chinese literature from Mainland China and from Taiwan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Texte Schriften, Dokumente, Reden u. Gespr&#xE4;che ; dt. Bearb. u. chines. Orig.-Fassung ; [e. Forschungsarbeit d. Inst. f&#xFC;r Asienkunde, Hamburg in Verbindung mit d. Lehrstuhl f&#xFC;r Sprache u. Literatur Chinas d. Ruhr-Univ. Bochum]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Texte : Schriften, Dokumente, Reden und Gespra&#x308;che</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tashi Dawa und die neuere tibetische Literatur</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Taiwanesische Literatur - Postkoloniale Auswege</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Symbols of anguish, c2001:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Suoyin ben He shi lidai shihua</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Stimmen der Opposition chinesische Intellektuelle der achtziger Jahre Biographien</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sieben Texte</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shi jie Zhong wen xiao shuo xuan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Scho&#x308;ne Dritte Schwester - U&#x308;bersetzungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Scho&#x308;ne Dritte Schwester</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sammlung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Reaktivierung der Sprachpolitik in der Volksrepublik China</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Political terminology and translation work from the Chinese in non-English speaking nations aus The art and profession of translations, proceedings of the Asia Foundation Conference on Chinese-English Transl., ed. by T. C. Lai, publ. by the Hong Kong Transl. Soc., Hong Kong 1976</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Notizen zum sowjetischen Lehrbuch Politische O&#x308;konomie</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Modern Chinese writers</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mao ongecorrigeerd : gei&#x34F;&#x308;mproviseerde toespraken en ongepubliceerde documenten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mao intern</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mao Zedong Texte</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mao Tse-tungs Notizen zum sowjetischen Lehrbuch Politische O&#x308;konomie (1960)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Mao Tse-tungs Notizen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Li Li-Weng u&#x308;ber das Theater, 1966.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Latecomers, conformity and protest Chinese literature 1998 ; a critical survey</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kult und Kanon Entstehung u. Entwicklung d. Staatsmaoismus 1935 - 1978</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Interdisziplina&#x308;re Aspekte deutscher Taiwan-Forschung : Beitra&#x308;ge aus sozial- und literaturwissenschaftlicher Sicht = Interdisciplinary aspects of research on Taiwan in Germany</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Interdisziplina&#x308;re Aspekte deutscher Taiwan-Forschung : Beitra&#x308;ge aus sozial- und literaturwissenschaftlicher Sicht</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Index to the Ho collection of twenty-eight shih-hua : with a punctuated edition of the Ho collection of twenty-eight shih-hua</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Hou tu.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ha&#x308;molyse : ha&#x308;molytische Erkrankungen : [Verhandlungen vom 16. Jahreskongress der Deutschen Gesellschaft fu&#x308;r Ha&#x308;matologie, Bad Nauheim, 1. -4. 10. 1972]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gei Yu Dafu de xin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Europa&#x308;isches Projekt zur Modernisierung in China</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die wahre Geschichte des Ah Q :</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Auflo&#x308;sung der Abteilung fu&#x308;r Haarspalterei : Texte moderner chinesischer Autoren ; von den Reformen bis zum Exil</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Das machen wir anders als Moskau : Kritik d. sowjet. Polito&#x308;konomie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Cult and canon</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Contemporary Chinese literature</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinesische Literatur am Ende des 20. Jahrhunderts</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinesische Gegenwartsliteratur</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinese studies and the German language context : history, scholars, perspectives</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinawissenschaften--deutschsprachige Entwicklungen : Geschichte, Personen, Perspektiven : Referate der 8. Jahrestagung 1997 der Deutschen Vereinigung fu&#x308;r Chinastudien (DVCS)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinawissenschaften - deutschsprachige Entwicklungen Geschichte, Personen, Perspektiven = Chinese studies and the German language context</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chinawissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>China ohne Maoismus? : Wandlungen einer Staatsideologie</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>China im Umbruch</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>China and her biographical dimensions : commemorative essays for Helmut Martin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Blick u&#x308;bers Meer : chinesische Erza&#x308;hlungen aus Taiwan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bittere Tr&#xE4;ume Selbstdarstellungen chinesischer Schriftsteller ; [eine Forschungsarbeit des European Project on China's Modernization Contemporary Patterns of Cultural and Economic Change]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;Like a film abruptly torn off&quot; - tension and despair in Zhang Ailing's writing experience</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;Cultural China&quot; irritation and expectations at the end of an era</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&quot;Besitzdenken&quot; im dramatischen Werk Friedrich Hebbels : Studien zu einem historischen Versta&#x308;ndnis des Dichters</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="8" tag="950">
+            <ns2:text>Neder, Christina.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" tag="951">
+            <ns2:text>Institut f&#xFC;r Asienkunde &lt;Hamburg&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Zhang, Xinxin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Martin-Liao, Tienchi</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Mao, Zedong (1893-1976).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Li, Yu, Pseud. of Li Xianlu&#x308;, 1611-1680?</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>&#x674E;&#x6E14;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Hammer, Christiane.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Gaillard-Paquet, Jeanne-Marie.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Lau, Joseph S. M. 1934-....</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Chinese Materials and Research Aids Service Center.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="29">
+            <ns2:text>Projekt Verlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="19">
+            <ns2:text>Inst. f&#xFC;r Asienkunde</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>Brockmeyer</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Rowohlt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>M.E. Sharpe</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Suhrkamp</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Sektion Sprache und Literatur Chinas, Ruhr-Univ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Diederichs</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x6210;&#x6587;&#x51FA;&#x7248;&#x793E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Siedler</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Flammarion</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1940-03-05</ns2:birthDate>
+    <ns2:deathDate>1999</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="196">
+        <ns2:date count="6" scaled="2.58">196</ns2:date>
+        <ns2:date count="40" scaled="5.32">197</ns2:date>
+        <ns2:date count="32" scaled="5.00">198</ns2:date>
+        <ns2:date count="67" scaled="6.07">199</ns2:date>
+        <ns2:date count="4" scaled="2.00">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="152">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>080</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>651</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>730</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>author</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>cre</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16">
+            <ns2:text>edt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16">
+            <ns2:text>hrsg</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>red</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="51">
+        <ns2:data count="8">
+            <ns2:text>9783928861649</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9783928861588</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9783883399546</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9783468490255</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9783424008555</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9782080608079</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783921469507</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783819603150</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9780873328166</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9780873321501</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783453061705</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783906765853</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="131" scaled="7">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" scaled="3">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" scaled="3">
+            <ns2:text>TW</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>NL</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CH</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>eng</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Martin, Helmut, 1940-1999" type="ISNI">0000000083690983</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|183883810">
+            <ns2:text>Martin, Helmut,|1940-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork>
+            <ns2:text>China ohne Maoismus?.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|183883810">
+                <ns2:text>English</ns2:text>
+                <ns2:sources>
+                    <ns2:s>NLA</ns2:s>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11914803" time="2009-03-03T12:03:17+00:00" type="add"/>
+        <ns2:ht recid="DNB|119050730" time="2009-03-03T12:03:24+00:00" type="add"/>
+        <ns2:ht recid="LC|n  81003804" time="2009-03-03T12:03:29+00:00" type="add"/>
+        <ns2:ht recid="J9Ulat|000089570" time="2009-05-07T09:10:50+00:00" type="add"/>
+        <ns2:ht recid="NKC|kup19960000061886" time="2009-05-07T09:10:50+00:00" type="add"/>
+        <ns2:ht recid="J9Ulat|000089570" time="2009-09-21T11:33:12+00:00" type="delete"/>
+        <ns2:ht recid="NLIlat|000089570" time="2009-09-21T11:33:12+00:00" type="add"/>
+        <ns2:ht recid="NII|DA00900169" time="2010-06-24T11:32:12+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000110969" time="2010-07-26T05:00:11+00:00" type="add"/>
+        <ns2:ht recid="NII|DA00900169" time="2010-11-16T05:07:56+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|027012883" time="2011-12-15T07:58:54+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90392082" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90392082" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2012211758" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="NTA|069152829" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="NTA|156183439" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="NLI|000089570" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000089570" time="2013-05-13T19:14:22+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

@@ -1,0 +1,133 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/68932575/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/68932575"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/68932575">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Marx, Harpo, 1888-1964</foaf:name>
+        <foaf:name>Marx, Harpo</foaf:name>
+        <foaf:name>Marx, Arthur, 1888-1964</foaf:name>
+        <foaf:name>Marx, Adolph, 1888-1964</foaf:name>
+        <foaf:name>Marx Brothers.</foaf:name>
+        <foaf:name>Marx, bracia.</foaf:name>
+        <foaf:name>Marx, Arthur Adolph.</foaf:name>
+        <foaf:name>Marx, Arthur.</foaf:name>
+        <foaf:name>Marx, Adolph.</foaf:name>
+        <foaf:name>Bracia Marx.</foaf:name>
+        <foaf:name>Marx, Arthur Adolph 1888-1964</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/121542107"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/121542107"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/121542107"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/121542107"/>
+        <rdaGr2:dateOfBirth>1888-11-23</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1964-10-11</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/225821"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/119437589"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11914931s#foaf:Person"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Harpo_Marx"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/027014541/id"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C070734887#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Marx, Harpo</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C225821#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/225821#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2008132718#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx Brothers.</skos:altLabel>
+        <skos:altLabel>Marx, bracia.</skos:altLabel>
+        <skos:altLabel>Marx, Arthur Adolph.</skos:altLabel>
+        <skos:altLabel>Marx, Arthur.</skos:altLabel>
+        <skos:altLabel>Marx, Adolph.</skos:altLabel>
+        <skos:altLabel>Bracia Marx.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000089868#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C119437589#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Arthur Adolph 1888-1964</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11914931#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11914931s"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11914931s"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++82028187#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n82028187"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CHarpo_Marx#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Marx, Harpo</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cxx0162836#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035331981#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C027014541#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX949883#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000111459#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Marx, Harpo, 1888-1964</skos:prefLabel>
+        <skos:altLabel>Marx, Arthur, 1888-1964</skos:altLabel>
+        <skos:altLabel>Marx, Adolph, 1888-1964</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/68932575/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/68932575"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/68932575/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/68932575"/>
+    </rdf:Description>
+</rdf:RDF>

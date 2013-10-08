@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polymer-element name="cluster-autocomplete" attributes="type label">
+    <template>
+        <label for="{{type}}-ac">{{label}}</label>
+        <input type="text" name="{{type}}-ac" id="{{type}}" placeholder="" ref=""/>
+        <span>
+            <img id="{{type}}-indicator" src="../images/indicator.gif"/>
+        </span>
+    </template>
+    <script>
+        Polymer('cluster-autocomplete', {
+            type: 'person',
+            label: 'Name',
+            id: '#' + this.type,
+            ref: '',
+            
+            ready: function() {
+                console.log("cluster-autocomplete: ", this);
+                var myType = this.type;
+                var myInput =  this.$[this.type];
+                var myIndicator =  this.$[this.type + "-indicator"];
+                
+                jQuery(myInput).autocomplete({
+                    serviceUrl: 'modules/services/search/search.xql',
+                    minChars: "2",
+                    paramName: myType,
+                    width: "450",
+                    onSelect: function (suggestion) {
+                        var id = jQuery("#r-" + myType + " .xfRepeatIndex .xfControl").attr("id");
+                        var xfValue = jQuery("#" +id + "-value");
+                        //xfValue.focus();
+                        xfValue.val(suggestion.data)
+                        fluxProcessor.sendValue("" + id, suggestion.data);
+                    },
+                    onSearchStart: function (query) {
+                        jQuery(myIndicator).css("display", "inline-block");
+                    },
+                    onSearchComplete: function (query) {
+                        jQuery(myIndicator).css("display", "none");
+                    }
+                });
+                jQuery(myInput).bind("focus-"+ myType, function(event) {
+                        jQuery("#"+ event.target.id).focus()
+                    });
+                jQuery(myIndicator).css("display", "none");
+            }
+        });
+    </script>
+</polymer-element>

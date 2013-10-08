@@ -1,0 +1,1976 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>142483245</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/142483245/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/142483245"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="ADV10304398">BAV|ADV10304398</ns2:source>
+        <ns2:source nsid="000135893">NLI|000135893</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/30026-3">DNB|000300268</ns2:source>
+        <ns2:source nsid="500301340">JPG|500301340</ns2:source>
+        <ns2:source nsid="vtls000211450">SWNL|vtls000211450</ns2:source>
+        <ns2:source nsid="359944">SELIBR|359944</ns2:source>
+        <ns2:source nsid="kn20010710654">NKC|kn20010710654</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb11671387r">BNF|11671387</ns2:source>
+        <ns2:source nsid="000036274871">NLA|000036274871</ns2:source>
+        <ns2:source nsid="732844">LC|n  81108967</ns2:source>
+        <ns2:source nsid="LNC10-000128212">LNB|LNC10-000128212</ns2:source>
+    </ns2:sources>
+    <ns2:length>1572</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Universit&#xE4;tsbibliothek der Universit&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+            <ns2:id>BAV|ADV10304398</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000135893</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301340</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|000300268</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301340</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek der Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+            <ns2:id>JPG|500301340</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000135893</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+            <ns2:id>SWNL|vtls000211450</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301340</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|359944</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+                <ns2:subfield code="7">kn20010710654</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|kn20010710654</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9"/>
+                <ns2:subfield code="a">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11671387</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000036274871</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81108967</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301340</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LNB|LNC10-000128212</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>LNB|LNC10-000128212</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NKC|kn20010710654</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>LC|n  81108967</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500301340</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLI|000135893</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SWNL|vtls000211450</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BAV|ADV10304398</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>SELIBR|359944</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>NLA|000036274871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>DNB|000300268</ns2:link>
+                <ns2:link>
+                    <ns2:match type="exact corporate name"/>BNF|11671387</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>u</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>fre</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19970701</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Bibliotheca Albertina</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Bibliotheca Albertina (Leipzig)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Bibliotheca Paulina (Leipzig)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Bibliotheca Universitatis Lipsiensis</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Biblioth&#xE8;que de l'Universit&#xE9; de Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t (Leipzig).</ns2:subfield>
+                <ns2:subfield code="b">Universit&#xE4;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universit&#xE4;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Bibliotheca Albertina</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;t.</ns2:subfield>
+                <ns2:subfield code="b">Bibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipziger Universita&#x308;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipziger Universit&#xE4;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Lipsko (N&#x11B;mecko).</ns2:subfield>
+                <ns2:subfield code="b">Bibliotheca Albertina</ns2:subfield>
+                <ns2:subfield code="2">czelat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Bibliotheca Albertina</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;ts-Bibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Universita&#x308;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;ts-Bibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Bibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universit&#xE4;tsbibliothek</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Universit&#xE4;tsbibliothek Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universit&#xE4;tsbibliothek der Karl-Marx-Universit&#xE4;t (Leipzig)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Bibliotheca Albertina<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Leipziger Universit&#xE4;tsbibliothek<ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universit&#xE4;t Leipzig. Universit&#xE4;tsbibliothek<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;ts-Bibliothek Leipzig<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Universita&#x308;ts-Bibliothek<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Bibliotheca Albertina<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Bibliotheca Universitatis Lipsiensis<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universit&#xE4;t Leipzig. Universit&#xE4;tsbibliothek Leipzig<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t Leipzig Universit&#xE4;tsbibliothek Leipzig<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Leipzig. Universita&#x308;t. Bibliothek<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t Leipzig. Universit&#xE4;tsbibliothek<ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lipsko (N&#x11B;mecko). Bibliotheca Albertina<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Leipzig. Bibliotheca Albertina<ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universit&#xE4;tsbibliothek der Karl-Marx-Universit&#xE4;t (Leipzig)<ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universit&#xE4;t Leipzig. Bibliothek<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Biblioth&#xE8;que de l'Universit&#xE9; de Leipzig<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Bibliotheca Paulina (Leipzig)<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Bibliotheca Albertina (Leipzig)<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="551">
+                <ns2:subfield code="a">Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Sachsen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="e">Ueberordnung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Leipzig<ns2:sources>
+                <ns2:s>JPG</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Ueberordnung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sachsen<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="10">
+            <ns2:text>Bibliographie der Antiquariats-, Auktions- und Kunstkataloge</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>IBAK</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Leipziger Zimelien Bu&#x308;cherscha&#x308;tze der Universita&#x308;tsbibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Internationale Bibliographie der Antiquariats-, Auktions- und Kunst-Kataloge IBAK</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Zur Nutzerschulung und &#xD6;ffentlichkeitsarbeit</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Zimelien : Bu&#x308;cherscha&#x308;tze der Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Neuerwerbungen der Universita&#x308;tsbibliothek Leipzig Auswahlliste</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Neuerwerbungen der Universitatsbibliothek Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Katalog der Handschriften der Universita&#x308;ts-Bibliothek Leipzig / Neue Folge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Johann Christoph Gottsched in Leipzig : Ausstellung in der Universita&#x308;tsbibliothek Leipzig zum 300. Geburtstag von J. Chr. Gottsched</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Internationale Bibliographie der Antiquariats-, Auktions- und Kunstkataloge IBAK</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Die lateinischen und deutschen Handschriften der Universita&#x308;ts-Bibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Die Vo&#x308;lkerschlacht bei Leipzig : eine bibliographische U&#x308;bersicht</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zeitschriftenbestandsverzeichnis der Universit&#xE4;tsbibliothek Leipzig 1955 - 1975 ; (ZUL)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Werner Tu&#x308;bke - Die Skizzenbu&#x308;cher : Katalog zur Ausstellung in der Bibliotheca Albertina, 11. Juli bis 16. Oktober 2011</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Von Alexandrien nach Leipzig : Erschliessung von Papyri und Handschriften in der Universita&#x308;tsbibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Vierhundertfu&#x308;nfzig Jahre Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Verzeichniss der Handbibliothek des Lesesaales der Universita&#x308;ts-bibliothek zu Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Universita&#x308;tsbibliothek, Karl-Marx-Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ta&#x308;tigkeitsbericht / Universita&#x308;t Leipzig, Universita&#x308;tsbibliothek Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Skizzenbu&#x308;cher.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Serienbestandsverzeichnis der Universit&#xE4;tsbibliothek Leipzig 1930 - 1975 ; (SUL)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Seine Welt wissen Enzyklopa&#x308;dien in der fru&#x308;hen Neuzeit ; [Katalog zur Ausstellung der Universita&#x308;tsbibliothek Leipzig und der Herzog-August-Bibliothek Wolfenbu&#x308;ttel]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Neuerwerbungen der Universita&#x308;tsbibliothek Leipzig / Mathematisch-naturwissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Neuerwerbungen der Universitats-Bibliothek Leipzig in Auswahl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Neuerwerbungen der Universitats-Bibliothek Leipzig aus den seit 1922 erschienenen Buchern</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Medizin - Naturwissenschaft - Geschichte Begleitheft zur Ausstellung anla&#x308;sslich des 100-ja&#x308;hrigen Bestehens des Karl-Sudhoff-Instituts fu&#x308;r Geschichte der Medizin und der Naturwissenschaften an der Universita&#x308;t Leipzig in der Universita&#x308;tsbibliothek Leipzig vom 24.10.2006 bis zum 27.01.2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Leipziger Buchkultur um 1500 : Katalog zur gleichnamigen Ausstellung in der Bibliotheca Albertina Leipzig vom 19. April bis 22. Juli 2012</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Kurt Pinthus in Leipzig (1906 - 1919) ; Student, Lektor, Kritiker, Herausgeber ; Begleitheft zur Ausstellung der Universit&#xE4;tsbibliothek Leipzig in der Zweigstelle Geistes-und Sozialwissenschaften vom 16. April bis 4. Mai 1996</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Kleine Schriften der Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Katalog der islamischen, christlich-orientalischen, ju&#x308;dischen und samaritanischen Handschriften der Universita&#x308;ts-Bibliothek zu Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Katalog der Sanskrit-Handschriften der Universita&#x308;ts-Bibliothek zu Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Inventar der wissenschaftlichen Nachla&#x308;sse</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>In pursuit of knowledge 600 years of Leipzig University</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Geschichte der Universita&#x308;tsbibliothek Leipzig von 1543 bis 1832 :</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ein Kosmos des Wissens Weltschrifterbe in Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ein Garten im A&#x308;rmel : islamische Buchkultur; Katalog zur Ausstellung in der Bibliotheca Albertina, 10. Juli - 27. September 2008</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Die Kunst des Bu&#x308;cherheilens : Restaurierung und Konservierung an der Universita&#x308;tsbibliothek Leipzig ; Katalog zur Ausstellung vom 1. Ma&#x308;rz - 30. Mai 2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Codex Sinaiticus Geschichte und Erschliessung der Sinai-Bibel</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Catalogus codicum manuscriptorum Bibliothecae Universitatis Lipsiensis</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Catalogus codicum manuscriptorum Bibliothecae Universitatis Lipsiensis</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>BAK : Bibliographie der Antiquariats-, Auktions- und Kunstkataloge</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>450 Jahre Universita&#x308;tsbibliothek Leipzig : 1543-1993 : Geschriebenes aber bleibt ; Littera scripta manet ; [Ausstellung vom 19. Mai bis 26. Juni 1993, Galerie im Ho&#x308;rsaalbau der Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>450 Jahre Universita&#x308;tsbibliothek Leipzig 1543 - 1993 ; Geschriebenes aber bleibt ; [Ausstellung vom 19. Mai bis 26. Juni 1993 Galerie im Ho&#x308;rsaalbau der Universita&#x308;t Leipzig ; vom 9. Mai bis 18. Juni 1994 Universita&#x308;tsbibliothek Heidelberg]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Ein&#x9C; Kosmos des Wissens Weltschrifterbe in Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Religion der Kelten</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Kunst des B&#xFC;cherheilens Restaurierung und Konservierung an der Universit&#xE4;tsbibliothek Leipzig ; Katalog zur Ausstellung vom 1. M&#xE4;rz - 30. Mai 2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Katalogisierungsarbeiten an der Universit&#xE4;tsbibliothek Leipzig in den Jahren &#x98;1813 &#x9C;- &#x98;1829 &#x9C;[achtzehnhundertdreizehn bis achtzehnhundertneunundzwanzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Bibliotheca Albertina in Leipzig Festschrift zum Abschluss des Wiederaufbaus im Jahre 2002</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die &#x9C;lateinischen und deutschen Handschriften der Universita&#x308;ts-Bibliothek Leipzig Die thelogischen Handschriften Teil 1 (Ms 501-625)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Das&#x9C; Buch in Antike, Mittelalter und Neuzeit Sonderbesta&#x308;nde der Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>beitra&#x308;ge zur geschichte der Universita&#x308;t Leipzig im fu&#x308;nfzehnten jahrhundert. Zur feier des 500 ja&#x308;hrigen jubila&#x308;ums der universita&#x308;t, gewidmet von der universita&#x308;tsbibliothek.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zeitschriftenbestandsverzeichnis der Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vierhundertf&#xFC;nfzig Jahre Universit&#xE4;tsbibliothek Leipzig, 1543-1993</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verzeichnis von Salomon Hirzels Goethe-Sammlung der Universita&#x308;ts-Bibliothek zu leipzig. Nach Hirzels Verzeichnis von 1874 neu hrsg. von Reinhard Fink.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verzeichnis laufender medizinischer Zeitschriften aus dem nichtsozialistischen Ausland in der Universit&#xE4;tsbibliothek Leipzig und den Einrichtungen des staatlichen Gesundheitswesens im Bezirk Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verzeichnis der periodischen Schriften medizinischen und naturwissenschaftlichen Inhalts in der Bibliothek, den medizinischen und naturwissenschaftlichen Instituten der Universita&#x308;t Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verzeichnis der leichenpredigten und personengeschichtlicher gelegenheitsschriften des 16. und 17. jahrhunderts in der Universita&#x308;tsbibliothek zu Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verzeichnis der Kataloge von Buchauktionen und Privatbibliotheken aus dem deutschsprachigen Raum</ns2:text>
+            <ns2:sources>
+                <ns2:s>SWNL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vergraben, Verloren, Gefunden, Erforscht : Papyrusscha&#x308;tze in Leipzig : Katalog zur Ausstellung Universita&#x308;tsbibliothek Leipzig, 18. Juni bis 26. September 2010</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tischendorf und die Suche nach der a&#x308;ltesten Bibel : Katalog zur Ausstellung in der Bibliotheca Albertina, 18. Februar-29. Mai 2011</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Theologischen Handschriften</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sprachen der Bibel : Bibelu&#x308;bersetzungen aus zwei Jahrtausenden : Ausstellung 24.10.2003-24.01.2004, Universita&#x308;tsbibliothek Leipzig, Bibliotheca Albertina ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sigel-Liste der Bibliotheken des Bezirkes Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Seine Welt wissen : Enzyklop&#xE4;dien in der Fr&#xFC;hen Neuzeit</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Seine Welt wissen : Enzyklopa&#x308;dien in der Fru&#x308;hen Neuzeit : Katalog zur Ausstellung der Universita&#x308;tsbibliothek Leipzig (Januar - April 2006) und der Herzog-August-Bibliothek Wolfenbu&#x308;ttel (Juni - November 2006)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Schriften aus der Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Refaiya 1853 : Buchkultur in Damaskus; [Katalog ... - begleitend zur Ausstellung &quot;Refaiya 1853 - eine Bu&#x308;cherreise von Damaskus nach Leipzig&quot;, vom 18. April bis 14. Juli 2013 in der Bibliotheca Albertina]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Papyrusscha&#x308;tze in Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neuestes Verzeichniss einer Goethe-Bibliothek. (1767-1874)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neuerwerbungen der Universita&#x308;tsbibliothek Leipzig / Gesellschafts- und sprachwissenschaftliche Reihe</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>NS-Raubgut in der Universita&#x308;tsbibliothek Leipzig : [Katalog zur Ausstellung in der Bibliotheca Albertina, 27. November 2011 bis 18. Ma&#x308;rz 2012]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Manuscripta et incunabula</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Manuscripta &amp; incunabula : Handschriften und Wiegendrucke der Universita&#x308;tsbibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger Universita&#x308;tsjubila&#x308;en auf Medaillen.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger Judentu&#x308;mer in Stadt und Universita&#x308;t : [Katalog zur gleichnamigen Ausstellung in der Bibliotheca Albertina Leipzig, 13. Januar - 25. April 2010]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kleine Schriften aus der Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kataloge der Sondersammlungen der Universita&#x308;ts-Bibliothek zu Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Katalog der Leichenpredigten und sonstiger Trauerschriften in der Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Katalog der Lateinischen und deutschen Handschriften der Universita&#x308;ts-Bibliothek zu Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Katalog der Handschriften der Universita&#x308;tsbibliothek zu Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>J&#xF6;chers 60000 : ein Mann, eine Mission, ein Lexikon ; Katalog zur Ausstellung in der Bibliotheca Albertina 6.M&#xE4;rz - 28.Juni 2008</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Internationale Bibliographie der Antiquariats-, Auktions- und Kunstkataloge.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Internationale Bibliographie der Antiquariats-, Auktions- und Kunst-Kataloge / Nachtragsband</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>I.B.A.K.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gustav II.[der Zweite] Adolf im Drei&#xDF;igj&#xE4;hrigen Krieg</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geschriebenes aber bleibt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geschichte der Universita&#x308;tsbibliothek Leipzig von 1543 bis 1832 : ein Abri&amp;#xbe;</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Georg Joachim Go&#x308;schen : die typographische Leistung des Verlegers.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Drawings.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die lateinischen und deutschen Handschriften ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Musikalischen Albumbla&#x308;tter der Luise Ave&#x301;-Lallemant zu Leipzig, 1981:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Der Humanismus an der Universit&#xE4;t Leipzig : Akten des in Zusammenarbeit mit dem Lehrstuhl f&#xFC;r S&#xE4;chsische Landesgeschichte an der Universit&#xE4;t Leipzig, der Universit&#xE4;tsbibliothek Leipzig und dem Leipziger Geschichtsverein am 9.-10. November 2007 in Leipzig veranstalteten Symposiums</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Das bibliographische System der Naturgeschichte und der Medizin (mit Einschluss der allgemeinen Naturwissenschaft). Nach den Fachkatalogen der Universita&#x308;tsbibliothek zu Leipzig dargestellt, Historisch-Kritisch Eingeleitet und Erla&#x308;utert</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Das Gewand des Buches : historische Bucheinba&#x308;nde aus den Besta&#x308;nden der Universita&#x308;tsbibliothek Leipzig und des Deutschen Buch- und Schriftmuseum der Deutschen Bu&#x308;cherei Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Chronologie zur Geschichte der Universit&#xE4;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Benutzungsf&#xFC;hrer</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitra&#x308;ge zur Geschichte der Universita&#x308;t Leipzig im fu&#x308;nfzehnten Jahrhundert : zur Feier des 500ja&#x308;hrigen Jubila&#x308;ums der Universita&#x308;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Begleithefte zu Ausstellungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aviso</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>450 Jahre Universit&#xE4;tsbibliothek Leipzig, 1543-1993</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="26" tag="950">
+            <ns2:text>Loh, Gerhard.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="17" tag="950">
+            <ns2:text>Schneider, Ulrich Johannes, 1956-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10" tag="951">
+            <ns2:text>Universita&#x308;t (Leipzig)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" tag="950">
+            <ns2:text>Do&#x308;ring, Detlef</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" tag="950">
+            <ns2:text>Debes, Dietmar.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" tag="950">
+            <ns2:text>Ja&#x308;ger, Roland.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="951">
+            <ns2:text>Universit&#xE4;tsbibliothek &lt;Leipzig&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Scholl, Reinhold.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Hirzel, Salomon, 1804-1877. [from old catalog]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Helssig, Rudolf, 1846-</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wendehorst, Stephan.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wartenberg, G&#xFC;nther, 1943-2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Vollers, Karl, 1857-1909</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="37">
+            <ns2:text>Universita&#x308;tsbibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="24">
+            <ns2:text>Harrassowitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="13">
+            <ns2:text>Univ.-Bibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>S. Hirzel</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Univ.-Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Leipziger Univ.-Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Univ.-Bibl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wiss. Buchges.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>VCH, Acta Humaniora</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Shaker</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="187">
+        <ns2:date count="1" scaled="0.00">187</ns2:date>
+        <ns2:date count="2" scaled="1.00">188</ns2:date>
+        <ns2:date count="6" scaled="2.58">189</ns2:date>
+        <ns2:date count="8" scaled="3.00">190</ns2:date>
+        <ns2:date count="2" scaled="1.00">191</ns2:date>
+        <ns2:date count="5" scaled="2.32">192</ns2:date>
+        <ns2:date count="3" scaled="1.58">193</ns2:date>
+        <ns2:date count="0" scaled="0.0">194</ns2:date>
+        <ns2:date count="5" scaled="2.32">195</ns2:date>
+        <ns2:date count="9" scaled="3.17">196</ns2:date>
+        <ns2:date count="13" scaled="3.70">197</ns2:date>
+        <ns2:date count="22" scaled="4.46">198</ns2:date>
+        <ns2:date count="20" scaled="4.32">199</ns2:date>
+        <ns2:date count="47" scaled="5.55">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="139">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="23">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="3">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>edt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>host institution</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>issuing body</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>pbl</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="62">
+        <ns2:data count="4">
+            <ns2:text>9783527176557</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783934178793</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783910108905</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783865833433</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783777610290</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783447038133</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783363003550</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783323000971</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783910108943</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783896785602</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783941152038</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783910108950</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783910108875</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783447052092</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="141" scaled="7">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>SWNL</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>ger</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000123092970</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|182112176">
+            <ns2:text>Katalog der Handschriften der Universita&#x308;ts-Bibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|174908236">
+            <ns2:text>Kataloge von Sondersammlungen der Universita&#x308;ts-Bibliothek zu Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|185539555">
+            <ns2:text>Universita&#x308;tsbibliothek Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|179533923">
+            <ns2:text>Schriften aus der Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|254372906">
+            <ns2:text>Universita&#x308;tsbibliothek Leipzig.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|187043894">
+            <ns2:text>Leipzig Mahzor</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181813602">
+            <ns2:text>Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181277824">
+            <ns2:text>Mensuralkodex des Nikolaus Apel</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|182674140">
+            <ns2:text>Kleine Schriften der Universita&#x308;tsbibliothek Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|184818939">
+            <ns2:text>Manuscript.|1099 (G2)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|183015349">
+            <ns2:text>Manuscript.|39</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|176131385">
+            <ns2:text>Manuscript.|Cod. ms. 1269</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|182812408">
+            <ns2:text>Manuscript.|ms. 0110</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|178362871">
+            <ns2:text>Manuscript.|ms. 095</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|181731695">
+            <ns2:text>Manuscript.|ms. 1177</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|176875770">
+            <ns2:text>Manuscript.|P. Lips. 39</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|179589289">
+            <ns2:text>Manuscript.|Rep. II. 108</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|179501522">
+            <ns2:text>Manuscript.|Rep. II. 4o. 143</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|176414532">
+            <ns2:text>Manuscript.|Rep. III. fol. 15i</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|181813602">
+            <ns2:text>Manuscript.|Sign. Rep.III. fol.15</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185892619">
+            <ns2:text>Manuscript.|Thomaskirche 49/50</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185539555">
+            <ns2:text>Manuscript.|V. 1102</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|304919682">
+            <ns2:text>Mss.|(350)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|257449361">
+            <ns2:text>Mss.|(986)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|254333600">
+            <ns2:text>Mss.|(Cod. Haen. 8.9 (3493. 3494))</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|253202374">
+            <ns2:text>Mss.|(Gr. 1)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|251380031">
+            <ns2:text>Mss.|(P. Lips. 39)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|254372906">
+            <ns2:text>Mss.|(Rep. II 73b)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|259292963">
+            <ns2:text>Mss.|(Vollers 1102)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="DNB|000300268" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="LC|n  81108967" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20010710654" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="NLA|000036274871" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000135893" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000183427" time="2010-11-16T05:11:59+00:00" type="add"/>
+        <ns2:ht recid="BNF|12360365" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  00074513" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="SWNL|vtls000211450" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="BNF|12360365" time="2011-04-18T11:37:47+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12360365" time="2011-06-28T10:09:31+00:00" type="add"/>
+        <ns2:ht recid="JPG|500301340" time="2011-08-17T04:30:21+00:00" type="add"/>
+        <ns2:ht recid="BNF|12360365" time="2011-08-17T04:30:31+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12360365" time="2011-10-24T04:09:02+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|027398250" time="2011-10-24T04:09:02+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90388441" time="2012-02-21T07:28:43+00:00" type="add"/>
+        <ns2:ht recid="DNB|041925734" time="2012-05-22T07:07:49+00:00" type="add"/>
+        <ns2:ht recid="DNB|000300268" time="2012-05-22T07:08:37+00:00" type="delete"/>
+        <ns2:ht recid="BAV|ADV10304398" time="2012-09-21T12:24:28+00:00" type="add"/>
+        <ns2:ht recid="DNB|041925734" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|027398250" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12360365" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="DNB|000300268" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  00074513" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="RERO|vtls000183427" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x90388441" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="BNF|11671387" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="SELIBR|359944" time="2013-03-14T18:56:10+00:00" type="add"/>
+        <ns2:ht recid="NLI|000135893" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000135893" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="LNB|LNC10-000128212" time="2013-08-19T18:59:48+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

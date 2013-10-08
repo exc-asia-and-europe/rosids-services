@@ -1,0 +1,1394 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>89156698</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/89156698/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/89156698"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="079175406">SUDOC|079175406</ns2:source>
+        <ns2:source nsid="Karl_Max,_Prince_Lichnowsky">WKP|Karl_Max,_Prince_Lichnowsky</ns2:source>
+        <ns2:source nsid="a17318105">NLP|a17318105</ns2:source>
+        <ns2:source nsid="219646">PTBNP|219646</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/119110814">DNB|119110814</ns2:source>
+        <ns2:source nsid="070196141">NTA|070196141</ns2:source>
+        <ns2:source nsid="vtls003585008">NUKAT|n 2006133226</ns2:source>
+        <ns2:source nsid="000084270">NLI|000084270</ns2:source>
+        <ns2:source nsid="4721293">LC|no 92001601</ns2:source>
+        <ns2:source nsid="jn20031215009">NKC|jn20031215009</ns2:source>
+        <ns2:source nsid="000035952383">NLA|000035952383</ns2:source>
+    </ns2:sources>
+    <ns2:length>967</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl Max &#x98;von&#x9C; 1860-1928</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl Max, F&#xFC;rst von, 1860-1928</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl Max, 1860-1928</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl, Pr&#xED;ncipe</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl Max, Prince, 1860-1928</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Lichnowsky, Karl Max</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="c">Prince,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|079175406</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|Karl_Max,_Prince_Lichnowsky</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>PTBNP|219646</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max von</ns2:subfield>
+                <ns2:subfield code="d">(1860-1928).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a17318105</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="1" tag="200">
+                <ns2:subfield code="a">Lichnowsky,</ns2:subfield>
+                <ns2:subfield code="b">Karl,</ns2:subfield>
+                <ns2:subfield code="c">Pr&#xED;ncipe</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+            <ns2:id>PTBNP|219646</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="title"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max &#x98;von&#x9C;</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|119110814</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="title"/>PTBNP|219646</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|070196141</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>PTBNP|219646</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max von</ns2:subfield>
+                <ns2:subfield code="d">(1860-1928).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2006133226</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>PTBNP|219646</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="c">F&#xFC;rst von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000084270</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|no 92001601</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="title"/>PTBNP|219646</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+                <ns2:subfield code="7">jn20031215009</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|jn20031215009</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035952383</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035952383</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|119110814</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2006133226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jn20031215009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a17318105</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000084270</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070196141</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Karl_Max,_Prince_Lichnowsky</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|079175406</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|no 92001601</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>b</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19960618</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowski.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="3" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, ...,</ns2:subfield>
+                <ns2:subfield code="c">Prince,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, ...</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, ...</ns2:subfield>
+                <ns2:subfield code="c">Principe</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Carl Marx.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Carl Max,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Carl Max,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Carl Max.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Carl Max</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Charles-Max,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst von,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Charles-Max</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Fu&#x308;rst</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Karl M. &#x98;von&#x9C;</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Karl Maximilian,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Karl Maximilian</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky, Karl Max</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="1" tag="400">
+                <ns2:subfield code="a">Lichnowsky,</ns2:subfield>
+                <ns2:subfield code="b">Karl</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky,</ns2:subfield>
+                <ns2:subfield code="c">F&#xFC;rst,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky,</ns2:subfield>
+                <ns2:subfield code="c">Prince,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Lichnowsky.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Von Lichnowsky, Karl Max, F&#xFC;rst,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Von Lichnowsky, Karl Max,</ns2:subfield>
+                <ns2:subfield code="c">Fu&#x308;rst,</ns2:subfield>
+                <ns2:subfield code="d">1860-1928</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Von Lichnowsky, Karl Max.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Lichnowsky, Carl Max, 1860-1928<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, F&#xFC;rst, 1860-1928<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Prince, 1860-1928<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Karl Maximilian, 1860-1928<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Von Lichnowsky, Karl Max, F&#xFC;rst, 1860-1928<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Charles-Max, Fu&#x308;rst von, 1860-1928<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Carl Max, Fu&#x308;rst von, 1860-1928<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Von Lichnowsky, Karl Max.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Carl Max.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Carl Marx.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowski.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, ... Principe 1860-1928<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Karl Max 1860-1928<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Karl M. von 1860-1928<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Charles-Max 1860-1928<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Karl<ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Lichnowsky, Fu&#x308;rst<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Krzyz&#x307;anowice</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Schlo&#xDF; Kuchelna</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Schlo&#xDF; Kuchelna<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Krzyz&#x307;anowice<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="5">
+            <ns2:text>My mission to London 1912-1914. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Le Me&#x301;moire Lichnowsky et les documents Muehlon. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Schuld der deutschen Regierung am Kriege.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Meine Londoner Mission 1912-1914. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Auf dem Wege zum Abgrund : Londoner Berichte, Erinnerungen und sonstige Schriften</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>The disclosures from Germany.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Ma mission a&#x300; Londres (1912-1914)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Geschichte des Hauses Habsburg.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>me&#x301;moire</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wina rza&#x328;du niemieckiego w wywo&#x142;aniu wojny : moje pos&#x142;owanie w Londynie w latach 1912-1914 : memorya&#x142; pisany w r. 1917</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Vers l'abime : rapports de Londres, souvenirs et autres e&#x301;crits</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>My mission to London 1912-1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Me&#x301;moire du prince Lichnowski : un document</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Memoiry kn&#xED;&#x17E;ete Lichnowsk&#xE9;ho, b&#xFD;val&#xE9;ho n&#x11B;meck&#xE9;ho velvyslance v Lond&#xFD;n&#x11B;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Meine Londoner Mission 1912-1914 und Eingabe an das preussische Herrenhaus</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Les re&#x301;ve&#x301;lations du Prince Lichnowsky.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Le me&#x301;moire du Prince Lichnowsky</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>1914: delusion or design? : The testimony of two German diplomats[: Karl Max Lichnowsky and Philipp zu Eulenburg]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;La&#x9C; mia missione a Londra memoriale</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; Irrtum Lichnowskys</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>re&#x301;ve&#x301;lations</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zwei deutsche Fu&#x308;rsten zur Kriegsschuldfrage.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Von den fr&#xFC;hesten Nachrichten bis zu dem Tode K&#xF6;nig Rudolf des Ersten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Regierungsantritt Herzog Rudolfs bis zum Tode Herzog Albrecht des Dritten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Regierungsantritt Herzog Albrecht des Vierten bis zum Tode K&#xF6;nig Albrecht des Zweiten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tyska regeringens skuld till kriget. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Revelations of the last German ambassador in England</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Revelations of Prince Lichnowsky ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>M&#xE9;moire du prince Lichnovsky</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meine Londoner Mission, 1912-1914 (Originaltext)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meine Londoner Mission 1913-1914 ; August 1916</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meine Londoner Mission 1912-1914 und Eingabe an das preuszische Herrenhaus</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meine Londoner Mission 1912-1914 ; Mit e. Bildnis d. F&#xFC;rsten Lichnowsky</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Meine Londoner Mission 1912-14 Die Denkschrift des F&#xFC;rsten Lichnowsky</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Julius Bu&#x308;hler, 2011:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Heading for the abyss: reminiscences</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Heading for the abyss :</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geschichte der S&#xF6;hne Herzog Albrechts des Zweiten</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geschichte der Albrechtinischen und Leopoldinischenlinie bis 1439</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Geschichte K&#xF6;nig Rudolfs des Ersten und seiner Ahnen</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die denkschrift des fu&#x308;rsten Lichnowsky: Meine Londoner mission 1912-14.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Schuld der deutschen Regierung am Kriege : meine Londoner Mission 1912-1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Denkschrift. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>De schuld der Duitsche regeering aan den oorlog : mijn Londensche missie 1912-1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Auf dem Wege zum Abgrund Londoner Berichte, Erinnergn u. sonst. Schriften ; [2 Bde]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Auf dem Wege zum Abgrund</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&lt;The &gt;guilt of Germany for the war of german aggression</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1914 - delusion or design</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1914 [Nineteenhundredandfourteen]: delusion or design? The testimony of 2 German diplomats</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Muehlon, Wilhelm, 1878-1944.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Murray, Gilbert</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Thomas, Albert (1878-1932).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Smith, Munroe, 1854-1926.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Ro&#x308;hl, John C.G. (John Charles Gerald), 1938-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Reinach, Joseph, 1856-1921.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Nippold, Otfried 1864-1938</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Jagow, Gottlieb von, 1863-1935.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Eulenburg-Hertefeld, Philipp zu, 1847-1921.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Delmer, Frederic Sefton (1865-1936)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>R&#xF6;hl, John C. G. 1938-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Neubert, Karel, 1894-1973</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="7">
+            <ns2:text>Payot</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Carl Reissner - Verlag</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Berger-Levrault</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Schaumburg und Compagnie</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P. Haupt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Grosman a Svoboda</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>George H. Doran Company</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>St. Martin's Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Orell F&#xFC;ssli</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>G. P. Putnam's Sons</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1860-03-08</ns2:birthDate>
+    <ns2:deathDate>1928-02-27</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="201" min="191">
+        <ns2:date count="40" scaled="5.32">191</ns2:date>
+        <ns2:date count="8" scaled="3.00">192</ns2:date>
+        <ns2:date count="0" scaled="0.0">193</ns2:date>
+        <ns2:date count="0" scaled="0.0">194</ns2:date>
+        <ns2:date count="0" scaled="0.0">195</ns2:date>
+        <ns2:date count="0" scaled="0.0">196</ns2:date>
+        <ns2:date count="3" scaled="1.58">197</ns2:date>
+        <ns2:date count="0" scaled="0.0">198</ns2:date>
+        <ns2:date count="0" scaled="0.0">199</ns2:date>
+        <ns2:date count="0" scaled="0.0">200</ns2:date>
+        <ns2:date count="1" scaled="0.00">201</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="53">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>cre</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="1">
+        <ns2:data count="1">
+            <ns2:text>9780236154661</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="14" scaled="4">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11" scaled="4">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLP</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" scaled="3">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>PTBNP</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" scaled="2">
+            <ns2:text>CH</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" scaled="2">
+            <ns2:text>AT</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>IT</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>eng</ns2:text>
+            <ns2:sources>
+                <ns2:s>PTBNP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Lichnowsky, Karl Max, 1860-1928" type="ISNI">0000000121429672</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:history>
+        <ns2:ht recid="BAV|ADV10880826" time="2009-07-24T08:25:27+00:00" type="add"/>
+        <ns2:ht recid="DNB|119110814" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="LC|no 92001601" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="NKC|jn20031215009" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035952383" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000084270" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="PTBNP|219646" time="2009-09-21T11:33:08+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035952383" time="2009-10-14T07:52:51+00:00" type="delete"/>
+        <ns2:ht recid="NLIlat|000084270" time="2009-10-14T07:52:51+00:00" type="delete"/>
+        <ns2:ht recid="NKC|jn20031215009" time="2009-10-14T07:52:53+00:00" type="delete"/>
+        <ns2:ht recid="DNB|119110814" time="2009-10-14T07:52:55+00:00" type="delete"/>
+        <ns2:ht recid="PTBNP|219646" time="2009-10-14T07:52:55+00:00" type="delete"/>
+        <ns2:ht recid="LC|no 92001601" time="2009-10-14T07:52:56+00:00" type="delete"/>
+        <ns2:ht recid="PTBNP|219646" time="2010-02-22T06:44:10+00:00" type="add"/>
+        <ns2:ht recid="DNB|119110814" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="LC|no 92001601" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NKC|jn20031215009" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035952383" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000084270" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006133226" time="2010-03-15T04:41:08+00:00" type="add"/>
+        <ns2:ht recid="NII|DA06512424" time="2010-04-23T04:20:33+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV10880826" time="2010-07-26T05:00:23+00:00" type="delete"/>
+        <ns2:ht recid="PTBNP|219646" time="2010-07-26T05:00:23+00:00" type="delete"/>
+        <ns2:ht recid="NII|DA06512424" time="2010-11-16T05:07:53+00:00" type="delete"/>
+        <ns2:ht recid="PTBNP|219646" time="2010-11-16T05:07:53+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV10880826" time="2011-03-18T07:36:20+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV10880826" time="2011-04-18T11:37:51+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|079175406" time="2011-08-17T04:30:21+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90705921" time="2012-02-21T07:28:44+00:00" type="add"/>
+        <ns2:ht recid="WKP|Karl_Max,_Prince_Lichnowsky" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90705921" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="NTA|070196141" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="NLI|000084270" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000084270" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLP|a17318105" time="2013-06-14T19:03:38+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

@@ -1,0 +1,2774 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>70244544</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/70244544/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/70244544"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="028109937">SUDOC|028109937</ns2:source>
+        <ns2:source nsid="vtls000101009">RERO|vtls000101009</ns2:source>
+        <ns2:source nsid="236737139">NTA|236737139</ns2:source>
+        <ns2:source nsid="000079195">NLI|000079195</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12000971f">BNF|12000971</ns2:source>
+        <ns2:source nsid="648758">LC|n  81023382</ns2:source>
+        <ns2:source nsid="jo2011655637">NKC|jo2011655637</ns2:source>
+        <ns2:source nsid="000035824937">NLA|000035824937</ns2:source>
+        <ns2:source nsid="00270624">NDL|00270624</ns2:source>
+        <ns2:source nsid="vtls005243003">NUKAT|n 2008131271</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/11890471X">DNB|11890471X</ns2:source>
+        <ns2:source nsid="075121220">NTA|075121220</ns2:source>
+        <ns2:source nsid="K&#x16B;kai">WKP|K&#x16B;kai</ns2:source>
+    </ns2:sources>
+    <ns2:length>2532</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>K&#x16B;kai, 774-835</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>&#x7A7A;&#x6D77;, 774-835</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>K&#x16B;kai</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Ku&#x304;kai 0774-0835</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|028109937</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">K&#x16B;kai</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls000101009</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LC|n  81023382</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Kukai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|236737139</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">K&#x16B;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000079195</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                <ns2:subfield code="7">ba0yba0b</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">0</ns2:subfield>
+                <ns2:subfield code="a">Ku&#x304;kai</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|12000971</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  81023382</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">K&#x16B;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+                <ns2:subfield code="7">jo2011655637</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|jo2011655637</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035824937</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NDL|00270624</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">K&#x16B;kai</ns2:subfield>
+                <ns2:subfield code="d">(774-835).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2008131271</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">Ku&#x304;kai</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|11890471X</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|075121220</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|K&#x16B;kai</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>NTA|236737139</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">K&#x16B;kai</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|K&#x16B;kai</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|075121220</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|028109937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|11890471X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035824937</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00270624</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|12000971</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jo2011655637</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n 2008131271</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  81023382</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000079195</ns2:link>
+                <ns2:link>
+                    <ns2:match type="viafid"/>RERO|vtls000101009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>b</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19930625</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Bianzhao, Jingang,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Henjo&#x304; Kongo&#x304; Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Henj&#x14D; Kong&#x14D; K&#x16B;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Henj&#x14D; Kong&#x14D; K&#x16B;kai.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Hongfa,</ns2:subfield>
+                <ns2:subfield code="c">dashi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Hongfadashi</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Hung-fa-ta-shih,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Hung-fa-ta-shih,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Hung-fa-ta-shih</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Hung-fa-ta-shin.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K'ung-hai.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K'ung-hai</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Kobo Daishi</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Kobo-dajsi.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Kobodaishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Konghai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Konghai</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x302;-bau dai&#x304;-si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x302;-bau dai&#x308;-si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x302;baudai&#x304;si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x302;baudai&#x308;si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x302;bo&#x302;dai&#x308;shi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi Ku&#x304;kai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi Ku&#x304;kai</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ko&#x304;bo&#x304;,</ns2:subfield>
+                <ns2:subfield code="c">daishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Kukai</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Kukai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Kukaj.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Ku&#x304;kai, Ko&#x304;bo&#x304; Daishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Ku&#x304;kan,</ns2:subfield>
+                <ns2:subfield code="d">774-835.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#xF3;b&#xF3; Dai&#x161;i,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#xF4;-bau da&#x12F;-si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#xF4;-boau d&#x101;i-si.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#xF4;bauda&#x12F;si,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#xF4;boaud&#x101;isi.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x14D;bo Daishi</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x14D;b&#x14D; Daishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x14D;b&#x14D; Daishi,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x14D;b&#x14D; Daishi.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x2BB;ung-hai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">K&#x2BB;ung-hai,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Pien-chao-chin-Kang,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Pien-chao-chin-kang,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Pien-chao-chin-kang,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">Pien-chao-chin-kang.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Kobo Daishi</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Koboh Daishi</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Ko&#x302;bo&#x302; Daishi</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Ko&#x304;bo&#x304; Daishi</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Ko&#x304;bo&#x304;-Daishi</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Kukai</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">Ku&#x302;kai</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="400">
+                <ns2:subfield code="5">i</ns2:subfield>
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E2B;</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x30AF;&#x30A6;&#x30AB;&#x30A4;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x30B3;&#x30A6;&#x30DC;&#x30A6; &#x30C0;&#x30A4;&#x30B7;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E08;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E2B;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E2B;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E2B;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x7A7A;&#x6D77;</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835 .</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">774-835.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;,</ns2:subfield>
+                <ns2:subfield code="d">7748&#x332;35.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="700">
+                <ns2:subfield code="a">&#x7A7A;&#x6D77;</ns2:subfield>
+                <ns2:subfield code="f">0774-0835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">&#x904D;&#x7167;&#x91D1;&#x521A;,</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x904D;&#x7167;&#x91D1;&#x525B;</ns2:subfield>
+                <ns2:subfield code="d">774-835</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>&#x7A7A;&#x6D77;, 774-835.<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#x14D;b&#x14D; Daishi, 774-835<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#x14D;b&#x14D; Daishi.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#x2BB;ung-hai, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hung-fa-ta-shih, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30B3;&#x30A6;&#x30DC;&#x30A6; &#x30C0;&#x30A4;&#x30B7;
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30AF;&#x30A6;&#x30AB;&#x30A4;, 774-835<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kukai, 774-835<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Konghai, 774-835<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Pien-chao-chin-kang, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#xF4;bauda&#x12F;si, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#xF4;-bau da&#x12F;-si, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Mao, 774-835<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x302;bo&#x302;dai&#x308;shi, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Henj&#x14D; Kong&#x14D; K&#x16B;kai, 774-835<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x7A7A;&#x6D77;, 7748&#x332;35.<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ku&#x304;kan, 774-835.<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x304;bo&#x304; Daishi Ku&#x304;kai, 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ko&#x304;bo&#x304;-Daishi 0774-0835<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x904D;&#x7167;&#x91D1;&#x525B; 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x7A7A;&#x6D77; 774-835<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hongfadashi 774-835<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ku&#x302;kai 0774-0835<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Ku&#x304;kai, Ko&#x304;bo&#x304; Daishi, 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x7A7A;&#x6D77; 0774-0835<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x5F18;&#x6CD5;&#x5927;&#x5E2B; 0774-0835<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Koboh Daishi 0774-0835<ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;, 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Pien-chao-chin-kang.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K'ung-hai.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kukaj.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#xF4;boaud&#x101;isi.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kobo-dajsi.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#xF4;-boau d&#x101;i-si.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hung-fa-ta-shin.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Henj&#x14D; Kong&#x14D; K&#x16B;kai.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hongfa, dashi, 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Bianzhao, Jingang, 774-835<ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>K&#xF3;b&#xF3; Dai&#x161;i, 774-835<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kukai<ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:titles>
+        <ns2:data count="18">
+            <ns2:text>&#x6587;&#x93E1;&#x79D8;&#x5E9C;&#x8AD6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="12">
+            <ns2:text>Bunkyo hifuron</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>&#x5B9A;&#x672C;&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x5168;&#x96C6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>&#x4E09;&#x6559;&#x6307;&#x5E30;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Works.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Teihon ko&#x304;bo&#x304; daishi zenshu&#x304;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Ko&#x304;bo&#x304; Daishi Ku&#x304;kai zenshu&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x7A7A;&#x6D77;&#x5168;&#x96C6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x5168;&#x96C6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Sango&#x304; shiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Ko&#x304;bo&#x304; Daishi zenshu&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x771F;&#x8E5F;&#x96C6;&#x6210;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Ko&#x304;bo&#x304; daishi shinseki shu&#x304;sei.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Himitsu mandara ju&#x304;ju&#x304;shinron.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>&#x6027;&#x9748;&#x96C6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Sho&#x304;ryo&#x304;shu&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Ko&#x304;bo&#x304; daishi chosaku zenshu&#x304;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Bunkyo&#x304; hifu-ron.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>&#x79D8;&#x5BC6;&#x66FC;&#x837C;&#x7F85;&#x5341;&#x4F4F;&#x5FC3;&#x8AD6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x8457;&#x4F5C;&#x5168;&#x96C6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Tenrei bansho&#x304; meigi.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>K&#x16B;kai : major works</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x58A8;&#x8E5F;&#x805A;&#x96C6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>&#x5373;&#x8EAB;&#x6210;&#x4ECF;&#x7FA9;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>&#x508D;&#x8A33;&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x7A7A;&#x6D77;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Wen jing mi fu lun</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Sokushin jo&#x304;butsu gi</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Ko&#x304;bo&#x304; daishi bokuseki shu&#x304;shu&#x304; : Sho no mandara sekai.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Kanjo&#x304;ki.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Fu&#x304;shinjo&#x304; ; Kanjo&#x304;ki</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Fu&#x304;shinjo&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Bo&#x304;yaku ko&#x304;bo&#x304; daishi ku&#x304;kai.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x98A8;&#x4FE1;&#x5E16;&#x30FB;&#x704C;&#x9802;&#x8A18;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x98A8;&#x4FE1;&#x5E16;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x904D;&#x7167;&#x767C;&#x63EE;&#x6027;&#x9748;&#x96C6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x7A7A;&#x6D77;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x79D8;&#x8535;&#x5B9D;&#x9470; : &#x53E3;&#x8A9E;&#x8A33;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x704C;&#x9802;&#x8A18;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x6587;&#x955C; &#x79D8;&#x5E9C;&#x8BBA;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>K&#x16B;kai</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Hizo&#x304; ho&#x304;yaku</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x822C;&#x82E5;&#x5FC3;&#x7D4C;&#x79D8;&#x9375;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x807E;&#x77BD;&#x6307;&#x5E30;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7BC6;&#x96B8;&#x842C;&#x8C61;&#x540D;&#x7FA9;. [30&#x5377;] : &#x9644;&#x89E3;&#x984C; - &#x7D22;&#x5F15;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7BC6;&#x96B7;&#x4E07;&#x8C61;&#x540D;&#x7FA9;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7A7A;&#x6D77;&#x96C6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7A7A;&#x6D77;&#x5927;&#x5B57;&#x6797;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7A7A;&#x6D77;&#x30B3;&#x30EC;&#x30AF;&#x30B7;&#x30E7;&#x30F3;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x7A7A;&#x6D77;&#x300C;&#x4E09;&#x6559;&#x6307;&#x5E30;&#x300D;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x79D8;&#x8535;&#x5B9D;&#x9470;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x79D8;&#x5BC6;&#x66FC;&#x837C;&#x7F85;&#x6559;&#x4ED8;&#x6CD5;&#x4F1D;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x79D8;&#x5BC6;&#x66FC;&#x8336;&#x7F85;&#x5341;&#x4F4F;&#x5FC3;&#x8AD6;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x66F8;&#x9053;&#x82B8;&#x8853;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x6587;&#x7B46;&#x773C;&#x5FC3;&#x6284;&#x91C8;&#x6587;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x6587; &#x955C; &#x79D8; &#x5E9C; &#x8BBA;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x98A8;&#x4FE1;&#x5E16;&#x30FB;&#x704C;&#x9802;&#x8A18;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x91D1;&#x525B;&#x822C;&#x82E5;&#x7D4C;&#x958B;&#x984C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x5F01;&#x9855;&#x5BC6;&#x4E8C;&#x6559;&#x8AD6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x5EA7;&#x53F3;&#x9298;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>sango&#x304; shiiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zhuan li wan xiang ming yi. [30 juan] : fu jie ti, suo yin</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zayu&#x304;mei</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wenjing mifulun</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wen jing mi fu lun jiao zhu</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Tri u&#x10D;eni&#xE2; ukazyva&#xFB;t i napravl&#xE2;&#xFB;t = Sango siiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Shodo&#x304; geijutsu.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Selections.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Sango&#x304; shiiki. Sho&#x304;ryo&#x304;shu</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ro&#x304;ko shiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>La v&#xE9;rit&#xE9; finale des trois enseignements</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ku&#x304;kaishu&#x304;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ku&#x304;kai korekushon.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ko&#x304;bo&#x304; daishi kongo&#x304; hannyakyo&#x304; kaidai</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ko&#x304;bo&#x304; daishi fu&#x304;shinjo&#x304; kanjo&#x304;ki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Hizo&#x304; ho&#x304;yaku : ko&#x304;goyaku</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Himitsu mandarakyo&#x304; fuho&#x304;den</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Henjo&#x304; hokki sho&#x304;ryo&#x304;shu&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Bunpitsu ganshinsho&#x304; shakubun</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ben kenmitsu nikyo&#x304;ron</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ausgew&#xE4;hlte Schriften</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ausgewa&#x308;hlte Schriften : Sokushin-jo&#x304;butsu-gi, Sho&#x304;ji-jisso&#x304;-gi, Unji-gi Hannya-shingyo&#x304;-hiken</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x96D1;&#x554F;&#x7B54;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x91D1;&#x525B;&#x9802;&#x7D4C;&#x958B;&#x984C; : &#x508D;&#x8A33;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x91D1;&#x525B;&#x822C;&#x82E5;&#x7D4C;&#x958B;&#x984C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x91CB;&#x5C0A;&#x5FA1;&#x820E;&#x5229;&#x5100;&#x8A18;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x91C8;&#x8AD6;&#x6307;&#x4E8B; : &#x508D;&#x8A33;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7B46;&#x3067;&#x305F;&#x3069;&#x308B;&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x7A7A;&#x6D77;&#x306E;&#x751F;&#x6DAF;12&#x8A71;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7A7A;&#x6D77;&#x4EBA;&#x751F;&#x306E;&#x8A00;&#x8449;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7A7A;&#x6D77;&#x300C;&#x822C;&#x82E5;&#x5FC3;&#x7D4C;&#x79D8;&#x9375;&#x300D; : &#x30D3;&#x30AE;&#x30CA;&#x30FC;&#x30BA;&#x65E5;&#x672C;&#x306E;&#x601D;&#x60F3;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x79D8;&#x5BC6;&#x66FC;&#x9640;&#x7F85;&#x5341;&#x4F4F;&#x5FC3;&#x8AD6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x6587;&#x93E1;&#x79D8;&#x5E9C;&#x8AD6;&#x6821;&#x6CE8;</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x6587;&#x93E1;&#x79D8;&#x5E9C;&#x8AD6; : &#x53E4;&#x9214;&#x672C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x98A8;&#x4FE1;&#x5E16;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zitu-go kyan ... 1876.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tantric poetry of Kukai : (Kobo Daishi) Japan's Buddhist saint ; with excerpts from &quot;The Mahavairocana Sutra&quot; and I-Hsing's &quot;Commentary of the Sutra&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sokushin jo&#x304;butsu gi, Ben kemmitsu nikyo&#x304;-ron, Hannya shinkyo&#x304; ju&#x304;ju&#x304;-shin-ron, Goikoku</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sango siiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Poetics and prosody in early mediaeval China : a study and translation of Ku&#x304;kai's Bunkyo&#x304; hifuron</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>On the differences between the exoteric and esoteric teaching</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>K&#x16B;kai's principle of attaiting buddhahood with the present body</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ku&#x304;kai: major works</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>J&#x16B;hachid&#x14D; nenju kubi shidai</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="52" tag="950">
+            <ns2:text>&#x5BAE;&#x5742;, &#x5BA5;&#x52DD;, 1921-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="52" tag="950">
+            <ns2:text>Miyasaka, Yu&#x304;sho&#x304;, 1921-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="18" tag="951">
+            <ns2:text>&#x5BC6;&#x6559;&#x6587;&#x5316;&#x7814;&#x7A76;&#x6240;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="18" tag="951">
+            <ns2:text>Mikkyo&#x304; Bunka Kenkyu&#x304;jo.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16" tag="950">
+            <ns2:text>&#x4E2D;&#x7530;, &#x52C7;&#x6B21;&#x90CE;, 1905-1998.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16" tag="950">
+            <ns2:text>Nakata, Yu&#x304;jiro&#x304;, 1905-1998.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14" tag="950">
+            <ns2:text>&#x52DD;&#x53C8;, &#x4FCA;&#x6559;, 1909-1994.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14" tag="950">
+            <ns2:text>&#x4F50;&#x548C;, &#x9686;&#x7814;, 1911-1983.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14" tag="950">
+            <ns2:text>Sawa, Ryu&#x304;ken, 1911-1983.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14" tag="950">
+            <ns2:text>Katsumata, Shunkyo&#x304;, 1909-1994.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="951">
+            <ns2:text>Japanese Rare Book Collection (Library of Congress)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x738B;&#x5229;&#x5668;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x738B;, &#x5229;&#x5668; (1912-1998).</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x6708;&#x672C;&#x96C5;&#x5E78;.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Hakeda, Yoshito S.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Tsuda, Shinichi</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Trubnikova, Nade&#x17E;da N.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Rosny, Le&#x301;on de 1837-1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="23">
+            <ns2:text>&#x56DB;&#x5B63;&#x793E;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="23">
+            <ns2:text>Shikisha</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="12">
+            <ns2:text>&#x7B51;&#x6469;&#x66F8;&#x623F;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10">
+            <ns2:text>To&#x304;ho&#x304; Bunka Gakuin</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>&#x5BC6;&#x6559;&#x6587;&#x5316;&#x7814;&#x7A76;&#x6240;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>&#x5CA9;&#x6CE2;&#x66F8;&#x5E97;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>&#x6CD5;&#x8535;&#x9928;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>&#x5C71;&#x559C;&#x623F;&#x4ECF;&#x66F8;&#x6797;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>&#x6E05;&#x96C5;&#x5802;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>&#x5F18;&#x6CD5;&#x5927;&#x5E2B;&#x58A8;&#x8E5F;&#x805A;&#x96C6;&#x520A;&#x884C;&#x4F1A;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Columbia University Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x4E2D;&#x56FD;&#x793E;&#x4F1A;&#x79D1;&#x5B66;&#x51FA;&#x7248;&#x793E; : &#x65B0;&#x83EF;&#x66F8;&#x5E97;&#x5317;&#x4EAC;&#x53D1;&#x884C;&#x6240;&#x53D1;&#x884C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>White Pine</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Poiesis diffusion Payot</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Izdatel' Savin</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>774</ns2:birthDate>
+    <ns2:deathDate>835</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="201" min="166">
+        <ns2:date count="1" scaled="0.00">166</ns2:date>
+        <ns2:date count="0" scaled="0.0">167</ns2:date>
+        <ns2:date count="0" scaled="0.0">168</ns2:date>
+        <ns2:date count="0" scaled="0.0">169</ns2:date>
+        <ns2:date count="0" scaled="0.0">170</ns2:date>
+        <ns2:date count="0" scaled="0.0">171</ns2:date>
+        <ns2:date count="0" scaled="0.0">172</ns2:date>
+        <ns2:date count="0" scaled="0.0">173</ns2:date>
+        <ns2:date count="0" scaled="0.0">174</ns2:date>
+        <ns2:date count="0" scaled="0.0">175</ns2:date>
+        <ns2:date count="0" scaled="0.0">176</ns2:date>
+        <ns2:date count="0" scaled="0.0">177</ns2:date>
+        <ns2:date count="0" scaled="0.0">178</ns2:date>
+        <ns2:date count="0" scaled="0.0">179</ns2:date>
+        <ns2:date count="0" scaled="0.0">180</ns2:date>
+        <ns2:date count="0" scaled="0.0">181</ns2:date>
+        <ns2:date count="0" scaled="0.0">182</ns2:date>
+        <ns2:date count="0" scaled="0.0">183</ns2:date>
+        <ns2:date count="0" scaled="0.0">184</ns2:date>
+        <ns2:date count="1" scaled="0.00">185</ns2:date>
+        <ns2:date count="0" scaled="0.0">186</ns2:date>
+        <ns2:date count="1" scaled="0.00">187</ns2:date>
+        <ns2:date count="7" scaled="2.81">188</ns2:date>
+        <ns2:date count="1" scaled="0.00">189</ns2:date>
+        <ns2:date count="15" scaled="3.91">190</ns2:date>
+        <ns2:date count="6" scaled="2.58">191</ns2:date>
+        <ns2:date count="7" scaled="2.81">192</ns2:date>
+        <ns2:date count="31" scaled="4.95">193</ns2:date>
+        <ns2:date count="8" scaled="3.00">194</ns2:date>
+        <ns2:date count="3" scaled="1.58">195</ns2:date>
+        <ns2:date count="5" scaled="2.32">196</ns2:date>
+        <ns2:date count="32" scaled="5.00">197</ns2:date>
+        <ns2:date count="42" scaled="5.39">198</ns2:date>
+        <ns2:date count="22" scaled="4.46">199</ns2:date>
+        <ns2:date count="41" scaled="5.36">200</ns2:date>
+        <ns2:date count="1" scaled="0.00">201</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="1">
+            <ns2:text>aa</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="211">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="20">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>jm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>km</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>mm</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>tm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="4">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>auteur</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="74">
+        <ns2:data count="6">
+            <ns2:text>9780231036276</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>9783891293041</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9784884690625</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9784881100325</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9782905525024</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9784124026382</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9784061426740</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9784000090230</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9787501346974</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9785902121077</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9784915096747</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9784915096730</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9784061426757</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:covers>
+        <ns2:data count="1">
+            <ns2:text>1886439249</ns2:text>
+            <ns2:xtext>+-+4974891336</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>0773459855</ns2:text>
+            <ns2:xtext>+-+0034098225</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>0231059337</ns2:text>
+            <ns2:xtext>+-+2884056875</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:covers>
+    <ns2:countries>
+        <ns2:data count="202" scaled="7">
+            <ns2:text>JP</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" scaled="3">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8" scaled="3">
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" scaled="2">
+            <ns2:text>TW</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>RU</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>jpn</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>JP</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Ku&#x304;kai, 774-835" type="ISNI">0000000121384582</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|185946396">
+            <ns2:text>Ku&#x304;kai,|774-835.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183874891">
+            <ns2:text>Ku&#x304;kai,|774-835.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|175825984">
+            <ns2:text>Iroha uta</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|182198105">
+            <ns2:text>Nakatomi no harae kunkai</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|181094097">
+            <ns2:text>Ben kenmitsu nikyo&#x304;ron</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185946396">
+            <ns2:text>Bunkyo&#x304; hifuron</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|183106123">
+            <ns2:text>Fu&#x304;shinjo&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|183064317">
+            <ns2:text>Gobu darani mondo&#x304; gesan shu&#x304;hiron</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|180555793">
+            <ns2:text>Himitsu mandara ju&#x304;ju&#x304;shin ron</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|176133553">
+            <ns2:text>Himitsu mandarakyo&#x304; fuho&#x304;den</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|175021005">
+            <ns2:text>Ju&#x304;hachido&#x304; nenju shidai</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:utExpr id="VIAF|185120660">
+                <ns2:text>English</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|182715882">
+            <ns2:text>Kanjo&#x304; rekimei</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|183915092">
+            <ns2:text>Sango&#x304; shiiki</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185645265">
+            <ns2:text>Sanmayakai jo</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|184678376">
+            <ns2:text>Sho&#x304;ji jisso&#x304; gi</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|179458107">
+            <ns2:text>Sho&#x304;ryo&#x304;shu&#x304;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185882133">
+            <ns2:text>Sokushin jo&#x304;butsu gi</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|181737290">
+            <ns2:text>Tenrei bansho&#x304; meigi</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|185122800">
+            <ns2:text>Unjigi</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork>
+            <ns2:text>Works.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|176923879">
+                <ns2:text>1900</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|180961879">
+                <ns2:text>1909</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|185509815">
+                <ns2:text>1983</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|174888114">
+                <ns2:text>English.|1972</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+        <ns2:utWork>
+            <ns2:text>Works.|Selections.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|176214011">
+                <ns2:text>1936</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|182308859">
+                <ns2:text>1959</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|183874891">
+                <ns2:text>Chinese.|1975</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|186558320">
+                <ns2:text>English.|2004</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+            <ns2:utExpr id="VIAF|178324065">
+                <ns2:text>German.|1992</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="LC|n  81023382" time="2009-03-03T12:03:29+00:00" type="add"/>
+        <ns2:ht recid="BNF|12000971" time="2009-04-13T08:13:08+00:00" type="add"/>
+        <ns2:ht recid="DNB|11890471X" time="2009-04-13T08:13:08+00:00" type="add"/>
+        <ns2:ht recid="J9Ulat|000079195" time="2009-05-07T09:10:50+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035824937" time="2009-08-21T09:42:39+00:00" type="add"/>
+        <ns2:ht recid="BNF|12000971" time="2009-09-21T11:33:08+00:00" type="delete"/>
+        <ns2:ht recid="DNB|11890471X" time="2009-09-21T11:33:08+00:00" type="delete"/>
+        <ns2:ht recid="J9Ulat|000079195" time="2009-09-21T11:33:08+00:00" type="delete"/>
+        <ns2:ht recid="LC|n  81023382" time="2009-09-21T11:33:08+00:00" type="delete"/>
+        <ns2:ht recid="NLA|000035824937" time="2009-09-21T11:33:08+00:00" type="delete"/>
+        <ns2:ht recid="LC|n  81023382" time="2010-03-15T04:41:13+00:00" type="add"/>
+        <ns2:ht recid="BNF|12000971" time="2010-03-15T04:41:15+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035824937" time="2010-03-15T04:41:16+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000079195" time="2010-03-15T04:41:16+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV11336692" time="2010-03-15T04:41:17+00:00" type="add"/>
+        <ns2:ht recid="DNB|11890471X" time="2010-03-15T04:41:18+00:00" type="add"/>
+        <ns2:ht recid="NII|DA00156600" time="2010-06-24T11:32:02+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls000101009" time="2010-07-26T05:00:14+00:00" type="add"/>
+        <ns2:ht recid="NII|DA00156600" time="2010-11-16T05:07:53+00:00" type="delete"/>
+        <ns2:ht recid="BAV|ADV11336692" time="2010-11-16T05:08:59+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2008131271" time="2011-02-17T05:22:53+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|028109937" time="2011-08-17T04:30:21+00:00" type="add"/>
+        <ns2:ht recid="NKC|jo2011655637" time="2011-10-24T04:09:01+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90543830" time="2012-02-21T07:28:43+00:00" type="add"/>
+        <ns2:ht recid="NDL|00270624" time="2012-09-21T12:24:30+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV11336692" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90543830" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12000971" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NDL|00270624" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NLIlat|000079195" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BAV|ADV11336692" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="NTA|075121220" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="BNF|12000971" time="2013-05-13T19:14:22+00:00" type="add"/>
+        <ns2:ht recid="NDL|00270624" time="2013-05-13T19:14:22+00:00" type="add"/>
+        <ns2:ht recid="NLI|000079195" time="2013-05-13T19:14:22+00:00" type="add"/>
+        <ns2:ht recid="NTA|236737139" time="2013-05-13T19:14:22+00:00" type="add"/>
+        <ns2:ht recid="WKP|K&#x16B;kai" time="2013-05-13T19:14:22+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

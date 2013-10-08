@@ -1,0 +1,1113 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>128769781</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/128769781/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/128769781"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="vtls007101329">NUKAT|n 2012020154</ns2:source>
+        <ns2:source nsid="030928788">SUDOC|030928788</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/4318383-9">DNB|043183832</ns2:source>
+        <ns2:source nsid="n87863369">LC|n  87863369</ns2:source>
+        <ns2:source nsid="vtls012324778">RERO|vtls012324778</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12224666r">BNF|12224666</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/2024208-6">DNB|004815548</ns2:source>
+    </ns2:sources>
+    <ns2:length>563</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Universit&#xE4;t Leipzig. Juristenfakult&#xE4;t.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakult&#xE4;t.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2012020154</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|030928788</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|043183832</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="110">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  87863369</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakult&#xE4;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls012324778</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="210">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">20</ns2:subfield>
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|12224666</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|004815548</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|004815548</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SUDOC|030928788</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls012324778</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BNF|12224666</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  87863369</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>DNB|043183832</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2012020154</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19930802</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Facultas Iuridica</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Facultas Iuridica Lipsiensis</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Facultas Juridica</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Juristenfakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Juristenfakult&#xE4;t der Universit&#xE4;t Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Juristenfakult&#xE4;t.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Juristische Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Leipziger Juristen-Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="UNIMARC" ind1="|" ind2="|" tag="410">
+                <ns2:subfield code="a">Leipziger Juristen-Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Facultas Juridica</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristen Facultet</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristen-Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristenfaculta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristische Faculta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Juristische Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Facultas Iuridica</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Facultas Juridica</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Juristische Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Universita&#x308;t</ns2:subfield>
+                <ns2:subfield code="b">Juristische Fakulta&#x308;t</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Universita&#x308;t Leipzig. Juristische Fakulta&#x308;t<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig. Facultas Juridica<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Juristenfakult&#xE4;t.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Facultas Iuridica<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Juristische Fakulta&#x308;t<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Facultas Juridica<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Facultas Iuridica Lipsiensis<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Facultas Iuridica<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig. Juristische Faculta&#x308;t<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig. Juristenfaculta&#x308;t<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig. Juristen-Fakulta&#x308;t<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig. Juristen Facultet<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Leipziger Juristen-Fakulta&#x308;t<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Juristenfakult&#xE4;t der Universit&#xE4;t Leipzig<ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Juristische Fakulta&#x308;t<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Karl-Marx-Universit&#xE4;t Leipzig.</ns2:subfield>
+                <ns2:subfield code="b">Sektion Rechtswissenschaft.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Leipzig</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Sachsen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="b">Sektion Rechtswissenschaft</ns2:subfield>
+                <ns2:subfield code="e">Zeitweiser Name</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Universita&#x308;t Leipzig</ns2:subfield>
+                <ns2:subfield code="e">Ueberordnung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Leipzig<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Ueberordnung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Universita&#x308;t Leipzig Sektion Rechtswissenschaft Zeitweiser Name<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sachsen<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Karl-Marx-Universit&#xE4;t Leipzig. Sektion Rechtswissenschaft.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="3">
+            <ns2:text>Festschrift der Leipziger juristenfakulta&#x308;t fu&#x308;r dr. Richard Schmidt zum 1. November 1934</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Rundfunk aus o&#x308;sterreichischer und europarechtlicher Perspektive</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Rechtsfragen des &#xF6;ffentlichen Dienstes</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Festschrift der Leipziger juristenfakulta&#x308;t fu&#x308;r dr. Victor Ehrenberg zum 30. ma&#x308;rz 1926.</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Festschrift der Leipziger Juristenfakulta&#x308;t fu&#x308;r dr.  Alfred Schultze zum 19. ma&#x308;rz 1936.</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Festschrift der Juristenfakulta&#x308;t zum 600ja&#x308;hrigen Bestehen der Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zehn Jahre Landwirtschaftsanpassungsgesetz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vorlesungsverzeichnis</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Unser Rechtsgebrauch - ein Weg zu Gerechtigkeit?</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Univ. Wittenberg. Jur. Fac. Resolution vnd Bedencken ... [MI] 1623:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienf&#xFC;hrer und Vorlesungsverzeichnis / Universit&#xE4;t Leipzig, Juristenfakult&#xE4;t f&#xFC;r das ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienf&#xFC;hrer und Vorlesungsverzeichnis</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studien- und Pr&#xFC;fungsordnung // Universit&#xE4;t Leipzig, Juristenfakult&#xE4;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studien- und Pr&#xFC;fungsordnung / Universit&#xE4;t Leipzig, Juristenfakult&#xE4;t vom 13.7.2007</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studien- und Pr&#xFC;fungsf&#xFC;hrer</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Regimebelastung und &#xF6;ffentlicher Dienst</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Reden zur Ehrenpromotion Hans-Dietrich Genscher, 6. Mai 2003</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Reden aus Anlass der feierlichen &#xDC;bergabe der Festschrift der Juristenfakult&#xE4;t zum 600j&#xE4;hrigen Bestehen der Universit&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger rechtswissenschaftliche Studien</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger rechtswissenschaftliche Studien</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger juristische Vortr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger juristische Vortra&#x308;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger juristische Studien / Rechtshistorische Abteilung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Leipziger juristische Studien</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gedenkschrift fu&#x308;r Ludwig Mitteis, verfasst von mitgliedern der Leipziger Juristen-fakulta&#x308;t.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gedenkschrift fu&#x308;r Ludwig Mitteis</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r Heinrich Siber zum 10. April 1940</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r Dr. Alfred Schultze zum &#x98;19. &#x9C;[neunzehnten] M&#xE4;rz &#x98;1936 &#x9C;[neunzehnhundertsechsunddreissig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r Dr. Adolf Wach zum 16. November 1915</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r D[okto]r Heinrich Siber zum &#x98;10. &#x9C;[zehnten] April &#x98;1940 &#x9C;[neunzehnhundertvierzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r D[okto]r Heinrich Siber zum &#x98;10. &#x9C;[zehnten] April &#x98;1940 &#x9C;[neunzehnhundertvierzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festschrift der Leipziger Juristenfakult&#xE4;t f&#xFC;r D[okto]r Heinrich Siber zum &#x98;10. &#x9C;[zehnten] April &#x98;1940 &#x9C;[neunzehnhundertvierzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festgabe der Leipziger Juristenfakult&#xE4;t f&#xFC;r Karl Binding zum 7. August 1913</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festgabe der Leipziger Juristenfakult&#xE4;t f&#xFC;r Dr. Rudolph Sohm zum 8. Juli 1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Festgabe der Leipziger Juristenfakulta&#x308;t fu&#x308;r Dr. Jur. Otto Mu&#x308;ller zum 14. Mai 1892</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Feierliche Erneuerung der Doktorw&#xFC;rde zum 50. Jahrestag der Promotion von Frau Vorsitzende Richterin am Bundesverwaltungsgericht a.D. Dr. Charlotte Eckstein und Herrn Rechtsanwalt Dr. Henning Frank am 24. Januar 2001</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Europ&#xE4;ische Menschenrechtskonvention, Rechtsentwicklung und Verfassungsreform in der T&#xFC;rkei &#xF6;ffentlich-rechtliche Beitr&#xE4;ge zu einer Summer School in &#xDC;rkmez, Izmir, September 2002</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ehrenpromotion Hans-Dietrich Genscher, 6. Mai 2003</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Decanus et reliqui professores facultatis juridicae lipsiensis memoriam Christiani Friderici Kees die xiii m. Febr. a. MDCCCLIV hora x in auditorio iuridico pie celebrandam indicunt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Decanus et reliqui professores Facultatis Iuridicae Lipsiensis memoriam Christiani Friderici Kees, die XIII, m. Februar., a. MDCCCLVII, hora X in auditorio juridico pie celebrandam indicunt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Decanus et reliqui professores Facultatis Iuridicae Lipsiensis memoriam Christiani Friderici Kees : die XIII., m. Februarii, a. MDCCCXLIV, hora IX in auditorio iuridico pie celebrandam indicunt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arbeits- und Sozialrecht an der Leipziger Juristenfakult&#xE4;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>... Interdisziplin&#xE4;res Symposion der Juristenfakult&#xE4;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Siber, Heinrich, 1870-1951.</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Richter, Lutz, 1891-1945.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Kees, Christian Frideric.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Schmidt, Richard, 1862-1944.</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Jann, Werner 1950-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Battis, Ulrich 1944-</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>YA Pamphlet Collection (Library of Congress)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Windscheid, Bernard.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wach, Adolf</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Institut franc&#x327;ais Leipzig, Allemagne</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Binding, Karl</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="10">
+            <ns2:text>Leipziger Univ.-Verl.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>T. Weicher</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Universita&#x308;t Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Boorberg</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Keip.]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wissenschaftliches Antiquariat Keip</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zentralantiquariat der Deutschen Demokratischen Republik</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verlag von Veit &amp; Comp.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Typis A. Edelmanni</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>T. Deicher</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="162">
+        <ns2:date count="1" scaled="0.00">162</ns2:date>
+        <ns2:date count="0" scaled="0.0">163</ns2:date>
+        <ns2:date count="0" scaled="0.0">164</ns2:date>
+        <ns2:date count="0" scaled="0.0">165</ns2:date>
+        <ns2:date count="0" scaled="0.0">166</ns2:date>
+        <ns2:date count="0" scaled="0.0">167</ns2:date>
+        <ns2:date count="0" scaled="0.0">168</ns2:date>
+        <ns2:date count="0" scaled="0.0">169</ns2:date>
+        <ns2:date count="0" scaled="0.0">170</ns2:date>
+        <ns2:date count="0" scaled="0.0">171</ns2:date>
+        <ns2:date count="0" scaled="0.0">172</ns2:date>
+        <ns2:date count="0" scaled="0.0">173</ns2:date>
+        <ns2:date count="0" scaled="0.0">174</ns2:date>
+        <ns2:date count="0" scaled="0.0">175</ns2:date>
+        <ns2:date count="0" scaled="0.0">176</ns2:date>
+        <ns2:date count="0" scaled="0.0">177</ns2:date>
+        <ns2:date count="0" scaled="0.0">178</ns2:date>
+        <ns2:date count="0" scaled="0.0">179</ns2:date>
+        <ns2:date count="0" scaled="0.0">180</ns2:date>
+        <ns2:date count="0" scaled="0.0">181</ns2:date>
+        <ns2:date count="0" scaled="0.0">182</ns2:date>
+        <ns2:date count="0" scaled="0.0">183</ns2:date>
+        <ns2:date count="1" scaled="0.00">184</ns2:date>
+        <ns2:date count="2" scaled="1.00">185</ns2:date>
+        <ns2:date count="0" scaled="0.0">186</ns2:date>
+        <ns2:date count="0" scaled="0.0">187</ns2:date>
+        <ns2:date count="0" scaled="0.0">188</ns2:date>
+        <ns2:date count="1" scaled="0.00">189</ns2:date>
+        <ns2:date count="0" scaled="0.0">190</ns2:date>
+        <ns2:date count="3" scaled="1.58">191</ns2:date>
+        <ns2:date count="4" scaled="2.00">192</ns2:date>
+        <ns2:date count="4" scaled="2.00">193</ns2:date>
+        <ns2:date count="1" scaled="0.00">194</ns2:date>
+        <ns2:date count="0" scaled="0.0">195</ns2:date>
+        <ns2:date count="0" scaled="0.0">196</ns2:date>
+        <ns2:date count="4" scaled="2.00">197</ns2:date>
+        <ns2:date count="0" scaled="0.0">198</ns2:date>
+        <ns2:date count="9" scaled="3.17">199</ns2:date>
+        <ns2:date count="10" scaled="3.32">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="32">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>000</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>340</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="9">
+        <ns2:data count="2">
+            <ns2:text>9783934565029</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783931922375</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783428131488</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783936522600</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783935693172</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783934565043</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783934178311</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783933240156</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783452251091</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="40" scaled="5">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>ger</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000088514364</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|12224666" time="2010-11-16T05:09:39+00:00" type="add"/>
+        <ns2:ht recid="DNB|004815548" time="2010-11-16T05:09:39+00:00" type="add"/>
+        <ns2:ht recid="LC|n  87863369" time="2010-11-16T05:09:39+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls012324778" time="2010-11-16T05:09:39+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|030928788" time="2011-12-15T07:58:55+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x02114554" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="DNB|043183832" time="2012-05-22T07:08:00+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x02114554" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12224666" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x02114554" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|030928788" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12224666" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|030928788" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x02114554" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2012020154" time="2013-04-17T17:27:37+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

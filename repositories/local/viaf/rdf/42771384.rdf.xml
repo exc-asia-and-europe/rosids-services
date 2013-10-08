@@ -1,0 +1,146 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/42771384/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/42771384"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/42771384">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Faber, Basilius, 1520?-1575?</foaf:name>
+        <foaf:name>Faber, Basilius, 1520-1576</foaf:name>
+        <foaf:name>Faber, Basilius, -1575 or 1576</foaf:name>
+        <foaf:name>Faber, Basilius</foaf:name>
+        <foaf:name>Faber, Basilius (ca 1520-ca 1575).</foaf:name>
+        <foaf:name>Faber, Basilius, ca 1520-ca 1576</foaf:name>
+        <foaf:name>Faber, Basil</foaf:name>
+        <foaf:name>Faber, Basilius, d. 1575 or 1576</foaf:name>
+        <foaf:name>Fabrus, Basilius, 1520-1575</foaf:name>
+        <foaf:name>Taber, Basilius 1520-1575</foaf:name>
+        <foaf:name>Soranus, Basilius Faber 1520-1575</foaf:name>
+        <foaf:name>Schmidt, Basilius 1520-1575</foaf:name>
+        <foaf:name>Faber Soranus, Basilius 1520-1575</foaf:name>
+        <foaf:name>Faber, Soranus 1520-1575</foaf:name>
+        <foaf:name>Faber, Basilius 1520-1575</foaf:name>
+        <foaf:name>B. F. Soranus 1520-1575</foaf:name>
+        <foaf:name>B. F. 1520-1575</foaf:name>
+        <foaf:name>Fabrus, Basilius, Soranus, 1520-1575</foaf:name>
+        <foaf:name>Fabrus, Basilius.</foaf:name>
+        <foaf:name>Faber Soranus, Basilius.</foaf:name>
+        <foaf:name>Soranus, Basilius Faber.</foaf:name>
+        <foaf:name>Fabrus, Basilius, -1575 or 1576</foaf:name>
+        <foaf:name>Faber, Basilius, d. 1575 or 1576</foaf:name>
+        <foaf:name>Schmidt, Basilius, 1520-1576</foaf:name>
+        <foaf:name>Schmidt, Basilius, Dit Faber</foaf:name>
+        <foaf:name>Faber, Basilius Schmidt, dit</foaf:name>
+        <foaf:name>Taber, Basilius.</foaf:name>
+        <foaf:name>Schmidt, Basilius.</foaf:name>
+        <foaf:name>Fabricius, Basilius.</foaf:name>
+        <foaf:name>B. F.</foaf:name>
+        <foaf:name>Soranus, ca 1520-ca 1576</foaf:name>
+        <rdaGr2:dateOfBirth>1520</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1575</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/241159"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/12444282X"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Basil_Faber"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/076372650/id"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000508211#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Faber, Basilius, d. 1575 or 1576</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C241159#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Faber, Basilius, 1520-1576</skos:prefLabel>
+        <skos:altLabel>Schmidt, Basilius, 1520-1576</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/241159#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C12444282X#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Faber, Basilius, 1520?-1575?</skos:prefLabel>
+        <skos:altLabel>Fabrus, Basilius, 1520-1575</skos:altLabel>
+        <skos:altLabel>Taber, Basilius 1520-1575</skos:altLabel>
+        <skos:altLabel>Soranus, Basilius Faber 1520-1575</skos:altLabel>
+        <skos:altLabel>Schmidt, Basilius 1520-1575</skos:altLabel>
+        <skos:altLabel>Faber Soranus, Basilius 1520-1575</skos:altLabel>
+        <skos:altLabel>Faber, Soranus 1520-1575</skos:altLabel>
+        <skos:altLabel>Faber, Basilius 1520-1575</skos:altLabel>
+        <skos:altLabel>B. F. Soranus 1520-1575</skos:altLabel>
+        <skos:altLabel>B. F. 1520-1575</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000060568#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Faber, Basilius</skos:prefLabel>
+        <skos:altLabel>Schmidt, Basilius, Dit Faber</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cola2002158914#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Faber, Basilius, ca 1520-ca 1576</skos:prefLabel>
+        <skos:altLabel>Soranus, ca 1520-ca 1576</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++92080704#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Faber, Basilius, -1575 or 1576</skos:prefLabel>
+        <skos:altLabel>Fabrus, Basilius, -1575 or 1576</skos:altLabel>
+        <skos:altLabel>Faber, Basilius, d. 1575 or 1576</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n92080704"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CBasil_Faber#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Faber, Basil</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11985381#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Faber, Basilius, 1520?-1575?</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C069935467#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Faber, Basilius, 1520?-1575?</skos:prefLabel>
+        <skos:altLabel>Fabrus, Basilius, 1520-1575</skos:altLabel>
+        <skos:altLabel>Fabrus, Basilius, Soranus, 1520-1575</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca24511328#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Faber, Basilius (ca 1520-ca 1575).</skos:prefLabel>
+        <skos:altLabel>Fabrus, Basilius.</skos:altLabel>
+        <skos:altLabel>Faber Soranus, Basilius.</skos:altLabel>
+        <skos:altLabel>Taber, Basilius.</skos:altLabel>
+        <skos:altLabel>Schmidt, Basilius.</skos:altLabel>
+        <skos:altLabel>Fabricius, Basilius.</skos:altLabel>
+        <skos:altLabel>B. F.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2006123486#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Faber, Basilius, 1520?-1575?</skos:prefLabel>
+        <skos:altLabel>Fabrus, Basilius.</skos:altLabel>
+        <skos:altLabel>Faber Soranus, Basilius.</skos:altLabel>
+        <skos:altLabel>Soranus, Basilius Faber.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C076372650#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Faber, Basilius, 1520-1576</skos:prefLabel>
+        <skos:altLabel>Faber, Basilius Schmidt, dit</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/42771384/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/42771384"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/42771384/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/42771384"/>
+    </rdf:Description>
+</rdf:RDF>

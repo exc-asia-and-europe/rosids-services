@@ -1,0 +1,122 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/266509445/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/266509445"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/266509445">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Raabe, Paul, 1927-....</foaf:name>
+        <foaf:name>Raabe, Paul, 1927-2013</foaf:name>
+        <foaf:name>Raabe, Paul</foaf:name>
+        <foaf:name>Raabe-Schöne, ... 1927-2013</foaf:name>
+        <foaf:name>Raabe-Schmidt-Biggemann, ... 1927-2013</foaf:name>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/169364945"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/169364945"/>
+        <owl:differentFrom rdf:resource="http://viaf.org/viaf/238979164"/>
+        <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/238979164"/>
+        <rdaGr2:dateOfBirth>1927-02-21</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>2013</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://www.idref.fr/028390016/id"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/118597434"/>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/364980"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12023516b#foaf:Person"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C028390016#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++50052402#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Raabe, Paul</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n50052402"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX912086#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Raabe, Paul</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjx20040721053#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Raabe, Paul, 1927-2013</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C260701#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel>Raabe, Paul</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++96031278#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SWNL%7Cvtls002307591#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SWNL"/>
+        <skos:prefLabel>Raabe, Paul</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118597434#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Raabe, Paul, 1927-2013</skos:prefLabel>
+        <skos:altLabel>Raabe-Schöne, ... 1927-2013</skos:altLabel>
+        <skos:altLabel>Raabe-Schmidt-Biggemann, ... 1927-2013</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C071009000#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000003601#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000108803#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Raabe, Paul</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C364980#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Raabe, Paul, 1927-2013</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/364980#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C12023516#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12023516b"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12023516b"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000036529323#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV10013782#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca11493641#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Raabe, Paul, 1927-....</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/266509445/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/266509445"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/266509445/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/266509445"/>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,1440 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>27069152</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/27069152/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/27069152"/>
+    </ns2:Document>
+    <ns2:nameType>Personal</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="00450589">NDL|00450589</ns2:source>
+        <ns2:source nsid="1007J2871">LAC|1007J2871</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/118584278">DNB|118584278</ns2:source>
+        <ns2:source nsid="Arthur_Morrison">WKP|Arthur_Morrison</ns2:source>
+        <ns2:source nsid="000400940">NLI|000400940</ns2:source>
+        <ns2:source nsid="027039226">SUDOC|027039226</ns2:source>
+        <ns2:source nsid="000035363946">NLA|000035363946</ns2:source>
+        <ns2:source nsid="vtls000452401">NUKAT|n  99706183</ns2:source>
+        <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb11916926p">BNF|11916926</ns2:source>
+        <ns2:source nsid="n50005691">LC|n  50005691</ns2:source>
+        <ns2:source nsid="a10318367">NLP|a10318367</ns2:source>
+        <ns2:source nsid="070816700">NTA|070816700</ns2:source>
+        <ns2:source nsid="ADV12024285">BAV|ADV12024285</ns2:source>
+        <ns2:source nsid="jx20050722009">NKC|jx20050722009</ns2:source>
+    </ns2:sources>
+    <ns2:length>1004</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Morrison, Arthur, 1863-1945</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>SUDOC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Morrison, Arthur</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Morrison, Artur (1863-1945).</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NDL|00450589</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LAC|1007J2871</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|118584278</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+            <ns2:id>WKP|Arthur_Morrison</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000400940</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|027039226</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035363946</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur</ns2:subfield>
+                <ns2:subfield code="d">(1863-1945).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n  99706183</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                <ns2:subfield code="8">fre</ns2:subfield>
+                <ns2:subfield code="9">0</ns2:subfield>
+                <ns2:subfield code="a">Morrison</ns2:subfield>
+                <ns2:subfield code="b">Arthur</ns2:subfield>
+                <ns2:subfield code="f">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNF|11916926</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  50005691</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Artur</ns2:subfield>
+                <ns2:subfield code="d">(1863-1945).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLP</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLP|a10318367</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NTA|070816700</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+            <ns2:id>BAV|ADV12024285</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NKC|jx20050722009</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                <ns2:subfield code="a">Morrison, Arthur,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+                <ns2:subfield code="7">jx20050722009</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|jx20050722009</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="double date"/>BNF|11916926</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>SUDOC|027039226</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NTA|070816700</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NUKAT|n  99706183</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLP|a10318367</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>BAV|ADV12024285</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>DNB|118584278</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LAC|1007J2871</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLI|000400940</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NLA|000035363946</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>LC|n  50005691</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>WKP|Arthur_Morrison</ns2:link>
+                <ns2:link>
+                    <ns2:match type="double date"/>NDL|00450589</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>n</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19990317</ns2:dateEntered>
+        <ns2:type>x</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">Mao-li-sen, A-se,</ns2:subfield>
+                <ns2:subfield code="d">1863-1945</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                <ns2:subfield code="a">&#x30E2;&#x30EA;&#x30B9;&#x30F3;, &#x30A2;&#x30FC;&#x30B5;&#x30FC;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Mao-li-sen, A-se, 1863-1945<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30E2;&#x30EA;&#x30B9;&#x30F3;, &#x30A2;&#x30FC;&#x30B5;&#x30FC;<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:titles>
+        <ns2:data count="9">
+            <ns2:text>A child of the Jago</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Tales of mean streets. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>To London town. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Slum fiction : representations of life in London's East End, 1880-1920.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Martin Hewitt: investigator</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Cunning Murrell. -</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>&#x98;A&#x9C; Child of the Jago</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Green Ginger</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Detektiv Hewitt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The red triangle; being some further chronicles of Martin Hewitt, investigator.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The hole in the wall</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Shen shu kuei tsang lu, 1990:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Exhibition of Japanese prints : illustrated catalogue, with notes and an introduction</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Divers Vanities</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Chronicles of Martin Hewitt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x7DD1;&#x306E;&#x30C0;&#x30A4;&#x30E4;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x795E;&#x6A1E;&#x9B3C;&#x85CF;&#x9304; : &#x5075;&#x63A2;&#x5C0F;&#x8AAA;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x602A;&#x5947;&#x63A2;&#x5075;&#x5341;&#x4E00;&#x306E;&#x74F6;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;The&#x9C; green Eye of Goona Stories of a case of Tokay</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;The&#x9C; Hole in the wall</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Le &#x9C;myste&#x300;re du came&#x301;e Stanway</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;La &#x9C;main de gloire Martin Hewitt, de&#x301;tective</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;L'&#x9C;heure re&#x301;ve&#x301;latrice Martin Hewitt, de&#x301;tective</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;L'&#x9C;heure re&#x301;ve&#x301;latrice</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;L'&#x9C;e&#x301;trange aventure du &quot;Nicobar&quot; Martin Hewitt, de&#x301;tective</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;L'&#x9C;Heure re&#x301;ve&#x301;latrice [nouvelles]</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; rote Triangel</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; gr&#xFC;ne Diamant</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;A &#x9C;Child of the Jago. Edited with a biographical study by P.J. Keating</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the red triangle</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the green eye of goona</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the green diamond</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the dorrington deed box</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the chronicles of martin hewitt</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>the adventures of martin hewitt</ns2:text>
+            <ns2:sources>
+                <ns2:s>WKP</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Z&#xE1;huba &quot;Nikobaru&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Z&#xE1;hadn&#xFD; klav&#xED;r :</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The painters of Japan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The chronicles of Martin Hewitt, detective</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The Martin Hewitt adventures and other detective stories</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The Green Eye of Goona : stories of a case of Tokay</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sous la griffe de Martin Hewitt, de&#x301;tective</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shen shu gui zang lu : zhen tan xiao shuo</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Nouvelles enque&#x302;tes du prestigieux Hewitt</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Nouvelles enque&#x302;tes du prestigieux Hewitt</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Midori no daiya.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Martin Hewitt, de&#x301;tective</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kaiki tantei 11 no bin.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Het verdwenen elftal : een humoristisch verhaal</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Exhibition of Japanese screens painted by the old masters, held at the galleries of the Royal society of British artists, July, 1910;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>D&#xED;t&#x11B; ch&#xE1;try : obraz z opovr&#x17E;en&#xE9; &#x10D;tvrti lond&#xFD;nsk&#xE9;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Best Martin Hewitt detective stories</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Arthur Morrison</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A child of the Jago : [a novel set in the London slums in the 1890's]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>A book of short stories : a collection for use in high schools</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>The Martin Hewitt adventures and other detective stories, 2000.  CIP.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="8" tag="950">
+            <ns2:text>Le&#x301;cuyer, Rene&#x301; 1887-19..</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>&#x7530;&#x4E2D;, &#x5B5D;&#x4FE1;, 1957-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Tanaka, Takanobu, 1957-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>&#x5EF6;&#x539F;, &#x8B19;, 1892-1977</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Nobuhara, Ken, 1892-1977.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="950">
+            <ns2:text>Miles, Peter 1949-....</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Fine Art Society.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>&#x9B4F;&#x6613;, 1880-1932.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>&#x6797;&#x7D13;, 1852-1924.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Wechsler, Ludwig</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Miller, Anita.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Landsberg, Wally fl. 1918</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Keating, P. J.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="10">
+            <ns2:text>Tauchnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Athena Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>la Renaissance du Livre</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Books for Libraries Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x535A;&#x6587;&#x9928;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Lutz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Fine Art Society</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Battered Silicon Dispatch Box</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x9B4F;&#x60DF;&#x5100;</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zmatl&#xED;k a Pali&#x10D;ka</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Penguin Books</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Page</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>1863-11-01</ns2:birthDate>
+    <ns2:deathDate>1945-12-04</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="189">
+        <ns2:date count="11" scaled="3.46">189</ns2:date>
+        <ns2:date count="17" scaled="4.09">190</ns2:date>
+        <ns2:date count="7" scaled="2.81">191</ns2:date>
+        <ns2:date count="4" scaled="2.00">192</ns2:date>
+        <ns2:date count="2" scaled="1.00">193</ns2:date>
+        <ns2:date count="1" scaled="0.00">194</ns2:date>
+        <ns2:date count="0" scaled="0.0">195</ns2:date>
+        <ns2:date count="2" scaled="1.00">196</ns2:date>
+        <ns2:date count="7" scaled="2.81">197</ns2:date>
+        <ns2:date count="1" scaled="0.00">198</ns2:date>
+        <ns2:date count="6" scaled="2.58">199</ns2:date>
+        <ns2:date count="2" scaled="1.00">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="71">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>mm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="11">
+            <ns2:text>070</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="16">
+        <ns2:data count="2">
+            <ns2:text>9780897333924</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780836936339</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9780199605514</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9782843791994</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9782841420865</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9781552463840</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9781552462300</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780897334402</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780883552032</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780851152059</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9780405078880</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:covers>
+        <ns2:data count="2">
+            <ns2:text>0897333926</ns2:text>
+            <ns2:xtext>+-+1748882435</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>089733440X</ns2:text>
+            <ns2:xtext>+-+K599882435</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:covers>
+    <ns2:countries>
+        <ns2:data count="22" scaled="5">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="15" scaled="4">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" scaled="3">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8" scaled="3">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" scaled="3">
+            <ns2:text>JP</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" scaled="2">
+            <ns2:text>CZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>TW</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CA</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>NL</ns2:text>
+            <ns2:sources>
+                <ns2:s>NTA</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>KI</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:languageOfEntity>
+        <ns2:data>
+            <ns2:text>fre</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:languageOfEntity>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNF</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="Morrison, Arthur, 1863-1945" type="ISNI">0000000110230481</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|197683999">
+            <ns2:text>Morrison, Arthur|1863-1945</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|182992130">
+            <ns2:text>Morrison, Arthur,|1863-1945.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|197683999">
+            <ns2:text>&#x98;A&#x9C; child of the Jago</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork>
+            <ns2:text>Chronicles of Martin Hewitt.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|182992130">
+                <ns2:text>Chinese</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|11916926" time="2009-03-03T12:03:22+00:00" type="add"/>
+        <ns2:ht recid="DNB|118584278" time="2009-03-03T12:03:26+00:00" type="add"/>
+        <ns2:ht recid="LC|n  50005691" time="2009-03-03T12:03:30+00:00" type="add"/>
+        <ns2:ht recid="NKC|jx20050722009" time="2009-05-07T09:10:50+00:00" type="add"/>
+        <ns2:ht recid="BAV|ADV12024285" time="2009-07-24T08:25:14+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035363946" time="2009-08-21T09:42:37+00:00" type="add"/>
+        <ns2:ht recid="LAC|1007J2871" time="2010-02-22T06:44:10+00:00" type="add"/>
+        <ns2:ht recid="NII|DA05806893" time="2010-04-23T04:20:34+00:00" type="add"/>
+        <ns2:ht recid="NII|DA05806893" time="2010-11-16T05:07:53+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n  99706183" time="2011-02-17T05:22:53+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|027039226" time="2011-12-15T07:58:57+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90072445" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000400940" time="2012-05-22T07:07:53+00:00" type="add"/>
+        <ns2:ht recid="NDL|00450589" time="2012-09-21T12:24:30+00:00" type="add"/>
+        <ns2:ht recid="WKP|Arthur_Morrison" time="2012-11-26T09:56:13+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90072445" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="NTA|070816700" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="NLI|000400940" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000400940" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLP|a10318367" time="2013-06-14T19:03:38+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

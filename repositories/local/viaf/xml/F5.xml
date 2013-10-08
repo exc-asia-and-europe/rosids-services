@@ -1,0 +1,1673 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>146134357</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/146134357/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/146134357"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="LNC10-000144118">LNB|LNC10-000144118</ns2:source>
+        <ns2:source nsid="000372879">NLI|000372879</ns2:source>
+        <ns2:source nsid="050294857">SUDOC|050294857</ns2:source>
+        <ns2:source nsid="ko2003198485">NKC|ko2003198485</ns2:source>
+        <ns2:source nsid="500304648">JPG|500304648</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/5068036-5">DNB|050680366</ns2:source>
+        <ns2:source nsid="n95084957">LC|n  95084957</ns2:source>
+        <ns2:source nsid="vtls003712938">NUKAT|n 2006031710</ns2:source>
+        <ns2:source nsid="ADV12544705">BAV|ADV12544705</ns2:source>
+        <ns2:source nsid="vtls009644716">RERO|vtls009644716</ns2:source>
+    </ns2:sources>
+    <ns2:length>1330</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>St&#xE4;dtische Kunstsammlungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Sta&#x308;dtische Kunstsammlungen (Chemnitz, Allemagne)</ns2:text>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>LNB|LNC10-000144118</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000372879</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="lccn"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen (Chemnitz, Allemagne)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+            <ns2:id>SUDOC|050294857</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+                <ns2:subfield code="7">ko2003198485</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|ko2003198485</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+            <ns2:id>JPG|500304648</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|050680366</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|050680366</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="110">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  95084957</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="lccn"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen (Chemnitz).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2006031710</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+            <ns2:id>BAV|ADV12544705</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>RERO|vtls009644716</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen (Chemnitz)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+            <ns2:id>RERO|vtls009644716</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  95084957</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>BAV|ADV12544705</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LNB|LNC10-000144118</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000372879</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SUDOC|050294857</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|050680366</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|ko2003198485</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>JPG|500304648</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006031710</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>a</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>f</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>|</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19950826</ns2:dateEntered>
+        <ns2:type>z</ns2:type>
+        <ns2:authStatus>|</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="451">
+                <ns2:subfield code="a">Chemnitz (Allemagne)</ns2:subfield>
+                <ns2:subfield code="x">Sta&#x308;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="410">
+                <ns2:subfield code="a">Chemnitz (Germany).</ns2:subfield>
+                <ns2:subfield code="b">Sta&#x308;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Chemnitz (Germany).</ns2:subfield>
+                <ns2:subfield code="b">St&#xE4;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Chemnitz (V&#x101;cija).</ns2:subfield>
+                <ns2:subfield code="b">St&#xE4;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Kunstsammlungen Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Kunstsammlungen Chemnitz.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Muzej Iskusstv</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Muzej Iskusstv Goroda Kemnic</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Sask&#xE1; Kamenice (N&#x11B;mecko).</ns2:subfield>
+                <ns2:subfield code="b">St&#xE4;dtische Kunstsammlungen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlung Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen (Karl-Marx-Stadt, RDA)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sta&#x308;dtische Museen (Karl-Marx-Stadt, RDA).</ns2:subfield>
+                <ns2:subfield code="b">Sta&#x308;dtische Kunstsammlungen Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Kunstsammlungen Chemnitz.<ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chemnitz (Germany). St&#xE4;dtische Kunstsammlungen<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Muzej Iskusstv<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sta&#x308;dtische Kunstsammlung Chemnitz<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Muzej Iskusstv Goroda Kemnic<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sask&#xE1; Kamenice (N&#x11B;mecko). St&#xE4;dtische Kunstsammlungen<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chemnitz (V&#x101;cija). St&#xE4;dtische Kunstsammlungen<ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sta&#x308;dtische Museen (Karl-Marx-Stadt, RDA). Sta&#x308;dtische Kunstsammlungen Karl-Marx-Stadt<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sta&#x308;dtische Kunstsammlungen (Karl-Marx-Stadt, RDA)<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chemnitz (Allemagne) Sta&#x308;dtische Kunstsammlungen<ns2:sources>
+                <ns2:s>SUDOC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="551">
+                <ns2:subfield code="a">Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>JPG</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Kunstsammlungen (Chemnitz).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Kunstsammlungen Chemnitz</ns2:subfield>
+                <ns2:subfield code="e">Nachfolger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="151756575">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="510">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlungen Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Sta&#x308;dtische Kunstsammlung</ns2:subfield>
+                <ns2:subfield code="e">Vorgaenger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="151756575">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">St&#xE4;dtische Kunstsammlungen Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref viafLink="151756575">St&#xE4;dtische Kunstsammlungen Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Chemnitz<ns2:sources>
+                <ns2:s>JPG</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sta&#x308;dtische Kunstsammlung Vorgaenger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kunstsammlungen Chemnitz Nachfolger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Kunstsammlungen (Chemnitz).<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="3">
+            <ns2:text>Lyonel Feininger : Loebermann collection : drawings, watercolors, prints</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>&#x98;The&#x9C; major sequenced conic sculptures</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wolfgang Mattheuer zum 70. Geburtstag Graphikretrospektive 1948 - 1997, Sammlung Hartmut Koch, Chemnitz ; St&#xE4;dtische Kunstsammlungen Chemnitz, 6. April - 29. Juni 1997 ; [anl&#xE4;sslich der Ausstellung Wolfgang Mattheuer zum 70. Geburtstag - Graphikretrospektive 1948 - 1997 - Sammlung Hartmut Koch, Chemnitz]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Von Baumeister bis Balkenhol aus der Sammlung L&#xFC;hl</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Russische Avantgarde</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Max Slevogt : Malerei und Grafik : eine Kooperation mit dem Saarlandmuseum Saarbru&#x308;cken</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Max Ernst, 1998:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Loebermann collection</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Honore&#x301; Daumier : &quot;ein Spo&#x308;tter ist's und scharf sein Scherz&quot; : Lithographien, Skulpturen, Gema&#x308;lde = &quot;c'est un satirique, un moqueur&quot; : lithographies, sculptures, peintures</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Historische Plakate 1890-1914</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Georgius Agricola, 1494-1994, 1994:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Georg Baselitz : aus der Sammlung Deutsche Bank.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>David Rabinowitch - The major sequenced conic sculptures</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Cranach : Gem&#xE4;lde aus Dresden</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Cranach</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Carlfriedrich Claus, Lautprozess-Raum St&#xE4;dtische Kunstsammlungen Chemnitz 1995</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Andreas Felger Malen wie Atmen ; [anla&#x308;sslich der Ausstellung Andreas Felger - Malen wie Atmen, Gema&#x308;lde und Skizzenbu&#x308;cher, 29.9 bis 18.11.2012, Kunstsammlung Chemnitz]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x5DE;&#x5D0;&#x5D4; &#x5E2;&#x5E9;&#x5E8;&#x5D9;&#x5DD; &#x5D5;&#x5D7;&#x5DE;&#x5E9; &#x5E9;&#x5E0;&#x5D4; &#x5DC;&#x5E7;&#x5D4;&#x5D9;&#x5DC;&#x5D4; &#x5D4;&#x5D9;&#x5D4;&#x5D5;&#x5D3;&#x5D9;&#x5EA; &#x5E7;&#x5DE;&#x5E0;&#x5D9;&#x5E5;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zweihundert Holzschnitte aus Privatbesitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zeitgeno&#x308;ssische Fotokunst aus der Volksrepublik China : Neuer Berliner Kunstverein, 27. September bis 9. November 1997 : Sta&#x308;dtische Kunstsammlungen Chemnitz, 17. Januar bis 8. Ma&#x308;rz 1998 : Kunsthalle Darmstadt, 15. Ma&#x308;rz bis 19. April 1998.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zeitgeno&#x308;ssische Fotokunst aus Su&#x308;dafrika</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zauber des Papier</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wolfgang Mattheuer zum siebzigsten Geburtstag</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wolfgang Mattheuer : the prints : the Hartmut Koch donation</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wolfgang Mattheuer : Retrospektive : Gema&#x308;lde, Zeichnungen, Skulpturen = paintings, drawings, sculptures</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wolfgang Mattheuer : Graphikretrospektive 1948-1997</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wilhelm Lehmbruck - Kopf eines Denkers, 1918</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wien B, Johanes Zechner Juli, August 1993, St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wie Seide gemalt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wasser ein interdisziplin&#xE4;res Projekt der St&#xE4;dtischen Kunstsammlungen Chemnitz in Zusammenarbeit mit den Stadtwerken Chemnitz AG ; Altes Wasserwerk an der Zschopauer Strasse, 12. Juni - 27. August 1994</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Gl&#xFC;ck ein K&#xFC;nstler zu sein, 2008:</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vom Gl&#xFC;ck ein K&#xFC;nstler zu sein = Fortunate to be an artist : Peter Iden, interviews</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Velours et soie : les e&#x301;toffes de luxe en France vers 1900</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Textilien der Wiener Werksta&#x308;tte</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Spo&#x308;tter ist's und scharf sein Scherz&quot; : Lithographien, Skulpturen, Gema&#x308;lde</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Spo&#x308;tter ist's und scharf sein Scherz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shuragaki</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shura gaki</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Shadow of colors</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Schrift, Zeichen, Geste : Carlfriedrich Claus im Kontext von Klee bis Pollock</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Samt und Seide : franzo&#x308;sische Luxus-Stoffe um 1900 = Velours et soie : les e&#x301;toffes de luxe en France vers 1900</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sam Francis : the shadow of colors</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Russkij avangard grafika iz sobranija Nukusskogo Muzeja Iskusstv Karakalpakstana ; [Muzej Iskusstv Goroda Kemnic, 27.9. - 29.10.1995] = Russische Avantgarde</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Russkii&#x306; avangard : grafika iz sobranii&#xFE20;a&#xFE21; Nukusskogo muzei&#xFE20;a&#xFE21; iskusstv Karakalpakstana = Russische Avantgarde : Grafik aus dem Kunstmuseum Nukus, Karakalpakstan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ruskij avangard : grafika iz sobranija Nukusskogo muzeja iskusstv Karakalpakstana = Russische Avantgarde : Grafik aus dem Kunstmuseum Nukus, Karakalpakstan</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rosa, eigenartig gru&#x308;n : Rosa Schapire und die Expressionisten</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rembrandt Radierungen aus dem K&#xFC;nstlerhaus Wien und den St&#xE4;dtischen Kunstsammlungen Chemnitz, 9. November 1997 - 4. Januar 1998</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Prints : the Hartmut Koch donation</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pierre Auguste Renoir : wie Seide gemalt = l'effet de la soie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pierre Auguste Renoir : l'effet de la soie</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pictory : der Sieg der Bilder : Volker Hildebrandt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pictory - der Sieg der Bilder [Volker Hildebrandt]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Picasso et les femmes</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Peter Iden, interviews</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Pablo Picasso : Suite Vollard</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neuerwerbungen : 36 Werke aus Mitteln einer privaten Spende</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Max Slevogt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Markus Lu&#x308;pertz : Chemnitzer Melange, eine Einsicht : Werke aus Bremer Privatbesitz und den Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Malerei und Grafik</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Magie du papier</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Magical impressionist</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Magic of papier</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lyonel Feininger : 200 Holzschnitte aus Privatbesitz : Kunstverein Ludwigsburg, 12. November 1995 bis 14. Januar 1996 : Sta&#x308;dtische Kunstsammlungen Chemnitz, 16. Juni bis 18. September 1996</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Lore Bert : Zauber des Papiers : Bilder, Collagen, Transparente, Bildobjekte, Skulpturen = magic of papier : paintings, collages, transparents, objects, sculptures = la magie du papier : tableaux, collages, transparents, objets, sculptures</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Kunstsammlungen Chemnitz : Neuerwerbungen : 36 Werke aus Mitteln einer privaten Spende</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Karl Schmidt-Rottluff, Malerei und Grafik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ingeborg Lu&#x308;scher : Skulptur-Fotografie-Installation = sculpture-photography-installation</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Imi Knoebel, rot, gelb, weiss, blau [anl&#xE4;sslich der Ausstellung &quot;Imi Knoebel - Rot, Gelb, Weiss, Blau&quot; in den St&#xE4;dtischen Kunstsammlungen Chemnitz vom 18.12.1994 bis 12.02.1995]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Hundertfu&#x308;nfundzwanzig Jahre Ju&#x308;dische Gemeinde in Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Historische Plakate 1890 - 1914 [anl&#xE4;sslich der Ausstellung &quot;Historische Plakate 1890 - 1914&quot; in den St&#xE4;dtischen Kunstsammlungen Chemnitz vom 18. Juni bis 30. Juli 1995]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Henri Le Sidaner : ein magischer Impressionist</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Helmut Kolle : ein Deutscher in Paris</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Heinz Breloh : die Bildhauer : 1993, Skulpturenmuseum Glaskasten, Marl ; 1993, Galerie Heimeshoff, Jochen Kr&#xFC;per, Essen ; 1995, St&#xE4;dtische Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>G&#xFC;nter Behnisch zum 75. Geburtstag eine Festschrift ; [anl&#xE4;&#xDF;lich der Ausstellung &quot;G&#xFC;nter Behnisch: Architekturmodelle&quot; vom 15.11.1997 bis 18.1.1998]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gerhard Altenbourg, Horst Hussel : Werke im Museum Gunzenhauser : [dieser Bestandskatalog des Museums Gunzenhauser erscheint anla&#x308;sslich der Ausstellung &quot;Gerhard Altenbourg, Horst Hussel, Werke im Museum Gunzenhauser&quot;, 8. November 2009-11. April 2010]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Gabriele Mu&#x308;nter : Werke im Museum Gunzenhauser ; [dieser Bestandskatalog des Museum Gunzenhauser erscheint anla&#x308;sslich der Ausstellung Gabriele Mu&#x308;nter. Gema&#x308;lde, Hinterglasmalerei, Arbeiten auf Papier, 2. November 2008 - 19. April 2009]</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Fran&#xE7;ois Morellet, installations catalogue raisonn&#xE9; seiner Installationen ; [anl&#xE4;sslich der Ausstellung &quot;Fran&#xE7;ois Morellet - Chemnitzer Buerger-Eyd&quot; in den St&#xE4;dtischen Kunstsammlungen Chemnitz vom 11. September bis 16. Oktober 1994]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Fortunate to be an artist</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Feminin : Frauenbildnisse aus Privatbesitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Deutschlandreise 1925/1926</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>David Rabinowitch, The major sequenced conic sculptures [anl&#xE4;sslich der Ausstellung &quot;David Rabinowitch - Sequenced Conic Constructions in Three Domains&quot; vom 1.10. bis 31.12.1995 in den St&#xE4;dtischen Kunstsammlungen Chemnitz]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>David Rabinowitch</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Cranach : mit einem Bestandskatalog der Gem&#xE4;lde in den Staatlichen Kunstsammlungen Dresden</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Cranach : [Gem&#xE4;lde aus Dresden]</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Couleur et lumi&#xE8;re : franz&#xF6;sische Malerei von 1870 bis 1918 : Werke aus dem Wallraf-Richartz-Museum - Fondation Corboud, K&#xF6;ln</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Christian Tomaszewski : on chapels, caves and erotic misery</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Charlotte Salomon : Leben? Oder Theater?</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Catalogue of the collection</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Carlfriedrich Claus im Kontext von Klee bis Pollock</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Carlfriedrich Claus : Schrift, Zeichen, Geste : [Ausstellung : 24.7. - 9.10.2005 in den Kunstsammlungen Chemnitz]</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>C'est un satirique, un moqueur&quot; : lithographies, sculptures, peintures</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bob Dylan : the drawn blank series</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Bj&#xF8;rn N&#xF8;rgaard, myth and morphology</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Baselitz : die Afrika-Sammlung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aquaria : &#xFC;ber die au&#xDF;ergew&#xF6;hnliche Beziehung von Wasser &amp; Mensch = the fascinating world of man and water / Ausstellung und Katalog kuratiert von Barbara Wally ; [&#xDC;bers. Robin Benson et al.].</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Aquaria : the fascinating world of man and water</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>1885-2010 : 125 Jahre Ju&#x308;dische Gemeinde in Chemnitz, 1885-2010 = 125 &#x5E9;&#x5E0;&#x5D4; &#x5DC;&#x5E7;&#x5D4;&#x5D9;&#x5DC;&#x5D4; &#x5D4;&#x5D9;&#x5D4;&#x5D5;&#x5D3;&#x5D9;&#x5EA; &#x5E7;&#x5DE;&#x5E0;&#x5D9;&#x5E5;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>125 &#x5E9;&#x5E0;&#x5D4; &#x5DC;&#x5E7;&#x5D4;&#x5D9;&#x5DC;&#x5D4; &#x5D4;&#x5D9;&#x5D4;&#x5D5;&#x5D3;&#x5D9;&#x5EA; &#x5E7;&#x5DE;&#x5E0;&#x5D9;&#x5E5;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>125 Jahre Ju&#x308;dische Gemeinde in Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="38" tag="950">
+            <ns2:text>M&#xF6;ssinger, Ingrid</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="23" tag="950">
+            <ns2:text>Anna, Susanne, 1962-</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="15" tag="950">
+            <ns2:text>Drechsel, Kerstin 1966-</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9" tag="950">
+            <ns2:text>Milde, Brigitta</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" tag="950">
+            <ns2:text>Metz, Katharina</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Ritter, Beate</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Sagner, Karin.</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Sachs, Liane</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="951">
+            <ns2:text>Museum Gunzenhauser (Chemnitz, Germany)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Mattheuer, Wolfgang, 1927-2004.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Nitsche, Ju&#x308;rgen.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="14">
+            <ns2:text>St&#xE4;dtische Kunstsammlungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="12">
+            <ns2:text>Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Wienand</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="9">
+            <ns2:text>Kerber</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Prestel</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Daco-Verl. Bla&#x308;se</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>DACO-Verlag G&#xFC;nter Bl&#xE4;se</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Seemann</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Edition Leipzig</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Verlag Hermann Schmidt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ju&#x308;dische Gemeinde Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="199">
+        <ns2:date count="41" scaled="5.36">199</ns2:date>
+        <ns2:date count="36" scaled="5.17">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="66">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="18">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>pbl</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="71">
+        <ns2:data count="3">
+            <ns2:text>9783879098767</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783871350269</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783871350252</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783871350245</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783791361048</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9783791337678</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783930116072</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783930116058</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783874394383</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783866781689</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9783865022820</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783938832738</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783938025055</ns2:text>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783928417280</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783866784710</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9783866782525</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:covers>
+        <ns2:data count="3">
+            <ns2:text>379133767X</ns2:text>
+            <ns2:xtext>+-+K212886428</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>3868320016</ns2:text>
+            <ns2:xtext>+-+1655783138</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>3832172157</ns2:text>
+            <ns2:xtext>+-+2067267838</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>3791339435</ns2:text>
+            <ns2:xtext>+-+0894886428</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>RERO</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>3422022139</ns2:text>
+            <ns2:xtext>+-+4867757798</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:covers>
+    <ns2:countries>
+        <ns2:data count="83" scaled="6">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>BAV</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>RERO</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CH</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:nationalityOfEntity>
+        <ns2:data>
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:nationalityOfEntity>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000123153614</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|174279826">
+            <ns2:text>Bestandskatalog ... der Sammlung Malerei und Plastik und des Graphik-Kabinettes der Sta&#x308;dtischen Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|176733830">
+            <ns2:text>Sta&#x308;dtische Kunstsammlungen Chemnitz.|Textil- und Kunstgewerbesammlung.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utWork id="VIAF|175496345">
+            <ns2:text>Bestandskatalog ... der Textil- und Kunstgewerbesammlung der Sta&#x308;dtischen Kunstsammlungen Chemnitz</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork id="VIAF|176733830">
+            <ns2:text>Catalogue of the collection</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utWork>
+        <ns2:utWork>
+            <ns2:text>Europa&#x308;isches Textildesign der 20er Jahre.</ns2:text>
+            <ns2:sources/>
+            <ns2:utExpr id="VIAF|184411237">
+                <ns2:text>English</ns2:text>
+                <ns2:sources>
+                    <ns2:s>LC</ns2:s>
+                </ns2:sources>
+            </ns2:utExpr>
+        </ns2:utWork>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="DNB|050680366" time="2010-11-16T05:12:37+00:00" type="add"/>
+        <ns2:ht recid="NKC|ko2003198485" time="2010-11-16T05:12:37+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls009644716" time="2010-11-16T05:12:37+00:00" type="add"/>
+        <ns2:ht recid="LC|n  95084957" time="2010-12-17T05:21:26+00:00" type="add"/>
+        <ns2:ht recid="BNF|12132832" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006031710" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="PTBNP|392054" time="2011-04-18T11:37:38+00:00" type="add"/>
+        <ns2:ht recid="BNF|12132832" time="2011-04-18T11:37:48+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12132832" time="2011-06-28T10:09:31+00:00" type="add"/>
+        <ns2:ht recid="PTBNP|392054" time="2011-06-28T10:09:31+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12132832" time="2011-08-17T04:30:32+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|050294857" time="2011-12-15T07:58:56+00:00" type="add"/>
+        <ns2:ht recid="BNF|12132832" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x01051770" time="2012-05-22T07:07:53+00:00" type="add"/>
+        <ns2:ht recid="DNB|042201667" time="2012-05-22T07:07:53+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000372879" time="2012-05-22T07:07:53+00:00" type="add"/>
+        <ns2:ht recid="DNB|050680366" time="2012-05-22T07:09:31+00:00" type="delete"/>
+        <ns2:ht recid="BIBSYS|x01051770" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12132832" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NKC|ko2003198485" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12132832" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="DNB|955002850" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="NKC|ko2003198485" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="DNB|042201667" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="DNB|050680366" time="2013-01-14T22:09:03+00:00" type="add"/>
+        <ns2:ht recid="DNB|955002850" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="JPG|500302212" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="JPG|500304648" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="NLI|000372879" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000372879" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="BAV|ADV12544705" time="2013-08-19T18:59:48+00:00" type="add"/>
+        <ns2:ht recid="BNF|12132832" time="2013-08-19T18:59:48+00:00" type="delete"/>
+        <ns2:ht recid="JPG|500302212" time="2013-08-19T18:59:48+00:00" type="delete"/>
+        <ns2:ht recid="LNB|LNC10-000144118" time="2013-08-19T18:59:48+00:00" type="add"/>
+    </ns2:history>
+</ns2:VIAFCluster>

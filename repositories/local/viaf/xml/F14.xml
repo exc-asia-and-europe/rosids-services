@@ -1,0 +1,1113 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>151859075</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/151859075/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/151859075"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="kn20050912029">NKC|kn20050912029</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/13954-3">DNB|000139548</ns2:source>
+        <ns2:source nsid="vtls004088306">NUKAT|n 2006046436</ns2:source>
+        <ns2:source nsid="n83164744">LC|n  83164744</ns2:source>
+    </ns2:sources>
+    <ns2:length>502</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>Technische Hochschule Karl-Marx-Stadt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Hochschule Karl-Marx-Stadt</ns2:subfield>
+                <ns2:subfield code="7">kn20050912029</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|kn20050912029</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  83164744</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006046436</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000139548</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Hochschule Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|000139548</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  83164744</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|kn20050912029</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006046436</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Hochschule Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n 2006046436</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|n  83164744</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|kn20050912029</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000139548</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Technische Hochschule Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|n  83164744</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n 2006046436</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NKC|kn20050912029</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|000139548</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>|</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>|</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>n</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>c</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>n</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19890418</ns2:dateEntered>
+        <ns2:type>z</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>n</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="410">
+                <ns2:subfield code="a">Karl-Marx-Stadt, Ger.</ns2:subfield>
+                <ns2:subfield code="b">Technische Hochschule</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>Karl-Marx-Stadt, Ger. Technische Hochschule<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Hochschule fu&#x308;r Maschinenbau</ns2:subfield>
+                <ns2:subfield code="e">Vorgaenger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="157695873">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Hochschule f&#xFC;r Maschinenbau Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="168177715">
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="265696424">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Ko&#x308;nigliche Gewerbschule Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="265696424">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">K&#xF6;nigliche Gewerbschule Chemnitz</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universita&#x308;t Karl-Marx-Stadt</ns2:subfield>
+                <ns2:subfield code="e">Nachfolger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="147283871">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Chemnitz (1990-1992).</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Karl-Marx-Stadt</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="146021815">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Technische Universit&#xE4;t Karl-Marx-Stadt.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Technische Universita&#x308;t Karl-Marx-Stadt Nachfolger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="168177715">Karl-Marx-Stadt<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Hochschule fu&#x308;r Maschinenbau Vorgaenger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="146021815">Technische Universit&#xE4;t Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="265696424">K&#xF6;nigliche Gewerbschule Chemnitz<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="147283871">Technische Universit&#xE4;t Chemnitz (1990-1992).<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="157695873">Hochschule f&#xFC;r Maschinenbau Karl-Marx-Stadt.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="5">
+            <ns2:text>Zeitschriften</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Ver&#xF6;ffentlichungen und Vortr&#xE4;ge der Wissenschaftler</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Vero&#x308;ffentlichungen und Vortra&#x308;ge der Wissenschaftler der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Zur Geschichte der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Wissenschaftliche Zeitschrift der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Angewandte Sprachwissenschaft und fachsprachliche Ausbildung</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Wiss. Z. Tech. Hochsch. Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Verzeichnis der Lehrbuchsammlung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Vero&#x308;ffentlichungen der Wissenschaftler</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Tagungsmaterialien</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Tagungsberichte</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Tagung &quot;Theoretische Probleme der Informatik&quot; vom 16.10. bis 17.10.1985</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Symposium Ionenzerst&#xE4;ubung vom 25. - 27. Sept. 1973 in Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Philosophisch-ethische Probleme der Moralerziehung als Bestandteil der kommunistischen Erziehung Referate, Beitr. u. Referierungen d. wiss. Konferenz am 27. u. 28. April 1982 an d. Techn. Hochsch. Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Neuerwerbungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Methoden der fachsprachlichen Fremdsprachenausbildung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Ko&#x308;nigliche Gewerbschule Chemnitz 1836, Technische Hochschule Karl-Marx-Stadt 1986 : zur Geschichte d. Ingenieurausbildung in e. traditionsreichen Stadt d. Maschinenbaus u. d. revolutiona&#x308;ren Arbeiterbewegung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Jahresarbeitstagung der Hauptforschungsrichtung &quot;Grenzfl&#xE4;chen/D&#xFC;nne Schichten&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Bibliographie der wissenschaftlichen Ver&#xF6;ffentlichungen der Sektion Rechentechnik und Datenverarbeitung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Beitr&#xE4;ge zur Theorie und Anwendung von Petri-Netzen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Beitr&#xE4;ge zur Entwicklung der Geld-, Preis- und Finanzpolitik in der Deutschen Demokratischen Republik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Technische Hochschule Karl-Marx-Stadt in der Zeit von &#x98;1963 &#x9C;[neunzehnhundertdreiundsechzig] bis &#x98;1975 &#x9C;[neunzehnhundertf&#xFC;nfundsiebzig]</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Die&#x9C; Simultane Iteration zur Eigenwertberechnung f&#xFC;r beliebige endlichdimensionale Operatoren und die Anwendung auf Schwingungsprobleme</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Der&#x9C; SYMAP(B)-KOBT-&#xDC;bersetzer im Betriebssystem DOS, ES Anwenderhandbuch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;Das&#x9C; Multi-Grid-Programm STMGMR zur L&#xF6;sung der Poisson-Gleichung in Rechteckgebieten</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;5.&#x9C; [F&#xFC;nfte] Tagung &#xFC;ber Probleme und Methoden der Mathematischen Physik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;5.&#x9C; [F&#xFC;nfte] Tagung &#xFC;ber Probleme und Methoden der Mathematischen Physik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;5.&#x9C; [F&#xFC;nfte] Tagung &#xFC;ber Probleme und Methoden der Mathematischen Physik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;5.&#x9C; [F&#xFC;nfte] Tagung &#xFC;ber Probleme und Methoden der Mathematischen Physik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>&#x98;2.&#x9C; [Zweites] Wissenschaftliches Kolloquium zum Thema: Gesellschaftswissenschaftliche Probleme der Automatischen Bedienarmen Produktion am 3. u. 4. M&#xE4;rz 1983</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur stochastischen Regularisierung linearer Gleichungen in Hilbertr&#xE4;umen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur numerischen Berechnung instation&#xE4;r belasteter hydrodynamischer Gleitlager mit gegebenen Formabweichungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur mathematischen Behandlung praktischer Temperatur- und Spannungsprobleme</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Verbesserung der Reaktionsf&#xE4;higkeit der Betriebe und Kombinate auf sich gesetzm&#xE4;&#xDF;ig st&#xE4;ndig ver&#xE4;ndernde Marktbedingungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Reaktionsf&#xE4;higkeit der Kombinate und ihrer Betriebe gegen&#xFC;ber der Bedarfsdynamik Zsfassung d. Forschungsergebnisse 1981 bis 1985</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Reaktionsf&#xE4;higkeit der Betriebe und Kombinate gegen&#xFC;ber der Bedarfsdynamik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Reaktionsfa&#x308;higkeit der Betriebe und Kombinate gegenu&#x308;ber der Bedarfsdynamik, 1981 (subdiv.)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zur Aktivierung der Sch&#xFC;ler im Unterricht und in der produktiven Arbeit</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zu methodischen Problemen beim Behandeln von Sach- und Anwendungsaufgaben im Mathematikunterricht Studienmaterial f&#xFC;r d. Ausbildung von Mathematiklehrern</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zu einigen aktuellen Fragen der p&#xE4;dagogisch-methodischen Arbeit der Lehrenden an der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Zentrale Wissenschaftliche Studentenkonferenz 1984</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Zeitschrift - Technische Hochschule Karl-Marx-Stadt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Tagung &quot;Zur Dialektik von Wissenschaftlich-Technischem Fortschritt und Sozialistischer Demokratie bei der Gestaltung der Entwickelten Sozialistischen Gesellschaft Kolloquium d. Forschungsgruppe &quot;Wissenschaftl.-Techn. Fortschritt u. Sozialist. Demokratie&quot; d. Sekt. Marxismus-Leninismus an d. Techn. Hochsch. Karl-Marx-Stadt am 25.10.1984</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Tagung</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Schriftenreihe der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Konferenz zum Thema: Gesellschaftswissenschaftliche Probleme der Automatischen Bedienarmen Produktion, der Robotertechnik und der Mikroelektronik am 4. u. 5.3.1982</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Konferenz zum Thema, &quot;Philosophische Probleme des Theorie-Praxis-Verha&#x308;ltnisses in der Entwicklung der Technikwissenschaften&quot; : vom 20. Oktober 1981 bis 21. Oktober 1981 an der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Konferenz zum Thema Philosophische Probleme der Entwicklung der Technikwissenschaften und Ihre Bedeutung f&#xFC;r die Kommunistische Erziehung des K&#xFC;nftigen Ingenieurs vom 27. Oktober 1977 - 28. Oktober 1977 an d. Techn. Hochsch. Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Konferenz zum Thema &quot;Gesellschaftswissenschaftliche Probleme der automatischen bedienarmen Produktion, der Robotertechnik und der Mikroelektronik&quot; : am 4. und 5.3.1982</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftliche Konferenz Wissenschaftlich-Technischer Fortschritt, Bedingungen, Anforderungen, M&#xF6;glichkeiten der Pers&#xF6;nlichkeitsentwicklung am 8. u. 9. Okt. 1985 in Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wissenschaftlich-technischer Fortschritt, Sozialismus, Pers&#xF6;nlichkeit</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z. d. TH Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z. Tech. Hochsch. Karl-Marx-Stadt, Sonderh.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Z. D. Techn. Hochsch. Karl Marx Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss. Schriftenr. Tech. Hochsch. Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wertekatalog D&#xFC;nne Schichten [Herstellung, Diagnose, Eigenschaft] ; Zusammenfassung von Forschungsergebnissen d. Hauptforschungsrichtung &quot;Grenzfl&#xE4;chen/D&#xFC;nne Schichten&quot; ; Ergebnisse von Forschungskollektiven d. Techn. Hochsch. Karl-Marx-Stadt, Sekt. Physik/Elektron. Bauelemente ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wertekatalog D&#xFC;nne Schichten Zsfassung von Forschungsergebnissen d. Hauptforschungsrichtung &quot;Grenzfl&#xE4;chen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Werkstoffe der Elektrotechnik Skripten zur 4. Fachtagung 1984 &quot;Leiter- u. Widerstandswerkstoffe&quot; vom 8. bis 9.2.1984 ; Kurzfassung d. Vortr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vortr&#xE4;ge zu Problemen der Polyoptimierung und der mehrkriterialen Entscheidungstheorie theoret. Unters. u. prakt. Anwendungen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vortr&#xE4;ge und Diskussionsbeitr&#xE4;ge anl&#xE4;&#xDF;lich der 5. Fachtagung w&#xE4;hrend der Tage der Wissenschaft und Technik der Technischen Hochschule Karl-Marx-Stadt zur Thematik: Weiterentwicklung der Leistungsbewertung im Rahmen der Planung und Wirtschaftlichen Rechnungsf&#xFC;hrung am 23. u. 24.10.85</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vortra&#x308;ge zur Fachtagung &quot;Handhabetechnik, Industrieroboter, Karl-Marx-Stadt 1983&quot;, 27. und 28. September 1983 : 9. Tage der Wissenschaft und Technik an der Technischen Hochschule Karl-Marx-Stadt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Visioplastizit&#xE4;t</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ver&#xF6;ffentlichungen zur 3. Fachtagung Hybridtechnik 21. bis 22. M&#xE4;rz 1984, Gera</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ver&#xF6;ffentlichungen und Vortr&#xE4;ge der Wissenschaftler / Technische Hochschule Karl-Marx-Stadt Bibliogr. ; (einschl. Nachtr.)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Ver&#xF6;ffentlichungen der Wissenschaftler Bibliogr. 1963-1972</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vero&#x308;ffentlichungen der Wissenschaftler : Bibliographie 1963-1972</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vero&#x308;ffentlichungen der Hochschulbibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vero&#x308;ffentlichungen / Technische Hochschule, Bibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vero&#x308;ffentlichungen / 1</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Vergleichendes Inhaltsverzeichnis zur Studienliteratur f&#xFC;r das marxistisch-leninistische Grundlagenstudium</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Verfahren der zul&#xE4;ssigen Richtungen f&#xFC;r Optimierungsaufgaben mit nichtdifferenzierbaren Funktionen und Dekomposition</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Variationsformulierung elliptischer Randwertaufgaben</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Umformtechnik. &#x98;1964-1966&#x9C;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Toeplitzdeterminanten mit singul&#xE4;rer Erzeugerfunktion</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Thesen und Kurzfassungen ausgew&#xE4;hlter Diskussionsbeitr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Teilnehmersystem FINDIPSY Anwenderhandbuch</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Teilnehmersystem FINDIPSY</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Technisches Journal / Umformtechnik</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Technisches Journal</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tagungsberichte (Technische Hoschschule Karl-Marx-Stadt)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Tagungsber, Wiss Tag - Tech Hochsch Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienpl&#xE4;ne und Pl&#xE4;ne der Leistungskontrollen &#x98;...&#x9C; / Technische Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienpla&#x308;ne und Pla&#x308;ne der Leistungskontrollen / Technische Hochschule Karl-Marx-Stadt fu&#x308;r die Matrikel ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Studienm&#xF6;&#xF6;glichkeiten im Direktstudium an der Technischen Hochschule Karl-Marx-Stadt eine Informationsschrift f&#xFC;r Studienbewerber</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Skripten zur Lehrveranstaltung &quot;Instandhaltung&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Schwei&#xDF;verbundkonstruktion</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Sborn&#xED;k refer&#xE1;t&#x16F; odborn&#xFD;ch konferenc&#xED; po&#x159;&#xE1;dan&#xFD;ch v r&#xE1;mci dru&#x17E;by mezi Vysokou &#x161;kolou strojn&#xED; a elektrotechnickou v Plzni a Technische Hochschule Karl-Marx-Stadt ve dnech 10., 11. a 12. z&#xE1;&#x159;&#xED; 1963 na Vysok&#xE9; &#x161;kole strojn&#xED; a elektrotechnick&#xE9; v Plzni</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rechnerinterne Darstellung technischer Gebilde RID</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rechnergest&#xFC;tzte Programmierung numerisch gesteuerter Werkzeugmaschinen zur Bearbeitung komplizierter geometrischer Formen</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Rechner- und bildschirmunterst&#xFC;tztes Konstruieren im Maschinenbau</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Probleme und Erfahrungen internationalistischer Erziehung an Hochschulen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Polymere Werkstoffe in Elektrotechnik und Elektronik Kurzfassung d. Vortr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Plenar- und Hauptvortr&#xE4;ge</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Nutzung &#xF6;konomisch-mathematischer Methoden und der elektronischen Rechentechnik zur Erh&#xF6;hung der Reaktionsf&#xE4;higkeit der Industriekombinate gegen&#xFC;ber der Bedarfsdynamik wissenschaftl. Tagung, 8. Juni 1983 ; Referate d. Plenums u. Kurzfassungen d. Diskussionsbeitr. d. Arbeitsgruppen Maschinenbau u. Leichtindustrie</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Neudruck seltener Schriften</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>M&#xF6;glichkeiten der Regularisierung bei der Auswertung von Me&#xDF;daten</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>I. Linguodidaktisches Kolloquium der Sektion Fremdsprachen am 27. und 28. November 1980</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Fifth EOQC Education and Training Seminar : university programmes on quality control : 5th-6th September 1985 : proceedings.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Die Technische Hochschule Karl-Marx-Stadt in der Zeit von 1963 bis 1975 :</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Beitrag des Maschinenbaues zur Beschleunigung des wissenschaftlich-technischen Fortschrittes</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="33" tag="951">
+            <ns2:text>Technische Hochschule &lt;Karl-Marx-Stadt&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="13" tag="951">
+            <ns2:text>Technische Hochschule Karl-Marx-Stadt Bibliothek</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Stu&#x308;tzner, Heinz.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="950">
+            <ns2:text>Fischer, Gerhard</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Weber, Horst</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="951">
+            <ns2:text>Technische Hochschule &lt;Karl-Marx-Stadt&gt; Sektion Wirtschaftswissenschaften</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="951">
+            <ns2:text>Technische Hochschule &lt;Karl-Marx-Stadt&gt; Sektion Fremdsprachen</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="951">
+            <ns2:text>Tagung &#xFC;ber Probleme und Methoden der Mathematischen Physik &lt;5, 1973, Karl-Marx-Stadt&gt;</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4" tag="950">
+            <ns2:text>Schuster, Willy</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" tag="950">
+            <ns2:text>Walther, Erich</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Weissmantel, Christian.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Vysok&#xE1; &#x161;kola strojn&#xED; a elektrotechnick&#xE1;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="51">
+            <ns2:text>Techn. Hochsch.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Der Rektor der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>Bibliothek d. TH Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>TH</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Teubner</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Die Hochschule</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Technische Hochschule Karl-Marx-Stadt, Sektion Informatik</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Zentralstelle f&#xFC;r Philosoph. Information u. Dokumentation</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>P&#xE4;dag. Hochsch.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Wiss.-Bereich Hochsch.-P&#xE4;dagogik der Technischen Hochsch.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="198" min="196">
+        <ns2:date count="9" scaled="3.17">196</ns2:date>
+        <ns2:date count="65" scaled="6.02">197</ns2:date>
+        <ns2:date count="93" scaled="6.54">198</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="179">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="16">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:ISBNs unique="1">
+        <ns2:data count="2">
+            <ns2:text>9783322002631</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:countries>
+        <ns2:data count="17" scaled="4">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>CZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000110173464</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|174201744">
+            <ns2:text>Tagungsmaterialien der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183892209">
+            <ns2:text>Wissenschaftliche Schriftenreihe der Technischen Hochschule Karl-Marx-Stadt, Sektion Automatisierungstechnik</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181050472">
+            <ns2:text>Wissenschaftliche Schriftenreihe der Technischen Hochschule Karl-Marx-Stadt</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|183082241">
+            <ns2:text>Tagungsberichte (Technische Hochschule Karl-Marx-Stadt)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|174605788">
+            <ns2:text>Tagungsmaterialien (Technische Hochschule Karl-Marx-Stadt)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|182268329">
+            <ns2:text>Wissenschaftliche Tagung (Technische Hochschule Karl-Marx-Stadt)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="DNB|000139548" time="2010-11-16T05:13:36+00:00" type="add"/>
+        <ns2:ht recid="LC|n  83164744" time="2010-11-16T05:13:36+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20050912029" time="2010-11-16T05:13:36+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006046436" time="2011-02-17T05:22:52+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90526166" time="2012-02-21T07:28:41+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20050912029" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NUKAT|n 2006046436" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NKC|kn20050912029" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n 2006046436" time="2012-11-27T04:00:16+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90526166" time="2013-01-14T22:09:03+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

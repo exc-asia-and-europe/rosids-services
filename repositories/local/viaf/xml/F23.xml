@@ -1,0 +1,2930 @@
+<ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#">
+    <ns2:viafID>149937768</ns2:viafID>
+    <ns2:Document about="http://viaf.org/viaf/149937768/">
+        <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+        <ns2:primaryTopic resource="http://viaf.org/viaf/149937768"/>
+    </ns2:Document>
+    <ns2:nameType>Corporate</ns2:nameType>
+    <ns2:sources>
+        <ns2:source nsid="1000G9691F">LAC|1000G9691F</ns2:source>
+        <ns2:source nsid="LNC10-000018302">LNB|LNC10-000018302</ns2:source>
+        <ns2:source nsid="1000G9691E">LAC|1000G9691E</ns2:source>
+        <ns2:source nsid="135910">SELIBR|135910</ns2:source>
+        <ns2:source nsid="000198899">NLI|000198899</ns2:source>
+        <ns2:source nsid="kn20010711437">NKC|kn20010711437</ns2:source>
+        <ns2:source nsid="4804233">LC|no 94018277</ns2:source>
+        <ns2:source nsid="vtls000677811">NUKAT|n  97001391</ns2:source>
+        <ns2:source nsid="000035451455">NLA|000035451455</ns2:source>
+        <ns2:source nsid="00577475">NDL|00577475</ns2:source>
+        <ns2:source nsid="XX4574846">BNE|XX4574846</ns2:source>
+        <ns2:source nsid="http://d-nb.info/gnd/2145784-0">DNB|94402467X</ns2:source>
+    </ns2:sources>
+    <ns2:length>2302</ns2:length>
+    <ns2:mainHeadings>
+        <ns2:data>
+            <ns2:text>World Trade Organization.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Sv&#x11B;tov&#xE1; obchodn&#xED; organizace</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Pasaules Tirdzniec&#x12B;bas organiz&#x101;cija</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>&#x4E16;&#x754C;&#x8CBF;&#x6613;&#x6A5F;&#x95A2;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Organizaci&#xF3;n Mundial del Comercio</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>&#x645;&#x646;&#x638;&#x645;&#x629; &#x627;&#x644;&#x62A;&#x62C;&#x627;&#x631;&#x629; &#x627;&#x644;&#x639;&#x627;&#x644;&#x645;&#x64A;&#x629;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data>
+            <ns2:text>Organisation mondiale du commerce</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Organisation mondiale du commerce</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LAC|1000G9691F</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>LAC|1000G9691E</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Pasaules Tirdzniec&#x12B;bas organiz&#x101;cija</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>LNB|LNC10-000018302</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LAC|1000G9691E</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="no match info"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="no match info"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="parallel record"/>LAC|1000G9691F</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+            <ns2:id>SELIBR|135910</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+                <ns2:subfield code="9">lat</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000198899</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">&#x645;&#x646;&#x638;&#x645;&#x629; &#x627;&#x644;&#x62A;&#x62C;&#x627;&#x631;&#x629; &#x627;&#x644;&#x639;&#x627;&#x644;&#x645;&#x64A;&#x629;</ns2:subfield>
+                <ns2:subfield code="9">ara</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLI|000198899</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Sv&#x11B;tov&#xE1; obchodn&#xED; organizace</ns2:subfield>
+                <ns2:subfield code="7">kn20010711437</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+            <ns2:id>NKC|kn20010711437</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+            <ns2:id>LC|no 94018277</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+            <ns2:id>NUKAT|n  97001391</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="standard number"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+            </ns2:sources>
+            <ns2:id>NLA|000035451455</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">&#x4E16;&#x754C;&#x8CBF;&#x6613;&#x6A5F;&#x95A2;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+            <ns2:id>NDL|00577475</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="110">
+                <ns2:subfield code="a">Organizaci&#xF3;n Mundial del Comercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+            <ns2:id>BNE|XX4574846</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>DNB|94402467X</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+        <ns2:mainHeadingEl>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+            <ns2:id>DNB|94402467X</ns2:id>
+            <ns2:links>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LC|no 94018277</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NUKAT|n  97001391</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLA|000035451455</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NDL|00577475</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>NKC|kn20010711437</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>BNE|XX4574846</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>SELIBR|135910</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>NLI|000198899</ns2:link>
+                <ns2:link>
+                    <ns2:match type="fuzzy corporate name"/>LNB|LNC10-000018302</ns2:link>
+                <ns2:link>
+                    <ns2:match type="longer corporate name"/>LAC|1000G9691E</ns2:link>
+            </ns2:links>
+        </ns2:mainHeadingEl>
+    </ns2:mainHeadings>
+    <ns2:fixed>
+        <ns2:govtAgn>|</ns2:govtAgn>
+        <ns2:authRef>a</ns2:authRef>
+        <ns2:serUse>b</ns2:serUse>
+        <ns2:rules>|</ns2:rules>
+        <ns2:gender>u</ns2:gender>
+        <ns2:encLevel>n</ns2:encLevel>
+        <ns2:subjUse>a</ns2:subjUse>
+        <ns2:catLang>|</ns2:catLang>
+        <ns2:nameUse>a</ns2:nameUse>
+        <ns2:roman>|</ns2:roman>
+        <ns2:subType>n</ns2:subType>
+        <ns2:source>|</ns2:source>
+        <ns2:recStatus>c</ns2:recStatus>
+        <ns2:nameDiff>n</ns2:nameDiff>
+        <ns2:refStatus>|</ns2:refStatus>
+        <ns2:dateEntered>19970127</ns2:dateEntered>
+        <ns2:type>z</ns2:type>
+        <ns2:authStatus>a</ns2:authStatus>
+        <ns2:geoSubd>i</ns2:geoSubd>
+    </ns2:fixed>
+    <ns2:x400s>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Bis&#x301;va Ba&#x304;n&#x323;ijya Sam&#x323;stha&#x304;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">DTO&#x308;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Daburyutio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">De&#x307;lkhii&#x306;n Khudaldaany Bai&#x306;guullaga</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Du&#x308;nya Ticaret O&#x308;rgu&#x308;tu&#x308;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Munaz&#x323;z&#x323;amat al-Tija&#x304;rah al-&#x2BB;A&#x304;lami&#x304;yah</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">O.M.C.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">OMC</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">OMC</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">OMC.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">OMC</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organisation Mondiale du Commerce</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organisation mondiale du Commerce.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organisation mondiale du commerce</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">Organisation mondiale du commerce</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizacio&#x301;n Mundial de Comercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizacio&#x301;n Mundial del Comercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizaci&#xF3;n mundial del comercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizac&#x327;a&#x303;o Mundial do Come&#x301;rcio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizati&#xF3;n mundial del comercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizat&#x326;ia Mondiala&#x306; de Comert&#x326;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizzazione mondiale del commercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Organizzazione mondiale per il commercio</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">PTO</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Qan&#x307;gka&#x304;r Ba&#x304;n&#x323;ijjakamm Bibhab Lok</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">SOT</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sa&#x304;zma&#x304;n-i Tig&#x30C;a&#x304;rat-i G&#x30C;aha&#x304;ni&#x304;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sa&#x304;zma&#x304;n-i Tija&#x304;rat-i Jaha&#x304;ni&#x304;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">Sekai Boeki Kikan</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Shi jie mao yi zu zhi</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Shijie-Maoyi-Zuzh</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Sve&#x30C;tova&#x301; obchodni&#x301; organizace</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Svitova orhanizat&#xFE20;s&#xFE21;ii&#xFE20;a&#xFE21; torhivli</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">S&#x301;wiatowa Organizacja Handlu</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">To&#x302;&#x309; ch&#x1B0;&#x301;c th&#x1B0;&#x1A1;ng ma&#x323;i the&#x302;&#x301; gi&#x1A1;&#x301;i</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">VTO</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">VTO</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vis&#x301;va Vyapa&#x304;ra San&#x307;gat&#x323;hana</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vsemirnai&#xFE20;a&#xFE21; torgovai&#xFE20;a&#xFE21; organizat&#xFE20;s&#xFE21;ii&#xFE20;a&#xFE21;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Vsemirnaja Torgovaja Organizacija</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">V&#xE4;rldshandelsorganisationen</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">W.T.O</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">W.T.O.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">W.T.O. (2)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">WTO</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">WTO</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">WTO (2)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">WTO.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">WTO</ns2:subfield>
+                <ns2:subfield code="2">czeeng</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">WTO</ns2:subfield>
+                <ns2:subfield code="e">Abkuerzung</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">Welthandelsorganisation</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">World Trade Organisation</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">World Trade Organisation.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2="0" tag="410">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">World Trade Organization</ns2:subfield>
+                <ns2:subfield code="2">czeeng</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x15A;wiatowa Organizacja Handlu.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x2BB;Ongka&#x304;n Ka&#x304;nkha&#x304; Lo&#x304;k</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x412;&#x422;&#x41E;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x412;&#x441;&#x435;&#x43C;&#x438;&#x440;&#x43D;&#x430;&#x44F; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x430;&#x44F; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x645;&#x646;&#x638;&#x645;&#x629; &#x627;&#x644;&#x62A;&#x62C;&#x627;&#x631;&#x629; &#x627;&#x644;&#x639;&#x627;&#x644;&#x645;&#x64A;&#x629;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="110">
+                <ns2:subfield code="a">&#x30BB;&#x30AB;&#x30A4; &#x30DC;&#x30A6;&#x30A8;&#x30AD; &#x30AD;&#x30AB;&#x30F3;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x30C0;&#x30D6;&#x30EA;&#x30E5;&#x30FC;&#x30C6;&#x30A3;&#x30FC;&#x30AA;&#x30FC;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x4E16;&#x754C;&#x8CBF;&#x6613;&#x7D44;&#x7E54;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:x400>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="410">
+                <ns2:subfield code="a">&#x4E16;&#x754C;&#x8D38;&#x6613;&#x7EC4;&#x7EC7;</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:x400>
+        <ns2:xref>WTO.<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organisation mondiale du commerce<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>World Trade Organisation.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x4E16;&#x754C;&#x8D38;&#x6613;&#x7EC4;&#x7EC7;
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Welthandelsorganisation<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>OMC.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizacio&#x301;n Mundial de Comercio<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x15A;wiatowa Organizacja Handlu.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizaci&#xF3;n mundial del comercio<ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>World Trade Organization<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>NDL</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>W.T.O.<ns2:sources>
+                <ns2:s>NLA</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x645;&#x646;&#x638;&#x645;&#x629; &#x627;&#x644;&#x62A;&#x62C;&#x627;&#x631;&#x629; &#x627;&#x644;&#x639;&#x627;&#x644;&#x645;&#x64A;&#x629;
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>VTO<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Vsemirnai&#xFE20;a&#xFE21; torgovai&#xFE20;a&#xFE21; organizat&#xFE20;s&#xFE21;ii&#xFE20;a&#xFE21;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Vis&#x301;va Vyapa&#x304;ra San&#x307;gat&#x323;hana<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>To&#x302;&#x309; ch&#x1B0;&#x301;c th&#x1B0;&#x1A1;ng ma&#x323;i the&#x302;&#x301; gi&#x1A1;&#x301;i<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Svitova orhanizat&#xFE20;s&#xFE21;ii&#xFE20;a&#xFE21; torhivli<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sve&#x30C;tova&#x301; obchodni&#x301; organizace<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>SOT<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Shi jie mao yi zu zhi<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sa&#x304;zma&#x304;n-i Tija&#x304;rat-i Jaha&#x304;ni&#x304;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Qan&#x307;gka&#x304;r Ba&#x304;n&#x323;ijjakamm Bibhab Lok<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizzazione mondiale per il commercio<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizzazione mondiale del commercio<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizat&#x326;ia Mondiala&#x306; de Comert&#x326;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizac&#x327;a&#x303;o Mundial do Come&#x301;rcio<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x2BB;Ongka&#x304;n Ka&#x304;nkha&#x304; Lo&#x304;k<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>O.M.C.<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Munaz&#x323;z&#x323;amat al-Tija&#x304;rah al-&#x2BB;A&#x304;lami&#x304;yah<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Du&#x308;nya Ticaret O&#x308;rgu&#x308;tu&#x308;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>DTO&#x308;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>De&#x307;lkhii&#x306;n Khudaldaany Bai&#x306;guullaga<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Bis&#x301;va Ba&#x304;n&#x323;ijya Sam&#x323;stha&#x304;<ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>WTO Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>VTO Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Vsemirnaja Torgovaja Organizacija<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Shijie-Maoyi-Zuzh<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sa&#x304;zma&#x304;n-i Tig&#x30C;a&#x304;rat-i G&#x30C;aha&#x304;ni&#x304;<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>OMC Abkuerzung<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x412;&#x422;&#x41E;
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x412;&#x441;&#x435;&#x43C;&#x438;&#x440;&#x43D;&#x430;&#x44F; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x430;&#x44F; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>PTO<ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Organizati&#xF3;n mundial del comercio<ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30C0;&#x30D6;&#x30EA;&#x30E5;&#x30FC;&#x30C6;&#x30A3;&#x30FC;&#x30AA;&#x30FC;
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>&#x30BB;&#x30AB;&#x30A4; &#x30DC;&#x30A6;&#x30A8;&#x30AD; &#x30AD;&#x30AB;&#x30F3;
+            <ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Sekai Boeki Kikan<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>Daburyutio<ns2:sources>
+                <ns2:s>NDL</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>WTO (2)<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>W.T.O. (2)<ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>V&#xE4;rldshandelsorganisationen<ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x400s>
+    <ns2:x500s>
+        <ns2:x500 viafLink="164365655">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Accord ge&#x301;ne&#x301;ral sur les tarifs douaniers et le commerce (Organisation)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">General Agreement on Tariffs and Trade</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="276975942">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">General Agreement on Tariffs and Trade (Organization)</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="164365655">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">General Agreement on Tariffs and Trade.</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">General Agreement on Tariffs and Trade</ns2:subfield>
+                <ns2:subfield code="e">Vorgaenger</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500>
+            <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                <ns2:subfield code="a">Genf</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="157892888">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">Uni&#xF3;n Internacional de Organismos Oficiales de Turismo</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:x500 viafLink="164365655">
+            <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                <ns2:subfield code="a">V&#x161;eobecn&#xE1; dohoda o clech a obchodu</ns2:subfield>
+            </ns2:datafield>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:x500>
+        <ns2:xref>Genf<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="276975942">General Agreement on Tariffs and Trade (Organization)<ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref>General Agreement on Tariffs and Trade Vorgaenger<ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="164365655">V&#x161;eobecn&#xE1; dohoda o clech a obchodu<ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="164365655">General Agreement on Tariffs and Trade.<ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="157892888">Uni&#xF3;n Internacional de Organismos Oficiales de Turismo<ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+        <ns2:xref viafLink="164365655">Accord ge&#x301;ne&#x301;ral sur les tarifs douaniers et le commerce (Organisation)<ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:xref>
+    </ns2:x500s>
+    <ns2:titles>
+        <ns2:data count="483">
+            <ns2:text>Trade policy review.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="15">
+            <ns2:text>International trade statistics</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="13">
+            <ns2:text>Course on dispute settlement</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>WTO annual report</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11">
+            <ns2:text>Dispute settlement.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="8">
+            <ns2:text>Agreement Establishing the World Trade Organization</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>World trade report</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7">
+            <ns2:text>GATT international trade</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>World tariff profiles.</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>WTO focus</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Trading into the future</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>World Trade Organization - Annual Report</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>WTO status of legal instruments, 2006:</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Trade policy review / Republic of Korea.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>Status of legal instruments</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>International Trade : Trends and Statistics</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>World trade review</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Uruguay</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>United States</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Turkey</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trinidad and Tobago</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trade profiles</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trade policy review / Nigeria</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trade policy review / Czech Republic.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trade policy review - Colombia</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Trade policy review (Southern African Customs Union)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Switzerland</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Overview of developments in the international trading environment : Annual report by the Director-General.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>General Agreement on Tariffs and Trade</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Dictionary of trade policy terms</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Annual report (World Trade Organization)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>Annual report</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Zambia</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>WTO discussion papers</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>WTO</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Venezuela</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>United States of America</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review / United States</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review / Switzerland and Liechtenstein.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review / El Salvador.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review / Egypt.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review - Paraguay</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review - Norway</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Zambia)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Venezuela)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Uganda)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Tanzania)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Sri Lanka)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Slovak Republic)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Singapore)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Republic of Benin)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Papua New Guinea)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Pakistan)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Nicaragua)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Mauritius)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Japan)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Iceland)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (European Union)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Dominican Republic)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Cyprus)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Costa Rica)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Canada)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade policy review (Australia)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Trade and climate change : a report by the United Nations Environment Programme and the World Trade Organization</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Togo</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Statistics</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Slovenia</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Nigeria</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>General Agreement on Trade in Services</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>GATT report</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>GATT 1994 and 1947.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Contracting parties to the General Agreement on Tariffs and Trade</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Benin</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>Annual Report by the Director-General ...</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>World market dairy prod.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>World Trade Organization discussion papers</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>WTO public forum '08 : &quot;trading into the future&quot;</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>WTO Public Forum 2008</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review : Honduras</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Tunisia</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Republic of Guinea</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Peru</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / New Zealand</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Israel</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Hungary</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Federal Republic of Nigeria</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Co&#x302;te d'Ivoire</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Bahrain</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy review / Argentina</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade policy monit.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Trade and environment</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>The legal texts the results of the Uruguay Round of multilateral trade negotiations</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Status of legal instruments / World Trade Organization (WTO)</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Sri Lanka</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Southern African Customs Union</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Republic of the Congo</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Protocole d'accession de la R&#x2B9;epublique Populaire de Chine</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>OECS WTO members</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Malawi</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>Focus</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>WTO:s ministerkonferens</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>WTO agreements on CD-ROM issue 1  : services schedules and the legal texts</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Trade policy review, Canada 2003.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>Les proce&#x301;dures de re&#x300;glement des diffe&#x301;rends de l'OMC : recueil des textes juridiques pertinents</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:titles>
+    <ns2:coauthors>
+        <ns2:data count="49" tag="951">
+            <ns2:text>General Agreement on Tariffs and Trade (Organization)</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="38" tag="951">
+            <ns2:text>General Agreement on Tariffs and Trade.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="22" tag="951">
+            <ns2:text>United Nations Conference on Trade and Development.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="18" tag="951">
+            <ns2:text>Sv&#x11B;tov&#xE1; obchodn&#xED; organizace</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11" tag="951">
+            <ns2:text>V&#x161;eobecn&#xE1; dohoda o clech a obchodu</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="11" tag="951">
+            <ns2:text>Bernan Associates.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="10" tag="950">
+            <ns2:text>Bacchetta, Marc</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="950">
+            <ns2:text>Jansen, Marion</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" tag="951">
+            <ns2:text>General Agreement on Tariffs and Trade (organiz&#x101;cija)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" tag="951">
+            <ns2:text>International Trade Centre UNCTAD/WTO.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" tag="951">
+            <ns2:text>Organisation mondiale du commerce. Secre&#x301;tariat.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>World Trade Organization. Secretariat.</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="950">
+            <ns2:text>Vaughan, Scott.</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" tag="951">
+            <ns2:text>Acuerdo General sobre Aranceles Aduaneros y Comercio (Organizaci&#xF3;n)</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:coauthors>
+    <ns2:publishers>
+        <ns2:data count="378">
+            <ns2:text>World Trade Organization</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="133">
+            <ns2:text>WTO</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="67">
+            <ns2:text>General Agreement on Tariffs and Trade</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="52">
+            <ns2:text>WTO Publ.</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LNB</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="45">
+            <ns2:text>Bernan</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="34">
+            <ns2:text>Cambridge University Press</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="23">
+            <ns2:text>GATT</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="22">
+            <ns2:text>GATT Publ. Services</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="14">
+            <ns2:text>United Nations</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6">
+            <ns2:text>Organizaci&#xF3;n Mundial del Comercio</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:publishers>
+    <ns2:birthDate>0</ns2:birthDate>
+    <ns2:deathDate>0</ns2:deathDate>
+    <ns2:dateType>lived</ns2:dateType>
+    <ns2:dates max="200" min="195">
+        <ns2:date count="4" scaled="2.00">195</ns2:date>
+        <ns2:date count="1" scaled="0.00">196</ns2:date>
+        <ns2:date count="0" scaled="0.0">197</ns2:date>
+        <ns2:date count="12" scaled="3.58">198</ns2:date>
+        <ns2:date count="411" scaled="8.68">199</ns2:date>
+        <ns2:date count="341" scaled="8.41">200</ns2:date>
+    </ns2:dates>
+    <ns2:RecFormats>
+        <ns2:data count="1">
+            <ns2:text/>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>ai</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="195">
+            <ns2:text>am</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="517">
+            <ns2:text>as</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="27">
+            <ns2:text>dm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="49">
+            <ns2:text>ds</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>gm</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>ms</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RecFormats>
+    <ns2:RelatorCodes>
+        <ns2:data count="1">
+            <ns2:text>aut</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>issuing body</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>oth</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>pbd</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5">
+            <ns2:text>pbl</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:RelatorCodes>
+    <ns2:ISBNs unique="146">
+        <ns2:data count="4">
+            <ns2:text>9789287033840</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9789287011657</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9789287011404</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="4">
+            <ns2:text>9780521538251</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789287034991</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789287033802</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789287012173</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789287011497</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9789221195511</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9780521831086</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9789287034694</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9789287034311</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789772910465</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789287038531</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789287038463</ns2:text>
+            <ns2:sources>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789287031341</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9789287012111</ns2:text>
+            <ns2:sources>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9782894517697</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9782894517680</ns2:text>
+            <ns2:sources>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:ISBNs>
+    <ns2:covers>
+        <ns2:data count="4">
+            <ns2:text>0521538254</ns2:text>
+            <ns2:xtext>+-+9073806705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>928073038X</ns2:text>
+            <ns2:xtext>+-+K385825374</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>9221195511</ns2:text>
+            <ns2:xtext>+-+6600466774</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3">
+            <ns2:text>0521831083</ns2:text>
+            <ns2:xtext>+-+8356836705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>9287036918</ns2:text>
+            <ns2:xtext>+-+3641852374</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>0521841925</ns2:text>
+            <ns2:xtext>+-+0746936705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>0521804493</ns2:text>
+            <ns2:xtext>+-+8499536705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>0521788919</ns2:text>
+            <ns2:xtext>+-+4643326705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>0521768365</ns2:text>
+            <ns2:xtext>+-+0183126705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2">
+            <ns2:text>0521745306</ns2:text>
+            <ns2:xtext>+-+1580926705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>9287036942</ns2:text>
+            <ns2:xtext>+-+7941852374</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>928703379X</ns2:text>
+            <ns2:xtext>+-+K428852374</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1">
+            <ns2:text>0521796458</ns2:text>
+            <ns2:xtext>+-+3091426705</ns2:xtext>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:covers>
+    <ns2:countries>
+        <ns2:data count="579" scaled="9">
+            <ns2:text>CH</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>LAC</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="40" scaled="5">
+            <ns2:text>GB</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>BNE</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="21" scaled="4">
+            <ns2:text>US</ns2:text>
+            <ns2:sources>
+                <ns2:s>NUKAT</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="7" scaled="3">
+            <ns2:text>CA</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LAC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" scaled="3">
+            <ns2:text>SZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>BNE</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="6" scaled="3">
+            <ns2:text>DE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="5" scaled="3">
+            <ns2:text>FR</ns2:text>
+            <ns2:sources>
+                <ns2:s>NLI</ns2:s>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="3" scaled="2">
+            <ns2:text>SE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>SELIBR</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>ZW</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>ZM</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>PH</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>NL</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+                <ns2:s>LNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>JP</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>EG</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CZ</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CR</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="2" scaled="1">
+            <ns2:text>CN</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>VN</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>SG</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>RO</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>PK</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>MN</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>LU</ns2:text>
+            <ns2:sources>
+                <ns2:s>DNB</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>KE</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>FJ</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>ET</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>ES</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>BR</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+        <ns2:data count="1" scaled="1">
+            <ns2:text>BE</ns2:text>
+            <ns2:sources>
+                <ns2:s>NKC</ns2:s>
+            </ns2:sources>
+        </ns2:data>
+    </ns2:countries>
+    <ns2:xLinks>
+        <ns2:xLink name="" type="ISNI">0000000122962735</ns2:xLink>
+    </ns2:xLinks>
+    <ns2:titleLinks>
+        <ns2:utName id="VIAF|176044640">
+            <ns2:text>WTO discussion papers</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|181277427">
+            <ns2:text>WTO Agreement on Basic Telecommunications Services|(1997)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|177600886">
+            <ns2:text>Agreement on the Application of Sanitary and Phytosanitary Measures|(1995)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|185643632">
+            <ns2:text>Doha Declaration on the TRIPs Agreement and Public Health|(2001)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|185699837">
+            <ns2:text>Special studies (World Trade Organization)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|176936626">
+            <ns2:text>WTO agreements series</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|175771427">
+            <ns2:text>WTO guide series</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|178097323">
+            <ns2:text>WTO Secretariat publication</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|180161868">
+            <ns2:text>Publications (World Trade Organization)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|180872759">
+            <ns2:text>Staff working paper (World Trade Organization. Trade in Services Division)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|180065449">
+            <ns2:text>Staff working paper (World Trade Organization. Economic Research and Analysis Division)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+        <ns2:utName id="VIAF|186192258">
+            <ns2:text>Agreement on Government Procurement|(1994)</ns2:text>
+            <ns2:sources>
+                <ns2:s>LC</ns2:s>
+            </ns2:sources>
+        </ns2:utName>
+    </ns2:titleLinks>
+    <ns2:history>
+        <ns2:ht recid="BNF|12341756" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="DNB|94402467X" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="LAC|1000G9691E" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="LAC|1000G9691F" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="LC|no 94018277" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="NKC|kn20010711437" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="NLA|000035451455" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="NLIara|000308030" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="NLIlat|000198899" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|s  99006328" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="SELIBR|135910" time="2010-11-16T05:13:16+00:00" type="add"/>
+        <ns2:ht recid="BNF|12341756" time="2010-12-17T05:21:28+00:00" type="delete"/>
+        <ns2:ht recid="BNF|12341756" time="2011-01-21T05:19:24+00:00" type="add"/>
+        <ns2:ht recid="RERO|vtls012143765" time="2011-01-21T05:19:24+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|n  97001391" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NUKAT|s  99006328" time="2011-02-17T05:22:51+00:00" type="delete"/>
+        <ns2:ht recid="SWNL|vtls000231069" time="2011-02-17T05:22:51+00:00" type="add"/>
+        <ns2:ht recid="NLIara|000308030" time="2011-03-18T07:36:32+00:00" type="delete"/>
+        <ns2:ht recid="BNE|XX4574846" time="2011-06-28T10:09:31+00:00" type="add"/>
+        <ns2:ht recid="NLIara|000308030" time="2011-08-17T04:30:30+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|032375824" time="2011-08-17T04:30:30+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90820455" time="2012-02-21T07:28:51+00:00" type="add"/>
+        <ns2:ht recid="DNB|943052149" time="2012-05-22T07:07:59+00:00" type="add"/>
+        <ns2:ht recid="NDL|00577475" time="2012-09-21T12:24:31+00:00" type="add"/>
+        <ns2:ht recid="BNF|12341756" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="NLIara|000308030" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="RERO|vtls012143765" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|032375824" time="2012-11-26T09:56:13+00:00" type="delete"/>
+        <ns2:ht recid="SWNL|vtls000231069" time="2012-11-27T04:00:16+00:00" type="delete"/>
+        <ns2:ht recid="SUDOC|032375824" time="2012-12-19T19:11:18+00:00" type="add"/>
+        <ns2:ht recid="BIBSYS|x90820455" time="2013-01-14T22:09:03+00:00" type="delete"/>
+        <ns2:ht recid="NLIara|000308030" time="2013-02-15T19:30:59+00:00" type="add"/>
+        <ns2:ht recid="NLI|000198899" time="2013-04-17T17:27:37+00:00" type="add"/>
+        <ns2:ht recid="NLIara|000308030" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="NLIlat|000198899" time="2013-05-13T19:14:22+00:00" type="delete"/>
+        <ns2:ht recid="DNB|943052149" time="2013-08-19T18:59:48+00:00" type="delete"/>
+        <ns2:ht recid="LNB|LNC10-000018302" time="2013-08-19T18:59:48+00:00" type="add"/>
+        <ns2:ht recid="SUDOC|032375824" time="2013-08-19T18:59:48+00:00" type="delete"/>
+    </ns2:history>
+</ns2:VIAFCluster>

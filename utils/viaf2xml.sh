@@ -10,8 +10,11 @@ if [ -f $FILE ]
       echo "Processing $FILE ...."
       sed -i "s/^[0-9]*//g" $FILE
       sed -i 's/^[ \t]*//;s/[ \t]*$//' $FILE
-      sed -i '1s;^;<viafClusters>;' $FILE
-      echo "</viafClusters>" >> $FILE
+      mkdir output
+      cd output
+      awk -vc=1 'NR%1==0{++c}{print $0 > c".xml"; ; close(c".xml")}' ../$FILE
+#      sed -i '1s;^;<viafClusters>;' $FILE
+#      echo "</viafClusters>" >> $FILE
       echo " done."
   fi
 fi

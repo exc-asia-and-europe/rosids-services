@@ -1,0 +1,401 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:viaf="http://viaf.org/ontology/1.1/#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/" xml:base="http://viaf.org/">
+    <foaf:Document rdf:about="http://viaf.org/viaf/49228757/">
+        <void:inDataset rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic rdf:resource="http://viaf.org/viaf/49228757"/>
+    </foaf:Document>
+    <rdf:Description rdf:about="http://viaf.org/viaf/49228757">
+        <!--The primary entity (formerly a viaf:NameAuthorityCluster)-->
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdf:type rdf:resource="http://rdvocab.info/uri/schema/FRBRentitiesRDA/Person"/>
+        <foaf:name>Marx, Karl, 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl (Karl Heinrich), 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl Heinrich, 1818-1883</foaf:name>
+        <foaf:name>מרקס, קרל, 1818-1883</foaf:name>
+        <foaf:name>Маркс, Карл, 1818-1883</foaf:name>
+        <foaf:name>ماركس، كارل، 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl German philosopher, 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl</foaf:name>
+        <foaf:name>Mārks, Kārl, 1818-1883</foaf:name>
+        <foaf:name>Marx, Carlos, 1818-1883</foaf:name>
+        <foaf:name>Marks, Karol, 1818-1883</foaf:name>
+        <foaf:name>Marx, Carlo, 1818-1883</foaf:name>
+        <foaf:name>Marx, Heinrich Karl, 1818-1883</foaf:name>
+        <foaf:name>Marukusu, 1818-1883</foaf:name>
+        <foaf:name>Mảc, Cảc 1818-1883</foaf:name>
+        <foaf:name>马克思, 1818-1883</foaf:name>
+        <foaf:name>Marx, Carl, 1818-1883</foaf:name>
+        <foaf:name>Маркс, Карл, 1818-1883.</foaf:name>
+        <foaf:name>Marx, Karel, 1818-1883</foaf:name>
+        <foaf:name>Mārks, K., 1818-1883</foaf:name>
+        <foaf:name>Marḳs, ... 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl Heinrich, 1818-1883</foaf:name>
+        <foaf:name>Marŭkʻŭsŭ, Kʻal, 1818-1883</foaf:name>
+        <foaf:name>Marksas, Karolis, 1818-1883</foaf:name>
+        <foaf:name>Makesi, 1818-1883</foaf:name>
+        <foaf:name>Mảc, C. 1818-1883</foaf:name>
+        <foaf:name>Ma-kʻo-ssu, 1818-1883</foaf:name>
+        <foaf:name>马克思, 卡尔, 1818-1883</foaf:name>
+        <foaf:name>Marx, ..., 1818-1883</foaf:name>
+        <foaf:name>Marx, K. 1818-1883</foaf:name>
+        <foaf:name>Markss, Kārlis, 1818-1883</foaf:name>
+        <foaf:name>Markss, K., 1818-1883</foaf:name>
+        <foaf:name>מארקס, קרל, 1818-1883</foaf:name>
+        <foaf:name>Marks, K. (Karl), 1818-1883</foaf:name>
+        <foaf:name>卡尔‧马克思 1818-1883</foaf:name>
+        <foaf:name>マルクス, カール 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl H. 1818-1883</foaf:name>
+        <foaf:name>Marx-Engels, ... 1818-1883</foaf:name>
+        <foaf:name>Marksi, Karl 1818-1883</foaf:name>
+        <foaf:name>Marksas, K. 1818-1883</foaf:name>
+        <foaf:name>Mārksa, Kārla 1818-1883</foaf:name>
+        <foaf:name>Mārks, Kāṟal 1818-1883</foaf:name>
+        <foaf:name>Markhsi, Karl 1818-1883</foaf:name>
+        <foaf:name>Mārkacha, Kārla 1818-1883</foaf:name>
+        <foaf:name>Maksŭ 1818-1883</foaf:name>
+        <foaf:name>Ma-ko-szū, ... 1818-1883</foaf:name>
+        <foaf:name>Ma, Kesi 1818-1883</foaf:name>
+        <foaf:name>Marx, K.</foaf:name>
+        <foaf:name>マルクス, 1818-1883</foaf:name>
+        <foaf:name>맑스, 1818-1883</foaf:name>
+        <foaf:name>마르크스, 칼, 1818-1883</foaf:name>
+        <foaf:name>ماركس، كارل، 1818-1883</foaf:name>
+        <foaf:name>ماركس، كارل</foaf:name>
+        <foaf:name>מרכס, קרל, 1883־1818</foaf:name>
+        <foaf:name>מרכס, קרל, 1818־1883</foaf:name>
+        <foaf:name>מרכס, קרל</foaf:name>
+        <foaf:name>מארקס, קארל, 8181־3881</foaf:name>
+        <foaf:name>מארקס, קארל, 1883־1818</foaf:name>
+        <foaf:name>מארקס, קארל, 1818־1883</foaf:name>
+        <foaf:name>מארקס, קארל</foaf:name>
+        <foaf:name>מארקס, ק.</foaf:name>
+        <foaf:name>מארקס</foaf:name>
+        <foaf:name>מארכס, קרל, 1818־1883</foaf:name>
+        <foaf:name>מארכס, קארל, 1883־1818</foaf:name>
+        <foaf:name>מארכס, ק.</foaf:name>
+        <foaf:name>מארכס</foaf:name>
+        <foaf:name>Марx, Карл, 1818-1883.</foaf:name>
+        <foaf:name>Marksŭ, 1818-1883</foaf:name>
+        <foaf:name>Markso, Karlo, 1818-1883</foaf:name>
+        <foaf:name>Marx, Karl Heinrich.</foaf:name>
+        <foaf:name>Marks, Karol.</foaf:name>
+        <foaf:name>Marks, K.</foaf:name>
+        <foaf:name>Marks.</foaf:name>
+        <foaf:name>Marx, Karl</foaf:name>
+        <foaf:name>Marx.</foaf:name>
+        <foaf:name>Marks, Karlo, 1818-1883</foaf:name>
+        <foaf:name>Mārks, Kāril, 1818-1883</foaf:name>
+        <foaf:name>Makesi, Karl, 1818-1883</foaf:name>
+        <foaf:name>Makesi, Kaer, 1818-1883</foaf:name>
+        <foaf:name>Marks, Karl.</foaf:name>
+        <foaf:name>Marx Károly 1818-1883</foaf:name>
+        <foaf:name>Marx, C. 1818-1883</foaf:name>
+        <foaf:name>Marx, Karol, 1818-1883</foaf:name>
+        <foaf:name>マルクス, カール</foaf:name>
+        <foaf:name>マルクス, カアル</foaf:name>
+        <foaf:name>マルクス, K</foaf:name>
+        <foaf:name>מארקאס, קרל, 1818-1883</foaf:name>
+        <foaf:name>Marx, Karol.</foaf:name>
+        <foaf:name>Marksas, K. (Karl), 1818-1883</foaf:name>
+        <foaf:name>Marx, Carlos</foaf:name>
+        <foaf:name>Marx, Carl</foaf:name>
+        <foaf:name>Маркс, Карл.</foaf:name>
+        <foaf:name>كارل ماركس، 1818-1883</foaf:name>
+        <foaf:name>Karl Marx</foaf:name>
+        <rdaGr2:dateOfBirth>1818-05-05</rdaGr2:dateOfBirth>
+        <rdaGr2:dateOfDeath>1883-03-14</rdaGr2:dateOfDeath>
+        <owl:sameAs rdf:resource="http://www.idref.fr/027329305/id"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Karl_Marx"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/118578537"/>
+        <owl:sameAs rdf:resource="http://libris.kb.se/resource/auth/205490"/>
+        <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11914934t#foaf:Person"/>
+    </rdf:Description>
+    <!--Controlled and alternate headings from various authority files-->
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035331985#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, K. (Karl), 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500234949#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel>Marx, Karl German philosopher, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Karl Marx</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++95000210#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, K.</skos:altLabel>
+        <skos:altLabel>Marx, Karl Heinrich.</skos:altLabel>
+        <skos:altLabel>Marks, Karol.</skos:altLabel>
+        <skos:altLabel>Marks, K.</skos:altLabel>
+        <skos:altLabel>Marks.</skos:altLabel>
+        <skos:altLabel>Marx.</skos:altLabel>
+        <skos:altLabel>Marks, Karl.</skos:altLabel>
+        <skos:altLabel>Marx, Karol.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX949564#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Karl Heinrich, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, K. 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, C. 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000089876#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקס, קרל, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקאס, קרל, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000089876#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקס, קרל, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקאס, קרל, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000089876#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקס, קרל, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקאס, קרל, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn19990005454#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Karel, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārks, K., 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Karl Heinrich, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Karol, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C027329305#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marks, Karl.</skos:altLabel>
+        <skos:altLabel>Маркс, Карл.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C15014#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, K.</skos:altLabel>
+        <skos:altLabel>Marx, Karl</skos:altLabel>
+        <skos:altLabel>Marx.</skos:altLabel>
+        <skos:altLabel>Marx, Carlos</skos:altLabel>
+        <skos:altLabel>Marx, Carl</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/WKP%7CKarl_Marx#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/WKP"/>
+        <skos:prefLabel>Marx, Karl</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/EGAXA%7Cvtls000777370#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/EGAXA"/>
+        <skos:prefLabel>ماركس، كارل، 1818-1883</skos:prefLabel>
+        <skos:altLabel>كارل ماركس، 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118578537#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Mārks, Kārl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlo, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marukusu, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mảc, Cảc 1818-1883</skos:altLabel>
+        <skos:altLabel>马克思, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Маркс, Карл, 1818-1883.</skos:altLabel>
+        <skos:altLabel>Marx, Karel, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārks, K., 1818-1883</skos:altLabel>
+        <skos:altLabel>Marḳs, ... 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Karl Heinrich, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marŭkʻŭsŭ, Kʻal, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marksas, Karolis, 1818-1883</skos:altLabel>
+        <skos:altLabel>Makesi, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mảc, C. 1818-1883</skos:altLabel>
+        <skos:altLabel>Ma-kʻo-ssu, 1818-1883</skos:altLabel>
+        <skos:altLabel>马克思, 卡尔, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, ..., 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, K. 1818-1883</skos:altLabel>
+        <skos:altLabel>Markss, Kārlis, 1818-1883</skos:altLabel>
+        <skos:altLabel>Markss, K., 1818-1883</skos:altLabel>
+        <skos:altLabel>卡尔‧马克思 1818-1883</skos:altLabel>
+        <skos:altLabel>マルクス, カール 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Karl H. 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx-Engels, ... 1818-1883</skos:altLabel>
+        <skos:altLabel>Marksi, Karl 1818-1883</skos:altLabel>
+        <skos:altLabel>Marksas, K. 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārksa, Kārla 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārks, Kāṟal 1818-1883</skos:altLabel>
+        <skos:altLabel>Markhsi, Karl 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārkacha, Kārla 1818-1883</skos:altLabel>
+        <skos:altLabel>Maksŭ 1818-1883</skos:altLabel>
+        <skos:altLabel>Ma-ko-szū, ... 1818-1883</skos:altLabel>
+        <skos:altLabel>Ma, Kesi 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0053A0602#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV10158884#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca10792284#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, K.</skos:altLabel>
+        <skos:altLabel>Marx, Karl Heinrich.</skos:altLabel>
+        <skos:altLabel>Marks, Karol.</skos:altLabel>
+        <skos:altLabel>Marks, K.</skos:altLabel>
+        <skos:altLabel>Marks.</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NTA%7C068428421#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel>Marx, Karl (Karl Heinrich), 1818-1883</skos:prefLabel>
+        <skos:altLabel>Mārks, Kārl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlo, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārks, K., 1818-1883</skos:altLabel>
+        <skos:altLabel>马克思, 卡尔, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, ..., 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karlo, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mārks, Kāril, 1818-1883</skos:altLabel>
+        <skos:altLabel>Makesi, Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Makesi, Kaer, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls011109337#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Mārks, Kārl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carl, 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C205490#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marks, K. (Karl), 1818-1883</skos:altLabel>
+        <skos:altLabel>Marksas, K. (Karl), 1818-1883</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://libris.kb.se/resource/auth/205490#concept"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BIBSYS%7Cx90051270#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BIBSYS"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00449037#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel>Marx, Karl Heinrich, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Karl</skos:altLabel>
+        <skos:altLabel>マルクス, カール</skos:altLabel>
+        <skos:altLabel>マルクス, カアル</skos:altLabel>
+        <skos:altLabel>マルクス, K</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000042318#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Маркс, Карл, 1818-1883.</skos:altLabel>
+        <skos:altLabel>Markss, Kārlis, 1818-1883</skos:altLabel>
+        <skos:altLabel>Markss, K., 1818-1883</skos:altLabel>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++79006935#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Mārks, Kārl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlo, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Heinrich Karl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marukusu, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mảc, Cảc 1818-1883</skos:altLabel>
+        <skos:altLabel>马克思, 1818-1883</skos:altLabel>
+        <skos:altLabel>Маркс, Карл, 1818-1883.</skos:altLabel>
+        <skos:altLabel>Marx, Karel, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marŭkʻŭsŭ, Kʻal, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marksas, Karolis, 1818-1883</skos:altLabel>
+        <skos:altLabel>Makesi, 1818-1883</skos:altLabel>
+        <skos:altLabel>Mảc, C. 1818-1883</skos:altLabel>
+        <skos:altLabel>Ma-kʻo-ssu, 1818-1883</skos:altLabel>
+        <skos:altLabel>מארקס, קרל, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, K. (Karl), 1818-1883</skos:altLabel>
+        <skos:altLabel>マルクス, 1818-1883</skos:altLabel>
+        <skos:altLabel>맑스, 1818-1883</skos:altLabel>
+        <skos:altLabel>마르크스, 칼, 1818-1883</skos:altLabel>
+        <skos:altLabel>ماركس، كارل، 1818-1883</skos:altLabel>
+        <skos:altLabel>ماركس، كارل</skos:altLabel>
+        <skos:altLabel>מרכס, קרל, 1883־1818</skos:altLabel>
+        <skos:altLabel>מרכס, קרל, 1818־1883</skos:altLabel>
+        <skos:altLabel>מרכס, קרל</skos:altLabel>
+        <skos:altLabel>מארקס, קארל, 8181־3881</skos:altLabel>
+        <skos:altLabel>מארקס, קארל, 1883־1818</skos:altLabel>
+        <skos:altLabel>מארקס, קארל, 1818־1883</skos:altLabel>
+        <skos:altLabel>מארקס, קארל</skos:altLabel>
+        <skos:altLabel>מארקס, ק.</skos:altLabel>
+        <skos:altLabel>מארקס</skos:altLabel>
+        <skos:altLabel>מארכס, קרל, 1818־1883</skos:altLabel>
+        <skos:altLabel>מארכס, קארל, 1883־1818</skos:altLabel>
+        <skos:altLabel>מארכס, ק.</skos:altLabel>
+        <skos:altLabel>מארכס</skos:altLabel>
+        <skos:altLabel>Марx, Карл, 1818-1883.</skos:altLabel>
+        <skos:altLabel>Marksŭ, 1818-1883</skos:altLabel>
+        <skos:altLabel>Markso, Karlo, 1818-1883</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/n79006935"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11914934#skos:Concept">
+        <skos:inScheme rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel>Marx, Karl, 1818-1883</skos:prefLabel>
+        <skos:altLabel>Mārks, Kārl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlos, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marks, Karol, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carlo, 1818-1883</skos:altLabel>
+        <skos:altLabel>Marx, Carl, 1818-1883</skos:altLabel>
+        <skos:altLabel>Маркс, Карл, 1818-1883.</skos:altLabel>
+        <skos:altLabel>Marx Károly 1818-1883</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11914934t"/>
+        <rdfs:seeAlso rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11914934t"/>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </skos:Concept>
+    <!--Deprecated identifiers-->
+    <rdf:Description rdf:about="http://viaf.org/viaf/49228757/#skos:Concept">
+        <rdfs:comment>This concept identifier is deprecated. See the foaf:focus link for the primary entity.</rdfs:comment>
+        <foaf:focus rdf:resource="http://viaf.org/viaf/49228757"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/49228757/#foaf:Person">
+        <rdfs:comment>This primary entity identifier is deprecated. See the owl:sameAs link for the new identifier.</rdfs:comment>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/49228757"/>
+    </rdf:Description>
+</rdf:RDF>
