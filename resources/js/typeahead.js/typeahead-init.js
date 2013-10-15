@@ -26,7 +26,19 @@ function initAutocompletes() {
         
         
         console.log("Name: " , name , " Query: " , query);
-        
+       /*
+            <result>
+                <name>Not found</name>
+                <value>Not found</value>
+                <internalID/>
+                <bio/>
+                <uuid/>
+                <resource/>
+                <type/>
+                <sources/>
+                <hint>create/request new record</hint>
+            </result>
+        */ 
         jObject.typeahead({
             name: query,
             dataType: "json",
@@ -38,28 +50,38 @@ function initAutocompletes() {
                 url: '/exist/apps/cluster-services/modules/services/search/search.xql?' + query + '=%QUERY',
                 filter: function(parsedData){
                     var dataset = [];
-                    if( Object.prototype.toString.call( parsedData.name ) === '[object Array]' ) {
+                    if( Object.prototype.toString.call( parsedData.result ) === '[object Array]' ) {
                         var dataset = [];
-                        for(i = 0; i < parsedData.name.length; i++) {
+                        for(i = 0; i < parsedData.result.length; i++) {
+                            var bio = null;
+                            if(parsedData.result[i].bio !== undefined && parsedData.result[i].bio !== '') { bio = parsedData.result[i].bio };
+                            
                             dataset.push({
-                                name: parsedData.name[i].name,
-                                value: parsedData.name[i].value,
-                                bio: parsedData.name[i].bio,
-                                resource: parsedData.name[i].resource,
-                                uuid: parsedData.name[i].uuid,
-                                viafID: parsedData.name[i].viafID,
-                                hint: parsedData.name[i].hint
+                                name: parsedData.result[i].name,
+                                value: parsedData.result[i].value,
+                                internalID: parsedData.result[i].internalID,
+                                bio: bio,
+                                uuid: parsedData.result[i].uuid,
+                                resource: parsedData.result[i].resource,
+                                type: parsedData.result[i].type,
+                                sources: parsedData.result[i].sources,
+                                hint: parsedData.result[i].hint
                             });
                         }
                     } else {
+                        var bio = null;
+                        if(parsedData.result[i].bio !== undefined && parsedData.result[i].bio !== '') { bio = parsedData.result.bio };
+                            
                         dataset.push({
-                            name: parsedData.name.name,
-                            value: parsedData.name.value,
-                            bio: parsedData.name.bio,
-                            resource: parsedData.name.resource,
-                            uuid: parsedData.name.uuid,
-                            viafID: parsedData.name.viafID,
-                            hint: parsedData.name.hint
+                            name: parsedData.result.name,
+                            value: parsedData.result.value,
+                            internalID: parsedData.result.internalID,
+                            bio: bio,
+                            uuid: parsedData.result.uuid,
+                            resource: parsedData.result.resource,
+                            type: parsedData.result.type,
+                            sources: parsedData.result.sources,
+                            hint: parsedData.result.hint
                         });
                     }
                     return dataset;

@@ -43,20 +43,23 @@ declare %private function persons:searchNameLocal($query as xs:string) {
             let $viafCluster := collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID eq $viafID]
             let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
             let $sources := "local " || viaf-utils:getSources($mainHeadingElement)
-            let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+            let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
             return
-                <name name="{$name}" viafID="{$viafID}" dates="{$dates}" uuid="{data($person/@xml:id)}" resource="local" type="person" sources="{$sources}"/>
+                <name name="{$name}" internalID="{$viafID}" bio="{$bio}" uuid="{data($person/@xml:id)}" resource="local" type="person" sources="{$sources}"/>
 };
 
 (: TODO: Test getty :)
-declare function persons:searchNameUlan($query as xs:string) {
-   let $results :=  collection($app:local-getty-ulan-repositories)//vp:Subject[ngram:contains(.//vp:Term_Text, $query)]
+declare  function persons:searchNameULAN($query as xs:string) {
+   let $results :=  collection($app:local-getty-ulan-repositories)//vp:Subject[ ngram:contains(.//vp:Term_Text, $query)][ vp:Record_Type eq 'Person' ]
    return
       for $result in $results
-            let $persName := if (exists($result//vp:Preferred_Term)) then ($result//vp:Preferred_Term[1]/vp:Term_Text[1]/text()) else ($result//vp:Non-Preferred_Term[1]/vp:Term_Text[1]/text())
-            let $bio := if (exists($result//vp:Preferred_Biography)) then ($result//vp:Preferred_Biography[1]//vp:Biography_Text[1]) else ($result//vp:Non-Preferred_Biography[1]/vp:Biography_Text[1])
+            let $person := if ( exists($result//vp:Preferred_Term) ) then ( $result//vp:Preferred_Term[1] ) else ( $result//vp:Non-Preferred_Term[1] )
+            let $subjectID := data( $result/@Subject_ID )
+            let $persName := $person/vp:Term_Text[1]/text()
+            let $bio := if ( exists($result//vp:Preferred_Biography) ) then ( $result//vp:Preferred_Biography[1] ) else ( $result//vp:Non-Preferred_Biography[1] )
+            let $bioText := $bio//vp:Biography_Text[1]
             return 
-                <name name="{$persName}" viafID="" dates="{$bio}" uuid="" resource="ulan" type="person" sources=""/>
+                <name name="{$persName}" internalID="{$subjectID}" bio="{$bioText}" uuid="" resource="ulan" type="person" sources=""/>
                 
 };
 
@@ -68,12 +71,12 @@ declare %private function persons:searchNameVIAF($query as xs:string, $local-via
         let $mainHeadingElement := viaf-utils:getBestMatch($person//ns2:mainHeadingEl)
         let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
         let $sources := viaf-utils:getSources($mainHeadingElement)
-        let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+        let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
         return
             if (index-of($local-viaf-ids, $person/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" viafID="{$person/ns2:viafID}" dates="{$dates}" uuid="" resource="viaf" type="person" sources="{$sources}"/> 
+                <name name="{$name}" internalID="{$person/ns2:viafID}" bio="{$bio}" uuid="" resource="viaf" type="person" sources="{$sources}"/> 
             )
 };
 
@@ -88,6 +91,8 @@ declare %private function persons:processResults($query as xs:string) {
 
 declare function persons:searchName($query as xs:string) {
     let $local-persons := persons:searchNameLocal($query)
+    (: VIAF contains getty :)
+    (: let $ulan-persons := persons:searchNameULAN($query) :)
     let $viaf-persons := persons:searchNameVIAF($query, data($local-persons//@viafID))
     return 
         ($local-persons, $viaf-persons)

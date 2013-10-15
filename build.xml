@@ -3,9 +3,10 @@
     <property name="project.version" value="0.2"/>
     <property name="project.app" value="cservices"/>
     <property name="build.dir" value="build"/>
+    
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* nbproject/* utils/*"/>
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* nbproject/* utils/* **/realdata/**" />
     </target>
     
     <target name="clean">

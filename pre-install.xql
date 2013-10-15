@@ -94,9 +94,15 @@ util:log($log-level, "Script: Storing repositories."),
 xmldb:store-files-from-pattern( $local-persons-repositories-collection, $dir, "repositories/local/persons/*.xml"),
 xmldb:store-files-from-pattern( $local-organisations-repositories-collection, $dir, "repositories/local/organisations/*.xml"),
 xmldb:store-files-from-pattern( $local-subjects-repositories-collection, $dir, "repositories/local/subjects/*.xml"),
+(: TEST DATA :)
+xmldb:store-files-from-pattern( $local-getty-ulan-repositories, $dir, "repositories/local/getty/ulan/*.format.xml"),
+xmldb:store-files-from-pattern( $local-getty-aat-repositories, $dir, "repositories/local/getty/aat/*.format.xml"),
+xmldb:store-files-from-pattern( $local-getty-tgn-repositories, $dir, "repositories/local/getty/tgn/*.format.xml"),
+(:
 xmldb:store-files-from-pattern( $local-getty-ulan-repositories, $dir, "repositories/local/getty/ulan/*.xml"),
 xmldb:store-files-from-pattern( $local-getty-aat-repositories, $dir, "repositories/local/getty/aat/*.xml"),
 xmldb:store-files-from-pattern( $local-getty-tgn-repositories, $dir, "repositories/local/getty/tgn/*.xml"),
+:)
 xmldb:store-files-from-pattern( $local-viaf-rdf-repositories-collection, $dir, "repositories/local/viaf/rdf/*.xml"),
 xmldb:store-files-from-pattern( $local-viaf-xml-repositories-collection, $dir, "repositories/local/viaf/xml/*.xml"),
 
