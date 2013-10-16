@@ -7,4 +7,4 @@ declare variable $target external;
 (: cleanup and reindex :)
  xmldb:remove($target || "/repositories"),
  xmldb:remove($target || "/xconfs"),
- xmldb:reindex("/db")
+ xmldb:reindex("/db/resources/services/repositories")
