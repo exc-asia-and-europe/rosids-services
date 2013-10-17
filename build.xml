@@ -6,7 +6,7 @@
     
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/* nbproject/* utils/* **/realdata/**" />
+        <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/** nbproject/** utils/** **/realdata/** outdated/**" />
     </target>
     
     <target name="clean">

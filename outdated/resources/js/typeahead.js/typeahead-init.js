@@ -23,9 +23,10 @@ function initAutocompletes() {
         
         var name = jObject.attr("name");            
         var query = jObject.attr("query");
+        var host = jObject.attr("host");
         
         
-        console.log("Name: " , name , " Query: " , query);
+        console.log("Name: " , name , " Query: " , query, ' URL:', url);
        /*
             <result>
                 <name>Not found</name>
@@ -47,7 +48,7 @@ function initAutocompletes() {
             template: '<p><strong>{{value}}</strong>{{#bio}}, {{/bio}}{{bio}}  <small><strong>{{resource}}<strong></small> <small><i>{{hint}}</i></small></p>',
             engine: Hogan,
             remote: {
-                url: '/exist/apps/cluster-services/modules/services/search/search.xql?' + query + '=%QUERY',
+                url: host + '/exist/apps/cluster-services/modules/services/search/search.xql?' + query + '=%QUERY',
                 filter: function(parsedData){
                     var dataset = [];
                     if( Object.prototype.toString.call( parsedData.result ) === '[object Array]' ) {

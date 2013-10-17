@@ -29,7 +29,7 @@ declare function typeahead:jquery-typeahead($results as item()*) {
                     <uuid>{data($result/@uuid)}</uuid>
                     <resource>{data($result/@resource)}</resource>
                     <type>{data($result/@type)}</type>
-                    <sources>{data($result/@type)}</sources>
+                    <sources>{data($result/@sources)}</sources>
                     <hint>{data($result/@hint)}</hint>
                 </result>
         ), typeahead:jquery-typeahead-default()

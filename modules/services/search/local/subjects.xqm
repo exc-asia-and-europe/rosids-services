@@ -40,7 +40,7 @@ declare  %private function subjects:searchSubjectAAT($query as xs:string) {
             let $internalID := data( $result/@Subject_ID )
             let $subjectText := $subject/vp:Term_Text[1]/text()
             return 
-                <subject name="{$subjectText}" internalID="{$internalID}" bio="" uuid="" resource="aat" type="subject" sources="" hint=""/>
+                <subject name="{$subjectText}" internalID="{$internalID}" bio="" uuid="" resource="aat" type="subject" sources="jpg" hint=""/>
                 
 };
 
