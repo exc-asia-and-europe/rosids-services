@@ -23,8 +23,11 @@ declare %private function organisations:searchNameLocal($query as xs:string) {
                            then (substring-after($organisation/tei:orgName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/"))
                            else ("")
             let $name := if ( exists($organisation/tei:orgName[@type eq "preferred"]) ) then ( $organisation/tei:orgName[@type eq "preferred"] ) else ( $organisation/tei:orgName[1] )
+            let $viafCluster := collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID eq $viafID]
+            let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
+            let $sources := viaf-utils:getSources($mainHeadingElement)
             return
-                <name name="{$name}" viafID="{$viafID}" dates="" uuid="{data($organisation/@xml:id)}" sources="" resource="local" type="organisation"/>
+                <name name="{$name}" viafID="{$viafID}" dates="" uuid="{data($organisation/@xml:id)}" sources="{$sources}" resource="local" type="organisation"/>
 };
 
 (:TODO: SOURCES :)
@@ -36,11 +39,12 @@ declare %private function organisations:searchNameVIAF($query as xs:string, $loc
         let $mainHeadingElement := viaf-utils:getBestMatch($organisation//ns2:mainHeadingEl)
         let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
         let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+        let $sources := viaf-utils:getSources($mainHeadingElement)
         return
             if (index-of($local-viaf-ids, $organisation/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" viafID="{$organisation/ns2:viafID}" dates="" uuid="" sources="" resource="viaf" type="organisation"/> 
+                <name name="{$name}" viafID="{$organisation/ns2:viafID}" dates="" uuid="" sources="{$sources}" resource="viaf" type="organisation"/> 
             )
 };
 

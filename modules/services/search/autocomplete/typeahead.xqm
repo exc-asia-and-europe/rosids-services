@@ -6,6 +6,8 @@ declare function typeahead:jquery-typeahead-default() {
         <value>Not found</value>
         <internalID/>
         <bio/>
+        <earliestDate/>
+        <latestDate/>
         <uuid/>
         <resource/>
         <type/>
@@ -26,6 +28,8 @@ declare function typeahead:jquery-typeahead($results as item()*) {
                     <value>{replace( data($result/@name), "&quot;", "'")}</value>
                     <internalID>{data($result/@internalID)}</internalID>
                     <bio>{if(exists($result/@bio)) then ( data($result/@bio) ) else ("")}</bio>
+                    <earliestDate>{if(exists($result/@earliestDate)) then ( data($result/@earliestDate) ) else ("")}</earliestDate>
+                    <latestDate>{if(exists($result/@latestDate)) then ( data($result/@latestDate) ) else ("")}</latestDate>
                     <uuid>{data($result/@uuid)}</uuid>
                     <resource>{data($result/@resource)}</resource>
                     <type>{data($result/@type)}</type>
