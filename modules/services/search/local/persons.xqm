@@ -70,7 +70,7 @@ declare %private function persons:searchNameLocal($query as xs:string) {
             let $earliestDate := persons:extractEarliestDate($bio)
             let $latestDate := persons:extractLatestDate($bio)
             return
-                <name name="{$name}" internalID="{$viafID}" bio="{$bio}" uuid="{data($person/@xml:id)}" resource="local" type="person" sources="{$sources}" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
+                <name name="{$name}" internalID="{$viafID}" bio="{$bio}" uuid="{data($person/@xml:id)}" resource="local" type="personal" sources="{$sources}" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
 };
 
 (: TODO: Test getty :)
@@ -86,7 +86,7 @@ declare  function persons:searchNameULAN($query as xs:string) {
             let $earliestDate := persons:extractEarliestDate($bioText)
             let $latestDate := persons:extractLatestDate($bioText)
             return 
-                <name name="{$persName}" internalID="{$subjectID}" bio="{$bioText}" uuid="" resource="ulan" type="person" sources="jpg" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
+                <name name="{$persName}" internalID="{$subjectID}" bio="{$bioText}" uuid="" resource="ulan" type="personal" sources="jpg" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
                 
 };
 
@@ -106,7 +106,7 @@ declare %private function persons:searchNameVIAF($query as xs:string, $local-via
             if (index-of($local-viaf-ids, $person/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" internalID="{$person/ns2:viafID}" bio="{$bio}" uuid="" resource="viaf" type="person" sources="{$sources}" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/> 
+                <name name="{$name}" internalID="{$person/ns2:viafID}" bio="{$bio}" uuid="" resource="viaf" type="personal" sources="{$sources}" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/> 
             )
 };
 

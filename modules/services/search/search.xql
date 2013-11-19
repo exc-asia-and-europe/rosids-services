@@ -20,17 +20,7 @@ declare  %private function local:searchNames($query as xs:string) {
         then( 
             if ( empty($organisations) )
             then (
-                <result>
-                    <name>
-                        <name>Not found</name>
-                        <value>Not found</value>
-                        <bio/>
-                        <resource/>
-                        <uuid/>
-                        <viafID/>
-                        <hint>create/request new record</hint>
-                    </name>
-                </result>
+               <results>{typeahead:jquery-typeahead-default()}</results>
             ) else ( typeahead:jquery-typeahead($organisations) )
         ) else (
             if( empty($organisations) )

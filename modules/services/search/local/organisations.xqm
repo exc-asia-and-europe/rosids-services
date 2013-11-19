@@ -27,7 +27,7 @@ declare %private function organisations:searchNameLocal($query as xs:string) {
             let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
             let $sources := viaf-utils:getSources($mainHeadingElement)
             return
-                <name name="{$name}" viafID="{$viafID}" dates="" uuid="{data($organisation/@xml:id)}" sources="{$sources}" resource="local" type="organisation"/>
+                <name name="{$name}" internalID="{$viafID}" bio="" earliestDate="" latestDate="" uuid="{data($organisation/@xml:id)}" resource="local" type="corporate" sources="{$sources}" hint=""/>
 };
 
 (:TODO: SOURCES :)
@@ -38,13 +38,16 @@ declare %private function organisations:searchNameVIAF($query as xs:string, $loc
         for $organisation in $organisations
         let $mainHeadingElement := viaf-utils:getBestMatch($organisation//ns2:mainHeadingEl)
         let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
-        let $dates := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+        let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
+        let $earliestDate := persons:extractEarliestDate($bio)
+        let $latestDate := persons:extractLatestDate($bio)
         let $sources := viaf-utils:getSources($mainHeadingElement)
+
         return
             if (index-of($local-viaf-ids, $organisation/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" viafID="{$organisation/ns2:viafID}" dates="" uuid="" sources="{$sources}" resource="viaf" type="organisation"/> 
+                <name name="{$name}" internalID="{$organisation/ns2:viafID}" bio="$bio" earliestDate="§earliestDate" latestDate="$latestDate" uuid="" resource="viaf" type="corporate" sources="{$sources}" hint=""/> 
             )
 };
 
