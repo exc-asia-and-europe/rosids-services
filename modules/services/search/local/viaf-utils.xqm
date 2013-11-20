@@ -10,6 +10,35 @@ import module namespace app="http://exist-db.org/xquery/biblio/services/app" at 
 (: VIAF Terms :)
 declare namespace ns2= "http://viaf.org/viaf/terms#"; 
 
+declare function viaf-utils:extractEarliestDate($bio as xs:string?) {
+    if (empty($bio))
+    then ( '' ) else (
+        if(contains($bio, '-'))
+        then (
+            let $temp := substring-before($bio, '-')
+            return
+                if(contains($temp, '('))
+                then (
+                        substring-after($temp, '(')
+                ) else ( $temp )                                
+        ) else ( $bio )
+    ) 
+};
+
+declare function viaf-utils:extractLatestDate($bio as xs:string?) {
+   if (empty($bio))
+   then ( '' ) else (
+       if(contains($bio, '-'))
+        then (
+            let $temp := substring-after($bio, '-')
+            return
+                if(contains($temp, ')'))
+                then (
+                        substring-after($temp, ')')
+                ) else ( $temp )
+        ) else ( '' )
+   )
+};
 
 declare %private function viaf-utils:countVIAFLinks($mainHeadingElements as item()*) {
     let $linksCount := for $mainHeadingElement in $mainHeadingElements

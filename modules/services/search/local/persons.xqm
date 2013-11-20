@@ -23,29 +23,7 @@ declare namespace ns2= "http://viaf.org/viaf/terms#";
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 
 
-declare %private function persons:extractEarliestDate($bio as xs:string) {
-    if(contains($bio, '-'))
-    then (
-        let $temp := substring-before($bio, '-')
-        return
-            if(contains($temp, '('))
-            then (
-                    substring-after($temp, '(')
-            ) else ( $temp )                                
-    ) else ( $bio )
-};
 
-declare %private function persons:extractLatestDate($bio as xs:string) {
-   if(contains($bio, '-'))
-    then (
-        let $temp := substring-after($bio, '-')
-        return
-            if(contains($temp, ')'))
-            then (
-                    substring-after($temp, ')')
-            ) else ( $temp )
-    ) else ( '' )
-};
 declare %private function persons:searchNameLocal($query as xs:string) {
     let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)]
     return
@@ -67,8 +45,8 @@ declare %private function persons:searchNameLocal($query as xs:string) {
             let $mainHeadingElement := viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl)
             let $sources := viaf-utils:getSources($mainHeadingElement)
             let $bio := if($mainHeadingElement) then ( $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']) else ('')
-            let $earliestDate := persons:extractEarliestDate($bio)
-            let $latestDate := persons:extractLatestDate($bio)
+            let $earliestDate := viaf-utils:extractEarliestDate($bio)
+            let $latestDate := viaf-utils:extractLatestDate($bio)
             return
                 <name name="{$name}" internalID="{$viafID}" bio="{$bio}" uuid="{data($person/@xml:id)}" resource="local" type="personal" sources="{$sources}" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
 };
@@ -83,8 +61,8 @@ declare  function persons:searchNameULAN($query as xs:string) {
             let $persName := $person/vp:Term_Text[1]/text()
             let $bio := if ( exists($result//vp:Preferred_Biography) ) then ( $result//vp:Preferred_Biography[1] ) else ( $result//vp:Non-Preferred_Biography[1] )
             let $bioText := $bio//vp:Biography_Text[1]
-            let $earliestDate := persons:extractEarliestDate($bioText)
-            let $latestDate := persons:extractLatestDate($bioText)
+            let $earliestDate := viaf-utils:extractEarliestDate($bioText)
+            let $latestDate := viaf-utils:extractLatestDate($bioText)
             return 
                 <name name="{$persName}" internalID="{$subjectID}" bio="{$bioText}" uuid="" resource="ulan" type="personal" sources="jpg" latestDate="{$latestDate}" earliestDate="{$earliestDate}"/>
                 
@@ -100,8 +78,8 @@ declare %private function persons:searchNameVIAF($query as xs:string, $local-via
         let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
         let $sources := viaf-utils:getSources($mainHeadingElement)
         let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
-        let $earliestDate := persons:extractEarliestDate($bio)
-        let $latestDate := persons:extractLatestDate($bio)
+        let $earliestDate := viaf-utils:extractEarliestDate($bio)
+        let $latestDate := viaf-utils:extractLatestDate($bio)
         return
             if (index-of($local-viaf-ids, $person/ns2:viafID) > 0)
             then ()

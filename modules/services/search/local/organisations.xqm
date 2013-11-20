@@ -39,15 +39,15 @@ declare %private function organisations:searchNameVIAF($query as xs:string, $loc
         let $mainHeadingElement := viaf-utils:getBestMatch($organisation//ns2:mainHeadingEl)
         let $name := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'a']
         let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code eq 'd']
-        let $earliestDate := persons:extractEarliestDate($bio)
-        let $latestDate := persons:extractLatestDate($bio)
+        let $earliestDate := viaf-utils:extractEarliestDate($bio)
+        let $latestDate := viaf-utils:extractLatestDate($bio)
         let $sources := viaf-utils:getSources($mainHeadingElement)
 
         return
             if (index-of($local-viaf-ids, $organisation/ns2:viafID) > 0)
             then ()
             else (
-                <name name="{$name}" internalID="{$organisation/ns2:viafID}" bio="$bio" earliestDate="§earliestDate" latestDate="$latestDate" uuid="" resource="viaf" type="corporate" sources="{$sources}" hint=""/> 
+                <name name="{$name}" internalID="{$organisation/ns2:viafID}" bio="{$bio}" earliestDate="{$earliestDate}" latestDate="{$latestDate}" uuid="" resource="viaf" type="corporate" sources="{$sources}" hint=""/> 
             )
 };
 
