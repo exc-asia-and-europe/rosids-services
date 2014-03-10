@@ -6,22 +6,25 @@
              <!-- ns2:mainHeadingEl/ns2:links/ns2:link/ns2:match" -->
         </lucene>
         
-        <create qname="@code" type="xs:string"/>
+        
         <ngram qname="ns2:subfield"/>
         <!-- ngram qname="ns2:subfield[@code eq 'a']"/ -->
         
-        <!-- VIAF id -->
-        <create qname="ns2:viafID" type="xs:string"/>
-        <!-- Type e.g. Personal -->
-        <create qname="ns2:nameType" type="xs:string"/>
-        <!-- Name, Works, etc. in ns2:mainHeadings -->
-        <!-- create qname="ns2:text" type="xs:string"/ -->
-        <!-- Name, Dates in ns2:mainHeadingEl -->
-        <create qname="ns2:subfield" type="xs:string"/>
-        <!-- Source in mainHeadings and mainHeadingEl e.g. "DNB" -->
-        <create qname="ns2:s" type="xs:string"/>
-        
-        <create qname="ns2:links" type="xs:string"/>
-        <create qname="ns2:link" type="xs:string"/>
+        <range>
+            <create qname="@code" type="xs:string"/>
+            <!-- VIAF id -->
+            <create qname="ns2:viafID" type="xs:string"/>
+            <!-- Type e.g. Personal -->
+            <create qname="ns2:nameType" type="xs:string"/>
+            <!-- Name, Works, etc. in ns2:mainHeadings -->
+            <!-- create qname="ns2:text" type="xs:string"/ -->
+            <!-- Name, Dates in ns2:mainHeadingEl -->
+            <create qname="ns2:subfield" type="xs:string"/>
+            <!-- Source in mainHeadings and mainHeadingEl e.g. "DNB" -->
+            <create qname="ns2:s" type="xs:string"/>
+
+            <create qname="ns2:links" type="xs:string"/>
+            <create qname="ns2:link" type="xs:string"/>
+        </range>
     </index>
 </collection>
