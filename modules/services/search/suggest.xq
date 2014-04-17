@@ -70,7 +70,7 @@ declare function local:suggestSubjects($query as xs:string, $startRecord as xs:i
 
 let $query := replace(request:get-parameter("query", "arx"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $type := replace(request:get-parameter("type", "names"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "3"), "[^0-9 ]", "")) 
+let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "10"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
 let $cors := response:set-header("Access-Control-Allow-Origin", "*")
 return

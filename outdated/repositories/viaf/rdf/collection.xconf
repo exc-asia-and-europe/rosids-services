@@ -1,0 +1,15 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:void="http://rdfs.org/ns/void#"
+           xmlns:owl="http://www.w3.org/2002/07/owl#"
+           xmlns:viaf="http://viaf.org/ontology/1.1/#"
+           xmlns:foaf="http://xmlns.com/foaf/0.1/"
+           xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+           xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+           xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/"
+           xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+           xmlns:rdaEnt="http://rdvocab.info/uri/schema/FRBRentitiesRDA/">
+        <fulltext default="none" attributes="false"/>
+    </index>
+</collection>
