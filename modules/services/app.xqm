@@ -4,9 +4,9 @@ module namespace app="http://exist-db.org/xquery/biblio/services/app";
 
 
 (: Current versions of local repositories :)
-declare %private variable $app:local-persons := "persons_tei_2013-09-03_20-36-45.xml";
-declare %private variable $app:local-organisations := "organisations_tei_2013-09-03_20-36-46.xml";
-declare %private variable $app:local-subjects := "subjects_mads_2013-08-27.xml";
+declare %private variable $app:local-persons := "persons_tei_2014-03-05_16-49-56.xml";
+declare %private variable $app:local-organisations := "organisations_tei_2014-03-05_16-49-56.xml";
+declare %private variable $app:local-subjects := "subjects_mads_2014-03-05_16-49-56.xml";
 
 (: collection paths for local repositories :)
 declare %private variable $app:local-repositories-collection := "/resources/services/repositories/local/";

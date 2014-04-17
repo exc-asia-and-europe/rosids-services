@@ -20,6 +20,31 @@ declare function typeahead:jquery-typeahead-default() {
 declare function typeahead:jquery-typeahead($results as item()*) {
     <result>
     {
+        $results/total,
+        (
+            for $result in $results/names/name
+            return
+                <result>
+                    <name>{replace( data($result/@name), "&quot;", "'")}</name>
+                    <value>{replace( data($result/@name), "&quot;", "'")}</value>
+                    <internalID>{data($result/@internalID)}</internalID>
+                    <bio>{if(exists($result/@bio)) then ( data($result/@bio) ) else ("")}</bio>
+                    <earliestDate>{if(exists($result/@earliestDate)) then ( data($result/@earliestDate) ) else ("")}</earliestDate>
+                    <latestDate>{if(exists($result/@latestDate)) then ( data($result/@latestDate) ) else ("")}</latestDate>
+                    <uuid>{data($result/@uuid)}</uuid>
+                    <resource>{data($result/@resource)}</resource>
+                    <type>{data($result/@type)}</type>
+                    <sources>{data($result/@sources)}</sources>
+                    <hint>{data($result/@hint)}</hint>
+                </result>
+        )
+    }
+    </result>
+};
+
+declare function typeahead:jquery-typeahead-with-not-found($results as item()*) {
+    <result>
+    {
         (
             for $result in $results
             return

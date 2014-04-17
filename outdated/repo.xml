@@ -8,5 +8,7 @@
     <copyright>true</copyright>
     <type>application</type>
     <target>cluster-services</target>
-    <deployed>2014-04-18T00:18:24.932+02:00</deployed>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <deployed>2014-04-07T12:54:20.351+02:00</deployed>
 </meta>

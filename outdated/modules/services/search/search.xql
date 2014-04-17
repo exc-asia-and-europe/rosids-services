@@ -13,7 +13,7 @@ import module namespace json="http://www.json.org";
 declare option exist:serialize "method=json media-type=text/javascript";
 
 declare  %private function local:searchNames($query as xs:string) {
-    let $persons := persons:searchName($query)
+    let $persons := persons:searchName($query, 1, 20)
     let $organisations := organisations:searchName($query)
     let $result := 
         if(empty($persons))
@@ -35,13 +35,13 @@ declare  %private function local:searchNames($query as xs:string) {
 };
 
 let $names := request:get-parameter-names()[1]
-let $names := if ($names eq "base") then ("subjects") else ($names)
+let $names := if ($names = "base") then ("subjects") else ($names)
 let $query := replace(request:get-parameter($names, "luf"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $log := util:log("INFO", request:get-parameter-names()[1])
 return
     switch ($names)
        case "subjects" return typeahead:jquery-typeahead(subjects:searchSubject($query))       
-       case "persons" return json:xml-to-json(typeahead:jquery-typeahead(persons:searchName($query)))
+       case "persons" return json:xml-to-json(typeahead:jquery-typeahead(persons:searchName($query, 1, 20)))
        case "organisations" return json:xml-to-json(typeahead:jquery-typeahead(organisations:searchName($query)))
        case "names" return local:searchNames($query)
        default return 
