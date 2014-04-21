@@ -34,6 +34,7 @@ declare function local:suggestNames($query as xs:string, $startRecord as xs:inte
         </result>
 };
 
+(: TODO TODO :)
 declare function local:suggestPersons($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
     let $persons := cluster-persons:searchNames($query, $startRecord, $page_limit)
     let $viaf := local-viaf:searchPersonsNames($query, (data(subsequence($persons, 2)//@internalID)))
@@ -45,6 +46,7 @@ declare function local:suggestPersons($query as xs:string, $startRecord as xs:in
         </result>
 };
 
+(: TODO TODO :)
 declare function local:suggestOrganisations($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
     let $organisations := cluster-organisations:searchNames($query, $startRecord, $page_limit)
     let $viaf := local-viaf:searchOrganisationsNames($query, (data(subsequence($organisations, 2)//@internalID)))
@@ -57,8 +59,15 @@ declare function local:suggestOrganisations($query as xs:string, $startRecord as
 };
 
 declare function local:suggestSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
-    let $subjects := cluster-subjects:searchSubjects($query)
-    let $aat := local-aat:searchSubjects($query)
+    let $subjects := cluster-subjects:searchSubjects($query, $startRecord, $page_limit)
+    let $log := util:log("INFO", "suggestSubjects: Count subjects: " || count(subsequence($subjects, 2)))
+
+    let $aStartRecord := $startRecord - $subjects[1]
+    let $aStartRecord := if( $aStartRecord = 0 ) then ( 1 ) else ( $aStartRecord )
+    let $aPage_limit := $page_limit - count(subsequence($subjects, 2))
+    let $log := util:log("INFO", "suggestSubjects: aStartRecord: " || $aStartRecord || " aPage_limit: " || $aPage_limit)
+    let $aat := local-aat:searchSubjects($query, $aStartRecord, $aPage_limit)
+    let $log := util:log("INFO", "suggestSubjects: Count aat: " || count(subsequence($aat, 2)))
 
     return 
         <result>
@@ -69,7 +78,7 @@ declare function local:suggestSubjects($query as xs:string, $startRecord as xs:i
 
 
 let $query := replace(request:get-parameter("query", "arx"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $type := replace(request:get-parameter("type", "names"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $type := replace(request:get-parameter("type", "subjects"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "10"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
 let $cors := response:set-header("Access-Control-Allow-Origin", "*")

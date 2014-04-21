@@ -17,22 +17,26 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
             <topic authority="AAT" lang="eng" script="Latn">air quality</topic>
         </authority>
 :)
-declare  function cluster-subjects:searchSubjects($query as xs:string) {
-    let $results :=  collection($app:local-subjects-repositories-collection)/madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
+declare  function cluster-subjects:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
+    let $results := doc($app:local-subjects-repositories)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
+    let $countResults := count($results)
     return (
-        count($results),
-        for $result in $results
-            let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
-            let $relatedTerms := string-join($relatedTerms, " ")
-            return
-                element term {
-                        attribute uuid {data($result/@ID)},
-                        attribute type {'subject'},
-                        attribute value {$result/mads:authority/mads:topic/text()},
-                        attribute authority {'local'},
-                        if($relatedTerms) then (
-                            attribute relatedTerms {normalize-space($relatedTerms)}
-                        ) else ()
-                    }
-        )
+        $countResults,
+        if($startRecord = 1 or $countResults > $startRecord)
+        then (
+            for $result in subsequence($results, $startRecord, $page_limit)
+                let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
+                let $relatedTerms := string-join($relatedTerms, " ")
+                return
+                    element term {
+                            attribute uuid {data($result/@ID)},
+                            attribute type {'subject'},
+                            attribute value {$result/mads:authority/mads:topic/text()},
+                            attribute authority {'local'},
+                            if($relatedTerms) then (
+                                attribute relatedTerms {normalize-space($relatedTerms)}
+                            ) else ()
+                        }
+        ) else ( () )
+    )
 };
