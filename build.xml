@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="cservices">
-    <property name="project.version" value="0.2.4"/>
-    <property name="project.app" value="cservices"/>
+<project default="xar" name="rosids-services">
+    <property name="project.version" value="0.2.6"/>
+    <property name="project.app" value="rosids-services"/>
     <property name="build.dir" value="build"/>
     
     <target name="xar">

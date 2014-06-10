@@ -4,6 +4,7 @@ module namespace cluster-persons="http://exist-db.org/xquery/biblio/services/sea
 
 import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
 import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/local/viaf-utils" at "../viaf-utils.xqm";
+import module namespace service-utils="http://exist-db.org/xquery/biblio/services/search/service-utils" at "../../service-utils.xqm";
 
 (: TEI namesspace :)
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
@@ -11,16 +12,28 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 (: VIAF Terms :)
 declare namespace ns2= "http://viaf.org/viaf/terms#";
 
+declare function cluster-persons:doSubQueries($subQueries as xs:string*, $persons as item()*) as item()* {
+    let $log := util:log("INFO", "S:" || $subQueries[1] || " P: " || count($persons))
+    let $result := if(count($subQueries) eq 1)
+                   then ( $persons[ngram:contains(tei:persName, $subQueries[1])] )
+                   else ( 
+                       let $subset := $persons[ngram:contains(tei:persName, $subQueries[1])]
+                       return cluster-persons:doSubQueries(subsequence($subQueries, 2), $subset)
+                    )
+    return $result
+};
+
 declare function cluster-persons:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
-    (: let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)] :)
-    let $persons :=  collection($app:local-persons-repositories-collection)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)]
-    let $countPersons := count($persons)
+    let $subQueries := service-utils:genSubQueries($query, '', ())
+    let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $subQueries[1])]
+    let $results := cluster-persons:doSubQueries(subsequence($subQueries, 2) , $persons)
+    let $countPersons := count($results)
     return
         (
             $countPersons,
             if($startRecord = 1 or $countPersons > $startRecord)
             then (
-                for $person in subsequence($persons, $startRecord, $page_limit)
+                for $person in subsequence($results, $startRecord, $page_limit)
                 let $persName := if (exists($person/tei:persName[@type = "preferred"])) then ($person/tei:persName[@type = "preferred"]) else ($person/tei:persName[1])
                 let $name := if (exists($persName/tei:forename) and exists($persName/tei:surname))
                              then ( normalize-space( $persName/tei:surname/text() || ", " || $persName/tei:forename/text() ) )

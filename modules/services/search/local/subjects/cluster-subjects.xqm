@@ -4,7 +4,6 @@ xquery version "3.0";
     Search local repository
 :)
 
-
 module namespace cluster-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/cluster-subjects";
 
 import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
@@ -18,7 +17,8 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
         </authority>
 :)
 declare  function cluster-subjects:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    let $results := doc($app:local-subjects-repositories)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
+    (: let $results := doc($app:local-subjects-repositories)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)] :)
+    let $results := collection($app:local-subjects-repositories-collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $countResults := count($results)
     return (
         $countResults,
@@ -33,6 +33,7 @@ declare  function cluster-subjects:searchSubjects($query as xs:string, $startRec
                             attribute type {'subject'},
                             attribute value {$result/mads:authority/mads:topic/text()},
                             attribute authority {'local'},
+                            attribute src {'EXC'},
                             if($relatedTerms) then (
                                 attribute relatedTerms {normalize-space($relatedTerms)}
                             ) else ()
