@@ -14,13 +14,17 @@ declare namespace ns2= "http://viaf.org/viaf/terms#";
 declare function cluster-persons:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
     (: let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)] :)
     let $persons :=  collection($app:local-persons-repositories-collection)//tei:listPerson/tei:person[ngram:contains(tei:persName, $query)]
-    let $countPersons := count($persons)
+    let $sorted-persons :=
+        for $item in $persons
+        order by upper-case(string(if (exists($item/tei:persName[@type = "preferred"])) then ($item/tei:persName[@type = "preferred"]) else ($item/tei:persName[1])))
+        return $item
+    let $countPersons := count($sorted-persons)
     return
         (
             $countPersons,
             if($startRecord = 1 or $countPersons > $startRecord)
             then (
-                for $person in subsequence($persons, $startRecord, $page_limit)
+                for $person in subsequence($sorted-persons, $startRecord, $page_limit)
                 let $persName := if (exists($person/tei:persName[@type = "preferred"])) then ($person/tei:persName[@type = "preferred"]) else ($person/tei:persName[1])
                 let $name := if (exists($persName/tei:forename) and exists($persName/tei:surname))
                              then ( normalize-space( $persName/tei:surname/text() || ", " || $persName/tei:forename/text() ) )

@@ -18,13 +18,17 @@ declare namespace ns2= "http://viaf.org/viaf/terms#";
 declare function cluster-organisations:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()*{
     (: let $organisations :=  doc($app:local-organisations-repositories)//tei:listOrg/tei:org[ngram:contains(tei:orgName, $query)] :)
     let $organisations :=  collection($app:local-organisations-repositories-collection)//tei:listOrg/tei:org[ngram:contains(tei:orgName, $query)]
-    let $countOrganisations := count($organisations)
+    let $sorted-organisations :=
+        for $item in $organisations
+        order by upper-case(string(if ( exists($item/tei:orgName[@type = "preferred"]) ) then ( $item/tei:orgName[@type = "preferred"] ) else ( $item/tei:orgName[1] )))
+        return $item
+    let $countOrganisations := count($sorted-organisations)
     return
         (
             $countOrganisations,
             if($startRecord = 1 or $countOrganisations > $startRecord)
             then (
-                for $organisation in subsequence($organisations, $startRecord, $page_limit)
+                for $organisation in subsequence($sorted-organisations, $startRecord, $page_limit)
                     let $viafID := if( exists($organisation/tei:orgName/@ref[contains(., 'http://viaf.org/viaf/')]) )
                                    then (substring-after($organisation/tei:orgName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/"))
                                    else ()

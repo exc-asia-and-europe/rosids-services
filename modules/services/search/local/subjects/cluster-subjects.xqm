@@ -19,12 +19,17 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
 declare  function cluster-subjects:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
     (: let $results := doc($app:local-subjects-repositories)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)] :)
     let $results := collection($app:local-subjects-repositories-collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
-    let $countResults := count($results)
+    let $sorted-results :=
+        for $item in $results
+        order by upper-case(string($item/mads:authority/mads:topic/text()))
+        return $item
+
+    let $countResults := count($sorted-results)
     return (
         $countResults,
         if($startRecord = 1 or $countResults > $startRecord)
         then (
-            for $result in subsequence($results, $startRecord, $page_limit)
+            for $result in subsequence($sorted-results, $startRecord, $page_limit)
                 let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
                 let $relatedTerms := string-join($relatedTerms, " ")
                 return
