@@ -27,7 +27,7 @@ declare %private function local:doSubQueries($subQueries as xs:string*, $terms a
 declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $local-viaf-ids  as item()*) as item()* {
 
     let $subQueries := service-utils:genSubQueries($query, '', ())
-    let $terms :=  collection($app:local-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $subQueries[1])]/ancestor::ns2:VIAFCluster
+    let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $subQueries[1])]/ancestor::ns2:VIAFCluster
     let $results := local:doSubQueries(subsequence($subQueries, 2) , $terms)
     let $filteredTerms := $results[not(local:is-value-in-sequence(ns2:viafID,$local-viaf-ids))]
     let $countTerms := count($filteredTerms)
@@ -62,7 +62,7 @@ declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:
 
 
 declare function local-viaf:searchPersonsNames($query as xs:string, $local-viaf-ids  as item()*) as item()* {
-let $terms :=  collection($app:local-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
+let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
     
     
     return 
@@ -72,7 +72,7 @@ let $terms :=  collection($app:local-viaf-xml-repositories)//ns2:mainHeadings/ns
 
 
 declare function local-viaf:searchOrganisationsNames($query as xs:string, $local-viaf-ids  as item()*) as item()* {
-let $terms :=  collection($app:local-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
+let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
     
     
     return 

@@ -13,7 +13,7 @@ declare
     %rest:path("/organisations/local/{$uuid}")
     %rest:produces("application/xml", "text/xml") 
 function rosids-id-retrieve:get-org-by-uuid($uuid) {
-    let $col := collection($app:local-organisations-repositories-collection)
+    let $col := collection($app:global-organisations-repositories-collection)
     return $col//tei:org[@xml:id=$uuid]
 };
 
@@ -22,6 +22,6 @@ declare
     %rest:path("/persons/local/{$uuid}")
     %rest:produces("application/xml", "text/xml")
 function rosids-id-retrieve:get-person-by-uuid($uuid) {
-    let $col := collection($app:local-persons-repositories-collection)
+    let $col := collection($app:global-persons-repositories-collection)
     return $col//tei:person[@xml:id=$uuid]
 };

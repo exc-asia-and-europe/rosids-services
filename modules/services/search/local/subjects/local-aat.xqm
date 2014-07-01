@@ -15,8 +15,8 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
 declare namespace vp = "http://localhost/namespace"; 
 
 declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    (:    let $terms :=  collection($app:local-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
-    let $subjects :=  collection($app:local-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+    (:    let $terms :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
+    let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
     let $sorted-subjects :=
         for $item in $subjects
         order by upper-case(string($item/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]))

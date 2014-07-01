@@ -25,7 +25,7 @@ declare function cluster-persons:doSubQueries($subQueries as xs:string*, $person
 
 declare function cluster-persons:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
     let $subQueries := service-utils:genSubQueries($query, '', ())
-    let $persons :=  doc($app:local-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $subQueries[1])]
+    let $persons :=  doc($app:global-persons-repositories)//tei:listPerson/tei:person[ngram:contains(tei:persName, $subQueries[1])]
     let $results := cluster-persons:doSubQueries(subsequence($subQueries, 2) , $persons)
     let $countPersons := count($results)
     return
@@ -47,7 +47,7 @@ declare function cluster-persons:searchNames($query as xs:string, $startRecord a
                                  )
                              )
                 let $viafID := if( exists($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')]) ) then (substring-after($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/")) else ()
-                let $viafCluster := if($viafID) then ( collection($app:local-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID = $viafID] ) else ()
+                let $viafCluster := if($viafID) then ( collection($app:global-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID = $viafID] ) else ()
                 let $mainHeadingElement := if($viafID) then (  viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl) ) else ()
                 let $sources := if($viafID) then (  viaf-utils:getSources($mainHeadingElement) ) else ()
                 let $bio := if($viafID) then ( if($mainHeadingElement) then ( $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']) else () ) else ()

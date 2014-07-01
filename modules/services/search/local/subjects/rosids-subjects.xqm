@@ -4,10 +4,7 @@ xquery version "3.0";
     Search local repository
 :)
 
-module namespace cluster-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/cluster-subjects";
-
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
-
+module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
 (:
@@ -16,9 +13,10 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
             <topic authority="AAT" lang="eng" script="Latn">air quality</topic>
         </authority>
 :)
-declare  function cluster-subjects:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    (: let $results := doc($app:local-subjects-repositories)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)] :)
-    let $results := collection($app:local-subjects-repositories-collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
+declare  function rosids-subjects:searchSubjects($collection as xs:string, $query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
+    let $log := util:log("INFO", "rosids-subject: collection: " || $collection)
+    let $log := util:log("INFO", "rosids-subject: query: " || $query) 
+    let $results := collection($collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $sorted-results :=
         for $item in $results
         order by upper-case(string($item/mads:authority/mads:topic/text()))
