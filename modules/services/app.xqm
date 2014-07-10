@@ -17,7 +17,7 @@ declare %private variable $app:global-persons-repositories-collection := $app:gl
 declare %private variable $app:global-organisations-repositories-collection := $app:global-repositories-collection || "organisations/";
 declare %private variable $app:global-subjects-repositories-collection := $app:global-repositories-collection || "subjects/";
 
-declare %private variable $app:global-mirrors-repositories-collection := "/resources/services/repositories/global/externalmirrors/";
+declare %private variable $app:global-mirrors-repositories-collection := "/resources/services/repositories/global/externalmirror/";
 
 (: VIAF :)
 declare %private variable $app:global-viaf-repositories-collection := $app:global-mirrors-repositories-collection || "viaf/";
@@ -44,3 +44,5 @@ declare variable $app:global-subjects-repositories := $app:global-subjects-repos
 :)
 declare variable $app:global-viaf-rdf-repositories := $app:global-viaf-repositories-collection || 'rdf/';
 declare variable $app:global-viaf-xml-repositories := $app:global-viaf-repositories-collection || 'xml/';
+
+declare variable $app:debug as xs:boolean := true();

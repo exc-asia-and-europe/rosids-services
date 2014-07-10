@@ -14,9 +14,9 @@ declare function remote-viaf:searchNames($query as xs:string, $startRecord as xs
     let $response-organisations := httpclient:get(xs:anyURI($uri-organisations), true(), ())//srw:searchRetrieveResponse
     let $countTerms := $response-persons/srw:numberOfRecords/text() + $response-organisations/srw:numberOfRecords/text()
     let $terms :=  ($response-persons//*:VIAFCluster , $response-organisations//*:VIAFCluster)
-    return
-            (
-                $countTerms,
+    return map {
+        "total" := $countTerms,
+        "results" :=
                 for $term in $terms
                      return
                          let $mainHeadingElement := viaf-utils:getBestMatch($term//*:mainHeadingEl)
@@ -29,7 +29,7 @@ declare function remote-viaf:searchNames($query as xs:string, $startRecord as xs
                                  attribute id {$term/*:viafID},
                                  attribute type {lower-case($term/*:nameType)},
                                  attribute value {$name},
-                                 attribute authority {'viaf'},
+                                 attribute authority {'r-viaf'},
                                  attribute sources {$sources},
                                  attribute src {''},
                                  if($bio) then (
@@ -38,7 +38,7 @@ declare function remote-viaf:searchNames($query as xs:string, $startRecord as xs
                                      attribute latestDate {viaf-utils:extractLatestDate($bio)}
                                  ) else ()
                              }
-            )
+    }
 };
 
 

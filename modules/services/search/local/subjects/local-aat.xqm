@@ -23,26 +23,26 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
         return $item
     
     let $countSubjects := count($sorted-subjects)
-    return
-    (   
-        $countSubjects,
-        if($startRecord = 1 or $countSubjects > $startRecord)
-        then (
-            for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
-                let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
-                let $subjectText := $pterm/vp:Term_Text[1]/text()
-                let $relatedTerms := string-join($subject/vp:Terms//vp:Term_Text, ", ")
-                return
-                    element term {
-                        attribute id {$subject/@Subject_ID},
-                        attribute type {'subject'},
-                        attribute value {$subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]},
-                        attribute authority {''},
-                        attribute sources {'getty'},
-                        if($relatedTerms) then (
-                            attribute relatedTerms {normalize-space($relatedTerms)}
-                        ) else ()
-                    }
-        ) else ( () )
-    )
+    return map {
+        "total" := $countSubjects,
+        "results" :=
+            if($startRecord = 1 or $countSubjects > $startRecord)
+            then (
+                for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
+                    let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
+                    let $subjectText := $pterm/vp:Term_Text[1]/text()
+                    let $relatedTerms := string-join($subject/vp:Terms//vp:Term_Text, ", ")
+                    return
+                        element term {
+                            attribute id {$subject/@Subject_ID},
+                            attribute type {'subject'},
+                            attribute value {$subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]},
+                            attribute authority {''},
+                            attribute sources {'getty'},
+                            if($relatedTerms) then (
+                                attribute relatedTerms {normalize-space($relatedTerms)}
+                            ) else ()
+                        }
+            ) else ( () )
+    }
 };

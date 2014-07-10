@@ -5,6 +5,7 @@ xquery version "3.0";
 :)
 
 module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
+
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
 (:
@@ -23,24 +24,25 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
         return $item
 
     let $countResults := count($sorted-results)
-    return (
-        $countResults,
-        if($startRecord = 1 or $countResults > $startRecord)
-        then (
-            for $result in subsequence($sorted-results, $startRecord, $page_limit)
-                let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
-                let $relatedTerms := string-join($relatedTerms, " ")
-                return
-                    element term {
-                            attribute uuid {data($result/@ID)},
-                            attribute type {'subject'},
-                            attribute value {$result/mads:authority/mads:topic/text()},
-                            attribute authority {'local'},
-                            attribute src {'EXC'},
-                            if($relatedTerms) then (
-                                attribute relatedTerms {normalize-space($relatedTerms)}
-                            ) else ()
-                        }
-        ) else ( () )
-    )
+    return map {
+        "total" := $countResults,
+        "results" :=
+            if($startRecord = 1 or $countResults > $startRecord)
+            then (
+                for $result in subsequence($sorted-results, $startRecord, $page_limit)
+                    let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
+                    let $relatedTerms := string-join($relatedTerms, " ")
+                    return
+                        element term {
+                                attribute uuid {data($result/@ID)},
+                                attribute type {'subject'},
+                                attribute value {$result/mads:authority/mads:topic/text()},
+                                attribute authority {'local'},
+                                attribute src {'EXC'},
+                                if($relatedTerms) then (
+                                    attribute relatedTerms {normalize-space($relatedTerms)}
+                                ) else ()
+                            }
+            ) else ( () )
+    }
 };

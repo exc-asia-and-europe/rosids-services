@@ -18,9 +18,9 @@ declare function rosids-persons:searchNames($collection as xs:string, $query as 
         order by upper-case(string(if (exists($item/tei:persName[@type = "preferred"])) then ($item/tei:persName[@type = "preferred"]) else ($item/tei:persName[1])))
         return $item
     let $countPersons := count($sorted-persons)
-    return
-        (
-            $countPersons,
+    return map {
+        "total" := $countPersons,
+        "results" :=
             if($startRecord = 1 or $countPersons > $startRecord)
             then (
                 for $person in subsequence($sorted-persons, $startRecord, $page_limit)
@@ -59,5 +59,5 @@ declare function rosids-persons:searchNames($collection as xs:string, $query as 
                             ) else ()
                         }
             ) else ( () )
-        )
+        }
 };

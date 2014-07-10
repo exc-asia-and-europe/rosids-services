@@ -22,9 +22,9 @@ declare function rosids-organisations:searchNames($collection as xs:string, $que
         order by upper-case(string(if ( exists($item/tei:orgName[@type = "preferred"]) ) then ( $item/tei:orgName[@type = "preferred"] ) else ( $item/tei:orgName[1] )))
         return $item
     let $countOrganisations := count($sorted-organisations)
-    return
-        (
-            $countOrganisations,
+    return map {
+        "total" := $countOrganisations,
+        "results" :=
             if($startRecord = 1 or $countOrganisations > $startRecord)
             then (
                 for $organisation in subsequence($sorted-organisations, $startRecord, $page_limit)
@@ -49,6 +49,6 @@ declare function rosids-organisations:searchNames($collection as xs:string, $que
                                 ) else ()
                             }
             ) else ( () )
-        )
+        }
 };
 

@@ -16,34 +16,34 @@ declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:
     let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
     let $filteredTerms := $terms[not(local:is-value-in-sequence(ns2:viafID,$local-viaf-ids))]
     let $countTerms := count($filteredTerms)
-    return
-            (
-                $countTerms,
-                if($startRecord = 1 or $countTerms > $startRecord)
-                then (
-                    for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+    return map {
+        "total" := $countTerms,
+        "results" :=
+            if($startRecord = 1 or $countTerms > $startRecord)
+            then (
+                for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+                return
+                    let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
+                    let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
+                    let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
+                    let $sources := viaf-utils:getSources($mainHeadingElement)
+                    let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
                     return
-                        let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
-                        let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
-                        let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
-                        let $sources := viaf-utils:getSources($mainHeadingElement)
-                        let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
-                        return
-                            element term {
-                                attribute id {$term/ns2:viafID},
-                                attribute type {lower-case($term/ns2:nameType)},
-                                attribute value {$name},
-                                attribute authority {'viaf'},
-                                attribute sources {$sources},
-                                attribute src {''},
-                                if($bio) then (
-                                    attribute bio {$bio},
-                                    attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
-                                    attribute latestDate {viaf-utils:extractLatestDate($bio)}
-                                ) else ()
-                            }
-                ) else ( () )
-            )
+                        element term {
+                            attribute id {$term/ns2:viafID},
+                            attribute type {lower-case($term/ns2:nameType)},
+                            attribute value {$name},
+                            attribute authority {'viaf'},
+                            attribute sources {$sources},
+                            attribute src {''},
+                            if($bio) then (
+                                attribute bio {$bio},
+                                attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
+                                attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                            ) else ()
+                        }
+            ) else ( () )
+        }
 };
 
 
@@ -51,34 +51,34 @@ declare function local-viaf:searchPersonsNames($query as xs:string, $startRecord
     let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)][@tag = '100']/ancestor::ns2:VIAFCluster
     let $filteredTerms := $terms[not(local:is-value-in-sequence(ns2:viafID,$local-viaf-ids))]
     let $countTerms := count($filteredTerms)
-    return
-            (
-                $countTerms,
-                if($startRecord = 1 or $countTerms > $startRecord)
-                then (
-                    for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+    return map {
+        "total" := $countTerms,
+        "results" :=
+            if($startRecord = 1 or $countTerms > $startRecord)
+            then (
+                for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+                return
+                    let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
+                    let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
+                    let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
+                    let $sources := viaf-utils:getSources($mainHeadingElement)
+                    let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
                     return
-                        let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
-                        let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
-                        let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
-                        let $sources := viaf-utils:getSources($mainHeadingElement)
-                        let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
-                        return
-                            element term {
-                                attribute id {$term/ns2:viafID},
-                                attribute type {lower-case($term/ns2:nameType)},
-                                attribute value {$name},
-                                attribute authority {'viaf'},
-                                attribute sources {$sources},
-                                attribute src {''},
-                                if($bio) then (
-                                    attribute bio {$bio},
-                                    attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
-                                    attribute latestDate {viaf-utils:extractLatestDate($bio)}
-                                ) else ()
-                            }
-                ) else ( () )
-            )
+                        element term {
+                            attribute id {$term/ns2:viafID},
+                            attribute type {lower-case($term/ns2:nameType)},
+                            attribute value {$name},
+                            attribute authority {'viaf'},
+                            attribute sources {$sources},
+                            attribute src {''},
+                            if($bio) then (
+                                attribute bio {$bio},
+                                attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
+                                attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                            ) else ()
+                        }
+            ) else ( () )
+    }
 };
 
 
@@ -86,32 +86,32 @@ declare function local-viaf:searchOrganisationsNames($query as xs:string, $start
     let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)][@tag = '110']/ancestor::ns2:VIAFCluster
     let $filteredTerms := $terms[not(local:is-value-in-sequence(ns2:viafID,$local-viaf-ids))]
     let $countTerms := count($filteredTerms)
-    return
-            (
-                $countTerms,
-                if($startRecord = 1 or $countTerms > $startRecord)
-                then (
-                    for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+    return map {
+        "total" := $countTerms,
+        "results" :=
+            if($startRecord = 1 or $countTerms > $startRecord)
+            then (
+                for $term in subsequence($filteredTerms, $startRecord, $page_limit)
+                return
+                    let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
+                    let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
+                    let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
+                    let $sources := viaf-utils:getSources($mainHeadingElement)
+                    let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
                     return
-                        let $mainHeadingElement := viaf-utils:getBestMatch($term//ns2:mainHeadingEl)
-                        let $nameTemp := normalize-space($mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'a'])
-                        let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
-                        let $sources := viaf-utils:getSources($mainHeadingElement)
-                        let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
-                        return
-                            element term {
-                                attribute id {$term/ns2:viafID},
-                                attribute type {lower-case($term/ns2:nameType)},
-                                attribute value {$name},
-                                attribute authority {'viaf'},
-                                attribute sources {$sources},
-                                attribute src {''},
-                                if($bio) then (
-                                    attribute bio {$bio},
-                                    attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
-                                    attribute latestDate {viaf-utils:extractLatestDate($bio)}
-                                ) else ()
-                            }
-                ) else ( () )
-            )
+                        element term {
+                            attribute id {$term/ns2:viafID},
+                            attribute type {lower-case($term/ns2:nameType)},
+                            attribute value {$name},
+                            attribute authority {'viaf'},
+                            attribute sources {$sources},
+                            attribute src {''},
+                            if($bio) then (
+                                attribute bio {$bio},
+                                attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
+                                attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                            ) else ()
+                        }
+            ) else ( () )
+        }
 };
