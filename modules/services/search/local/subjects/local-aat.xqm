@@ -37,7 +37,7 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
                             attribute id {$subject/@Subject_ID},
                             attribute type {'subject'},
                             attribute value {$subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]},
-                            attribute authority {''},
+                            attribute authority {'aat'},
                             attribute sources {'getty'},
                             if($relatedTerms) then (
                                 attribute relatedTerms {normalize-space($relatedTerms)}
