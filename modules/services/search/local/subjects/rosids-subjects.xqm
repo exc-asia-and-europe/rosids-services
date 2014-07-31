@@ -6,6 +6,8 @@ xquery version "3.0";
 
 module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
 
+import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
+
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
 (:
@@ -15,8 +17,14 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
         </authority>
 :)
 declare  function rosids-subjects:searchSubjects($collection as xs:string, $query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    let $log := util:log("INFO", "rosids-subject: collection: " || $collection)
-    let $log := util:log("INFO", "rosids-subject: query: " || $query) 
+    let $log := if($app:debug) then ( util:log("INFO", "rosids-subject: collection: " || $collection) ) else ()
+    let $log := if($app:debug) then ( util:log("INFO", "rosids-subject: query: " || $query) ) else ()
+    let $config :=   if( doc-available($collection || $app:repositories-configuration) )
+                            then ( doc($collection || $app:repositories-configuration) )
+                            else if (contains($collection, 'global') ) then ( $app:global-subjects-repositories-configuration ) else ( $app:global-default-repositories-configuration )
+                            (:
+                                then ( $app:global-subjects-repositories-configuration )
+                                else ( $app:global-default-repositories-configuration ) :)
     let $results := collection($collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $sorted-results :=
         for $item in $results
@@ -37,8 +45,9 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
                                 attribute uuid {data($result/@ID)},
                                 attribute type {'subject'},
                                 attribute value {$result/mads:authority/mads:topic/text()},
-                                attribute authority {'local'},
-                                attribute src {'EXC'},
+                                attribute authority {$config//@authority},
+                                attribute source {$config//@source},
+                                attribute icon {$config//@icon},
                                 if($relatedTerms) then (
                                     attribute relatedTerms {normalize-space($relatedTerms)}
                                 ) else ()

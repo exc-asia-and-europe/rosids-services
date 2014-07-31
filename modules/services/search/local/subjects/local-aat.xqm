@@ -7,7 +7,7 @@ xquery version "3.0";
 
 module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/subjects/local-aat";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../app.xqm";
+import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
 
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
@@ -15,6 +15,7 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
 declare namespace vp = "http://localhost/namespace"; 
 
 declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
+    let $log := if($app:debug) then ( util:log("INFO", "local-aat:searchSubjects: QUERY: " || $query) ) else ()
     (:    let $terms :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
     let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
     let $sorted-subjects :=
@@ -30,19 +31,36 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
             then (
                 for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
                     let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
+                    let $qualifier := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages//vp:Term_Language[vp:Preferred eq 'Preferred'][1]/vp:Qualifier
+                    let $qterm := if($qualifier) then $pterm || ' (' || $qualifier || ')' else $pterm
                     let $subjectText := $pterm/vp:Term_Text[1]/text()
-                    let $relatedTerms := string-join($subject/vp:Terms//vp:Term_Text, ", ")
+                    (: let $relatedTerms := normalize-space(string-join($subject/vp:Terms//vp:Term_Text, "; ")) :)
+                    (: let $relatedTerms := if($qualifier) then $pterm || ' (' || $qualifier || '), ' || normalize-space($relatedTerms) else normalize-space($relatedTerms) :)
+                    let $sid := $subject/@Subject_ID
+                    let $relatedTerms := "AAT " || $sid || ": " || local-aat:get-related-Terms($subject)
                     return
                         element term {
-                            attribute id {$subject/@Subject_ID},
+                            attribute id {$sid},
                             attribute type {'subject'},
-                            attribute value {$subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]},
+                            attribute value {$qterm},
                             attribute authority {'aat'},
-                            attribute sources {'getty'},
+                            attribute source {'getty'},
+                            attribute icon {'getty'},
                             if($relatedTerms) then (
-                                attribute relatedTerms {normalize-space($relatedTerms)}
+                                attribute relatedTerms { $relatedTerms }
                             ) else ()
                         }
             ) else ( () )
     }
+};
+
+declare function local-aat:get-related-Terms($subject) {
+    let $relatedTerms := 
+        for $relatedTerm in $subject/vp:Terms/vp:Non-Preferred_Term
+            let $text := $relatedTerm/vp:Term_Text
+            let $qualifier := $relatedTerm/vp:Term_Languages/vp:Term_Language[vp:Qualifier][1]/vp:Qualifier
+        return
+            if($qualifier) then $text || ' (' || $qualifier || ')' else $text
+    return 
+        normalize-space(string-join($relatedTerms, "; "))
 };

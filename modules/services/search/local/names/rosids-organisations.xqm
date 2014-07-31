@@ -42,7 +42,8 @@ declare function rosids-organisations:searchNames($collection as xs:string, $que
                                 attribute type {'corporate'},
                                 attribute value {$name},
                                 attribute authority {'local'},
-                                attribute src {'EXC'},
+                                attribute source {'EXC'},
+                                attribute icon {'local'},
                                 if($viafID) then (
                                     attribute id {$viafID},
                                     attribute sources {$sources}

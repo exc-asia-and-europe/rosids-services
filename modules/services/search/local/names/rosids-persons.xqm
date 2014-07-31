@@ -47,7 +47,8 @@ declare function rosids-persons:searchNames($collection as xs:string, $query as 
                             attribute type {'personal'},
                             attribute value {$name},
                             attribute authority {'local'},
-                            attribute src {'EXC'},
+                            attribute source {'EXC'},
+                            attribute icon {'local'},
                             if($viafID) then (
                                 attribute id {$viafID},
                                 attribute sources {$sources},

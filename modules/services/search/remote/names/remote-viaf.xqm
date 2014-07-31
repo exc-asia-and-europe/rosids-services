@@ -29,9 +29,10 @@ declare function remote-viaf:searchNames($query as xs:string, $startRecord as xs
                                  attribute id {$term/*:viafID},
                                  attribute type {lower-case($term/*:nameType)},
                                  attribute value {$name},
-                                 attribute authority {'r-viaf'},
+                                 attribute authority {'viaf'},
                                  attribute sources {$sources},
-                                 attribute src {''},
+                                 attribute source {'viaf'},
+                                 attribute icon {'viaf'},
                                  if($bio) then (
                                      attribute bio {$bio},
                                      attribute earliestDate {viaf-utils:extractEarliestDate($bio)},

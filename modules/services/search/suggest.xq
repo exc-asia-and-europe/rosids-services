@@ -12,7 +12,7 @@ import module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio
 declare option exist:serialize "method=json media-type=text/javascript";
 
 declare %private function local:getCollection($type as xs:string, $collection as xs:string) {
-    if($collection eq '')
+    if($collection eq '' or $collection eq 'default')
     then(
         switch ($type)
             case "organisations"
@@ -21,6 +21,23 @@ declare %private function local:getCollection($type as xs:string, $collection as
                 return $app:global-persons-repositories-collection
             case "subjects"
                 return $app:global-subjects-repositories-collection
+            default 
+                return $app:global-persons-repositories-collection
+    ) else (
+        $collection
+    )
+};
+
+declare %private function local:getCollections($type as xs:string, $collection as xs:string*) {
+    if($collection eq '' or $collection eq 'default')
+    then(
+        switch ($type)
+            case "organisations"
+                return $app:global-organisations-repositories-collection
+            case "persons"
+                return $app:global-persons-repositories-collection
+            case "subjects"
+                return ( $app:global-subjects-repositories-collection , $app:global-getty-aat-repositories )
             default 
                 return $app:global-persons-repositories-collection
     ) else (
@@ -152,17 +169,18 @@ declare function local:suggestLocalOrganisations($query as xs:string, $startReco
         </result>
 };
 
-let $query := replace(request:get-parameter("query", "arx"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $type := replace(request:get-parameter("type", "names"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $query := replace(request:get-parameter("query", "air"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $type := replace(request:get-parameter("type", "subjects"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "30"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
-let $collection := replace(request:get-parameter("collection", ""), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $collection := local:getCollection($type, $collection)
-let $log := util:log("INFO", "suggestNames: collection: " || $collection) 
+let $collections := replace(request:get-parameter("collections", ""), "[^0-9a-zA-ZäöüßÄÖÜ\-/,. ]", "default")
+let $collection := local:getCollection($type, $collections)
+
     
 let $cors := response:set-header("Access-Control-Allow-Origin", "*")
 
-let $collections := ("/db/resources/services/repositories/global/subjects/", "/db/resources/services/repositories/users/dba/subjects/", "/db/resources/services/repositories/groups/dba/subjects/") 
+let $collections := local:getCollections($type, $collections)
+let $log := util:log("INFO", "suggest: collections: " || string-join($collections, ':'))
 return
     switch ($type)
         case "test"
@@ -173,7 +191,8 @@ return
             (: Search name in local repos :)
             return local:suggestLocalNames($query, $startRecord, $page_limit, $collection)
         case "subjects"
-            return rosids-subjects-query:suggestSubjects($query, $startRecord, $page_limit, $collection)
+            (: return rosids-subjects-query:suggestSubjects($query, $startRecord, $page_limit, $collection) :)
+            return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections)
         case "persons"
             return local:suggestPersons($query, $startRecord, $page_limit, $collection)
         case "local-persons"

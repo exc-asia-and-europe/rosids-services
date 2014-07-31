@@ -12,7 +12,7 @@ declare %private variable $app:global-subjects := "subjects_mads_2014-03-05_16-4
 :)
 
 (: collection paths for local repositories :)
-declare %private variable $app:global-repositories-collection := "/resources/services/repositories/global/";
+declare %private variable $app:global-repositories-collection := "/resources/services/repositories/local/";
 declare %private variable $app:global-persons-repositories-collection := $app:global-repositories-collection || "persons/";
 declare %private variable $app:global-organisations-repositories-collection := $app:global-repositories-collection || "organisations/";
 declare %private variable $app:global-subjects-repositories-collection := $app:global-repositories-collection || "subjects/";
@@ -20,10 +20,10 @@ declare %private variable $app:global-subjects-repositories-collection := $app:g
 declare %private variable $app:global-mirrors-repositories-collection := "/resources/services/repositories/global/externalmirrors/";
 
 (: VIAF :)
-declare %private variable $app:global-viaf-repositories-collection := $app:global-mirrors-repositories-collection || "viaf/";
+declare %private variable $app:global-viaf-repositories-collection := "/resources/services/repositories/local/viaf/";
 
 (: GETTY :)
-declare %private variable $app:global-getty-repositories-collection := $app:global-mirrors-repositories-collection || "getty/";
+declare %private variable $app:global-getty-repositories-collection := "/resources/services/repositories/local/getty/";
 (: GETTY subcollections :)
 declare %private variable $app:global-getty-ulan-repositories := $app:global-getty-repositories-collection || "ulan/";
 declare %private variable $app:global-getty-aat-repositories := $app:global-getty-repositories-collection || "aat/";
@@ -46,9 +46,3 @@ declare variable $app:global-viaf-rdf-repositories := $app:global-viaf-repositor
 declare variable $app:global-viaf-xml-repositories := $app:global-viaf-repositories-collection || 'xml/';
 
 declare variable $app:debug as xs:boolean := true();
-
-declare variable $app:repositories-configuration :=  '/repository.xml';
-declare variable $app:global-subjects-repositories-configuration := <repository name="Subjects EXC" authority="local" source="EXC" icon="local"/>;
-declare variable $app:global-persons-repositories-configuration := <repository name="Persons EXC" authority="local" source="EXC" icon="local"/>;
-declare variable $app:global-organisations-repositories-configuration := <repository name="Organisations EXC" authority="local" source="EXC" icon="local"/>;
-declare variable $app:global-default-repositories-configuration := <repository name="Unnamed Repo" authority="local" source="EXC" icon="local"/>;

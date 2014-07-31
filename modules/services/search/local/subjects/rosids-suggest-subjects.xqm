@@ -12,6 +12,7 @@ declare option exist:serialize "method=json media-type=text/javascript";
 
 (: Custom Repositories Query START:)
 declare function rosids-subjects-query:suggestCustomSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $collections as xs:string*) as item()* {
+    let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: Collections: " || string-join($collections, ' ')) ) else ()
     let $results := rosids-subjects-query:suggestCustomsSubjectsQuery($query, $startRecord, $page_limit, $collections)
     let $total := sum(for $map in $results return map:get($map, "total"))
     let $terms := ( for $map in $results return map:get($map, "results") )
@@ -22,8 +23,8 @@ declare function rosids-subjects-query:suggestCustomSubjects($query as xs:string
 };
 
 declare function rosids-subjects-query:suggestCustomsSubjectsQuery($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $collections as xs:string*) as item()* {
-    let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: Collections: " || string-join($collections, ' ')) ) else ()
-    let $result := rosids-subjects:searchSubjects($collections[1], $query, $startRecord, $page_limit)
+    let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: Collection: " || $collections[1]) ) else ()
+    let $result := if(contains($collections[1], 'getty')) then ( local-aat:searchSubjects($query, $startRecord, $page_limit) ) else ( rosids-subjects:searchSubjects($collections[1], $query, $startRecord, $page_limit) )
     let $nStartRecord := $startRecord - map:get($result, "total")
     let $nStartRecord := if( $nStartRecord < 1 ) then ( 1 ) else ( $nStartRecord )
     let $nPage_limit := $page_limit - count(map:get($result, "results"))

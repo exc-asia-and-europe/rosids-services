@@ -35,7 +35,8 @@ declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:
                             attribute value {$name},
                             attribute authority {'viaf'},
                             attribute sources {$sources},
-                            attribute src {''},
+                            attribute source {'viaf'},
+                            attribute icon {'viaf'},
                             if($bio) then (
                                 attribute bio {$bio},
                                 attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
@@ -70,7 +71,7 @@ declare function local-viaf:searchPersonsNames($query as xs:string, $startRecord
                             attribute value {$name},
                             attribute authority {'viaf'},
                             attribute sources {$sources},
-                            attribute src {''},
+                            attribute source {'viaf'},
                             if($bio) then (
                                 attribute bio {$bio},
                                 attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
@@ -105,7 +106,7 @@ declare function local-viaf:searchOrganisationsNames($query as xs:string, $start
                             attribute value {$name},
                             attribute authority {'viaf'},
                             attribute sources {$sources},
-                            attribute src {''},
+                            attribute source {'viaf'},
                             if($bio) then (
                                 attribute bio {$bio},
                                 attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
