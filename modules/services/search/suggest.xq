@@ -1,6 +1,6 @@
 xquery version "3.0";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../app.xqm";
+import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 import module namespace rosids-persons="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-persons" at "local/names/rosids-persons.xqm";
 import module namespace rosids-organisations="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-organisations" at "local/names/rosids-organisations.xqm";
 
@@ -8,6 +8,8 @@ import module namespace local-viaf="http://exist-db.org/xquery/biblio/services/s
 import module namespace remote-viaf="http://exist-db.org/xquery/biblio/services/search/remote/names/remote-viaf" at "remote/names/remote-viaf.xqm";
 
 import module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects-query" at "local/subjects/rosids-suggest-subjects.xqm";
+
+import module namespace local-aat-worktype="http://exist-db.org/xquery/biblio/services/search/local/worktype/local-aat-worktype" at "local/worktype/local-aat-worktype.xqm";
 
 declare option exist:serialize "method=json media-type=text/javascript";
 
@@ -169,8 +171,17 @@ declare function local:suggestLocalOrganisations($query as xs:string, $startReco
         </result>
 };
 
-let $query := replace(request:get-parameter("query", "air"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $type := replace(request:get-parameter("type", "subjects"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+declare function local:suggestWorktypes($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
+    let $worktypes := local-aat-worktype:searchWorktype($query, $startRecord, $page_limit)
+    return 
+        <result>
+            <total>{map:get($worktypes, "total")}</total>
+            { ( map:get($worktypes, "results")) }
+        </result>
+};
+
+let $query := replace(request:get-parameter("query", "oil"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $type := replace(request:get-parameter("type", "worktypes"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "30"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
 let $collections := replace(request:get-parameter("collections", ""), "[^0-9a-zA-ZäöüßÄÖÜ\-/,. ]", "default")
@@ -201,6 +212,8 @@ return
             return local:suggestOrganisations($query, $startRecord, $page_limit, $collection)
         case "local-organisations"
             return local:suggestLocalOrganisations($query, $startRecord, $page_limit, $collection)
+        case "worktypes"
+            return local:suggestWorktypes($query, $startRecord, $page_limit)
         default 
             return 
                 <result><total>0</total></result>

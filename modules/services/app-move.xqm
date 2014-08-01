@@ -2,15 +2,6 @@ xquery version "3.0";
 
 module namespace app="http://exist-db.org/xquery/biblio/services/app";
 
-
-(: Current versions of local repositories :)
-
-(: Outdated: search collections
-declare %private variable $app:global-persons := "persons_tei_2014-03-05_16-49-56.xml";
-declare %private variable $app:global-organisations := "organisations_tei_2014-03-05_16-49-56.xml";
-declare %private variable $app:global-subjects := "subjects_mads_2014-03-05_16-49-56.xml";
-:)
-
 (: collection paths for local repositories :)
 declare %private variable $app:global-repositories-collection := "/resources/services/repositories/local/";
 declare %private variable $app:global-persons-repositories-collection := $app:global-repositories-collection || "persons/";

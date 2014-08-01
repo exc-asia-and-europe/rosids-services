@@ -1,6 +1,6 @@
 module namespace rosids-utils="http://exist-db.org/xquery/biblio/services/rosids/rosids-utils";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../app.xqm";
+import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
 declare function rosids-utils:getCollection($type as xs:string, $collection as xs:string) {
     if($collection eq '')

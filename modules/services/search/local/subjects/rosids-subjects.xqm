@@ -6,7 +6,7 @@ xquery version "3.0";
 
 module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
+import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
 declare namespace mads = "http://www.loc.gov/mads/v2";
 

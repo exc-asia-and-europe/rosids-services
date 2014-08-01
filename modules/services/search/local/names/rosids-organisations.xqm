@@ -6,7 +6,7 @@ xquery version "3.0";
 
 module namespace rosids-organisations="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-organisations";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
+import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
 
 (: TEI namesspace :)

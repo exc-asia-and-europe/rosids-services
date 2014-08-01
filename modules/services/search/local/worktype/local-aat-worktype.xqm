@@ -1,21 +1,24 @@
 xquery version "3.0";
+
 (:
     Local subjects search module.
     Search local repository
 :)
 
 
-module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/subjects/local-aat";
+module namespace local-aat-worktype="http://exist-db.org/xquery/biblio/services/search/local/worktype/local-aat-worktype";
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+
+declare namespace mads = "http://www.loc.gov/mads/v2";
 
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 
 
-declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    let $log := if($app:debug) then ( util:log("INFO", "local-aat:searchSubjects: QUERY: " || $query) ) else ()
+declare function local-aat-worktype:searchWorktype($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
+    let $log := if($app:debug) then ( util:log("INFO", "local-aat-worktype:searchWorktype: QUERY: " || $query) ) else ()
     (:    let $terms :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
-    let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+    let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, "V.")]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
     let $sorted-subjects :=
         for $item in $subjects
         order by upper-case(string($item/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]))
@@ -35,11 +38,11 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
                     (: let $relatedTerms := normalize-space(string-join($subject/vp:Terms//vp:Term_Text, "; ")) :)
                     (: let $relatedTerms := if($qualifier) then $pterm || ' (' || $qualifier || '), ' || normalize-space($relatedTerms) else normalize-space($relatedTerms) :)
                     let $sid := $subject/@Subject_ID
-                    let $relatedTerms := "AAT " || $sid || ": " || local-aat:get-related-Terms($subject)
+                    let $relatedTerms := "AAT " || $sid || ": " || local-aat-worktype:get-related-Terms($subject)
                     return
                         element term {
                             attribute id {$sid},
-                            attribute type {'subject'},
+                            attribute type {'worktype'},
                             attribute value {$qterm},
                             attribute authority {'aat'},
                             attribute source {'getty'},
@@ -52,7 +55,7 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
     }
 };
 
-declare function local-aat:get-related-Terms($subject) {
+declare function local-aat-worktype:get-related-Terms($subject) {
     let $relatedTerms := 
         for $relatedTerm in $subject/vp:Terms/vp:Non-Preferred_Term
             let $text := $relatedTerm/vp:Term_Text

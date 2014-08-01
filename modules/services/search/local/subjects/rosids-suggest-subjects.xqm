@@ -2,7 +2,7 @@ xquery version "3.0";
 
 module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects-query";
 
-import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
+import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
 import module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects" at "rosids-subjects.xqm";
 import module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/subjects/local-aat" at "local-aat.xqm";
