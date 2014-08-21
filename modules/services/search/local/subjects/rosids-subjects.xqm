@@ -25,7 +25,7 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
                             (:
                                 then ( $app:global-subjects-repositories-configuration )
                                 else ( $app:global-default-repositories-configuration ) :)
-    let $results := collection($collection)/mads:madsCollection/mads:mads[ ngram:contains(.//mads:topic, $query)]
+    let $results := collection($collection)//mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $sorted-results :=
         for $item in $results
         order by upper-case(string($item/mads:authority/mads:topic/text()))

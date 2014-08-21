@@ -13,7 +13,7 @@ declare %private function local:is-value-in-sequence ( $value as xs:anyAtomicTyp
 };
 
 declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $local-viaf-ids  as item()*) as item()* {
-    let $terms :=  collection($app:global-viaf-xml-repositories)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
+    let $terms :=  collection($app:global-viaf-repositories-collection)//ns2:mainHeadings/ns2:mainHeadingEl/ns2:datafield[ngram:contains(ns2:subfield, $query)]/ancestor::ns2:VIAFCluster
     let $filteredTerms := $terms[not(local:is-value-in-sequence(ns2:viafID,$local-viaf-ids))]
     let $countTerms := count($filteredTerms)
     return map {

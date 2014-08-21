@@ -1,7 +1,7 @@
 xquery version "3.0";
 
 (:
-    Local subjects search module.
+    Local worktypes search module.
     Search local repository
 :)
 
@@ -18,27 +18,27 @@ declare namespace vp = "http://localhost/namespace";
 declare function local-aat-worktype:searchWorktype($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
     let $log := if($app:debug) then ( util:log("INFO", "local-aat-worktype:searchWorktype: QUERY: " || $query) ) else ()
     (:    let $terms :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
-    let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, "V.")]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
-    let $sorted-subjects :=
-        for $item in $subjects
+    let $worktypes :=  collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, "V.")]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+    let $sorted-worktypes :=
+        for $item in $worktypes
         order by upper-case(string($item/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]))
         return $item
     
-    let $countSubjects := count($sorted-subjects)
+    let $countWorktypes := count($sorted-worktypes)
     return map {
-        "total" := $countSubjects,
+        "total" := $countWorktypes,
         "results" :=
-            if($startRecord = 1 or $countSubjects > $startRecord)
+            if($startRecord = 1 or $countWorktypes > $startRecord)
             then (
-                for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
-                    let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
-                    let $qualifier := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages//vp:Term_Language[vp:Preferred eq 'Preferred'][1]/vp:Qualifier
+                for $worktype in subsequence($sorted-worktypes, $startRecord, $page_limit)
+                    let $pterm := $worktype/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
+                    let $qualifier := $worktype/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages//vp:Term_Language[vp:Preferred eq 'Preferred'][1]/vp:Qualifier
                     let $qterm := if($qualifier) then $pterm || ' (' || $qualifier || ')' else $pterm
-                    let $subjectText := $pterm/vp:Term_Text[1]/text()
-                    (: let $relatedTerms := normalize-space(string-join($subject/vp:Terms//vp:Term_Text, "; ")) :)
+                    let $worktypeText := $pterm/vp:Term_Text[1]/text()
+                    (: let $relatedTerms := normalize-space(string-join($worktype/vp:Terms//vp:Term_Text, "; ")) :)
                     (: let $relatedTerms := if($qualifier) then $pterm || ' (' || $qualifier || '), ' || normalize-space($relatedTerms) else normalize-space($relatedTerms) :)
-                    let $sid := $subject/@Subject_ID
-                    let $relatedTerms := "AAT " || $sid || ": " || local-aat-worktype:get-related-Terms($subject)
+                    let $sid := $worktype/@Subject_ID
+                    let $relatedTerms := "AAT " || $sid || ": " || local-aat-worktype:get-related-Terms($worktype)
                     return
                         element term {
                             attribute id {$sid},
@@ -55,9 +55,9 @@ declare function local-aat-worktype:searchWorktype($query as xs:string, $startRe
     }
 };
 
-declare function local-aat-worktype:get-related-Terms($subject) {
+declare function local-aat-worktype:get-related-Terms($worktype) {
     let $relatedTerms := 
-        for $relatedTerm in $subject/vp:Terms/vp:Non-Preferred_Term
+        for $relatedTerm in $worktype/vp:Terms/vp:Non-Preferred_Term
             let $text := $relatedTerm/vp:Term_Text
             let $qualifier := $relatedTerm/vp:Term_Languages/vp:Term_Language[vp:Qualifier][1]/vp:Qualifier
         return

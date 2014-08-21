@@ -48,14 +48,16 @@ declare %private function local:getCollections($type as xs:string, $collection a
 };
 
 declare function local:suggestNames($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $collection as xs:string) as item()* {
-    let $persons := rosids-persons:searchNames($collection, $query, $startRecord, $page_limit) 
+    (: let $persons := rosids-persons:searchNames($collection, $query, $startRecord, $page_limit) :)
+    let $persons := rosids-persons:searchNames($app:global-persons-repositories-collection, $query, $startRecord, $page_limit) 
     let $log := util:log("INFO", "suggestNames: Count persons: " || count(map:get($persons, "results"))) 
     
     let $oStartRecord := $startRecord - map:get($persons, "total")
     let $oStartRecord := if( $oStartRecord < 1 ) then ( 1 ) else ( $oStartRecord )
     let $oPage_limit := $page_limit - count(map:get($persons, "results"))
     let $log := util:log("INFO", "suggestNames: oStartRecord: " || $oStartRecord || " oPage_limit: " || $oPage_limit)
-    let $organisations := rosids-organisations:searchNames($collection, $query, $oStartRecord, $oPage_limit)
+    (: let $organisations := rosids-organisations:searchNames($collection, $query, $oStartRecord, $oPage_limit) :)
+    let $organisations := rosids-organisations:searchNames($app:global-organisations-repositories-collection, $query, $oStartRecord, $oPage_limit)
     let $log := util:log("INFO", "suggestNames: Count organisations: " || count( map:get($organisations, "results"))) 
     
     let $vStartRecord := $startRecord - ( map:get($persons, "total") + map:get($organisations, "total") )
@@ -63,7 +65,7 @@ declare function local:suggestNames($query as xs:string, $startRecord as xs:inte
     let $vPage_limit := $page_limit - ( count(map:get($persons, "results")) + count( map:get($organisations, "results")) )
     let $log := util:log("INFO", "suggestNames: vStartRecord: " || $vStartRecord || " vPage_limit: " || $vPage_limit)    
     (: let $viaf := local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(subsequence($persons, 2)//@internalID), data(subsequence($organisations, 2)//@internalID))) :)
-    let $viaf := local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(map:get($persons, "results")//@internalID), data( map:get($organisations, "results")//@internalID)))
+    let $viaf :=local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(map:get($persons, "results")//@internalID), data( map:get($organisations, "results")//@internalID))) 
     let $log := util:log("INFO", "suggestNames: Count viaf: " || count( map:get($viaf, "results") ))
     return 
         <result>
