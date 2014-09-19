@@ -9,7 +9,7 @@ import module namespace remote-viaf="http://exist-db.org/xquery/biblio/services/
 
 import module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects-query" at "local/subjects/rosids-suggest-subjects.xqm";
 
-import module namespace local-aat-worktype="http://exist-db.org/xquery/biblio/services/search/local/worktype/local-aat-worktype" at "local/worktype/local-aat-worktype.xqm";
+import module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat" at "local/aat/local-aat.xqm";
 
 declare option exist:serialize "method=json media-type=text/javascript";
 
@@ -173,17 +173,17 @@ declare function local:suggestLocalOrganisations($query as xs:string, $startReco
         </result>
 };
 
-declare function local:suggestWorktypes($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) as item()* {
-    let $worktypes := local-aat-worktype:searchWorktype($query, $startRecord, $page_limit)
+declare function local:suggestAAT($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) as item()* {
+    let $subjects := local-aat:searchSubject($query, $startRecord, $page_limit, $type)
     return 
         <result>
-            <total>{map:get($worktypes, "total")}</total>
-            { ( map:get($worktypes, "results")) }
+            <total>{map:get($subjects, "total")}</total>
+            { ( map:get($subjects, "results")) }
         </result>
 };
 
 let $query := replace(request:get-parameter("query", "oil"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $type := replace(request:get-parameter("type", "worktypes"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $type := replace(request:get-parameter("type", "materials"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "30"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
 let $collections := replace(request:get-parameter("collections", ""), "[^0-9a-zA-ZäöüßÄÖÜ\-/,. ]", "default")
@@ -215,7 +215,10 @@ return
         case "local-organisations"
             return local:suggestLocalOrganisations($query, $startRecord, $page_limit, $collection)
         case "worktypes"
-            return local:suggestWorktypes($query, $startRecord, $page_limit)
+        case "styleperiods"
+        case "techniques"
+        case "materials"
+            return local:suggestAAT($query, $startRecord, $page_limit, $type)
         default 
             return 
                 <result><total>0</total></result>
