@@ -182,7 +182,7 @@ declare function local:suggestAAT($query as xs:string, $startRecord as xs:intege
         </result>
 };
 
-let $query := replace(request:get-parameter("query", "oil"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $query := request:get-parameter("query", "oil")
 let $type := replace(request:get-parameter("type", "materials"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
 let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "30"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
