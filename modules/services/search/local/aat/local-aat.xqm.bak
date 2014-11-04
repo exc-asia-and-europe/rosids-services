@@ -10,26 +10,22 @@ module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/lo
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
+declare namespace mads = "http://www.loc.gov/mads/v2";
+
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 
 
-declare %private function local-aat:search($query as xs:string, $type as xs:string) {
-    if($type ne 'subject') 
-    then (
-        let $facets := map:get($app:aat-facets, $type) 
-        for $facet in fn:tokenize($facets, ",")
+declare %private function local-aat:search($query as xs:string, $factes as xs:string) {
+    for $facet in fn:tokenize($factes, ",")
         return 
             collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, $facet)]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
-    ) else (
-        collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
-    )
 };
 
-
-
-declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) {
+declare function local-aat:searchSubject($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) {
+    let $facets := map:get($app:aat-facets, $type) 
     let $log := if($app:debug) then ( util:log("INFO", "local-aat:searchSubject: QUERY: " || $query) ) else ()
-    let $subjects := local-aat:search($query, $type)
+    (: let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, $facet)]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
+    let $subjects := local-aat:search($query, $facets)
     let $sorted-subjects :=
         for $item in $subjects
         order by upper-case(string($item/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]))

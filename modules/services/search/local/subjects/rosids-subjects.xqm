@@ -16,15 +16,31 @@ declare namespace mads = "http://www.loc.gov/mads/v2";
             <topic authority="AAT" lang="eng" script="Latn">air quality</topic>
         </authority>
 :)
-declare  function rosids-subjects:searchSubjects($collection as xs:string, $query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
+
+declare %private function rosids-subjects:load-configuration($type) {
+    let $config := switch ($type)
+        case "worktypes"
+            return $app:global-worktypes-repositories-configuration
+        case "styleperiods"
+            return $app:global-styleperiods-repositories-configuration
+        case "techniques"
+            return $app:global-techniques-repositories-configuration
+        case "materials"
+            return $app:global-materials-repositories-configuration
+        case "subjects"
+            return $app:global-subjects-repositories-configuration
+        default
+            return $app:global-default-repositories-configuration
+            
+    return $config
+};
+
+declare  function rosids-subjects:searchSubjects($collection as xs:string, $query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) {
     let $log := if($app:debug) then ( util:log("INFO", "rosids-subject: collection: " || $collection) ) else ()
     let $log := if($app:debug) then ( util:log("INFO", "rosids-subject: query: " || $query) ) else ()
     let $config :=   if( doc-available($collection || $app:repositories-configuration) )
                             then ( doc($collection || $app:repositories-configuration) )
-                            else if (contains($collection, 'global') ) then ( $app:global-subjects-repositories-configuration ) else ( $app:global-default-repositories-configuration )
-                            (:
-                                then ( $app:global-subjects-repositories-configuration )
-                                else ( $app:global-default-repositories-configuration ) :)
+                            else if (contains($collection, 'global')) then ( rosids-subjects:load-configuration($type) ) else ( $app:global-default-repositories-configuration )
     let $results := collection($collection)//mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $sorted-results :=
         for $item in $results
@@ -40,14 +56,18 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
                 for $result in subsequence($sorted-results, $startRecord, $page_limit)
                     let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
                     let $relatedTerms := string-join($relatedTerms, " ")
+                    let $aatID := if( exists($result//mads:related/mads:topic[@valueURI][contains(@authorityURI, 'AATService')]) ) then ( $result//mads:related/mads:topic[@valueURI][contains(@authorityURI, 'AATService')]/@valueURI ) else ()
                     return
                         element term {
                                 attribute uuid {data($result/@ID)},
-                                attribute type {'subject'},
+                                attribute type {$type},
                                 attribute value {$result/mads:authority/mads:topic/text()},
                                 attribute authority {$config//@authority},
                                 attribute source {$config//@source},
                                 attribute icon {$config//@icon},
+                                if($aatID) then (
+                                    attribute id {$aatID}
+                                ) else (),
                                 if($relatedTerms) then (
                                     attribute relatedTerms {normalize-space($relatedTerms)}
                                 ) else ()

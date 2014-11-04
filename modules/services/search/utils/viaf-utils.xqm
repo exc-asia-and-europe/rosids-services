@@ -52,7 +52,7 @@ declare function viaf-utils:getBestMatch($mainHeadingElements as item()*) {
 (: JPG: GETTY ULAN, DNB: GND :)
 declare function viaf-utils:getSources($mainHeadingEl) {
     let $sources := for $source in $mainHeadingEl//*:links/*:link return substring-before($source/text(), '|')
-    return if( empty($sources) ) then ( () ) else ( 'viaf ' || string-join($sources, ' ') )
+    return if( empty($sources) ) then ( () ) else ( string-join($sources, ' ') )
 };
 
 

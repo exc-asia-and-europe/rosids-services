@@ -1,26 +1,39 @@
 xquery version "3.0";
+
 (:
-    Local subjects search module.
+    Local aat search module.
     Search local repository
 :)
 
 
-module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/subjects/local-aat";
+module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat";
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 
 
-declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer) {
-    let $log := if($app:debug) then ( util:log("INFO", "local-aat:searchSubjects: QUERY: " || $query) ) else ()
-    (:    let $terms :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/*[ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject :)
-    let $subjects :=  collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+declare %private function local-aat:search($query as xs:string, $type as xs:string) {
+    if($type ne 'subject') 
+    then (
+        let $facets := map:get($app:aat-facets, $type) 
+        for $facet in fn:tokenize($facets, ",")
+        return 
+            collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, $facet)]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+    ) else (
+        collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
+    )
+};
+
+
+
+declare function local-aat:searchSubjects($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) {
+    let $log := if($app:debug) then ( util:log("INFO", "local-aat:searchSubject: QUERY: " || $query) ) else ()
+    let $subjects := local-aat:search($query, $type)
     let $sorted-subjects :=
         for $item in $subjects
         order by upper-case(string($item/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]))
         return $item
-    
     let $countSubjects := count($sorted-subjects)
     return map {
         "total" := $countSubjects,
@@ -39,7 +52,7 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
                     return
                         element term {
                             attribute id {$sid},
-                            attribute type {'subject'},
+                            attribute type {$type},
                             attribute value {$qterm},
                             attribute authority {'aat'},
                             attribute source {'getty'},

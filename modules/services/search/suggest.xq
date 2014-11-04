@@ -22,6 +22,10 @@ declare %private function local:getCollection($type as xs:string, $collection as
             case "persons"
                 return $app:global-persons-repositories-collection
             case "subjects"
+            case "worktypes"
+            case "styleperiods"
+            case "techniques"
+            case "materials"
                 return $app:global-subjects-repositories-collection
             default 
                 return $app:global-persons-repositories-collection
@@ -40,6 +44,14 @@ declare %private function local:getCollections($type as xs:string, $collection a
                 return $app:global-persons-repositories-collection
             case "subjects"
                 return ( $app:global-subjects-repositories-collection , $app:global-getty-aat-repositories )
+            case "materials"
+                return ( $app:global-materials-repositories-collection , $app:global-getty-aat-repositories )
+            case "styleperiods"
+                return ( $app:global-styleperiods-repositories-collection , $app:global-getty-aat-repositories )
+            case "techniques"
+                return ( $app:global-techniques-repositories-collection , $app:global-getty-aat-repositories )
+            case "worktypes"
+                return ( $app:global-worktypes-repositories-collection , $app:global-getty-aat-repositories )
             default 
                 return $app:global-persons-repositories-collection
     ) else (
@@ -64,8 +76,8 @@ declare function local:suggestNames($query as xs:string, $startRecord as xs:inte
     let $vStartRecord := if( $vStartRecord < 1 ) then ( 1 ) else ( $vStartRecord )
     let $vPage_limit := $page_limit - ( count(map:get($persons, "results")) + count( map:get($organisations, "results")) )
     let $log := util:log("INFO", "suggestNames: vStartRecord: " || $vStartRecord || " vPage_limit: " || $vPage_limit)    
-    (: let $viaf := local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(subsequence($persons, 2)//@internalID), data(subsequence($organisations, 2)//@internalID))) :)
-    let $viaf :=local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(map:get($persons, "results")//@internalID), data( map:get($organisations, "results")//@internalID))) 
+    (: let $viaf := local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(subsequence($persons, 2)//@id), data(subsequence($organisations, 2)//@id))) :)
+    let $viaf :=local-viaf:searchNames($query, $vStartRecord, $vPage_limit, (data(map:get($persons, "results")//@id), data( map:get($organisations, "results")//@id))) 
     let $log := util:log("INFO", "suggestNames: Count viaf: " || count( map:get($viaf, "results") ))
     return 
         <result>
@@ -106,7 +118,7 @@ declare function local:suggestPersons($query as xs:string, $startRecord as xs:in
     let $vStartRecord := if( $vStartRecord < 1 ) then ( 1 ) else ( $vStartRecord )
     let $vPage_limit := $page_limit - count(map:get($persons, "results"))
     let $log := util:log("INFO", "suggestNames: vStartRecord: " || $vStartRecord || " vPage_limit: " || $vPage_limit)
-    let $viaf-persons := local-viaf:searchPersonsNames($query, $vStartRecord, $vPage_limit, data(map:get($persons, "results")//@internalID))
+    let $viaf-persons := local-viaf:searchPersonsNames($query, $vStartRecord, $vPage_limit, data(map:get($persons, "results")//@id))
     let $log := util:log("INFO", "suggestNames: Count viaf-persons: " || count(map:get($persons, "results"))) 
     
     return 
@@ -140,7 +152,7 @@ declare function local:suggestOrganisations($query as xs:string, $startRecord as
     let $vStartRecord := if( $vStartRecord < 1 ) then ( 1 ) else ( $vStartRecord )
     let $vPage_limit := $page_limit - count(map:get($organisations, "results"))
     let $log := util:log("INFO", "suggestNames: vStartRecord: " || $vStartRecord || " vPage_limit: " || $vPage_limit)
-    let $viaf-organisations := local-viaf:searchOrganisationsNames($query, $vStartRecord, $vPage_limit, data(map:get($organisations, "results")//@internalID))
+    let $viaf-organisations := local-viaf:searchOrganisationsNames($query, $vStartRecord, $vPage_limit, data(map:get($organisations, "results")//@id))
     let $log := util:log("INFO", "suggestNames: Count viaf-organisations: " || count(map:get($viaf-organisations, "results"))) 
     
     return 
@@ -174,7 +186,7 @@ declare function local:suggestLocalOrganisations($query as xs:string, $startReco
 };
 
 declare function local:suggestAAT($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) as item()* {
-    let $subjects := local-aat:searchSubject($query, $startRecord, $page_limit, $type)
+    let $subjects := local-aat:searchSubjects($query, $startRecord, $page_limit, $type)
     return 
         <result>
             <total>{map:get($subjects, "total")}</total>
@@ -182,9 +194,9 @@ declare function local:suggestAAT($query as xs:string, $startRecord as xs:intege
         </result>
 };
 
-let $query := request:get-parameter("query", "oil")
-let $type := replace(request:get-parameter("type", "materials"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
-let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "30"), "[^0-9 ]", "")) 
+let $query := request:get-parameter("query", "film poster")
+let $type := replace(request:get-parameter("type", "worktypes"), "[^0-9a-zA-ZäöüßÄÖÜ\-,. ]", "")
+let $page_limit := xs:integer(replace(request:get-parameter("page_limit", "100"), "[^0-9 ]", "")) 
 let $startRecord := (xs:integer(replace(request:get-parameter("page", "1"), "[^0-9 ]", "")) * $page_limit) - ($page_limit -1)
 let $collections := replace(request:get-parameter("collections", ""), "[^0-9a-zA-ZäöüßÄÖÜ\-/,. ]", "default")
 let $collection := local:getCollection($type, $collections)
@@ -193,19 +205,16 @@ let $collection := local:getCollection($type, $collections)
 let $cors := response:set-header("Access-Control-Allow-Origin", "*")
 
 let $collections := local:getCollections($type, $collections)
-let $log := util:log("INFO", "suggest: collections: " || string-join($collections, ':'))
+let $log := if($app:debug) then ( util:log("INFO", "suggest: Collections: ||" || $query ||"||") ) else ()
+let $log := if($app:debug) then ( util:log("INFO", "suggest: collections: " || string-join($collections, ':')) ) else ()
 return
     switch ($type)
-        case "test"
-            return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections)
         case "names"
             return local:suggestNames($query, $startRecord, $page_limit, $collection)
         case "local"
             (: Search name in local repos :)
             return local:suggestLocalNames($query, $startRecord, $page_limit, $collection)
-        case "subjects"
-            (: return rosids-subjects-query:suggestSubjects($query, $startRecord, $page_limit, $collection) :)
-            return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections)
+        
         case "persons"
             return local:suggestPersons($query, $startRecord, $page_limit, $collection)
         case "local-persons"
@@ -218,7 +227,8 @@ return
         case "styleperiods"
         case "techniques"
         case "materials"
-            return local:suggestAAT($query, $startRecord, $page_limit, $type)
+        case "subjects"
+            return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections, $type)
         default 
             return 
                 <result><total>0</total></result>

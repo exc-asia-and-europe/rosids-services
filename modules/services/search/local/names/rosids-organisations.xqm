@@ -34,7 +34,7 @@ declare function rosids-organisations:searchNames($collection as xs:string, $que
                     let $name := if ( exists($organisation/tei:orgName[@type = "preferred"]) ) then ( $organisation/tei:orgName[@type = "preferred"] ) else ( $organisation/tei:orgName[1] )
                     let $viafCluster := if($viafID) then ( collection($app:global-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID = $viafID] ) else ()
                     let $mainHeadingElement := if($viafID) then ( viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl) ) else () 
-                    let $sources := if($viafID) then ( viaf-utils:getSources($mainHeadingElement) ) else () 
+                    let $sources := if($viafID) then ( 'viaf ' || viaf-utils:getSources($mainHeadingElement) ) else () 
 
                     return
                         element term {
