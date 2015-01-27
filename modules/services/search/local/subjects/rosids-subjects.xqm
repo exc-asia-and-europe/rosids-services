@@ -7,6 +7,7 @@ xquery version "3.0";
 module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
 
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
@@ -54,24 +55,8 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
             if($startRecord = 1 or $countResults > $startRecord)
             then (
                 for $result in subsequence($sorted-results, $startRecord, $page_limit)
-                    let $relatedTerms := for $related in $result//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
-                    let $relatedTerms := string-join($relatedTerms, " ")
-                    let $aatID := if( exists($result//mads:related/mads:topic[@valueURI][contains(@authorityURI, 'AATService')]) ) then ( $result//mads:related/mads:topic[@valueURI][contains(@authorityURI, 'AATService')]/@valueURI ) else ()
                     return
-                        element term {
-                                attribute uuid {data($result/@ID)},
-                                attribute type {$type},
-                                attribute value {$result/mads:authority/mads:topic/text()},
-                                attribute authority {$config//@authority},
-                                attribute source {$config//@source},
-                                attribute icon {$config//@icon},
-                                if($aatID) then (
-                                    attribute id {$aatID}
-                                ) else (),
-                                if($relatedTerms) then (
-                                    attribute relatedTerms {normalize-space($relatedTerms)}
-                                ) else ()
-                            }
+                        rosids-converter:mads-2-rosids($result, $type)
             ) else ( () )
     }
 };

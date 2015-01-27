@@ -28,6 +28,7 @@ declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:
                     let $name := if(ends-with($nameTemp, ',')) then ( substring($nameTemp, 1, string-length($nameTemp) -1 ) ) else ($nameTemp)
                     let $sources := viaf-utils:getSources($mainHeadingElement)
                     let $bio := $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']
+                    let $relatedTerms := string-join($term//ns2:mainHeadings/ns2:data/ns2:text, ' ')
                     return
                         element term {
                             attribute id {$term/ns2:viafID},
@@ -41,6 +42,9 @@ declare function local-viaf:searchNames($query as xs:string, $startRecord as xs:
                                 attribute bio {$bio},
                                 attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
                                 attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                            ) else (),
+                            if($relatedTerms) then (
+                                attribute relatedTerms { $relatedTerms }
                             ) else ()
                         }
             ) else ( () )

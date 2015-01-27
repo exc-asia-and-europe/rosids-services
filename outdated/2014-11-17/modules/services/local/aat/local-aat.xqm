@@ -14,7 +14,7 @@ import module namespace app="http://www.betterform.de/projects/shared/config/app
 declare namespace vp = "http://localhost/namespace"; 
 
 declare %private function local-aat:search($query as xs:string, $type as xs:string) {
-    if($type ne 'subject') 
+    if($type ne 'subjects') 
     then (
         let $facets := map:get($app:aat-facets, $type) 
         for $facet in fn:tokenize($facets, ",")

@@ -7,6 +7,14 @@ module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/u
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
 
+
+declare function viaf-utils:extractBio($bio as xs:string?) {
+    if(matches($bio, '\([0-9]{4}\s:'))
+    then (
+        substring-before(substring-after($bio, '('), ' :')
+    ) else ( $bio )
+};
+
 declare function viaf-utils:extractEarliestDate($bio as xs:string?) {
     if (empty($bio))
     then ( '' ) else (
@@ -18,7 +26,12 @@ declare function viaf-utils:extractEarliestDate($bio as xs:string?) {
                 then (
                         substring-after($temp, '(')
                 ) else ( $temp )                                
-        ) else ( $bio )
+        ) else ( 
+            if(matches($bio, '\([0-9]{4}\s:'))
+            then (
+                substring-before(substring-after($bio, '('), ' :')
+            ) else ( $bio )
+        )
     ) 
 };
 
@@ -37,15 +50,16 @@ declare function viaf-utils:extractLatestDate($bio as xs:string?) {
    )
 };
 
-declare %private function viaf-utils:countVIAFLinks($mainHeadingElements as item()*) {
-    let $linksCount := for $mainHeadingElement in $mainHeadingElements
-        return count($mainHeadingElement/*:links/*:link)
-    return $linksCount
+declare function viaf-utils:countVIAFSources($mainHeadings as item()*) {
+    let $sourcesCount := for $sources in $mainHeadings/*:data/*:sources
+        return count($sources/*:s)
+    return $sourcesCount
 };
 
-declare function viaf-utils:getBestMatch($mainHeadingElements as item()*) {
-    let $maxCount := max(viaf-utils:countVIAFLinks($mainHeadingElements))
-    let $mainHeadingElement := $mainHeadingElements[count(*:links/*:link) = $maxCount][1]
+declare function viaf-utils:getBestMatch($viafCluster) {
+    let $maxCount :=  max(viaf-utils:countVIAFSources($viafCluster//*:mainHeadings))
+    let $source := $viafCluster//*:mainHeadings/*:data/*:sources[count(*:s) = $maxCount]/*:s[1]
+    let $mainHeadingElement := $viafCluster//*:mainHeadingEl[*:sources/*:s = $source]
     return $mainHeadingElement
 };
 

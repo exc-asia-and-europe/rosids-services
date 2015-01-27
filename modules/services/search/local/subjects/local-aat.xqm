@@ -9,12 +9,13 @@ xquery version "3.0";
 module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat";
 
 import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
 
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 
 
 declare %private function local-aat:search($query as xs:string, $type as xs:string) {
-    if($type ne 'subject') 
+    if($type ne 'subjects') 
     then (
         let $facets := map:get($app:aat-facets, $type) 
         for $facet in fn:tokenize($facets, ",")
@@ -41,26 +42,10 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
             if($startRecord = 1 or $countSubjects > $startRecord)
             then (
                 for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
-                    let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
-                    let $qualifier := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages//vp:Term_Language[vp:Preferred eq 'Preferred'][1]/vp:Qualifier
-                    let $qterm := if($qualifier) then $pterm || ' (' || $qualifier || ')' else $pterm
-                    let $subjectText := $pterm/vp:Term_Text[1]/text()
-                    (: let $relatedTerms := normalize-space(string-join($subject/vp:Terms//vp:Term_Text, "; ")) :)
-                    (: let $relatedTerms := if($qualifier) then $pterm || ' (' || $qualifier || '), ' || normalize-space($relatedTerms) else normalize-space($relatedTerms) :)
-                    let $sid := $subject/@Subject_ID
-                    let $relatedTerms := "AAT " || $sid || ": " || local-aat:get-related-Terms($subject)
-                    return
-                        element term {
-                            attribute id {$sid},
-                            attribute type {$type},
-                            attribute value {$qterm},
-                            attribute authority {'aat'},
-                            attribute source {'getty'},
-                            attribute icon {'getty'},
-                            if($relatedTerms) then (
-                                attribute relatedTerms { $relatedTerms }
-                            ) else ()
-                        }
+                let $authority := substring-after(util:collection-name($subject), '/db/resources/services/repositories/global/externalmirrors/getty/')
+                let $authority := if(contains($authority, '/xml')) then ( substring-before($authority, '/xml') ) else ($authority)
+                return 
+                    rosids-converter:getty-aat-2-rosids($subject, $type, $authority)
             ) else ( () )
     }
 };
