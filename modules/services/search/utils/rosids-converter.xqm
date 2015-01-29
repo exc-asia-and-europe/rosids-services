@@ -235,7 +235,13 @@ declare function rosids-converter:get-aat-terms($subject, $authority) {
                 attribute value {$term/vp:Term_Text[1]},
                 attribute authority {$authority},
                 attribute qualifiers {string-join($term/vp:Term_Languages/vp:Term_Language/vp:Qualifier, ', ')},
-                attribute languages {string-join(substring-after($term/vp:Term_Languages/vp:Term_Language/vp:Language, "/"), ', ')}
+                if($term/vp:Term_Languages/vp:Term_Language/vp:Language)
+                then (
+                    let $languages := $term/vp:Term_Languages/vp:Term_Language/vp:Language
+                    let $languages := for $lang in $languages return if(contains($lang, '/')) then substring-after($lang/vp:Term_Languages/vp:Term_Language/vp:Language, "/") else $lang
+                    return 
+                        attribute languages {string-join($languages, ', ')}
+                ) else ()
             }
         , rosids-converter:get-aat-related-terms($subject, $authority)
     )
@@ -248,6 +254,13 @@ declare %private function rosids-converter:get-aat-related-terms($subject, $auth
                 attribute value {$term/vp:Term_Text[1]},
                 attribute authority {$authority},
                 attribute qualifiers {string-join($term/vp:Term_Languages/vp:Term_Language/vp:Qualifier, ', ')},
-                attribute languages {string-join(substring-after($term/vp:Term_Languages/vp:Term_Language/vp:Language, "/"), ', ')}
+                if($term/vp:Term_Languages/vp:Term_Language/vp:Language)
+                then (
+                    let $languages := $term/vp:Term_Languages/vp:Term_Language/vp:Language
+                    let $languages := for $lang in $languages return if(contains($lang, '/')) then substring-after($lang/vp:Term_Languages/vp:Term_Language/vp:Language, "/") else $lang
+                    return 
+                        attribute languages {string-join($languages, ', ')}
+                ) else ()
             }
+            
 };
