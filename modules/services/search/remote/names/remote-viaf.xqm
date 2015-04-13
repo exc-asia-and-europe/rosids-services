@@ -1,11 +1,12 @@
 xquery version "3.0";
 
-module namespace remote-viaf="http://exist-db.org/xquery/biblio/services/search/remote/names/remote-viaf";
+module namespace remote-viaf="http://github.com/hra-team/rosids-services/services/search/remote/names/remote-viaf";
+
+import module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
+import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
+import module namespace rosids-id-retrieve-viaf="http://github.com/hra-team/rosids-services/services/retrieve/viaf/rosids-id-retrieve-viaf" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
 
 import module namespace httpclient ="http://exist-db.org/xquery/httpclient";
-import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
-import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
-import module namespace rosids-retrieve-viaf-id="http://exist-db.org/xquery/biblio/services/retrieve/remote/viaf/id" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
 import module namespace xqjson="http://xqilla.sourceforge.net/lib/xqjson";
 
 declare namespace srw = "http://www.loc.gov/zing/srw/";
@@ -120,7 +121,7 @@ declare function remote-viaf:searchNames($query as xs:string, $startRecord as xs
             "total" := count($body//item),
             "results" := 
             for $item in $body//item
-            let $viaf-cluster := rosids-retrieve-viaf-id:retrieve($item/pair[@name = 'viafid']/text())
+            let $viaf-cluster := rosids-id-retrieve-viaf:retrieve($item/pair[@name = 'viafid']/text())
             return 
                 rosids-converter:VIAFCluster-2-rosids($viaf-cluster)
         }

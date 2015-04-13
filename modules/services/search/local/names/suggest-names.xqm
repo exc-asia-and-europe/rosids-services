@@ -1,13 +1,13 @@
 xquery version "3.0";
 
-module namespace rosids-names-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-names-query";
+module namespace rosids-names-query="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-names-query";
 
-import module namespace rosids-utils="http://exist-db.org/xquery/biblio/services/rosids/rosids-utils" at "../../utils/rosids-utils.xqm";
+import module namespace rosids-utils="http://github.com/hra-team/rosids-services/services/search/utils/rosids-utils" at "../../utils/rosids-utils.xqm";
 
-import module namespace rosids-persons="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-persons" at "local/names/rosids-persons.xqm";
-import module namespace rosids-organisations="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-organisations" at "local/names/rosids-organisations.xqm";
+import module namespace rosids-persons="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-persons" at "local/names/rosids-persons.xqm";
+import module namespace rosids-organisations="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-organisations" at "local/names/rosids-organisations.xqm";
 import module namespace local-viaf="http://exist-db.org/xquery/biblio/services/search/local/names/local-viaf" at "local/names/local-viaf.xqm";
-import module namespace remote-viaf="http://exist-db.org/xquery/biblio/services/search/remote/names/remote-viaf" at "remote/names/remote-viaf.xqm";
+import module namespace remote-viaf="http://github.com/hra-team/rosids-services/services/search/remote/names/remote-viaf" at "remote/names/remote-viaf.xqm";
 
 
 (: Custom Repositories Query START:)

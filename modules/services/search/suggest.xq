@@ -1,16 +1,15 @@
 xquery version "3.0";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
-import module namespace rosids-persons="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-persons" at "local/names/rosids-persons.xqm";
-import module namespace rosids-organisations="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-organisations" at "local/names/rosids-organisations.xqm";
-import module namespace rosids-id="http://exist-db.org/xquery/biblio/services/search/local/id/rosids-id" at "local/id/rosids-id.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
+import module namespace rosids-persons="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-persons" at "local/names/rosids-persons.xqm";
+import module namespace rosids-organisations="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-organisations" at "local/names/rosids-organisations.xqm";
+import module namespace rosids-id="http://github.com/hra-team/rosids-services/services/search/local/id/rosids-id" at "local/id/rosids-id.xqm";
 
-import module namespace local-viaf="http://exist-db.org/xquery/biblio/services/search/local/names/local-viaf" at "local/names/local-viaf.xqm";
-import module namespace remote-viaf="http://exist-db.org/xquery/biblio/services/search/remote/names/remote-viaf" at "remote/names/remote-viaf.xqm";
+import module namespace local-viaf="http://github.com/hra-team/rosids-services/services/search/local/names/local-viaf" at "local/names/local-viaf.xqm";
+import module namespace remote-viaf="http://github.com/hra-team/rosids-services/services/search/remote/names/remote-viaf" at "remote/names/remote-viaf.xqm";
 
-import module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects-query" at "local/subjects/rosids-suggest-subjects.xqm";
-
-import module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat" at "local/aat/local-aat.xqm";
+import module namespace rosids-subjects-query="http://github.com/hra-team/rosids-services/services/search/local/subjects/rosids-subjects-query" at "local/subjects/rosids-suggest-subjects.xqm";
+import module namespace local-getty="http://github.com/hra-team/rosids-services/services/search/local/subjects/local-getty" at "local/aat/local-getty.xqm";
 
 declare option exist:serialize "method=json media-type=text/javascript";
 
@@ -22,6 +21,8 @@ declare %private function local:getCollection($type as xs:string, $collection as
                 return $app:global-organisations-repositories-collection
             case "persons"
                 return $app:global-persons-repositories-collection
+            case "locations"            
+                return $app:global-locations-repositories-collection
             case "subjects"
             case "worktypes"
             case "styleperiods"
@@ -43,6 +44,8 @@ declare %private function local:getCollections($type as xs:string, $collection a
                 return $app:global-organisations-repositories-collection
             case "persons"
                 return $app:global-persons-repositories-collection
+            case "locations"                
+                return ( $app:global-locations-repositories-collection , $app:global-getty-tgn-repositories )
             case "subjects"
                 return ( $app:global-subjects-repositories-collection , $app:global-getty-aat-repositories )
             case "materials"
@@ -205,7 +208,7 @@ declare function local:suggestLocalOrganisations($query as xs:string, $startReco
 };
 
 declare function local:suggestAAT($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $type as xs:string) as item()* {
-    let $subjects := local-aat:searchSubjects($query, $startRecord, $page_limit, $type)
+    let $subjects := local-getty:searchSubjects($query, $startRecord, $page_limit, $type)
     return 
         <result>
             <total>{map:get($subjects, "total")}</total>
@@ -252,6 +255,7 @@ return
             case "techniques"
             case "materials"
             case "subjects"
+            case "locations"
                 return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections, $type)
             default 
                 return 

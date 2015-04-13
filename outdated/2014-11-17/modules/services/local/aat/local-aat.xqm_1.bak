@@ -7,7 +7,7 @@ xquery version "3.0";
 
 module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/subjects/local-aat";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
 
 (: Getty namespace :)
 declare namespace vp = "http://localhost/namespace"; 

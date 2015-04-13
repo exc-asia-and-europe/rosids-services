@@ -3,7 +3,7 @@
     <description>Services for searches in local and remote repositories, retrieving of persons, organistations ....</description>
     <author>Tobi Krebs</author>
     <author>Matthias Guth</author>
-    <website>http://exist-db.org</website>
+    <website>http://github.com/hra-team/rosids-services</website>
     <status>alpha</status>
     <license>GNU-LGPL</license>
     <copyright>true</copyright>

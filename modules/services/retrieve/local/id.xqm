@@ -1,8 +1,8 @@
 xquery version "3.0";
 
-module namespace rosids-id-retrieve="http://exist-db.org/xquery/biblio/services/retrieve/id";
+module namespace rosids-id-retrieve="http://github.com/hra-team/rosids-services/services/retrieve/local/rosids-id-retrieve";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
 
 declare namespace rest="http://exquery.org/ns/restxq";
 declare namespace output="http://www.w3.org/2010/xslt-xquery-serialization";

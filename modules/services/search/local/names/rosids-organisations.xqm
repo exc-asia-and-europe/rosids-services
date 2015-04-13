@@ -4,10 +4,10 @@ xquery version "3.0";
     Search local repository and local VIAF mirror
 :)
 
-module namespace rosids-organisations="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-organisations";
+module namespace rosids-organisations="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-organisations";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
-import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
+import module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
 
 (: TEI namesspace :)
 declare namespace tei = "http://www.tei-c.org/ns/1.0";

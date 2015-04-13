@@ -1,11 +1,11 @@
 xquery version "3.0";
 
-module namespace rosids-subjects-query="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects-query";
+module namespace rosids-subjects-query="http://github.com/hra-team/rosids-services/services/search/local/subjects/rosids-subjects-query";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
 
-import module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects" at "rosids-subjects.xqm";
-import module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat" at "local-aat.xqm";
+import module namespace rosids-subjects="http://github.com/hra-team/rosids-services/services/search/local/subjects/rosids-subjects" at "rosids-subjects.xqm";
+import module namespace local-getty="http://github.com/hra-team/rosids-services/services/search/local/subjects/local-getty" at "local-getty.xqm";
 
 declare option exist:serialize "method=json media-type=text/javascript";
 
@@ -24,7 +24,7 @@ declare function rosids-subjects-query:suggestCustomSubjects($query as xs:string
 
 declare function rosids-subjects-query:suggestCustomsSubjectsQuery($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $collections as xs:string*, $type as xs:string) as item()* {
     let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: Collection: " || $collections[1]) ) else ()
-    let $result := if(contains($collections[1], 'getty')) then ( local-aat:searchSubjects($query, $startRecord, $page_limit, $type) ) else ( rosids-subjects:searchSubjects($collections[1], $query, $startRecord, $page_limit, $type) )
+    let $result := if(contains($collections[1], 'getty')) then ( local-getty:searchSubjects($query, $startRecord, $page_limit, $type) ) else ( rosids-subjects:searchSubjects($collections[1], $query, $startRecord, $page_limit, $type) )
     let $nStartRecord := $startRecord - map:get($result, "total")
     let $nStartRecord := if( $nStartRecord < 1 ) then ( 1 ) else ( $nStartRecord )
     let $nPage_limit := $page_limit - count(map:get($result, "results"))
@@ -53,7 +53,7 @@ declare function rosids-subjects-query:suggestSubjects($query as xs:string, $sta
     then (
         ( util:log("INFO", "suggestSubjects: startRecord: " || $startRecord || " page_limit: " || $page_limit), util:log("INFO", "suggestSubjects: aStartRecord: " || $aStartRecord || " aPage_limit: " || $aPage_limit) )
     ) else ()
-    let $aat := local-aat:searchSubjects($query, $aStartRecord, $aPage_limit, $type)
+    let $aat := local-getty:searchSubjects($query, $aStartRecord, $aPage_limit, $type)
     let $log := if($app:debug) then ( util:log("INFO", "suggestSubjects: Count aat: " || count(map:get($aat, "results"))) ) else ()
 
     return 

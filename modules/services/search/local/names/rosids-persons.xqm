@@ -1,10 +1,10 @@
 xquery version "3.0";
 
-module namespace rosids-persons="http://exist-db.org/xquery/biblio/services/search/local/names/rosids-persons";
+module namespace rosids-persons="http://github.com/hra-team/rosids-services/services/search/local/names/rosids-persons";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
-import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
-import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "../../utils/rosids-converter.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
+import module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
+import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "../../utils/rosids-converter.xqm";
 
 (: TEI namesspace :)
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
@@ -46,7 +46,7 @@ declare function rosids-persons:searchNames($collection as xs:string, $query as 
                              )
                 let $viafID := if( exists($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')]) ) then (substring-after($person/tei:persName/@ref[contains(., 'http://viaf.org/viaf/')], "http://viaf.org/viaf/")) else ()
                 (: let $viafCluster := if($viafID) then ( collection($app:global-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID = $viafID] ) else ():)
-                let $viafCluster := if($viafID) then ( rosids-retrieve-viaf-id:retrieve($viafID) ) else ()
+                let $viafCluster := if($viafID) then ( rosids-id-retrieve-viaf:retrieve($viafID) ) else ()
                 let $mainHeadingElement := if($viafID) then (  viaf-utils:getBestMatch($viafCluster//ns2:mainHeadingEl) ) else ()
                 let $sources := if($viafID) then (  'viaf ' || viaf-utils:getSources($mainHeadingElement) ) else ()
                 let $bio := if($viafID) then ( if($mainHeadingElement) then ( $mainHeadingElement/ns2:datafield/ns2:subfield[@code = 'd']) else () ) else ()

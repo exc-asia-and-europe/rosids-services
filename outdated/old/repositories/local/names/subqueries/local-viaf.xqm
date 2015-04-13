@@ -1,6 +1,6 @@
 xquery version "3.0";
 
-module namespace local-viaf="http://exist-db.org/xquery/biblio/services/search/local/names/local-viaf";
+module namespace local-viaf="http://github.com/hra-team/rosids-services/services/search/local/names/local-viaf"
 
 import module namespace app="http://exist-db.org/xquery/biblio/services/app" at "../../../app.xqm";
 import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/local/viaf-utils" at "../viaf-utils.xqm";

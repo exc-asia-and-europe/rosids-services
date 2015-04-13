@@ -5,13 +5,13 @@ xquery version "3.0";
     Auhtor: zwobit
 :)
 
-module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter";
+module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter";
 
 (: IMPORTS :)
-import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "/apps/rosids-services/modules/services/search/utils/viaf-utils.xqm";
-import module namespace local-aat="http://exist-db.org/xquery/biblio/services/search/local/aat/local-aat" at "/apps/rosids-services/modules/services/search/local/subjects/local-aat.xqm";
-import module namespace rosids-retrieve-viaf-id="http://exist-db.org/xquery/biblio/services/retrieve/remote/viaf/id" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
-import module namespace rosids-id="http://exist-db.org/xquery/biblio/services/search/local/id/rosids-id" at "/apps/rosids-services/modules/services/search/local/id/rosids-id.xqm";
+import module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils" at "/apps/rosids-services/modules/services/search/utils/viaf-utils.xqm";
+import module namespace local-getty="http://github.com/hra-team/rosids-services/services/search/local/subjects/local-getty" at "/apps/rosids-services/modules/services/search/local/subjects/local-getty.xqm";
+import module namespace rosids-id-retrieve-viaf="http://github.com/hra-team/rosids-services/services/retrieve/viaf/rosids-id-retrieve-viaf" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
+import module namespace rosids-id="http://github.com/hra-team/rosids-services/services/search/local/id/rosids-id" at "/apps/rosids-services/modules/services/search/local/id/rosids-id.xqm";
 
 (: NAMESPACES :)
 declare namespace ns2= "http://viaf.org/viaf/terms#";
@@ -37,7 +37,7 @@ declare function rosids-converter:tei-person-2-rosids($person) {
         if($viafID)
         then ( 
             (: collection($app:global-viaf-xml-repositories)//ns2:VIAFCluster[ns2:viafID = $viafID] :)
-            rosids-retrieve-viaf-id:retrieve($viafID)
+            rosids-id-retrieve-viaf:retrieve($viafID)
         ) else (
             ()    
         )
@@ -184,7 +184,7 @@ declare function rosids-converter:VIAFCluster-2-rosids($VIAFCluster) {
         let $qterm := if($qualifier) then $pterm || ' (' || $qualifier || ')' else $pterm
         let $SubjectText := $pterm/vp:Term_Text[1]/text()
         let $sid := $Subject/@Subject_ID
-        let $relatedTerms := "AAT " || $sid || ": " || local-aat:get-related-Terms($Subject)
+        let $relatedTerms := "AAT " || $sid || ": " || local-getty:get-related-Terms($Subject)
         return
             element term {
                 attribute id {$sid},
@@ -204,7 +204,16 @@ declare function rosids-converter:VIAFCluster-2-rosids($VIAFCluster) {
 declare function rosids-converter:getty-aat-2-rosids($subject, $type, $authority) {
     let $pterm := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Text[1]
     let $qualifier := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages//vp:Term_Language[vp:Preferred eq 'Preferred'][1]/vp:Qualifier
-    let $language := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages/vp:Term_Language/vp:Language
+    let $languages := $subject/vp:Terms/vp:Preferred_Term[1]/vp:Term_Languages/vp:Term_Language/vp:Language
+    let $languages := $subject/vp:Term_Languages/vp:Term_Language/vp:Language
+    let $languages := for $lang in $languages
+                      return 
+                        if(contains($lang, '/')) 
+                        then (
+                            substring-after($lang/vp:Term_Languages/vp:Term_Language/vp:Language, "/") 
+                        ) else (
+                            $lang
+                        )
     let $sid := $subject/@Subject_ID
     return
         element term {
@@ -212,7 +221,7 @@ declare function rosids-converter:getty-aat-2-rosids($subject, $type, $authority
             attribute type {$type},
             attribute value {$pterm},
             if($qualifier) then ( attribute qualifiers {$qualifier} ) else (),
-            if($language) then ( attribute language {substring-after($language, '/')} ) else (),
+            if($languages) then ( attribute languages {string-join($languages, ', ')} ) else (),
             attribute authority {$authority},
             attribute source {'getty'},            
             attribute sources {'getty'},

@@ -1,9 +1,9 @@
 xquery version "3.0";
 
-module namespace local-viaf="http://exist-db.org/xquery/biblio/services/search/local/names/local-viaf";
+module namespace local-viaf="http://github.com/hra-team/rosids-services/services/search/local/names/local-viaf";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
-import module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
+import module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils" at "../../utils/viaf-utils.xqm";
 
 (: VIAF Terms :)
 declare namespace ns2= "http://viaf.org/viaf/terms#";

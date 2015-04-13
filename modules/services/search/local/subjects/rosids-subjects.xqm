@@ -4,10 +4,10 @@ xquery version "3.0";
     Search local repository
 :)
 
-module namespace rosids-subjects="http://exist-db.org/xquery/biblio/services/search/local/subjects/rosids-subjects";
+module namespace rosids-subjects="http://github.com/hra-team/rosids-services/services/search/local/subjects/rosids-subjects";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
-import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
+import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
 
 declare namespace mads = "http://www.loc.gov/mads/v2";
 
@@ -30,6 +30,8 @@ declare %private function rosids-subjects:load-configuration($type) {
             return $app:global-materials-repositories-configuration
         case "subjects"
             return $app:global-subjects-repositories-configuration
+        case "locations"
+            return $app:global-locations-repositories-configuration
         default
             return $app:global-default-repositories-configuration
             

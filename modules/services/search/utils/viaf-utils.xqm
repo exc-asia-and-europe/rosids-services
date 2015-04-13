@@ -3,9 +3,9 @@ xquery version "3.0";
     Utilities for local viaf searches.
 :)
 
-module namespace viaf-utils="http://exist-db.org/xquery/biblio/services/search/utils/viaf-utils";
+module namespace viaf-utils="http://github.com/hra-team/rosids-services/services/search/utils/viaf-utils";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
 
 
 declare function viaf-utils:extractBio($bio as xs:string?) {

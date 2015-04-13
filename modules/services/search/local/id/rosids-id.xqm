@@ -3,12 +3,12 @@ xquery version "3.0";
     Search repositories for id
 :)
 
-module namespace rosids-id="http://exist-db.org/xquery/biblio/services/search/local/id/rosids-id";
+module namespace rosids-id="http://github.com/hra-team/rosids-services/services/search/local/id/rosids-id";
 
-import module namespace app="http://www.betterform.de/projects/shared/config/app" at "/apps/cluster-shared/modules/ziziphus/config/app.xqm";
+import module namespace app="http://github.com/hra-team/rosids-shared/config/app" at "/apps/rosids-shared/modules/ziziphus/config/app.xqm";
 
-import module namespace rosids-converter="http://exist-db.org/xquery/biblio/services/rosids/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
-import module namespace rosids-retrieve-viaf-id="http://exist-db.org/xquery/biblio/services/retrieve/remote/viaf/id" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
+import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
+import module namespace rosids-id-retrieve-viaf="http://github.com/hra-team/rosids-services/services/retrieve/viaf/rosids-id-retrieve-viaf" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
 
 declare namespace ns2= "http://viaf.org/viaf/terms#";
 declare namespace vp = "http://localhost/namespace";
@@ -108,7 +108,7 @@ declare %private function rosids-id:id-viaf($query as xs:string) {
             return
                 rosids-converter:VIAFCluster-2-rosids($term)
     ) else ( 
-        let $remote := rosids-retrieve-viaf-id:retrieve($query)
+        let $remote := rosids-id-retrieve-viaf:retrieve($query)
         return 
             if($remote) 
             then (
