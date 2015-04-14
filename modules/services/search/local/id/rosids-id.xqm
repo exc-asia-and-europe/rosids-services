@@ -79,6 +79,7 @@ declare %private function rosids-id:id-mirrors($query as xs:string, $type as xs:
             case "techniques"
             case "materials"
             case "subjects"
+            case "locations"
                 return rosids-id:id-getty($query, $type)
             default 
                 return ()
@@ -138,6 +139,7 @@ declare %private function rosids-id:filter-getty($terms, $type) {
                                 ) else ()
                     return $filtered-terms
             case "subjects"
+            case "locations"
                 return $terms
             default 
                 return ()
