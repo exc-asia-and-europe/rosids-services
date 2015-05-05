@@ -43,7 +43,7 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
     let $log := if($app:debug) then ( util:log("INFO", "rosids-subject: query: " || $query) ) else ()
     let $config :=   if( doc-available($collection || $app:repositories-configuration) )
                             then ( doc($collection || $app:repositories-configuration) )
-                            else if (contains($collection, 'global')) then ( rosids-subjects:load-configuration($type) ) else ( $app:global-default-repositories-configuration )
+                            else if (contains($collection, 'biblio.users')) then ( rosids-subjects:load-configuration($type) ) else ( $app:global-default-repositories-configuration )
     let $results := collection($collection)//mads:mads[ ngram:contains(.//mads:topic, $query)]
     let $sorted-results :=
         for $item in $results
@@ -58,7 +58,7 @@ declare  function rosids-subjects:searchSubjects($collection as xs:string, $quer
             then (
                 for $result in subsequence($sorted-results, $startRecord, $page_limit)
                     return
-                        rosids-converter:mads-2-rosids($result, $type)
+                        rosids-converter:mads-2-rosids($result, $type, $config)
             ) else ( () )
     }
 };

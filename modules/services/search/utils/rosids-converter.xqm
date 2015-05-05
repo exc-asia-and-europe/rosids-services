@@ -57,8 +57,8 @@ declare function rosids-converter:tei-person-2-rosids($person) {
                     attribute sources {$sources},
                     if($bio) then (
                         attribute bio {$bio},
-                        attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
-                        attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                        attribute earliestDate {viaf-utils:extractEarliestDate($bio[1])},
+                        attribute latestDate {viaf-utils:extractLatestDate($bio[1])}
                     ) else (),
                     element mainHeadings {
                         for $data in $viafCluster/*:mainHeadings/*:data
@@ -98,6 +98,10 @@ declare function rosids-converter:tei-org-2-rosids($organisation) {
 };
 
 declare function rosids-converter:mads-2-rosids($mads, $type) {
+    rosids-converter:mads-2-rosids($mads, $type, $app:global-subjects-repositories-configuration)   
+};
+
+declare function rosids-converter:mads-2-rosids($mads, $type, $config) {
 (:
     let $related-terms := for $related in $mads//mads:related return $related//mads:topic/text() || "(" || data($related//mads:topic/@authority) || ")"
     let $related-terms := string-join($relatedTerms, " ")
@@ -115,11 +119,9 @@ declare function rosids-converter:mads-2-rosids($mads, $type) {
                 attribute uuid {data($mads/@ID)},
                 attribute type {$type},
                 attribute value {$mads/mads:authority/mads:topic/text()},
-                (:
                 attribute authority {$config//@authority},
                 attribute source {$config//@source},
                 attribute icon {$config//@icon},
-                :)
                 if($aatID) then (
                     attribute id {$aatID}
                 ) else (),
@@ -161,8 +163,8 @@ declare function rosids-converter:VIAFCluster-2-rosids($VIAFCluster) {
             attribute icon {'viaf'},
             if($bio) then (
                 attribute bio {viaf-utils:extractBio($bio)},
-                attribute earliestDate {viaf-utils:extractEarliestDate($bio)},
-                attribute latestDate {viaf-utils:extractLatestDate($bio)}
+                attribute earliestDate {viaf-utils:extractEarliestDate($bio[1])},
+                attribute latestDate {viaf-utils:extractLatestDate($bio[1])}
             ) else (),
             if ($relatedTerms) then (
                 attribute relatedTerms { $relatedTerms }
