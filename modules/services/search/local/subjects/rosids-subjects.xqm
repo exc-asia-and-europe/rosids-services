@@ -31,10 +31,11 @@ declare %private function rosids-subjects:load-configuration($type) {
         case "subjects"
             return $app:global-subjects-repositories-configuration
         case "locations"
+        case "geographic"
             return $app:global-locations-repositories-configuration
         default
             return $app:global-default-repositories-configuration
-            
+
     return $config
 };
 

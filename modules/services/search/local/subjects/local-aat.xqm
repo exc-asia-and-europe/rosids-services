@@ -42,7 +42,7 @@ declare function local-aat:searchSubjects($query as xs:string, $startRecord as x
             if($startRecord = 1 or $countSubjects > $startRecord)
             then (
                 for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
-                let $authority := substring-after(util:collection-name($subject), '/db/resources/services/repositories/global/externalmirrors/getty/')
+                let $authority := substring-after(util:collection-name($subject), '/global/externalmirrors/getty/')
                 let $authority := if(contains($authority, '/xml')) then ( substring-before($authority, '/xml') ) else ($authority)
                 return 
                     rosids-converter:getty-aat-2-rosids($subject, $type, $authority)
