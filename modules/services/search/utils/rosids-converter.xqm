@@ -147,7 +147,8 @@ declare function rosids-converter:mads-2-rosids($mads, $type, $config) {
                 attribute source {$config//@source},
                 attribute icon {$config//@icon},
                 if($aatID) then (
-                    attribute id {$aatID}
+                    attribute id {$aatID},
+                    attribute sources {'aat'}
                 ) else (),
                 if($related-terms) then (
                     $related-terms
