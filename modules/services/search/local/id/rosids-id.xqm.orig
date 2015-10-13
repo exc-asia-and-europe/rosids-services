@@ -9,6 +9,7 @@ import module namespace app="http://github.com/hra-team/rosids-shared/config/app
 
 import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
 import module namespace rosids-id-retrieve-viaf="http://github.com/hra-team/rosids-services/services/retrieve/viaf/rosids-id-retrieve-viaf" at "/apps/rosids-services/modules/services/retrieve/remote/viaf/id.xqm";
+import module namespace console="http://exist-db.org/xquery/console";
 
 declare namespace ns2= "http://viaf.org/viaf/terms#";
 declare namespace vp = "http://localhost/namespace";
@@ -79,8 +80,8 @@ declare %private function rosids-id:id-mirrors($query as xs:string, $type as xs:
             case "techniques"
             case "materials"
             case "subjects"
-            case "geographic"
             case "locations"
+            case "geographic"
                 return rosids-id:id-getty($query, $type)
             default
                 return ()
@@ -140,20 +141,21 @@ declare function rosids-id:filter-getty($terms, $type) {
                                 ) else ()
                     return $filtered-terms
             case "subjects"
-            case "geographic"
             case "locations"
+            case "geographic"
                 return $terms
             default
                 return ()
 };
 
-declare %private function rosids-id:id-getty($query as xs:string, $type as xs:string) {
-    let $terms := ( collection($app:global-getty-aat-repositories)//vp:Subject[@Subject_ID = $query], collection($app:global-getty-tgn-repositories)//vp:Subject[@Subject_ID = $query] )
-    let $filtered_terms := rosids-id:filter-getty( $terms, $type)
+declare function rosids-id:id-getty($query as xs:string, $type as xs:string) {
+    let $test := ( collection($app:global-getty-aat-repositories)//vp:Subject[@Subject_ID = $query], collection($app:global-getty-tgn-repositories)//vp:Subject[@Subject_ID = $query] )
+    let $log := console:log("WTF!")
+    let $terms := rosids-id:filter-getty( $test, $type)
     return
-        if($filtered_terms)
+        if($terms)
         then (
-            for $term in $filtered_terms
+            for $term in $terms
                 let $authority := substring-after(util:collection-name($term), '/global/externalmirrors/getty/')
                 let $authority := if(contains($authority, '/xml')) then ( substring-before($authority, '/xml') ) else ($authority)
                 return
@@ -163,13 +165,13 @@ declare %private function rosids-id:id-getty($query as xs:string, $type as xs:st
 
 
 declare function rosids-id:id-getty-related-terms($query as xs:string, $type as xs:string) {
-    let $terms := ( collection($app:global-getty-aat-repositories)//vp:Subject[range:eq(@Subject_ID, $query)], collection($app:global-getty-tgn-repositories)//vp:Subject[range:eq(@Subject_ID, $query)] )
-    let $filtered_terms := rosids-id:filter-getty($terms , $type)
-
+    let $test := ( collection($app:global-getty-aat-repositories)//vp:Subject[range:eq(@Subject_ID, $query)], collection($app:global-getty-tgn-repositories)//vp:Subject[range:eq(@Subject_ID, $query)] )
+    let $log := console:log("count: " || count($test))
+    let $terms := rosids-id:filter-getty($test , $type)
     return
-        if($filtered_terms)
+        if($terms)
         then (
-            for $term in $filtered_terms
+            for $term in $terms
                 let $authority := substring-after(util:collection-name($term), '/global/externalmirrors/getty/')
                 let $authority := if(contains($authority, '/xml')) then ( substring-before($authority, '/xml') ) else ($authority)
                 return rosids-converter:get-aat-terms($term , $authority)

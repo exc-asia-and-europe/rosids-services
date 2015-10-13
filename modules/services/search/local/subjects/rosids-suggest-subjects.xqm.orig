@@ -16,34 +16,32 @@ declare function rosids-subjects-query:suggestCustomSubjects($query as xs:string
     let $results := rosids-subjects-query:suggestCustomsSubjectsQuery($query, $startRecord, $page_limit, $collections, $type, ())
     let $total := sum(for $map in $results return map:get($map, "total"))
     let $terms := ( for $map in $results return map:get($map, "results") )
-    return
-        switch ($type)
-            case 'locations'
-            case 'geographic'
-                return
-                    map {
-                        "total" := $total,
-                        "results" := $terms
-                    }
-        default
-            return
-                <result>
-                    <total>{$total}</total>
-                    { $terms }
-                </result>
+    return  
+        if($type != 'locations')
+        then (
+            <result>
+                <total>{$total}</total>
+                { $terms }
+            </result>
+        ) else (
+            map {
+                "total" := $total,
+                "results" := $terms
+            }
+        )
 };
 
 declare function rosids-subjects-query:suggestCustomsSubjectsQuery($query as xs:string, $startRecord as xs:integer, $page_limit as xs:integer, $collections as xs:string*, $type as xs:string, $filter) as item()* {
     let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: Collection: " || $collections[1]) ) else ()
     let $isGetty := contains($collections[1], 'getty')
-
+    
     let $result := if($isGetty) then ( local-getty:searchSubjects($query, $startRecord, $page_limit, $type, $filter) ) else ( rosids-subjects:searchSubjects($collections[1], $query, $startRecord, $page_limit, $type) )
     let $filter := if(not($isGetty)) then ( ($filter, map:get($result, "results")//@id) ) else ($filter)
     let $nStartRecord := $startRecord - map:get($result, "total")
     let $nStartRecord := if( $nStartRecord < 1 ) then ( 1 ) else ( $nStartRecord )
     let $nPage_limit := $page_limit - count(map:get($result, "results"))
     let $log := if($app:debug) then ( util:log("INFO", "suggestCustomsSubjectsQuery: nStartRecord: " || $nStartRecord || " nPage_limit: " || $nPage_limit) ) else ()
-    return ( $result,
+    return ( $result, 
                 if($nPage_limit > 0 and count(subsequence($collections, 2)) > 0 )
                 then ( rosids-subjects-query:suggestCustomsSubjectsQuery($query, $nStartRecord, $nPage_limit, subsequence($collections, 2), $type, $filter) )
                 else ( () )
@@ -70,7 +68,7 @@ declare function rosids-subjects-query:suggestSubjects($query as xs:string, $sta
     let $aat := local-getty:searchSubjects($query, $aStartRecord, $aPage_limit, $type, ())
     let $log := if($app:debug) then ( util:log("INFO", "suggestSubjects: Count aat: " || count(map:get($aat, "results"))) ) else ()
 
-    return
+    return 
         <result>
             <total>{  map:get($subjects, "total") + map:get($aat, "total")}</total>
             {( map:get($subjects, "results"), map:get($aat, "results")) }

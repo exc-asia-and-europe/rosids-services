@@ -21,7 +21,6 @@ declare %private function local:getCollection($type as xs:string, $collection as
                 return $app:global-organisations-repositories-collection
             case "persons"
                 return $app:global-persons-repositories-collection
-            case "geographic"
             case "locations"
                 return $app:global-locations-repositories-collection
             case "subjects"
@@ -45,7 +44,6 @@ declare %private function local:getCollections($type as xs:string, $collection a
                 return $app:global-organisations-repositories-collection
             case "persons"
                 return $app:global-persons-repositories-collection
-            case "geographic"
             case "locations"
                 return ( $app:global-locations-repositories-collection , $app:global-getty-tgn-repositories )
             case "subjects"
@@ -283,7 +281,6 @@ return
             case "local-organisations"
                 return local:suggestLocalOrganisations($query, $startRecord, $page_limit, $collection)
             case "locations"
-            case "geographic"
                 return local:suggestLocation($query, $startRecord, $page_limit, $collections, $type)
             case "worktypes"
             case "styleperiods"
@@ -291,7 +288,6 @@ return
             case "materials"
             case "subjects"
             case "locations"
-            case "geographic"
                 return rosids-subjects-query:suggestCustomSubjects($query, $startRecord, $page_limit, $collections, $type)
             default
                 return

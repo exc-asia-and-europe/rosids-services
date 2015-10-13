@@ -9,7 +9,7 @@ import module namespace app="http://github.com/hra-team/rosids-shared/config/app
 import module namespace rosids-converter="http://github.com/hra-team/rosids-services/services/search/utils/rosids-converter" at "/apps/rosids-services/modules/services/search/utils/rosids-converter.xqm";
 
 (: Getty namespace :)
-declare namespace vp = "http://localhost/namespace";
+declare namespace vp = "http://localhost/namespace"; 
 
 declare %private function local:is-value-in-sequence ( $value as xs:anyAtomicType? , $seq as xs:anyAtomicType* ) as xs:boolean {
    $value = $seq
@@ -20,16 +20,15 @@ declare %private function local-getty:search($query as xs:string, $type as xs:st
         case 'subjects'
             return collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
         case 'locations'
-        case 'geographic'
             return collection($app:global-getty-tgn-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
         case 'materials'
         case 'styleperiods'
         case 'techniques'
         case 'worktypes'
                 return
-                    let $facets := map:get($app:aat-facets, $type)
+                    let $facets := map:get($app:aat-facets, $type) 
                     for $facet in fn:tokenize($facets, ",")
-                    return
+                    return 
                         collection($app:global-getty-aat-repositories)//vp:Subject[starts-with(vp:Facet_Code, $facet)]/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
         default return collection($app:global-getty-aat-repositories)//vp:Subject/vp:Terms/vp:Preferred_Term[ ngram:contains(vp:Term_Text, $query)]/ancestor::vp:Subject
     let $filtered := $results[not(local:is-value-in-sequence(@Subject_ID, $filter))]
@@ -54,19 +53,19 @@ declare function local-getty:searchSubjects($query as xs:string, $startRecord as
                 for $subject in subsequence($sorted-subjects, $startRecord, $page_limit)
                 let $authority := substring-after(util:collection-name($subject), '/global/externalmirrors/getty/')
                 let $authority := if(contains($authority, '/xml')) then ( substring-before($authority, '/xml') ) else ($authority)
-                return
+                return 
                     rosids-converter:getty-aat-2-rosids($subject, $type, $authority)
             ) else ( () )
     }
 };
 
 declare function local-getty:get-related-Terms($subject) {
-    let $relatedTerms :=
+    let $relatedTerms := 
         for $relatedTerm in $subject/vp:Terms/vp:Non-Preferred_Term
             let $text := $relatedTerm/vp:Term_Text
             let $qualifier := $relatedTerm/vp:Term_Languages/vp:Term_Language[vp:Qualifier][1]/vp:Qualifier
         return
             if($qualifier) then $text || ' (' || $qualifier || ')' else $text
-    return
+    return 
         normalize-space(string-join($relatedTerms, "; "))
 };
